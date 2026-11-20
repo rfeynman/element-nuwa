@@ -1,0 +1,989 @@
+{
+  "version": "2026.11.20-source-checked.1",
+  "updatedAt": "2026-11-20T01:49:49Z",
+  "substances": [
+    {
+      "id": "H2",
+      "name": "Hydrogen",
+      "formula": "H₂",
+      "state": "g",
+      "composition": {
+        "H": 2
+      },
+      "charge": 0,
+      "elementZ": 1
+    },
+    {
+      "id": "O2",
+      "name": "Oxygen",
+      "formula": "O₂",
+      "state": "g",
+      "composition": {
+        "O": 2
+      },
+      "charge": 0,
+      "elementZ": 8
+    },
+    {
+      "id": "Mg",
+      "name": "Magnesium",
+      "formula": "Mg",
+      "state": "s",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0,
+      "elementZ": 12
+    },
+    {
+      "id": "Fe",
+      "name": "Iron",
+      "formula": "Fe",
+      "state": "s",
+      "composition": {
+        "Fe": 1
+      },
+      "charge": 0,
+      "elementZ": 26
+    },
+    {
+      "id": "S8",
+      "name": "Sulfur (S₈)",
+      "formula": "S₈",
+      "state": "s",
+      "composition": {
+        "S": 8
+      },
+      "charge": 0,
+      "elementZ": 16
+    },
+    {
+      "id": "C",
+      "name": "Carbon (graphitic solid)",
+      "formula": "C",
+      "state": "s",
+      "composition": {
+        "C": 1
+      },
+      "charge": 0,
+      "elementZ": 6
+    },
+    {
+      "id": "Cl2",
+      "name": "Chlorine",
+      "formula": "Cl₂",
+      "state": "g",
+      "composition": {
+        "Cl": 2
+      },
+      "charge": 0,
+      "elementZ": 17
+    },
+    {
+      "id": "Na",
+      "name": "Sodium",
+      "formula": "Na",
+      "state": "s",
+      "composition": {
+        "Na": 1
+      },
+      "charge": 0,
+      "elementZ": 11
+    },
+    {
+      "id": "He",
+      "name": "Helium",
+      "formula": "He",
+      "state": "g",
+      "composition": {
+        "He": 1
+      },
+      "charge": 0,
+      "elementZ": 2
+    },
+    {
+      "id": "Ne",
+      "name": "Neon",
+      "formula": "Ne",
+      "state": "g",
+      "composition": {
+        "Ne": 1
+      },
+      "charge": 0,
+      "elementZ": 10
+    },
+    {
+      "id": "Zn",
+      "name": "Zinc",
+      "formula": "Zn",
+      "state": "s",
+      "composition": {
+        "Zn": 1
+      },
+      "charge": 0,
+      "elementZ": 30
+    },
+    {
+      "id": "Cu",
+      "name": "Copper",
+      "formula": "Cu",
+      "state": "s",
+      "composition": {
+        "Cu": 1
+      },
+      "charge": 0,
+      "elementZ": 29
+    },
+    {
+      "id": "Ag",
+      "name": "Silver",
+      "formula": "Ag",
+      "state": "s",
+      "composition": {
+        "Ag": 1
+      },
+      "charge": 0,
+      "elementZ": 47
+    },
+    {
+      "id": "H2O",
+      "name": "Water",
+      "formula": "H₂O",
+      "state": "l",
+      "composition": {
+        "H": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2O-g",
+      "name": "Water vapor",
+      "formula": "H₂O",
+      "state": "g",
+      "composition": {
+        "H": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "HCl",
+      "name": "Hydrochloric acid",
+      "formula": "HCl",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "HCl-g",
+      "name": "Hydrogen chloride",
+      "formula": "HCl",
+      "state": "g",
+      "composition": {
+        "H": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaOH",
+      "name": "Sodium hydroxide solution",
+      "formula": "NaOH",
+      "state": "aq",
+      "composition": {
+        "Na": 1,
+        "O": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaHCO3",
+      "name": "Sodium bicarbonate solution",
+      "formula": "NaHCO₃",
+      "state": "aq",
+      "composition": {
+        "Na": 1,
+        "H": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuSO4",
+      "name": "Copper(II) sulfate solution",
+      "formula": "CuSO₄",
+      "state": "aq",
+      "composition": {
+        "Cu": 1,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "AgNO3",
+      "name": "Silver nitrate solution",
+      "formula": "AgNO₃",
+      "state": "aq",
+      "composition": {
+        "Ag": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuNO3",
+      "name": "Copper(II) nitrate solution",
+      "formula": "Cu(NO₃)₂",
+      "state": "aq",
+      "composition": {
+        "Cu": 1,
+        "N": 2,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaCl",
+      "name": "Sodium chloride solution",
+      "formula": "NaCl",
+      "state": "aq",
+      "composition": {
+        "Na": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaCl-s",
+      "name": "Sodium chloride",
+      "formula": "NaCl",
+      "state": "s",
+      "composition": {
+        "Na": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgO",
+      "name": "Magnesium oxide",
+      "formula": "MgO",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "FeS",
+      "name": "Iron(II) sulfide",
+      "formula": "FeS",
+      "state": "s",
+      "composition": {
+        "Fe": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CO2",
+      "name": "Carbon dioxide",
+      "formula": "CO₂",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgCl2",
+      "name": "Magnesium chloride solution",
+      "formula": "MgCl₂",
+      "state": "aq",
+      "composition": {
+        "Mg": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnCl2",
+      "name": "Zinc chloride solution",
+      "formula": "ZnCl₂",
+      "state": "aq",
+      "composition": {
+        "Zn": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuOH2",
+      "name": "Copper(II) hydroxide",
+      "formula": "Cu(OH)₂",
+      "state": "s",
+      "composition": {
+        "Cu": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2SO4",
+      "name": "Sodium sulfate solution",
+      "formula": "Na₂SO₄",
+      "state": "aq",
+      "composition": {
+        "Na": 2,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    }
+  ],
+  "reactions": [
+    {
+      "id": "hydrogen-oxygen",
+      "title": "Hydrogen burns in oxygen",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignition of a hydrogen–oxygen mixture; conceptual example",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "flame",
+        "blast"
+      ],
+      "observations": [
+        "Heat and flame accompany rapid combustion.",
+        "An ignited gas mixture can give a loud report; the blast symbol is qualitative.",
+        "Water first forms as vapor and can condense on cooling."
+      ],
+      "explanation": "Hydrogen and oxygen atoms rearrange into water molecules. Ignition is required in this model; a mixture alone is not a prediction of immediate combustion.",
+      "sourceIds": [
+        "wisc-h2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-oxygen",
+      "title": "Magnesium forms an oxide",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MgO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited magnesium in oxygen; simplified oxygen-only chemistry",
+      "outcome": "reaction",
+      "effects": [
+        "flame",
+        "solid"
+      ],
+      "observations": [
+        "Bright light accompanies burning.",
+        "Solid magnesium oxide forms."
+      ],
+      "explanation": "The metal combines with molecular oxygen. This oxygen-only model omits side reactions possible when magnesium burns in air.",
+      "sourceIds": [
+        "okstate"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "iron-sulfur",
+      "title": "Iron and sulfur form a compound",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "FeS",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Thermal activation of an iron–sulfur mixture",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "solid"
+      ],
+      "observations": [
+        "A red glow travels through the reacting mixture.",
+        "Iron(II) sulfide is formed."
+      ],
+      "explanation": "A mixture becomes a compound after activation. The S₈ formula represents elemental sulfur, so eight iron atoms are needed per sulfur molecule.",
+      "sourceIds": [
+        "sydney-fes"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "carbon-oxygen",
+      "title": "Complete combustion of carbon",
+      "reactants": [
+        {
+          "id": "C",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignition with sufficient oxygen; complete combustion model",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Carbon dioxide gas is formed; it is not colored smoke."
+      ],
+      "explanation": "This models complete combustion only. Oxygen-limited conditions can produce other products and are outside this scenario.",
+      "sourceIds": [
+        "rsc-carbon"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "hydrogen-chlorine",
+      "title": "Light initiates hydrogen chloride formation",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "HCl-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Photochemical activation by suitable light; conceptual hazardous gas mixture",
+      "outcome": "reaction",
+      "effects": [
+        "blast",
+        "toxic"
+      ],
+      "observations": [
+        "A light-initiated gas reaction can be explosive.",
+        "Toxicity warning: the chlorine-containing gas mixture presents an inhalation hazard."
+      ],
+      "explanation": "Suitable light can initiate a rapid chain reaction producing hydrogen chloride gas. The warning concerns chemical exposure, not radioactivity. This is a conceptual demonstration only.",
+      "sourceIds": [
+        "harvard-hcl",
+        "wisc-hcl",
+        "rsc-nacl"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-chlorine",
+      "title": "Sodium and chlorine form salt",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaCl-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited sodium in chlorine; conceptual demonstration",
+      "outcome": "reaction",
+      "effects": [
+        "flame",
+        "solid",
+        "toxic"
+      ],
+      "observations": [
+        "A yellow flame accompanies reaction.",
+        "White sodium chloride particles form; these are solid aerosol, not steam.",
+        "Chlorine reactant is toxic by inhalation."
+      ],
+      "explanation": "The product has very different properties from the elements. Sodium chloride is a compound with equal numbers of sodium and chlorine atoms.",
+      "sourceIds": [
+        "rsc-nacl"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-water",
+      "title": "Sodium reacts with water",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Contact with liquid water; conceptual aqueous reaction",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "gas"
+      ],
+      "observations": [
+        "Energy is released and hydrogen gas is produced.",
+        "Sodium hydroxide remains in solution."
+      ],
+      "explanation": "Sodium displaces hydrogen from water. Flame is not an automatic effect: the source notes that hydrogen only sometimes burns.",
+      "sourceIds": [
+        "okstate"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-acid",
+      "title": "Magnesium releases hydrogen from acid",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Magnesium in dilute aqueous hydrochloric acid",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Hydrogen bubbles form while magnesium is consumed."
+      ],
+      "explanation": "Magnesium replaces hydrogen in the acid; magnesium chloride remains dissolved. Gas formation does not mean that boiling or combustion occurred.",
+      "sourceIds": [
+        "rsc-mg"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "zinc-acid",
+      "title": "Zinc releases hydrogen from acid",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Zinc surface in aqueous hydrochloric acid",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Hydrogen gas bubbles form as zinc reacts."
+      ],
+      "explanation": "The metal is converted into dissolved zinc chloride. The equation describes the chemical change without predicting its speed.",
+      "sourceIds": [
+        "okstate"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "neutralization",
+      "title": "Acid and base neutralize",
+      "reactants": [
+        {
+          "id": "HCl",
+          "coefficient": 1
+        },
+        {
+          "id": "NaOH",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaCl",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous acid and base; stoichiometric neutralization",
+      "outcome": "reaction",
+      "effects": [
+        "heat"
+      ],
+      "observations": [
+        "The solution warms.",
+        "Sodium chloride stays dissolved; no salt precipitate is modeled."
+      ],
+      "explanation": "Hydrogen ions and hydroxide ions form water. Sodium and chloride ions remain in solution as spectator ions. Heat release alone does not imply flame or steam.",
+      "sourceIds": [
+        "wisc-neutral",
+        "rsc-neutral"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "bicarbonate-acid",
+      "title": "Bicarbonate and acid release carbon dioxide",
+      "reactants": [
+        {
+          "id": "NaHCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaCl",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous bicarbonate and hydrochloric acid",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Fizzing shows carbon dioxide gas leaving the solution."
+      ],
+      "explanation": "Acid reacts with bicarbonate to form water and carbon dioxide; sodium chloride remains dissolved. The gas is not water vapor.",
+      "sourceIds": [
+        "uw-fizz"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "copper-hydroxide",
+      "title": "A blue precipitate appears",
+      "reactants": [
+        {
+          "id": "CuSO4",
+          "coefficient": 1
+        },
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CuOH2",
+          "coefficient": 1
+        },
+        {
+          "id": "Na2SO4",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous solutions at room temperature; precipitation stage without excess concentrated alkali",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Blue copper(II) hydroxide precipitates."
+      ],
+      "explanation": "Copper ions combine with hydroxide ions to form an insoluble solid. Sodium and sulfate ions remain dissolved. Heating and strongly concentrated excess alkali are outside this model.",
+      "sourceIds": [
+        "wisc-precip",
+        "pearson-precip"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "copper-silver",
+      "title": "Copper displaces silver",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 1
+        },
+        {
+          "id": "AgNO3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CuNO3",
+          "coefficient": 1
+        },
+        {
+          "id": "Ag",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Copper in aqueous silver nitrate",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Silver deposits on the copper surface over time."
+      ],
+      "explanation": "Copper transfers electrons to silver ions. Metallic silver forms while copper enters solution as copper(II) ions; nitrate ions are spectators.",
+      "sourceIds": [
+        "okstate"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "helium-neon",
+      "title": "Helium and neon remain a mixture",
+      "reactants": [
+        {
+          "id": "He",
+          "coefficient": 1
+        },
+        {
+          "id": "Ne",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "He",
+          "coefficient": 1
+        },
+        {
+          "id": "Ne",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Ordinary room conditions; no plasma, electrical excitation, or extreme pressure",
+      "outcome": "no-reaction",
+      "effects": [],
+      "observations": [
+        "No chemical reaction is modeled under these stated conditions.",
+        "The gases remain a mixture."
+      ],
+      "explanation": "Helium and neon are exceptionally unreactive noble gases. This claim is restricted to ordinary conditions, not exotic high-energy or high-pressure chemistry.",
+      "sourceIds": [
+        "ou-noble"
+      ],
+      "reviewStatus": "source-checked"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wisc-h2",
+      "name": "UW–Madison: hydrogen combustion",
+      "url": "https://wonders.physics.wisc.edu/exploding-balloon/",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "okstate",
+      "name": "Oklahoma State University ChemSource: reaction demonstrations",
+      "url": "https://intro.chem.okstate.edu/ChemSource/ChemRx/chemrx8.htm",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "sydney-fes",
+      "name": "University of Sydney: iron and sulfur",
+      "url": "https://scilearn.sydney.edu.au/fychemistry/demonstrations/files/8.11.pdf",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "rsc-carbon",
+      "name": "Royal Society of Chemistry: products of combustion",
+      "url": "https://edu.rsc.org/experiments/identifying-the-products-of-combustion-demonstration/707.article",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "harvard-hcl",
+      "name": "Harvard Natural Sciences Lecture Demonstrations: hydrogen and chlorine",
+      "url": "https://www.youtube.com/watch?v=NN82GoBG98s",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "wisc-hcl",
+      "name": "UW–Madison: photochemical hydrogen/chlorine reaction",
+      "url": "https://demolab.chem.wisc.edu/inorganic-chemistry-demonstrations/groups-ia-iia-iiib-hcl-cannon/",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "rsc-nacl",
+      "name": "Royal Society of Chemistry: sodium and chlorine",
+      "url": "https://edu.rsc.org/representing-chemical-reactions/the-reaction-between-sodium-and-chlorine/4015463.article",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "rsc-mg",
+      "name": "Royal Society of Chemistry: magnesium and hydrochloric acid",
+      "url": "https://edu.rsc.org/experiments/the-rate-of-reaction-of-magnesium-with-hydrochloric-acid/1916.article",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "wisc-neutral",
+      "name": "UW–Madison: heat of neutralization",
+      "url": "https://www2.chem.wisc.edu/deptfiles/genchem/demonstrations/Gen_Chem_Pages/06thermopage/heat_of_neutralization.htm",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "rsc-neutral",
+      "name": "Royal Society of Chemistry: exothermic and endothermic reactions",
+      "url": "https://edu.rsc.org/experiments/exothermic-or-endothermic-classifying-reactions/406.article",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "uw-fizz",
+      "name": "University of Washington: bicarbonate fizz",
+      "url": "https://chem.washington.edu/lecture-demos/bicarbonate-fizz",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "wisc-precip",
+      "name": "UW–Madison: sodium hydroxide and copper sulfate",
+      "url": "https://www2.chem.wisc.edu/deptfiles/genchem/lab/cca/MVHTM/NAOH/NAOHCUSO.HTM",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "pearson-precip",
+      "name": "Pearson: GCSE science core practical guide",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Science/2016/teaching-and-learning-materials/gcse-9-1-sciences-core-practical-guide.pdf",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": null
+    },
+    {
+      "id": "ou-noble",
+      "name": "The Open University: noble gases",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/chemistry/noble-gases",
+      "retrievedAt": "2026-11-20T01:49:49Z",
+      "upstreamDate": "2019-08-30"
+    }
+  ]
+}
