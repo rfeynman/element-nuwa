@@ -1,0 +1,2928 @@
+{
+  "version": "2026.11.20-common-binary.1",
+  "updatedAt": "2026-11-20T03:23:42.930816+00:00",
+  "substances": [
+    {
+      "id": "H2",
+      "name": "Hydrogen",
+      "formula": "H₂",
+      "state": "g",
+      "composition": {
+        "H": 2
+      },
+      "charge": 0,
+      "elementZ": 1
+    },
+    {
+      "id": "F2-g",
+      "name": "Fluorine (F2)",
+      "formula": "F₂",
+      "state": "g",
+      "composition": {
+        "F": 2
+      },
+      "charge": 0,
+      "elementZ": 9
+    },
+    {
+      "id": "common-HF-g",
+      "name": "Hydrogen fluoride",
+      "formula": "HF",
+      "state": "g",
+      "composition": {
+        "H": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Br2-g",
+      "name": "Bromine (Br2)",
+      "formula": "Br₂",
+      "state": "g",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0,
+      "elementZ": 35
+    },
+    {
+      "id": "common-HBr-g",
+      "name": "Hydrogen bromide",
+      "formula": "HBr",
+      "state": "g",
+      "composition": {
+        "H": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "I2-g",
+      "name": "Iodine (I2)",
+      "formula": "I₂",
+      "state": "g",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0,
+      "elementZ": 53
+    },
+    {
+      "id": "common-HI-g",
+      "name": "Hydrogen iodide",
+      "formula": "HI",
+      "state": "g",
+      "composition": {
+        "H": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2",
+      "name": "Nitrogen",
+      "formula": "N₂",
+      "state": "g",
+      "composition": {
+        "N": 2
+      },
+      "charge": 0,
+      "elementZ": 7
+    },
+    {
+      "id": "NH3",
+      "name": "Ammonia",
+      "formula": "NH₃",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "H": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Li",
+      "name": "Lithium",
+      "formula": "Li",
+      "state": "s",
+      "composition": {
+        "Li": 1
+      },
+      "charge": 0,
+      "elementZ": 3
+    },
+    {
+      "id": "common-LiH-s",
+      "name": "Lithium hydride",
+      "formula": "LiH",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na",
+      "name": "Sodium",
+      "formula": "Na",
+      "state": "s",
+      "composition": {
+        "Na": 1
+      },
+      "charge": 0,
+      "elementZ": 11
+    },
+    {
+      "id": "common-NaH-s",
+      "name": "Sodium hydride",
+      "formula": "NaH",
+      "state": "s",
+      "composition": {
+        "Na": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "K-s",
+      "name": "Potassium (K)",
+      "formula": "K",
+      "state": "s",
+      "composition": {
+        "K": 1
+      },
+      "charge": 0,
+      "elementZ": 19
+    },
+    {
+      "id": "common-KH-s",
+      "name": "Potassium hydride",
+      "formula": "KH",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Rb-s",
+      "name": "Rubidium (Rb)",
+      "formula": "Rb",
+      "state": "s",
+      "composition": {
+        "Rb": 1
+      },
+      "charge": 0,
+      "elementZ": 37
+    },
+    {
+      "id": "common-RbH-s",
+      "name": "Rubidium hydride",
+      "formula": "RbH",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cs-s",
+      "name": "Cesium (Cs)",
+      "formula": "Cs",
+      "state": "s",
+      "composition": {
+        "Cs": 1
+      },
+      "charge": 0,
+      "elementZ": 55
+    },
+    {
+      "id": "common-CsH-s",
+      "name": "Cesium hydride",
+      "formula": "CsH",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca",
+      "name": "Calcium",
+      "formula": "Ca",
+      "state": "s",
+      "composition": {
+        "Ca": 1
+      },
+      "charge": 0,
+      "elementZ": 20
+    },
+    {
+      "id": "CaH2",
+      "name": "Calcium hydride",
+      "formula": "CaH₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Sr-s",
+      "name": "Strontium (Sr)",
+      "formula": "Sr",
+      "state": "s",
+      "composition": {
+        "Sr": 1
+      },
+      "charge": 0,
+      "elementZ": 38
+    },
+    {
+      "id": "common-SrH2-s",
+      "name": "Strontium hydride",
+      "formula": "SrH₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba-s",
+      "name": "Barium (Ba)",
+      "formula": "Ba",
+      "state": "s",
+      "composition": {
+        "Ba": 1
+      },
+      "charge": 0,
+      "elementZ": 56
+    },
+    {
+      "id": "common-BaH2-s",
+      "name": "Barium hydride",
+      "formula": "BaH₂",
+      "state": "s",
+      "composition": {
+        "Ba": 1,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "O2",
+      "name": "Oxygen",
+      "formula": "O₂",
+      "state": "g",
+      "composition": {
+        "O": 2
+      },
+      "charge": 0,
+      "elementZ": 8
+    },
+    {
+      "id": "NO",
+      "name": "Nitric oxide",
+      "formula": "NO",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-B-s",
+      "name": "Boron",
+      "formula": "B",
+      "state": "s",
+      "composition": {
+        "B": 1
+      },
+      "charge": 0,
+      "elementZ": 5
+    },
+    {
+      "id": "common-B2O3-s",
+      "name": "Boron(III) oxide",
+      "formula": "B₂O₃",
+      "state": "s",
+      "composition": {
+        "B": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-BF3-g",
+      "name": "Boron trifluoride",
+      "formula": "BF₃",
+      "state": "g",
+      "composition": {
+        "B": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cl2",
+      "name": "Chlorine",
+      "formula": "Cl₂",
+      "state": "g",
+      "composition": {
+        "Cl": 2
+      },
+      "charge": 0,
+      "elementZ": 17
+    },
+    {
+      "id": "common-BCl3-g",
+      "name": "Boron trichloride",
+      "formula": "BCl₃",
+      "state": "g",
+      "composition": {
+        "B": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-BBr3-l",
+      "name": "Boron tribromide",
+      "formula": "BBr₃",
+      "state": "l",
+      "composition": {
+        "B": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-BN-s",
+      "name": "Boron nitride (polymorph unspecified)",
+      "formula": "BN",
+      "state": "s",
+      "composition": {
+        "B": 1,
+        "N": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "C",
+      "name": "Carbon (graphitic solid)",
+      "formula": "C",
+      "state": "s",
+      "composition": {
+        "C": 1
+      },
+      "charge": 0,
+      "elementZ": 6
+    },
+    {
+      "id": "CO",
+      "name": "Carbon monoxide",
+      "formula": "CO",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "S8",
+      "name": "Sulfur (S₈)",
+      "formula": "S₈",
+      "state": "s",
+      "composition": {
+        "S": 8
+      },
+      "charge": 0,
+      "elementZ": 16
+    },
+    {
+      "id": "common-CS2-l",
+      "name": "Carbon disulfide (collected liquid)",
+      "formula": "CS₂",
+      "state": "l",
+      "composition": {
+        "C": 1,
+        "S": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Si-s",
+      "name": "Silicon",
+      "formula": "Si",
+      "state": "s",
+      "composition": {
+        "Si": 1
+      },
+      "charge": 0,
+      "elementZ": 14
+    },
+    {
+      "id": "common-SiC-s",
+      "name": "Silicon carbide",
+      "formula": "SiC",
+      "state": "s",
+      "composition": {
+        "Si": 1,
+        "C": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Zn",
+      "name": "Zinc",
+      "formula": "Zn",
+      "state": "s",
+      "composition": {
+        "Zn": 1
+      },
+      "charge": 0,
+      "elementZ": 30
+    },
+    {
+      "id": "ZnS-s",
+      "name": "Zinc sulfide",
+      "formula": "ZnS",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cu",
+      "name": "Copper",
+      "formula": "Cu",
+      "state": "s",
+      "composition": {
+        "Cu": 1
+      },
+      "charge": 0,
+      "elementZ": 29
+    },
+    {
+      "id": "common-Cu2S-s",
+      "name": "Copper(I) sulfide",
+      "formula": "Cu₂S",
+      "state": "s",
+      "composition": {
+        "Cu": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-CuS-s",
+      "name": "Copper(II) sulfide",
+      "formula": "CuS",
+      "state": "s",
+      "composition": {
+        "Cu": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SiO2-s",
+      "name": "Silicon dioxide",
+      "formula": "SiO₂",
+      "state": "s",
+      "composition": {
+        "Si": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-Si3N4-s",
+      "name": "Silicon nitride",
+      "formula": "Si₃N₄",
+      "state": "s",
+      "composition": {
+        "Si": 3,
+        "N": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-SiF4-g",
+      "name": "Silicon tetrafluoride",
+      "formula": "SiF₄",
+      "state": "g",
+      "composition": {
+        "Si": 1,
+        "F": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-SiCl4-g",
+      "name": "Silicon tetrachloride",
+      "formula": "SiCl₄",
+      "state": "g",
+      "composition": {
+        "Si": 1,
+        "Cl": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "Br2",
+      "name": "Bromine",
+      "formula": "Br₂",
+      "state": "l",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0,
+      "elementZ": 35
+    },
+    {
+      "id": "common-SiBr4-l",
+      "name": "Silicon tetrabromide",
+      "formula": "SiBr₄",
+      "state": "l",
+      "composition": {
+        "Si": 1,
+        "Br": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-I2-l",
+      "name": "Iodine (I₂)",
+      "formula": "I₂",
+      "state": "l",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0,
+      "elementZ": 53
+    },
+    {
+      "id": "common-SiI4-s",
+      "name": "Silicon tetraiodide",
+      "formula": "SiI₄",
+      "state": "s",
+      "composition": {
+        "Si": 1,
+        "I": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-P4-s",
+      "name": "White phosphorus (P₄)",
+      "formula": "P₄",
+      "state": "s",
+      "composition": {
+        "P": 4
+      },
+      "charge": 0,
+      "elementZ": 15
+    },
+    {
+      "id": "P4O10",
+      "name": "Tetraphosphorus decaoxide",
+      "formula": "P₄O₁₀",
+      "state": "s",
+      "composition": {
+        "P": 4,
+        "O": 10
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-P4O6-s",
+      "name": "Tetraphosphorus hexaoxide",
+      "formula": "P₄O₆",
+      "state": "s",
+      "composition": {
+        "P": 4,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-PCl3-l",
+      "name": "Phosphorus trichloride",
+      "formula": "PCl₃",
+      "state": "l",
+      "composition": {
+        "P": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-PCl5-s",
+      "name": "Phosphorus pentachloride",
+      "formula": "PCl₅",
+      "state": "s",
+      "composition": {
+        "P": 1,
+        "Cl": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-PBr3-l",
+      "name": "Phosphorus tribromide",
+      "formula": "PBr₃",
+      "state": "l",
+      "composition": {
+        "P": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-SF6-g",
+      "name": "Sulfur hexafluoride",
+      "formula": "SF₆",
+      "state": "g",
+      "composition": {
+        "S": 1,
+        "F": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-S2Cl2-l",
+      "name": "Disulfur dichloride",
+      "formula": "S₂Cl₂",
+      "state": "l",
+      "composition": {
+        "S": 2,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-SCl2-l",
+      "name": "Sulfur dichloride",
+      "formula": "SCl₂",
+      "state": "l",
+      "composition": {
+        "S": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-K2O2-s",
+      "name": "Potassium peroxide",
+      "formula": "K₂O₂",
+      "state": "s",
+      "composition": {
+        "K": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-Rb2O2-s",
+      "name": "Rubidium peroxide",
+      "formula": "Rb₂O₂",
+      "state": "s",
+      "composition": {
+        "Rb": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-Cs2O2-s",
+      "name": "Cesium peroxide",
+      "formula": "Cs₂O₂",
+      "state": "s",
+      "composition": {
+        "Cs": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg",
+      "name": "Magnesium",
+      "formula": "Mg",
+      "state": "s",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0,
+      "elementZ": 12
+    },
+    {
+      "id": "common-MgS-s",
+      "name": "Magnesium sulfide",
+      "formula": "MgS",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-Na2S-s",
+      "name": "Sodium sulfide",
+      "formula": "Na₂S",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-CaS-s",
+      "name": "Calcium sulfide",
+      "formula": "CaS",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-K2S-s",
+      "name": "Potassium sulfide",
+      "formula": "K₂S",
+      "state": "s",
+      "composition": {
+        "K": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-PF5-g",
+      "name": "Phosphorus pentafluoride",
+      "formula": "PF₅",
+      "state": "g",
+      "composition": {
+        "P": 1,
+        "F": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "common-CF4-g",
+      "name": "Carbon tetrafluoride",
+      "formula": "CF₄",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "F": 4
+      },
+      "charge": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "common-os-hydrogen",
+      "name": "OpenStax Chemistry 2e: Hydrogen",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-os-nitrogen",
+      "name": "OpenStax Chemistry 2e: Nitrogen",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-7-occurrence-preparation-and-properties-of-nitrogen",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-os-phosphorus",
+      "name": "OpenStax Chemistry 2e: Phosphorus",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-8-occurrence-preparation-and-properties-of-phosphorus",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-os-oxygen",
+      "name": "OpenStax Chemistry 2e: Oxygen",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-9-occurrence-preparation-and-compounds-of-oxygen",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-os-halogens",
+      "name": "OpenStax Chemistry 2e: Halogens",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-os-equilibrium",
+      "name": "OpenStax Chemistry 2e: Equilibrium",
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019; current publisher page reviewed 2026-11-20",
+      "attribution": "OpenStax Chemistry 2e, Rice University. Factual equations with original explanatory text; source artwork and pages are not redistributed.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "common-we-hydrogen",
+      "name": "WebElements: Hydrogen — reactions of elements",
+      "url": "https://www.webelements.com/hydrogen/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-we-boron",
+      "name": "WebElements: Boron — reactions of elements",
+      "url": "https://www.webelements.com/boron/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-we-carbon",
+      "name": "WebElements: Carbon — reactions of elements",
+      "url": "https://www.webelements.com/carbon/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-we-silicon",
+      "name": "WebElements: Silicon — reactions of elements",
+      "url": "https://www.webelements.com/silicon/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-we-phosphorus",
+      "name": "WebElements: Phosphorus — reactions of elements",
+      "url": "https://www.webelements.com/phosphorus/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-we-sulfur",
+      "name": "WebElements: Sulfur — reactions of elements",
+      "url": "https://www.webelements.com/sulfur/chemistry.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield / WebElements Ltd. Factual equations and phase corrections attributed; source pages and artwork not redistributed."
+    },
+    {
+      "id": "common-nist-bbr3",
+      "name": "NIST Chemistry WebBook: boron tribromide",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C10294334&Mask=FFFFFF",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "Chase 1998; phase references 1946/1964",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-cdc-sf6",
+      "name": "CDC/NIOSH: sulfur hexafluoride physical description",
+      "url": "https://www.cdc.gov/niosh/npg/npgd0576.html",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019-10-30",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-bn-study",
+      "name": "Yoo et al.: direct elemental boron–nitrogen reactions",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.56.140",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "1997-07-01",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-rsc-zns",
+      "name": "RSC Education: zinc and sulfur reaction",
+      "url": "https://edu.rsc.org/properties-of-elements-and-compounds/the-reaction-between-zinc-powder-and-sulfur/714.article",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-rsc-sic",
+      "name": "Carassiti et al.: silicon carbide from elemental silicon and carbon",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2011/ee/c0ee00799d",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2011-03-07",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-dcceew-cs2",
+      "name": "Australian DCCEEW: carbon disulfide manufacture and properties",
+      "url": "https://www.dcceew.gov.au/environment/protection/npi/substances/carbon-disulfide",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2026-05-21",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-cu-s-study",
+      "name": "Cu2S formation from the elements: copper foils",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040603100007115",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2001-01-03",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-unimed-sulfides",
+      "name": "University of Medical Sciences: sulfur reactions with metals",
+      "url": "https://oer.unimed.edu.ng/LECTURE%20NOTES/5/3/Dr-Abraham-Oladebeye-PERIODIC-TABLEOER7772199.pdf",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-germanna-na2s",
+      "name": "Germanna Academic Center: sodium and sulfur redox equation",
+      "url": "https://germanna.edu/sites/default/files/2022-03/Aqueous%20Reactions.pdf",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2020-02",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-klett-cas",
+      "name": "Klett Elemente Chemie kompakt: calcium sulfide reaction",
+      "url": "https://www.klett.de/inhalt/media_fast_path/32/756069_EC_kompakt_Loesungen.pdf",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-ccea-k2s",
+      "name": "CCEA GCSE Chemistry: potassium and sulfur equation",
+      "url": "https://ccea.org.uk/downloads/docs/Past-Papers/cleared/GCSE/GCSE%20Science%20Double%20Award%20%282017%29/2019-November/Modified/0/GCSE-Science%20Double%20Award-584-November2019-Higher%20Tier%2C%20Unit%20C1%3A%20Chemistry%20%28ML%29-Paper.pdf",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "2019-11-07",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-primary-pf5",
+      "name": "O’Hare and Hubbard: direct phosphorus fluorination to PF5(g)",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/1966/tf/tf9666202709",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "1966",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-primary-cf4",
+      "name": "NBS: combustion of graphite in elemental fluorine",
+      "url": "https://nvlpubs.nist.gov/nistpubs/jres/71A/jresv71An2p105_A1b.pdf",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "1967-03",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    },
+    {
+      "id": "common-primary-bf3",
+      "name": "NBS: boron trifluoride by direct combination of the elements",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6624725/",
+      "retrievedAt": "2026-11-20T03:23:42.930816+00:00",
+      "upstreamDate": "1967",
+      "attribution": "Factual reaction/product reference, acknowledged by original source link; no source artwork or pages redistributed."
+    }
+  ],
+  "reactions": [
+    {
+      "id": "common-hydrogen-fluorine",
+      "title": "Hydrogen and fluorine form hydrogen fluoride",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-HF-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "Direct reaction reported even in the dark; no light or heating trigger is required. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat"
+      ],
+      "observations": [
+        "Hydrogen fluoride gas is the cited product.",
+        "The reaction is strongly exothermic; this is a symbolic virtual example."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-hydrogen",
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "H2(g)+F2(g)->2HF(g)",
+      "sourceLocator": "WebElements Hydrogen: halogens; OpenStax 18.5 Reactions with Elements"
+    },
+    {
+      "id": "common-hydrogen-bromine",
+      "title": "Hydrogen and bromine form hydrogen bromide",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-HBr-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Reported hydrogen–halogen combination using bromine vapor. The cited summary does not provide complete activation conditions. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "H2(g)+Br2(g)->2HBr(g)",
+      "sourceLocator": "OpenStax 18.5 Table 18.1",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-hydrogen-iodine",
+      "title": "Hydrogen iodide is an equilibrium product",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-HI-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated gas-phase reversible equilibrium. Unreacted hydrogen and iodine remain; equilibrium composition and time are not modeled. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-os-equilibrium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "H2(g)+I2(g)->2HI(g)",
+      "sourceLocator": "OpenStax 13.3 Effect of a Change in Concentration",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-nitrogen-hydrogen",
+      "title": "Haber–Bosch ammonia synthesis",
+      "reactants": [
+        {
+          "id": "N2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "NH3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated nitrogen and hydrogen with a catalyst under elevated pressure. Catalyst, pressure, collection and reversible equilibrium are not modeled by the current controls. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-os-hydrogen",
+        "common-os-equilibrium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "N2(g)+3H2(g)->2NH3(g)",
+      "sourceLocator": "OpenStax 18.5 Nitrogen Hydrogen Compounds; 13.3 Haber–Bosch process",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-li-hydrogen",
+      "title": "Lithium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-LiH-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s)+H2(g)->2LiH(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-na-hydrogen",
+      "title": "Sodium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-NaH-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Na(s)+H2(g)->2NaH(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-k-hydrogen",
+      "title": "Potassium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-KH-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s)+H2(g)->2KH(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-rb-hydrogen",
+      "title": "Rubidium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-RbH-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s)+H2(g)->2RbH(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-cs-hydrogen",
+      "title": "Cesium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-CsH-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s)+H2(g)->2CsH(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-ca-hydrogen",
+      "title": "Calcium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaH2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ca(s)+H2(g)->CaH2(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-sr-hydrogen",
+      "title": "Strontium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SrH2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Sr(s)+H2(g)->SrH2(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-ba-hydrogen",
+      "title": "Barium forms an ionic hydride",
+      "reactants": [
+        {
+          "id": "Ba-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-BaH2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination of hydrogen with the named reactive metal; the source explicitly covers group 1 and Ca, Sr and Ba. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-hydrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ba(s)+H2(g)->BaH2(s)",
+      "sourceLocator": "OpenStax 18.5 Reactions with Elements and Table 18.1"
+    },
+    {
+      "id": "common-nitrogen-oxygen",
+      "title": "Heated nitrogen and oxygen form nitric oxide",
+      "reactants": [
+        {
+          "id": "N2",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Nitrogen and oxygen react at elevated temperature; the source describes low yields. Nitric oxide may subsequently oxidize in a separate reaction. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-nitrogen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "N2(g)+O2(g)->2NO(g)",
+      "sourceLocator": "OpenStax 18.7 Nitrogen oxides"
+    },
+    {
+      "id": "common-boron-oxygen",
+      "title": "Boron burns to boron(III) oxide",
+      "reactants": [
+        {
+          "id": "common-B-s",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "common-B2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Boron burns only at elevated temperature in the cited example; crystallinity, particle size and surface condition affect reactivity. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-boron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4B(s)+3O2(g)->2B2O3(s)",
+      "sourceLocator": "WebElements Boron: Reaction with air"
+    },
+    {
+      "id": "common-boron-f2",
+      "title": "Boron forms BF3",
+      "reactants": [
+        {
+          "id": "common-B-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "common-BF3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "Direct combination is reported, but the source does not fully specify activation or surface conditions. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-boron",
+        "common-primary-bf3"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2B(s)+3F2(g)->2BF3(g)",
+      "sourceLocator": "WebElements Boron: Reaction with halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-boron-cl2",
+      "title": "Boron forms BCl3",
+      "reactants": [
+        {
+          "id": "common-B-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "common-BCl3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "Direct combination is reported, but the source does not fully specify activation or surface conditions. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-boron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2B(s)+3Cl2(g)->2BCl3(g)",
+      "sourceLocator": "WebElements Boron: Reaction with halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-boron-bromine",
+      "title": "Boron forms boron tribromide",
+      "reactants": [
+        {
+          "id": "common-B-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "common-BBr3-l",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Bromine vapor is the source reactant form. The prose identifies BBr3; the printed BF3 product is a typo corrected against the NIST liquid BBr3 record. Activation details remain incomplete. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-boron",
+        "common-nist-bbr3"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2B(s)+3Br2(g)->2BBr3(l)",
+      "sourceLocator": "WebElements Boron halogens prose; NIST BBr3 identity and liquid data",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-boron-nitrogen",
+      "title": "Direct boron nitride formation",
+      "reactants": [
+        {
+          "id": "common-B-s",
+          "coefficient": 2
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-BN-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Direct elemental synthesis requires elevated temperature and pressure in the cited study. Several BN crystal forms occur, depending on pressure; pressure and polymorph selection are not modeled. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-bn-study"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2B(s)+N2(g)->2BN(s)",
+      "sourceLocator": "Yoo et al. abstract, Phys. Rev. B 56, 140 (1997)",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-carbon-monoxide",
+      "title": "Limited oxygen gives carbon monoxide",
+      "reactants": [
+        {
+          "id": "C",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "conditionLabel": "Incomplete combustion of hot graphite with a restricted oxygen supply. The displayed equation isolates the CO endpoint; real producer gas also contains other components. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-carbon"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2C(s)+O2(g)->2CO(g)",
+      "sourceLocator": "WebElements Carbon: Reaction with air"
+    },
+    {
+      "id": "common-carbon-sulfur",
+      "title": "Carbon and sulfur form carbon disulfide",
+      "reactants": [
+        {
+          "id": "C",
+          "coefficient": 4
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-CS2-l",
+          "coefficient": 4
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "High-temperature combination; the product phase shown is collected carbon disulfide after cooling, not the hot reaction gas. The detailed hot sulfur-vapor speciation is not modeled. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-dcceew-cs2"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4C(s)+S8(s)->4CS2(l)",
+      "sourceLocator": "DCCEEW Overview and Physical properties",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-silicon-carbon",
+      "title": "Silicon and carbon form silicon carbide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "C",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SiC-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Direct heated combination; the source demonstrates microwave heating of silicon with carbon. Specific crystal polytype and heating apparatus are not simulated. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-rsc-sic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+C(s)->SiC(s)",
+      "sourceLocator": "Carassiti et al. abstract, DOI 10.1039/C0EE00799D"
+    },
+    {
+      "id": "common-zinc-sulfur",
+      "title": "Zinc and sulfur form zinc sulfide",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnS-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heating initiates the source demonstration. The equation is rewritten using the app’s explicit S8 form; oxidation by surrounding air is a separate process. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid",
+        "heat"
+      ],
+      "observations": [
+        "Solid zinc sulfide forms.",
+        "Heat is released after initiation; surrounding oxygen can contribute separate oxidation reactions."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-rsc-zns"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "8Zn(s)+S8(s)->8ZnS(s)",
+      "sourceLocator": "RSC Education zinc/sulfur equation and teaching notes"
+    },
+    {
+      "id": "common-copper-sulfur-cu2s",
+      "title": "Copper and sulfur: copper(I) sulfide endpoint",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 16
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-Cu2S-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated copper–sulfur system. The primary study reports changing layers and nonstoichiometric intermediates before the Cu2S endpoint; one heat selector does not specify those regimes. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-cu-s-study"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "16Cu(s)+S8(s)->8Cu2S(s)",
+      "sourceLocator": "Thermochimica Acta 366 (2001), 47–59 abstract",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-copper-sulfur-cus",
+      "title": "Copper and sulfur: copper(II) sulfide layer",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-CuS-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "CuS is a reported component of an initial reaction layer after sulfur melts, with other copper sulfides present. This is not a pure-product prediction or uniquely selected heat-only endpoint. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-cu-s-study"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "8Cu(s)+S8(s)->8CuS(s)",
+      "sourceLocator": "Thermochimica Acta 366 (2001), 47–59 abstract",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-silicon-oxygen",
+      "title": "Heated silicon forms silicon dioxide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SiO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heating overcomes the protective surface oxide in the cited elemental oxidation example. O2 is already an explicit reactant; no duplicate pure-oxygen atmosphere setting is required. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-silicon"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+O2(g)->SiO2(s)",
+      "sourceLocator": "WebElements Silicon: Reaction with air"
+    },
+    {
+      "id": "common-silicon-nitrogen",
+      "title": "Silicon forms silicon nitride",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-Si3N4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "High-temperature reaction with nitrogen gives the cited Si3N4 endpoint. The source also asserts another nitride; only the well-established Si3N4 solid is retained here. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-silicon"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Si(s)+2N2(g)->Si3N4(s)",
+      "sourceLocator": "WebElements Silicon: Reaction with air"
+    },
+    {
+      "id": "common-silicon-fluorine",
+      "title": "Silicon forms silicon tetrafluoride",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SiF4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "The source explicitly reports direct fluorination at room conditions. Its F2(l) printing is corrected to gas using the source’s room-temperature statement and OpenStax’s fluorine physical state. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-silicon",
+        "common-os-halogens"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+2F2(g)->SiF4(g)",
+      "sourceLocator": "WebElements Silicon halogens prose; OpenStax 18.11 halogen physical states"
+    },
+    {
+      "id": "common-silicon-chlorine",
+      "title": "Heated silicon forms silicon tetrachloride vapor",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SiCl4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Warming/heating is explicitly stated for chlorination. Cl2(l) in the printed equation is corrected to gas; gaseous SiCl4 is retained for the heated reaction, rather than silently changed to collected liquid. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-silicon",
+        "common-os-halogens"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+2Cl2(g)->SiCl4(g)",
+      "sourceLocator": "WebElements Silicon halogens prose/equation; OpenStax 18.11 physical states"
+    },
+    {
+      "id": "common-silicon-bromine",
+      "title": "Silicon forms silicon tetrabromide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SiBr4-l",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "The source gives warming/heating and the displayed liquid forms, but does not reconcile reaction-temperature and collected-product phases. This record is equation-only pending a complete phase/condition treatment. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-silicon"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+2Br2(l)->SiBr4(l)",
+      "sourceLocator": "WebElements Silicon halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-silicon-iodine",
+      "title": "Silicon forms silicon tetraiodide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "common-I2-l",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SiI4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "The source gives warming/heating and uses molten iodine with solid product. The exact phase/temperature history is not represented by one heat control; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-silicon"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Si(s)+2I2(l)->SiI4(s)",
+      "sourceLocator": "WebElements Silicon halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-phosphorus-oxygen-p4o10",
+      "title": "White phosphorus forms tetraphosphorus decaoxide",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "P4O10",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "conditionLabel": "Burning molecular white phosphorus with sufficient oxygen gives P4O10. White phosphorus can ignite spontaneously in air; this selected combustion view uses ignition. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-phosphorus",
+        "common-os-phosphorus"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+5O2(g)->P4O10(s)",
+      "sourceLocator": "WebElements phosphorus air; OpenStax 18.8 phosphorus(V) oxide"
+    },
+    {
+      "id": "common-phosphorus-oxygen-p4o6",
+      "title": "Controlled phosphorus oxidation: hexaoxide endpoint",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "common-P4O6-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Controlled oxidation can give P4O6 as one component. The solid shown is an explicitly cold-collected crystalline endpoint, not the phase of the hot reaction mixture; phase history, pressure and mixture proportions are not modeled. Equation only.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-phosphorus",
+        "common-os-phosphorus"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+3O2(g)->P4O6(s)",
+      "sourceLocator": "WebElements phosphorus air; OpenStax 18.8 phosphorus(III) oxide",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-phosphorus-chlorine-pcl3",
+      "title": "White phosphorus forms phosphorus trichloride",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 6
+        }
+      ],
+      "products": [
+        {
+          "id": "common-PCl3-l",
+          "coefficient": 4
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "The source explicitly reports vigorous white-phosphorus/halogen reaction at room conditions; this is the trichloride endpoint. Excess chlorine can instead favor the higher chloride. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-phosphorus",
+        "common-os-phosphorus"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+6Cl2(g)->4PCl3(l)",
+      "sourceLocator": "WebElements phosphorus halogens; OpenStax 18.8 phosphorus chlorides"
+    },
+    {
+      "id": "common-phosphorus-chlorine-pcl5",
+      "title": "Phosphorus pentachloride higher-chloride endpoint",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 10
+        }
+      ],
+      "products": [
+        {
+          "id": "common-PCl5-s",
+          "coefficient": 4
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "Higher-chloride endpoint with excess chlorine. The solid product is corroborated by OpenStax 18.8; the direct equation’s liquid label in 18.11 is corrected. Endpoint selection and phase history are not modeled. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-os-phosphorus",
+        "common-os-halogens"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+10Cl2(g)->4PCl5(s)",
+      "sourceLocator": "OpenStax 18.11 direct equation; 18.8 off-white solid description",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-phosphorus-bromine",
+      "title": "Phosphorus tribromide reported endpoint",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 6
+        }
+      ],
+      "products": [
+        {
+          "id": "common-PBr3-l",
+          "coefficient": 4
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "The source equation uses bromine vapor and liquid PBr3, while its prose refers generally to room-temperature reactions. Full activation/phase selection is not reconciled; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-phosphorus"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+6Br2(g)->4PBr3(l)",
+      "sourceLocator": "WebElements phosphorus halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-sulfur-fluorine",
+      "title": "Sulfur burns in fluorine to sulfur hexafluoride",
+      "reactants": [
+        {
+          "id": "S8",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 24
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SF6-g",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heating/burning of sulfur in fluorine is the source reaction. SF6 is displayed as a colorless gas, correcting the conflicting liquid/orange annotation against CDC and OpenStax. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "flame"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-we-sulfur",
+        "common-os-halogens",
+        "common-cdc-sf6"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "S8(s)+24F2(g)->8SF6(g)",
+      "sourceLocator": "WebElements sulfur halogens; OpenStax 18.11 sulfur fluorination; CDC physical description"
+    },
+    {
+      "id": "common-sulfur-chlorine-s2cl2",
+      "title": "Disulfur dichloride reported endpoint",
+      "reactants": [
+        {
+          "id": "S8",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 4
+        }
+      ],
+      "products": [
+        {
+          "id": "common-S2Cl2-l",
+          "coefficient": 4
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated/molten sulfur and chlorine yield S2Cl2. The source lacks complete phase history, and excess chlorine plus catalyst produces an equilibrium mixture; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-sulfur"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "S8(s)+4Cl2(g)->4S2Cl2(l)",
+      "sourceLocator": "WebElements sulfur halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-sulfur-chlorine-scl2",
+      "title": "Sulfur dichloride higher-chlorine endpoint",
+      "reactants": [
+        {
+          "id": "S8",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 8
+        }
+      ],
+      "products": [
+        {
+          "id": "common-SCl2-l",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "The source identifies SCl2 with excess chlorine and a catalyst, in equilibrium with S2Cl2. Full catalyst, supply and equilibrium conditions are outside the current controls. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-we-sulfur",
+        "common-os-halogens"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "S8(s)+8Cl2(g)->8SCl2(l)",
+      "sourceLocator": "WebElements sulfur halogens equilibrium; OpenStax 18.11 sulfur/chlorine product",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-k-oxygen-peroxide",
+      "title": "Potassium peroxide selected endpoint",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-K2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated metal with a carefully controlled oxygen supply selects the peroxide example; excess oxygen favors a superoxide instead. Oxygen is both a reactant and a stated pure-oxygen context. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-oxygen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s)+O2(g)->K2O2(s)",
+      "sourceLocator": "OpenStax 18.9 Peroxides and Superoxides",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "common-rb-oxygen-peroxide",
+      "title": "Rubidium peroxide selected endpoint",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-Rb2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated metal with a carefully controlled oxygen supply selects the peroxide example; excess oxygen favors a superoxide instead. Oxygen is both a reactant and a stated pure-oxygen context. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-oxygen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s)+O2(g)->Rb2O2(s)",
+      "sourceLocator": "OpenStax 18.9 Peroxides and Superoxides",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "common-cs-oxygen-peroxide",
+      "title": "Cesium peroxide selected endpoint",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-Cs2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated metal with a carefully controlled oxygen supply selects the peroxide example; excess oxygen favors a superoxide instead. Oxygen is both a reactant and a stated pure-oxygen context. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-os-oxygen"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s)+O2(g)->Cs2O2(s)",
+      "sourceLocator": "OpenStax 18.9 Peroxides and Superoxides",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "common-magnesium-sulfur",
+      "title": "Magnesium and sulfur form magnesium sulfide",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-MgS-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "heat"
+      ],
+      "conditionLabel": "Heated direct combination in the absence of air, as specified in the source. The selected endpoint excludes competing oxidation by atmospheric oxygen. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome.",
+      "sourceIds": [
+        "common-unimed-sulfides"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "8Mg(s)+S8(s)->8MgS(s)",
+      "sourceLocator": "CHM121 sulfur Chemical Properties: reaction with metals, p8",
+      "requiredAtmosphere": "inert"
+    },
+    {
+      "id": "common-sodium-sulfur",
+      "title": "Sodium sulfide textbook endpoint",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 16
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-Na2S-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "The source explicitly supplies Na and S forming Na2S as a redox equation. It does not provide activation or conditions separating monosulfide from polysulfides; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-germanna-na2s"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "16Na(s)+S8(s)->8Na2S(s)",
+      "sourceLocator": "Aqueous Reactions practice problem 5a, p10",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-calcium-sulfur",
+      "title": "Calcium sulfide textbook endpoint",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-CaS-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "The publisher explicitly gives calcium plus sulfur forming calcium sulfide. Activation and detailed reaction conditions are not supplied; equation only. The equation uses the standard solid elemental feed and solid salt endpoint. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-klett-cas"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "8Ca(s)+S8(s)->8CaS(s)",
+      "sourceLocator": "Calcium + Schwefel -> Calciumsulfid, exercise A2",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-potassium-sulfur",
+      "title": "Potassium sulfide textbook endpoint",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 16
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "common-K2S-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "ambient",
+      "requiredActivation": [
+        "none"
+      ],
+      "conditionLabel": "The source explicitly provides the solid-element reaction to K2S. Activation and conditions separating monosulfide from polysulfides are not supplied; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-ccea-k2s"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "16K(s)+S8(s)->8K2S(s)",
+      "sourceLocator": "GCSE Higher Unit C1, question 6, p14",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-phosphorus-fluorine-pf5",
+      "title": "Phosphorus pentafluoride from direct fluorination",
+      "reactants": [
+        {
+          "id": "common-P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 10
+        }
+      ],
+      "products": [
+        {
+          "id": "common-PF5-g",
+          "coefficient": 4
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "conditionLabel": "The primary fluorine calorimetry study identifies PF5 gas from alpha-white phosphorus and fluorine. Detailed initiation, containment and product-selection controls are not modeled; equation only. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-primary-pf5"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "P4(s)+10F2(g)->4PF5(g)",
+      "sourceLocator": "O’Hare and Hubbard, Trans Faraday Soc 62 (1966), 2709–2715 abstract",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-carbon-fluorine-cf4",
+      "title": "Graphite fluorination: carbon tetrafluoride endpoint",
+      "reactants": [
+        {
+          "id": "C",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "common-CF4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "conditionLabel": "The primary study identifies CF4 as the major fluorination product, with a small amount of C2F6. Its calorimetric initiation and auxiliary combustion context are not modeled; equation only, not a unique quantitative product claim. Educational selected scenario; not a prediction of quantitative yield.",
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product follows the cited elemental-combination reference."
+      ],
+      "explanation": "The cited reference identifies these reactants and products. The balanced equation records atom rearrangement; phase, surface condition, activation and reactant supply can change the outcome. This record is equation-only because the full source context cannot be represented by the available activation and atmosphere controls.",
+      "sourceIds": [
+        "common-primary-cf4"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "C(s)+2F2(g)->CF4(g)",
+      "sourceLocator": "Domalski and Armstrong, J Res NBS 71A (1967), 105–118 abstract",
+      "execution": "equation-only"
+    }
+  ]
+}

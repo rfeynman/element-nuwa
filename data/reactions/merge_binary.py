@@ -17,7 +17,7 @@ def learner_name(s,elements):
  if not re.fullmatch(r'(?:[A-Z][a-z]?|[0-9]|[()])+',s['name']):return
  c=s['composition']
  explicit={'Li2O2':'Lithium peroxide','Na2O2':'Sodium peroxide','K2O2':'Potassium peroxide','BaO2':'Barium peroxide','SrO2':'Strontium peroxide','KO2':'Potassium superoxide','RbO2':'Rubidium superoxide','CsO2':'Cesium superoxide','Co3O4':'Cobalt(II,III) oxide','Fe3O4':'Iron(II,III) oxide','Mn3O4':'Manganese(II,III) oxide','TiN':'Titanium nitride','SiO2':'Silicon dioxide'}
- formula=s['id'].rsplit('-',1)[0]
+ formula=s['formula'].translate(str.maketrans('₀₁₂₃₄₅₆₇₈₉','0123456789'))
  if formula in explicit:s['name']=explicit[formula];return
  if len(c)!=2 or s['charge']!=0:return
  anions={'F':('fluoride',1),'Cl':('chloride',1),'Br':('bromide',1),'I':('iodide',1),'O':('oxide',2),'N':('nitride',3)}
@@ -31,9 +31,26 @@ def learner_name(s,elements):
  oxidation='' if fixed.get(metal)==value else '('+roman[value]+')'
  s['name']=element['name']+oxidation+' '+anions[anion][0]
 def main():
- target=ROOT/'public/data/reactions.json';data=json.loads(target.read_text());extra=json.loads((ROOT/'data/reactions/binary-elements-extra.json').read_text());elements=json.loads((ROOT/'public/data/explorer.json').read_text())['elements']
+ target=ROOT/'public/data/reactions.json';data=json.loads(target.read_text());elements=json.loads((ROOT/'public/data/explorer.json').read_text())['elements']
+ bundles=['binary-elements-extra.json','aluminium-binary-additions.json','common-binary-additions.json','metal-binary-additions.json']
+ extra={'substances':[],'sources':[],'reactions':[]};bundle_counts={}
+ for index,name in enumerate(bundles):
+  bundle=json.loads((ROOT/'data/reactions'/name).read_text());prefix='' if index==0 else f'audit{index}-'
+  # Namespace local references before the identity merge: one bundle cannot overwrite another's IDs.
+  for original in bundle['substances']:
+   item=deepcopy(original);item['id']=prefix+item['id'];extra['substances'].append(item)
+  for original in bundle['sources']:
+   item=deepcopy(original);item['id']=prefix+item['id'];extra['sources'].append(item)
+  for original in bundle['reactions']:
+   item=deepcopy(original)
+   for side in ('reactants','products'):
+    for term in item[side]:term['id']=prefix+term['id']
+   item['sourceIds']=[prefix+id for id in item['sourceIds']];extra['reactions'].append(item)
+  bundle_counts[name]=len(bundle['reactions'])
+ correction_file=ROOT/'data/reactions/binary-condition-corrections.json'
+ corrections=json.loads(correction_file.read_text())['corrections']
  # Re-running merges is idempotent in scientific content.
- if data['version'].endswith(('.3','.4')):raise SystemExit('Already merged. Run build.py first to rebuild the reviewed base.')
+ if data['version']!='2026.11.20-source-checked.2':raise SystemExit('Already merged. Run build.py first to rebuild the reviewed base.')
  accepted=[r for r in extra['reactions'] if r['id'] not in EXCLUDED]
  used_extra={t['id'] for r in accepted for side in ('reactants','products') for t in r[side]}
  substances=data['substances'];by_identity={identity(s):s for s in substances};ids={s['id'] for s in substances};element_z={s['elementZ'] for s in substances if 'elementZ'in s};symbol_z={e['symbol']:e['z'] for e in elements};remap={}
@@ -55,9 +72,9 @@ def main():
   if s['url'] in source_urls:source_remap[s['id']]=source_urls[s['url']];continue
   original_id=s['id']
   if s['id'] in source_ids:s['id']='binary-'+s['id']
-  s.setdefault('attribution','WebElements chemistry reference. Factual equations transcribed with original explanations; source pages and artwork are not redistributed.')
+  s.setdefault('attribution','Factual equations transcribed with original explanations; source pages and artwork are not redistributed.')
   data['sources'].append(s);source_remap[original_id]=s['id'];source_ids.add(s['id']);source_urls[s['url']]=s['id']
- known={canonical(r):r for r in data['reactions']};added=duplicates=equation_only=0
+ known={(canonical(r),tuple(sorted(r.get('requiredActivation',[]))),r.get('requiredAtmosphere'),r.get('execution','modeled')):r for r in data['reactions']};added=duplicates=equation_only=0
  for original in accepted:
   r=deepcopy(original)
   if r['id'] in ('binary-iron-o2-fe2o3','binary-iron-o2-fe3o4'):
@@ -70,10 +87,22 @@ def main():
   # No recorded activation method must not be misrepresented as verified ambient kinetics.
   if 'full experimental conditions are not specified' in r['conditionLabel'].lower():
    r['execution']='equation-only';r['explanation']+=' This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.';equation_only+=1
-  key=canonical(r)
+  if r['id'] in corrections:r.update(deepcopy(corrections[r['id']]['set']))
+  # Generic O2 presence is already an explicit reactant, not a second purity control.
+  if r['id'].startswith('binary-') and r.get('requiredAtmosphere')=='oxygen' and not re.search(r'pure oxygen',r['conditionLabel'],re.I):r.pop('requiredAtmosphere')
+  key=(canonical(r),tuple(sorted(r.get('requiredActivation',[]))),r.get('requiredAtmosphere'),r.get('execution','modeled'))
   if key in known:
    old=known[key];old['sourceIds']=list(dict.fromkeys(old['sourceIds']+r['sourceIds']));duplicates+=1;continue
   data['reactions'].append(r);known[key]=r;added+=1
+ # Repair missing canonical mappings in pre-existing neutral elemental forms (e.g. Si and Sn).
+ for symbol,z in symbol_z.items():
+  if z in element_z:continue
+  options=[s for s in substances if s['charge']==0 and set(s['composition'])=={symbol}]
+  options.sort(key=lambda s:({'s':0,'l':1,'g':2}.get(s['state'],3),s['id']))
+  if options:options[0]['elementZ']=z;element_z.add(z)
+ # Keep only substances used in actual production equations or a canonical element selection.
+ used={t['id'] for r in data['reactions'] for side in ('reactants','products') for t in r[side]}
+ substances[:]=[s for s in substances if s['id'] in used or 'elementZ' in s]
  lookup={s['id']:s for s in substances}
  def tally(terms):
   values=Counter()
@@ -87,8 +116,8 @@ def main():
  assert len({r['id'] for r in data['reactions']})==len(data['reactions'])
  assert len({s['elementZ'] for s in substances if 'elementZ'in s})==sum('elementZ'in s for s in substances)
  for substance in substances:learner_name(substance,elements)
- data['version']='2026.11.20-source-checked.4';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ data['version']='2026.11.20-source-checked.5';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
  candidate=target.with_suffix('.candidate');candidate.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');candidate.replace(target)
- manifest={'version':data['version'],'entries':len(data['reactions']),'modeled':sum(r.get('execution')!='equation-only' for r in data['reactions']),'equationOnly':sum(r.get('execution')=='equation-only' for r in data['reactions']),'addedBinaryEquations':added,'duplicateEquationsMerged':duplicates,'excludedBinaryEquations':EXCLUDED,'substances':len(substances),'sources':len(data['sources']),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'checks':['atom and charge conservation','unique reaction IDs','source URLs deduplicated','one elemental selection mapping per Z','unspecified activation withheld from simulation','independent selenium product/phase findings excluded with unused substances']}
+ manifest={'version':data['version'],'entries':len(data['reactions']),'modeled':sum(r.get('execution')!='equation-only' for r in data['reactions']),'equationOnly':sum(r.get('execution')=='equation-only' for r in data['reactions']),'addedBinaryEquations':added,'inputBundles':bundle_counts,'reviewedConditionCorrections':len(corrections),'duplicateEquationsMerged':duplicates,'excludedBinaryEquations':EXCLUDED,'substances':len(substances),'sources':len(data['sources']),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'checks':['atom and charge conservation','unique reaction IDs','source URLs deduplicated','one elemental selection mapping per Z','unspecified activation withheld from simulation','independent selenium product/phase findings excluded with unused substances','source condition corrections applied','canonical elemental form mappings repaired','condition-specific duplicate equations retained']}
  (ROOT/'data/reactions/binary-merged-validation.json').write_text(json.dumps(manifest,indent=2)+'\n');print(json.dumps(manifest))
 if __name__=='__main__':main()

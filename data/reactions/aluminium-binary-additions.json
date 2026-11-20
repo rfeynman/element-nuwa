@@ -1,0 +1,884 @@
+{
+  "version": "2026.11.20-aluminium-audit.1",
+  "updatedAt": "2026-11-20T03:25:18.814882+00:00",
+  "substances": [
+    {
+      "id": "al-audit-Al-s",
+      "name": "Aluminum",
+      "formula": "Al",
+      "state": "s",
+      "composition": {
+        "Al": 1
+      },
+      "charge": 0,
+      "elementZ": 13
+    },
+    {
+      "id": "al-audit-O2-g",
+      "name": "Oxygen",
+      "formula": "O₂",
+      "state": "g",
+      "composition": {
+        "O": 2
+      },
+      "charge": 0,
+      "elementZ": 8
+    },
+    {
+      "id": "al-audit-N2-g",
+      "name": "Nitrogen",
+      "formula": "N₂",
+      "state": "g",
+      "composition": {
+        "N": 2
+      },
+      "charge": 0,
+      "elementZ": 7
+    },
+    {
+      "id": "al-audit-C-s",
+      "name": "Carbon (graphitic solid)",
+      "formula": "C",
+      "state": "s",
+      "composition": {
+        "C": 1
+      },
+      "charge": 0,
+      "elementZ": 6
+    },
+    {
+      "id": "al-audit-S8-s",
+      "name": "Sulfur (S₈)",
+      "formula": "S₈",
+      "state": "s",
+      "composition": {
+        "S": 8
+      },
+      "charge": 0,
+      "elementZ": 16
+    },
+    {
+      "id": "al-audit-Cl2-g",
+      "name": "Chlorine",
+      "formula": "Cl₂",
+      "state": "g",
+      "composition": {
+        "Cl": 2
+      },
+      "charge": 0,
+      "elementZ": 17
+    },
+    {
+      "id": "al-audit-Br2-l",
+      "name": "Bromine",
+      "formula": "Br₂",
+      "state": "l",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0,
+      "elementZ": 35
+    },
+    {
+      "id": "al-audit-I2-s",
+      "name": "Iodine",
+      "formula": "I₂",
+      "state": "s",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0,
+      "elementZ": 53
+    },
+    {
+      "id": "al-audit-F2-g",
+      "name": "Fluorine",
+      "formula": "F₂",
+      "state": "g",
+      "composition": {
+        "F": 2
+      },
+      "charge": 0,
+      "elementZ": 9
+    },
+    {
+      "id": "al-audit-Al2O3-s",
+      "name": "Aluminum oxide",
+      "formula": "Al₂O₃",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-AlN-s",
+      "name": "Aluminum nitride",
+      "formula": "AlN",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "N": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Al2S3-s",
+      "name": "Aluminum sulfide",
+      "formula": "Al₂S₃",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "S": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Al4C3-s",
+      "name": "Aluminum carbide",
+      "formula": "Al₄C₃",
+      "state": "s",
+      "composition": {
+        "Al": 4,
+        "C": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-AlCl3-s",
+      "name": "Aluminum chloride",
+      "formula": "AlCl₃",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Al2Br6-s",
+      "name": "Aluminum bromide (dimer)",
+      "formula": "Al₂Br₆",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "Br": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Al2I6-s",
+      "name": "Aluminum iodide (dimer)",
+      "formula": "Al₂I₆",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "I": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-AlF3-s",
+      "name": "Aluminum fluoride",
+      "formula": "AlF₃",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-P-s",
+      "name": "Elemental phosphorus (source allotrope unspecified)",
+      "formula": "P",
+      "state": "s",
+      "composition": {
+        "P": 1
+      },
+      "charge": 0,
+      "elementZ": 15
+    },
+    {
+      "id": "al-audit-Se-s",
+      "name": "Elemental selenium (source allotrope unspecified)",
+      "formula": "Se",
+      "state": "s",
+      "composition": {
+        "Se": 1
+      },
+      "charge": 0,
+      "elementZ": 34
+    },
+    {
+      "id": "al-audit-AlP-s",
+      "name": "Aluminum phosphide",
+      "formula": "AlP",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "P": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Al2Se3-s",
+      "name": "Aluminum selenide",
+      "formula": "Al₂Se₃",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "Se": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-In-s",
+      "name": "Indium",
+      "formula": "In",
+      "state": "s",
+      "composition": {
+        "In": 1
+      },
+      "charge": 0,
+      "elementZ": 49
+    },
+    {
+      "id": "al-audit-In2O3-s",
+      "name": "Indium(III) oxide",
+      "formula": "In₂O₃",
+      "state": "s",
+      "composition": {
+        "In": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "al-audit-Ga-l",
+      "name": "Gallium (liquid)",
+      "formula": "Ga",
+      "state": "l",
+      "composition": {
+        "Ga": 1
+      },
+      "charge": 0,
+      "elementZ": 31
+    },
+    {
+      "id": "al-audit-Ga2O3-s",
+      "name": "Gallium(III) oxide",
+      "formula": "Ga₂O₃",
+      "state": "s",
+      "composition": {
+        "Ga": 2,
+        "O": 3
+      },
+      "charge": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "al-we",
+      "name": "WebElements: aluminium chemistry",
+      "url": "https://www.webelements.com/aluminium/chemistry.html",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-ttu",
+      "name": "Texas Tech University: Chemical Equations, chapter 8",
+      "url": "https://www.depts.ttu.edu/chemistry/faculty/jones/chapter_8.pdf",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-grade11",
+      "name": "Chemistry Grade 11 textbook: aluminium direct combinations, printed page 72",
+      "url": "https://edu4mm.com/wp-content/uploads/2025/02/G11-Chemistry-new-course-TB-compressed.pdf",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-nitride-primary",
+      "name": "Materials 2019: direct thermal nitridation of aluminium",
+      "url": "https://www.mdpi.com/1996-1944/12/3/359",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": "2019",
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-epa",
+      "name": "US EPA chemical advisory: aluminium and sulfur reactivity",
+      "url": "https://ncsp.tamu.edu/reports/EPA/lodirecc.htm",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-carbide-primary",
+      "name": "Kennedy, Drysdale and Gregory: elemental synthesis of Al4C3",
+      "url": "https://eprints.gla.ac.uk/101625/",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": "2015",
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-iodine-rsc",
+      "name": "RSC / Nuffield: aluminium and iodine",
+      "url": "https://edu.rsc.org/experiments/reacting-aluminium-and-iodine/715.article",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": null,
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "al-fluorine-ocr",
+      "name": "OCR: Atoms, bonds and groups — aluminium with fluorine",
+      "url": "https://www.ocr.org.uk/Images/562880-question-paper-atoms-bonds-and-groups.pdf",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": "2015",
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "group13-patnaik",
+      "name": "Pradyot Patnaik, Handbook of Inorganic Chemicals: Al pp.3–4; In pp.392–394",
+      "url": "https://enky-afina.ru/f/10a7_handbook_of_inorganic_chemicals_pradyot_patnaik_phd.pdf",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": "2003",
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    },
+    {
+      "id": "group13-ga-primary",
+      "name": "Experimental gallium study: reported Ga/O₂ oxidation equation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13208902/",
+      "retrievedAt": "2026-11-20T03:25:18.814882+00:00",
+      "upstreamDate": "2026",
+      "attribution": "Factual equations and original teaching summaries only. Source pages, images and experimental procedures are not redistributed."
+    }
+  ],
+  "reactions": [
+    {
+      "id": "aluminium-oxygen-combustion",
+      "title": "Aluminum burns to form aluminum oxide",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 4
+        },
+        {
+          "id": "al-audit-O2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Strong heating or ignition of aluminium with the explicitly added O₂. The surface oxide normally hinders rapid bulk reaction; this is the combustion example, not ordinary room-temperature bulk burning.",
+      "requiredActivation": [
+        "heat",
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "flame",
+        "solid"
+      ],
+      "observations": [
+        "An intense white flame accompanies the burning example.",
+        "Solid aluminium oxide is formed; no gas or steam is produced by this equation."
+      ],
+      "explanation": "The balanced net equation is 4Al(s) + 3O₂(g) → 2Al₂O₃(s). The WebElements printed O₂(l) is independently corrected to O₂(g) using the Texas Tech gas-phase equation. Passivation and combustion are separate scenarios; the symbolic controls do not model a temperature or reaction rate.",
+      "sourceIds": [
+        "al-ttu",
+        "al-we"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-oxygen-passivation",
+      "title": "Aluminum develops a protective oxide film",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 4
+        },
+        {
+          "id": "al-audit-O2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Room-condition surface oxidation of freshly exposed aluminium. A thin protective oxide film limits further reaction; this does not mean an entire piece burns or is converted.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "A thin protective oxide layer forms on a newly exposed metal surface.",
+        "No bulk flame is assigned; most of a metal piece can remain protected underneath."
+      ],
+      "explanation": "The net chemistry forms Al₂O₃, but the extent is limited by a passivating surface film. Ingredient presence is modeled, not amounts or complete conversion. Choose the heated combustion scenario for the bright burning example.",
+      "sourceIds": [
+        "al-we",
+        "al-ttu"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-nitrogen",
+      "title": "Aluminum combines with nitrogen",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-N2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-AlN-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Strong heating for direct nitridation of aluminium with the added N₂; oxide barriers and reaction progress are not quantitatively modeled.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "solid"
+      ],
+      "observations": [
+        "Solid aluminium nitride is the reported product.",
+        "Thermal nitridation is exothermic once initiated."
+      ],
+      "explanation": "The textbook heat-arrow equation is 2Al(s) + N₂(g) → 2AlN(s). The primary Materials study corroborates direct thermal nitridation and its exothermic nature. The equation isolates the nitrogen reaction rather than predicting a full air-combustion mixture.",
+      "sourceIds": [
+        "al-grade11",
+        "al-nitride-primary"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-sulfur",
+      "title": "Aluminum combines with sulfur",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 16
+        },
+        {
+          "id": "al-audit-S8-s",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2S3-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating/initiating the aluminium–sulfur elemental combination. This energetic example remains conceptual; physical form and initiation strongly affect behavior.",
+      "requiredActivation": [
+        "heat",
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "solid",
+        "blast"
+      ],
+      "observations": [
+        "Solid aluminium sulfide is formed.",
+        "The cited advisory reports vigorous, strongly energetic behaviour for heated aluminium powder with sulfur."
+      ],
+      "explanation": "The textbook equation 2Al + 3S → Al₂S₃ is written here with molecular elemental sulfur S₈: 16Al + 3S₈ → 8Al₂S₃. Only the coefficients and elemental-sulfur representation change. This equation itself does not produce a gas.",
+      "sourceIds": [
+        "al-grade11",
+        "al-epa"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-carbon",
+      "title": "Aluminum forms a carbide with carbon",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 4
+        },
+        {
+          "id": "al-audit-C-s",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al4C3-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Strong heating of aluminium and carbon in the textbook direct-combination scenario. Specific advanced synthesis methods and atmospheres are not simulated.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid aluminium carbide is the reported binary product."
+      ],
+      "explanation": "The textbook explicitly gives the heated elemental equation 4Al(s) + 3C(s) → Al₄C₃(s). The cited primary study corroborates production from aluminium and graphite under its specialized method; this teaching scenario does not claim every heated mixture yields pure carbide.",
+      "sourceIds": [
+        "al-grade11",
+        "al-carbide-primary"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-chlorine",
+      "title": "Aluminum forms aluminum chloride",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-Cl2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-AlCl3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated aluminium with explicitly added chlorine gas; the textbook lists the solid chloride endpoint. Hot-product vaporization and later condensation are not separately simulated.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "solid"
+      ],
+      "observations": [
+        "The reported cooled solid product is aluminium chloride."
+      ],
+      "explanation": "The independently checked textbook equation uses Cl₂(g), correcting the WebElements Cl₂(l) transcription for this teaching scenario. The net equation is 2Al(s) + 3Cl₂(g) → 2AlCl₃(s); phases can differ in hotter gas-production examples.",
+      "sourceIds": [
+        "al-grade11",
+        "al-we"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-bromine",
+      "title": "Aluminum forms aluminum bromide",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-Br2-l",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2Br6-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated direct combination of aluminium with liquid bromine; the cited equation identifies solid Al₂Br₆ as the endpoint.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid aluminium bromide is the reported product."
+      ],
+      "explanation": "WebElements explicitly gives 2Al(s) + 3Br₂(l) → Al₂Br₆(s); the Grade 11 text identifies heating for aluminium–halogen combinations. The dimeric formula is retained rather than silently changed.",
+      "sourceIds": [
+        "al-we",
+        "al-grade11"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminium-iodine-catalysed",
+      "title": "Aluminum and iodine form aluminum iodide",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-I2-s",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2I6-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "The cited RSC example requires water as an initiating catalyst and has an induction period. That catalyst condition is not represented by the current controls; equation only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "flame",
+        "solid"
+      ],
+      "observations": [
+        "The source reports aluminium iodide formation in a water-catalysed example.",
+        "Any purple cloud described by the source is excess iodine vapor, not a gaseous product in this equation."
+      ],
+      "explanation": "The source explicitly gives 2Al(s) + 3I₂(s) → Al₂I₆(s). Water catalysis is essential to this sourced example and must not be silently replaced by the None control. Its equation is shown but is not playable until that condition can be represented.",
+      "sourceIds": [
+        "al-iodine-rsc"
+      ],
+      "reviewStatus": "source-checked",
+      "execution": "equation-only"
+    },
+    {
+      "id": "aluminium-fluorine",
+      "title": "Aluminum forms aluminum fluoride",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-AlF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct elemental combination and solid AlF₃ are stated by the OCR source; complete activation and surface conditions are not supplied. Equation only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid aluminium fluoride is identified by the source."
+      ],
+      "explanation": "The official examination source states direct combination of aluminium with fluorine and a solid fluoride lattice. The balanced factual equation is 2Al(s) + 3F₂(g) → 2AlF₃(s). It does not justify a universal ambient reaction-rate prediction.",
+      "sourceIds": [
+        "al-fluorine-ocr"
+      ],
+      "reviewStatus": "source-checked",
+      "execution": "equation-only"
+    },
+    {
+      "id": "aluminium-phosphorus-reported",
+      "title": "Aluminum and phosphorus form aluminum phosphide",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 1
+        },
+        {
+          "id": "al-audit-P-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-AlP-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "The handbook reports heated aluminium powder with elemental phosphorus producing AlP, but does not specify the phosphorus allotrope or full product-selection conditions. Equation only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Aluminium phosphide is the reported binary endpoint."
+      ],
+      "explanation": "The source explicitly names direct elemental formation of AlP. Phosphorus is retained as the source’s unspecified solid element notation, rather than silently choosing white P₄. No animation is assigned to that incomplete form specification.",
+      "sourceIds": [
+        "group13-patnaik"
+      ],
+      "reviewStatus": "source-checked",
+      "execution": "equation-only"
+    },
+    {
+      "id": "aluminium-selenium-reported",
+      "title": "Aluminum and selenium form aluminum selenide",
+      "reactants": [
+        {
+          "id": "al-audit-Al-s",
+          "coefficient": 2
+        },
+        {
+          "id": "al-audit-Se-s",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Al2Se3-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "The handbook reports heated aluminium powder with selenium producing Al₂Se₃; selenium allotrope and complete preparation conditions are not supplied. Equation only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Aluminium selenide is the reported binary endpoint."
+      ],
+      "explanation": "The source gives aluminium and selenium forming Al₂Se₃. Its unspecified solid selenium is retained as Se(s), not silently changed to a molecular Se₈ allotrope. Complete form-specific kinetics are not assigned.",
+      "sourceIds": [
+        "group13-patnaik"
+      ],
+      "reviewStatus": "source-checked",
+      "execution": "equation-only"
+    },
+    {
+      "id": "indium-oxygen-audited",
+      "title": "Indium forms indium oxide",
+      "reactants": [
+        {
+          "id": "al-audit-In-s",
+          "coefficient": 4
+        },
+        {
+          "id": "al-audit-O2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-In2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating indium in air or with the explicitly added oxygen gives the trioxide; the source reports little room-temperature air reaction.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid indium(III) oxide is the reported heated oxidation product."
+      ],
+      "explanation": "The handbook explicitly gives 4In + 3O₂ → 2In₂O₃ and describes the trioxide as a powder. Only qualitative heating is modeled; no rate or complete-conversion claim is made.",
+      "sourceIds": [
+        "group13-patnaik"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "gallium-oxygen-reported",
+      "title": "Liquid gallium oxidation equation",
+      "reactants": [
+        {
+          "id": "al-audit-Ga-l",
+          "coefficient": 4
+        },
+        {
+          "id": "al-audit-O2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "al-audit-Ga2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "The primary study reports the liquid-Ga oxidation relation and native oxide formation; full oxidation kinetics are not modeled. Equation only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The reported oxidation equation has Ga₂O₃ as a solid endpoint."
+      ],
+      "explanation": "This exact liquid-gallium/oxygen relation appears in the study’s thermodynamic discussion with observed surface oxidation. It is retained as an equation, not a claim of unrestricted bulk conversion or direct nitride synthesis.",
+      "sourceIds": [
+        "group13-ga-primary"
+      ],
+      "reviewStatus": "source-checked",
+      "execution": "equation-only"
+    }
+  ]
+}

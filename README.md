@@ -4,7 +4,7 @@ An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
 - Hover/focus preview, pinned selection, local scientific data, isotope half-lives, balanced nuclear decay equations, and interactive colored s/p/d/f orbital clouds.
-- Element drag basket, compound shelf, 223 sourced reactions and physical processes (187 modeled scenarios, 36 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
+- Element drag basket, compound shelf, 433 sourced reactions and physical processes (240 modeled scenarios, 193 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
 - Ten practice questions with hints, explanations, source links, and progress stored in this browser.
 - Responsive layout, keyboard controls, and reduced-motion support.
 
@@ -33,7 +33,7 @@ Reaction examples are condition-specific and model ingredient presence, not quan
 
 ## Reaction library and visual update
 
-The large introductory banner has been removed. The library contains 216 chemical reactions, six physical processes, and one reviewed no-reaction case, using 288 substances and 54 source URLs. Search by formula, material or product. Explicit activation choices are none, heat, light, ignition, electricity and cooling; atmosphere choices are air, oxygen and inert.
+The large introductory banner has been removed. The library contains 426 chemical reactions, six physical processes, and one reviewed no-reaction case, using 532 substances and 128 source URLs. Search by formula, material or product. Explicit activation choices are none, heat, light, ignition, electricity and cooling; atmosphere choices are air, oxygen and inert.
 
 Each supported run plays a 3.2-second transparent conceptual animation around the vessel, then clears it before revealing products. Replay restarts the scene; Skip/Escape completes it; Reset and condition/ingredient edits cancel it. Reduced-motion presentation lasts 250ms. Brown NO2 and chlorine colors require source metadata; colorless gases remain schematic. Freezing is explicitly distinguished from ordinary cooling.
 
@@ -41,7 +41,7 @@ See references/expanded-reaction-audit.md and references/expanded-independent-re
 
 ## All distinct elemental pairs
 
-Look up all 6,903 distinct pairs of the 118 elements. This snapshot provides 123 source-backed binary entries across 115 pairs. Unknown pairs report missing evidence; products are never inferred from element valences. Multiple endpoints require choosing a scenario. Thirty-six catalogue equations lack complete activation conditions and cannot simulate products.
+Look up all 6,903 distinct pairs of the 118 elements. This snapshot provides 333 source-backed binary entries across 311 pairs. Unknown pairs report missing evidence; products are never inferred from element valences. Multiple endpoints require choosing a scenario. 193 catalogue entries remain equation-only because full conditions are missing or not represented by the classroom controls.
 
 The 112 accepted additions are explicitly transcribed WebElements equations. Two selenium product/phase conflicts are excluded, including their unused product substances. See references/binary-independent-review.md and data/reactions/binary-merged-validation.json. All decay equations use nuclear charge/nucleon bookkeeping, with source branch percentages retained; unspecified levels or daughters remain unavailable or schematic.
 
@@ -62,3 +62,11 @@ The Electron clouds tab replaces the repeated shell diagram with rotatable, colo
 The original local renderer samples hydrogen-like wavefunctions, including radial and angular nodes, and uses individual display scales. These are teaching models, not calculated many-electron densities or measured sizes; points are probability samples rather than individual electrons. Type color does not represent wavefunction sign or charge. Source links, model version/date, and configuration provenance appear in the panel. See references/electron-cloud-review.md.
 
 276 application tests pass, including every sourced configuration total, known exceptions, numerical angular normalization, nodes, and sampled probability moments. Desktop and mobile browser checks cover the new cloud controls and layout.
+
+## Detailed binary audit (1.4.0)
+
+The reviewed snapshot .5 adds 210 entries and covers 311 distinct binary pairs with 333 binary scenarios; total library 433 entries, 240 modeled and 193 equation-only. This includes the missing Al/O2 equation and wider common nonmetal, hydride, sulfide, oxide and metal-halide coverage. Al/O2 has distinct room-condition protective-film and heated combustion examples; Heat or Ignition with explicit O2 works in ordinary air.
+
+33 earlier condition records were corrected. Source-specific pure-oxygen peroxide cases retain their requirement. Different phase/allotrope examples appear beside the vessel with Load sourced forms & conditions, preserving exact substance matching. All source-used neutral elemental forms now have a unique table mapping where missing, including Si/Sn. Missing conditions do not produce guessed animations, and unsupported/disputed source products stay excluded.
+
+492 application tests pass, including a standard-reaction checklist, Al/O2 ambient/combustion, explicit-phase suggestions, canonical mappings and disputed-product exclusions. Browser checks verify table-added Al/O2 with heat/air and explicit Ca/Br vapor-form loading. See references/binary-coverage-review.md and the three new source ledgers. External teacher review remains pending; neither the coverage audit nor the pair index claims exhaustive chemistry.

@@ -1,0 +1,322 @@
+{
+  "reviewedAt": "2026-11-20T03:18:21.999127+00:00",
+  "reviewedDataset": "2026.11.20-source-checked.4",
+  "scope": "Direct source-condition review of existing binary records; not exhaustive independent product-identity validation.",
+  "corrections": {
+    "binary-arsenic-br2-asbr3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/arsenic/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient. Source prose additionally requires controlled conditions without specifying them sufficiently for the current controls."
+    },
+    "binary-arsenic-i2-asi3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/arsenic/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient. Source prose additionally requires controlled conditions without specifying them sufficiently for the current controls."
+    },
+    "binary-beryllium-br2-bebr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/beryllium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-bismuth-br2-bibr3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/bismuth/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient. Source prose additionally requires controlled conditions without specifying them sufficiently for the current controls."
+    },
+    "binary-bismuth-i2-bii3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/bismuth/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient. Source prose additionally requires controlled conditions without specifying them sufficiently for the current controls."
+    },
+    "binary-caesium-br2-csbr": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/caesium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-caesium-i2-csi": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/caesium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-chromium-br2-crbr3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/chromium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-chromium-i2-cri3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/chromium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-copper-br2-cubr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/copper/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-lithium-br2-libr": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/lithium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-lithium-i2-lii": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/lithium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-magnesium-br2-mgbr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/magnesium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-manganese-br2-mnbr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/manganese/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-manganese-i2-mni2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/manganese/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-nickel-br2-nibr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/nickel/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-nickel-i2-nii2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/nickel/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-potassium-br2-kbr": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/potassium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-potassium-i2-ki": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/potassium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-rubidium-br2-rbbr": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/rubidium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-rubidium-i2-rbi": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/rubidium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-scandium-br2-scbr3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/scandium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-scandium-i2-sci3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/scandium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-selenium-br2-sebr4": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/selenium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient. Source prose additionally requires controlled conditions without specifying them sufficiently for the current controls."
+    },
+    "binary-sodium-br2-nabr": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/sodium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-sodium-i2-nai": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/sodium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-zinc-br2-znbr2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/zinc/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-zinc-i2-zni2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this elemental combination using halogen vapor, but complete activation and product-selection conditions are not specified. Sourced equation only; no room-temperature or heat-only prediction is assigned."
+      },
+      "sourceUrl": "https://www.webelements.com/zinc/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source reports the product and gas-phase halogen but does not give a complete activation/endpoint-control condition. Gas phase alone does not establish that selecting Heat is sufficient."
+    },
+    "binary-chromium-f2-crf3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this chromium(III) halide under relatively milder conditions than higher fluorides, without fully specifying the conditions represented by this app. Sourced equation only."
+      },
+      "sourceUrl": "https://www.webelements.com/chromium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source says relatively milder conditions; the generated assertion that warming/heating is specified for this endpoint is not supported by that passage."
+    },
+    "binary-chromium-cl2-crcl3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports this chromium(III) halide under relatively milder conditions than higher fluorides, without fully specifying the conditions represented by this app. Sourced equation only."
+      },
+      "sourceUrl": "https://www.webelements.com/chromium/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "The source says relatively milder conditions; the generated assertion that warming/heating is specified for this endpoint is not supported by that passage."
+    },
+    "binary-manganese-f2-mnf2": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports both manganese(II) and manganese(III) fluoride from elemental fluorination, but full conditions selecting the endpoints are not specified. Sourced equation only."
+      },
+      "sourceUrl": "https://www.webelements.com/manganese/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "Current custom label already acknowledges incomplete endpoint-control conditions, but an exact phrase check in the merger failed to mark it equation-only."
+    },
+    "binary-manganese-f2-mnf3": {
+      "set": {
+        "execution": "equation-only",
+        "conditionLabel": "The source reports both manganese(II) and manganese(III) fluoride from elemental fluorination, but full conditions selecting the endpoints are not specified. Sourced equation only."
+      },
+      "sourceUrl": "https://www.webelements.com/manganese/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "Current custom label already acknowledges incomplete endpoint-control conditions, but an exact phrase check in the merger failed to mark it equation-only."
+    },
+    "binary-lead-f2-pbf2": {
+      "set": {
+        "execution": "modeled",
+        "condition": "ambient",
+        "requiredActivation": [
+          "none"
+        ],
+        "conditionLabel": "Direct lead–fluorine combination at room temperature, as stated by the source. Lead(II) fluoride is a toxic solid; this remains a conceptual example."
+      },
+      "sourceUrl": "https://www.webelements.com/lead/chemistry.html",
+      "sourceLocator": "Reaction with the halogens",
+      "reason": "Source explicitly distinguishes room-temperature fluorination from chlorine reaction upon warming. Thus the generic unavailable-conditions label is unnecessarily restrictive."
+    }
+  },
+  "vaporRowsWithExplicitHeatingRetained": [
+    "binary-calcium-br2-cabr2",
+    "binary-calcium-i2-cai2",
+    "binary-strontium-br2-srbr2",
+    "binary-strontium-i2-sri2",
+    "binary-titanium-br2-tibr4",
+    "binary-titanium-i2-tii4"
+  ],
+  "notes": [
+    "Corrections do not change product identities or phases.",
+    "Existing SeI4(s) and SeF4(s) exclusions remain.",
+    "Generic oxygen-atmosphere restrictions are separately addressed in the Markdown review; preserve explicit pure-oxygen baseline requirements.",
+    "Raw source evidence is local provenance and must not be bundled into the public website."
+  ]
+}

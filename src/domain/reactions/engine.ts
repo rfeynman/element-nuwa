@@ -15,6 +15,15 @@ export function findReactionScenarios(library: ReactionLibrary, selectedIds: str
   return library.reactions.filter(reaction => reaction.reviewStatus === 'source-checked' && reaction.reactants.length === selected.size && reaction.reactants.every(term => selected.has(term.id))).sort((a,b) => a.id.localeCompare(b.id));
 }
 
+/** Offer other sourced phases/allotropes without treating them as the selected substances. */
+export function findElementalAlternatives(library: ReactionLibrary, selectedIds: string[]): Reaction[] {
+  const selected=[...new Set(selectedIds)];
+  const element=(id:string)=>{const s=library.substances.find(s=>s.id===id);return s&&s.charge===0&&Object.keys(s.composition).length===1?Object.keys(s.composition)[0]:undefined};
+  if(selected.length!==2)return [];
+  const symbols=selected.map(element);if(symbols.some(s=>!s)||symbols[0]===symbols[1])return [];
+  return library.reactions.filter(r=>r.reviewStatus==='source-checked'&&r.process!=='physical'&&r.reactants.length===2&&r.reactants.every(t=>symbols.includes(element(t.id)))&&new Set(r.reactants.map(t=>element(t.id))).size===2&&!r.reactants.every(t=>selected.includes(t.id))).sort((a,b)=>a.id.localeCompare(b.id));
+}
+
 const effects = new Set(['heat', 'flame', 'gas', 'steam', 'solid', 'toxic', 'blast', 'cooling']);
 const record = (value: unknown): value is Record<string, unknown> =>
   typeof value === 'object' && value !== null && !Array.isArray(value);
