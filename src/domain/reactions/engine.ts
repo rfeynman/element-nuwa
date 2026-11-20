@@ -6,6 +6,14 @@ const requiredActivation = (reaction: Reaction) => reaction.requiredActivation ?
 const conditionDistance = (reaction: Reaction, conditions: ReactionConditions) =>
   Number(!requiredActivation(reaction).includes(conditions.activation)) +
   Number(reaction.requiredAtmosphere !== undefined && reaction.requiredAtmosphere !== conditions.atmosphere);
+export const reactionConditionsMatch = (reaction: Reaction, conditions: ReactionConditions) => conditionDistance(reaction, conditions) === 0;
+
+/** All sourced alternatives for the exact substance forms, including equation-only evidence. */
+export function findReactionScenarios(library: ReactionLibrary, selectedIds: string[]): Reaction[] {
+  const selected = new Set(selectedIds);
+  if (!selected.size) return [];
+  return library.reactions.filter(reaction => reaction.reviewStatus === 'source-checked' && reaction.reactants.length === selected.size && reaction.reactants.every(term => selected.has(term.id))).sort((a,b) => a.id.localeCompare(b.id));
+}
 
 const effects = new Set(['heat', 'flame', 'gas', 'steam', 'solid', 'toxic', 'blast', 'cooling']);
 const record = (value: unknown): value is Record<string, unknown> =>
@@ -139,7 +147,7 @@ export function evaluateReaction(library: ReactionLibrary, selectedIds: string[]
   if ([...selected].some(id => !known.has(id))) return { kind: 'invalid', message: 'A selected substance is unknown.' };
   if (!selected.size) return { kind: 'invalid', message: 'Add at least one substance.' };
   const equationOnlyMessage = 'Sourced equation available; complete reaction conditions are not modeled. See the two-element pair explorer.';
-  const matches = library.reactions.filter(reaction => reaction.reviewStatus === 'source-checked' && reaction.reactants.length === selected.size && reaction.reactants.every(term => selected.has(term.id)));
+  const matches = findReactionScenarios(library, selectedIds);
   if (scenarioId !== undefined) {
     const chosen = library.reactions.find(reaction => reaction.id === scenarioId);
     if (!chosen || chosen.reviewStatus !== 'source-checked') return { kind: 'invalid', message: 'The selected scenario ID does not identify a reviewed sourced scenario.' };
