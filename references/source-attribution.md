@@ -14,7 +14,7 @@ PubChem does not apply a universal downstream license to every contributor's con
 
 [NIST's policy](https://www.nist.gov/open/license) distinguishes Standard Reference Data compilations from other employee-produced data. This release extracts one ground-state configuration fact and derives shell counts; it does not distribute an ASD database or NIST artwork. It acknowledges NIST and describes the transformation. No blanket claim that every NIST database is public domain is made.
 
-Educational scope: 118 elements, 3,383 ground-state isotope records, 118 configurations and a source-checked reaction catalogue. Metastable states, complete reaction prediction, quantitative reaction dynamics and orbital probability images are outside this release. Electron rings are a schematic, not trajectories. An absent half-life never means stable. External teacher/scientist review has not occurred; automated checks and AI source review are recorded separately.
+Educational scope: 118 elements, 3,383 ground-state isotope records, 118 configurations and a source-checked reaction catalogue. Metastable states, complete reaction prediction, quantitative reaction dynamics and quantitative many-electron density calculations are outside this release. Electron rings are a schematic, not trajectories. An absent half-life never means stable. External teacher/scientist review has not occurred; automated checks and AI source review are recorded separately.
 
 
 ## Expanded reactions and physical changes
@@ -28,3 +28,9 @@ The expansion was checked for atom/charge conservation, condition ambiguity, sou
 112 additional accepted binary equations are factual transcriptions from [WebElements chemistry reference](https://www.webelements.com/), Mark Winter / University of Sheffield / WebElements Ltd, retrieved 20 November 2026 UTC; source edition dates are unavailable. Each record links its exact element chemistry page. Original source pages and artwork are excluded from public assets. Integer coefficient corrections are logged; two selenium product/phase conflicts are excluded. Thirty-six equations have incomplete activation conditions and are displayed without simulation. The catalogue covers 115 distinct binary pairs; the other pair lookups report a data gap.
 
 Nuclear equations are derived from IAEA A, Z, and decay-mode fields using nucleon-number and charge conservation. [IAEA conventions](https://www-nds.iaea.org/relnsd/vcharthtml/guide.html) and [OpenStax nuclear decay](https://openstax.org/books/college-physics-2e/pages/31-4-nuclear-decay-and-conservation-laws) are linked beside the equations. Branch percentages remain source values. Unspecified daughter excitation/gamma cascades are not invented; fission is schematic and ambiguous modes remain explicitly unavailable.
+
+## Electron cloud teaching model
+
+Cloud model 2026.11.20.1 replaces the duplicate shell diagram in the electron detail tab. Original Canvas rendering samples hydrogen-like radial probability and real spherical harmonics; no source artwork or prose is redistributed. Shape/count references: OpenStax Chemistry 2e §6.3, TU Delft Introduction to Quantum Mechanics hydrogen wavefunctions, and the MOPAC real spherical harmonic guide, checked 20 November 2026 UTC. Exact source links and model version/date appear in the panel; configuration inputs retain the original PubChem/NIST snapshot provenance.
+
+s/p/d/f colors label type, not phase or charge. Each view is an individually scaled, selected orbital, not the whole-atom or summed subshell density. Nodes and radial probability use hydrogen-like wavefunctions; no quantitative many-electron or relativistic calculation is claimed. See the electron-cloud review for derivation, validation, and display limits.
