@@ -150,7 +150,7 @@ export function evaluateReaction(library: ReactionLibrary, selectedIds: string[]
   const modeled = matches.filter(reaction => reaction.execution !== 'equation-only');
   if (matches.length && !modeled.length) return { kind: 'unsupported', message: equationOnlyMessage };
   const eligible = modeled.filter(reaction => conditionDistance(reaction, conditions) === 0);
-  if (eligible.length > 1) return { kind: 'invalid', message: 'Multiple reviewed scenarios match these ingredients and conditions. Choose a sourced scenario from the catalogue.' };
+  if (eligible.length > 1) return { kind: 'choose-scenario', scenarios: [...eligible].sort((a,b) => a.id.localeCompare(b.id)) };
   if (eligible.length === 1) return { kind: eligible[0].outcome, scenario: eligible[0] };
   if (!matches.length) return { kind: 'unsupported', message: 'This combination is not modeled yet.' };
   // Stable across snapshot ordering: prefer fewer unmet requirements, then the scenario ID.

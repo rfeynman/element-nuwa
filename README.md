@@ -44,3 +44,7 @@ See references/expanded-reaction-audit.md and references/expanded-independent-re
 Look up all 6,903 distinct pairs of the 118 elements. This snapshot provides 123 source-backed binary entries across 115 pairs. Unknown pairs report missing evidence; products are never inferred from element valences. Multiple endpoints require choosing a scenario. Thirty-six catalogue equations lack complete activation conditions and cannot simulate products.
 
 The 112 accepted additions are explicitly transcribed WebElements equations. Two selenium product/phase conflicts are excluded, including their unused product substances. See references/binary-independent-review.md and data/reactions/binary-merged-validation.json. All decay equations use nuclear charge/nucleon bookkeeping, with source branch percentages retained; unspecified levels or daughters remain unavailable or schematic.
+
+## 1.2.1 reaction interaction fix
+
+Fe + explicit O2 + heat now offers both sourced iron oxide endpoints in ordinary air, without a duplicate oxygen-atmosphere requirement. Multiple supported outcomes appear as actionable choices beside the vessel. Loaded examples preselect their stated conditions; a missing condition can be applied and run directly from the result panel. See references/iron-oxygen-fix.md.

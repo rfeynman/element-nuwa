@@ -33,7 +33,7 @@ def learner_name(s,elements):
 def main():
  target=ROOT/'public/data/reactions.json';data=json.loads(target.read_text());extra=json.loads((ROOT/'data/reactions/binary-elements-extra.json').read_text());elements=json.loads((ROOT/'public/data/explorer.json').read_text())['elements']
  # Re-running merges is idempotent in scientific content.
- if data['version'].endswith('.3'):raise SystemExit('Already merged. Run build.py first to rebuild the reviewed base.')
+ if data['version'].endswith(('.3','.4')):raise SystemExit('Already merged. Run build.py first to rebuild the reviewed base.')
  accepted=[r for r in extra['reactions'] if r['id'] not in EXCLUDED]
  used_extra={t['id'] for r in accepted for side in ('reactants','products') for t in r[side]}
  substances=data['substances'];by_identity={identity(s):s for s in substances};ids={s['id'] for s in substances};element_z={s['elementZ'] for s in substances if 'elementZ'in s};symbol_z={e['symbol']:e['z'] for e in elements};remap={}
@@ -60,6 +60,10 @@ def main():
  known={canonical(r):r for r in data['reactions']};added=duplicates=equation_only=0
  for original in accepted:
   r=deepcopy(original)
+  if r['id'] in ('binary-iron-o2-fe2o3','binary-iron-o2-fe3o4'):
+   # The cited iron page says heating with O2, not a separately required pure-O2 atmosphere.
+   r.pop('requiredAtmosphere',None)
+   r['conditionLabel']='Heat iron with the O₂ already added to the vessel. Fe₂O₃ and Fe₃O₄ are reported oxide endpoints; choose one to explore. Conceptual model only.'
   for side in ('reactants','products'):
    for t in r[side]:t['id']=remap[t['id']]
   r['sourceIds']=list(dict.fromkeys(source_remap[s] for s in r['sourceIds']))
@@ -83,7 +87,7 @@ def main():
  assert len({r['id'] for r in data['reactions']})==len(data['reactions'])
  assert len({s['elementZ'] for s in substances if 'elementZ'in s})==sum('elementZ'in s for s in substances)
  for substance in substances:learner_name(substance,elements)
- data['version']='2026.11.20-source-checked.3';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ data['version']='2026.11.20-source-checked.4';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
  candidate=target.with_suffix('.candidate');candidate.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');candidate.replace(target)
  manifest={'version':data['version'],'entries':len(data['reactions']),'modeled':sum(r.get('execution')!='equation-only' for r in data['reactions']),'equationOnly':sum(r.get('execution')=='equation-only' for r in data['reactions']),'addedBinaryEquations':added,'duplicateEquationsMerged':duplicates,'excludedBinaryEquations':EXCLUDED,'substances':len(substances),'sources':len(data['sources']),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'checks':['atom and charge conservation','unique reaction IDs','source URLs deduplicated','one elemental selection mapping per Z','unspecified activation withheld from simulation','independent selenium product/phase findings excluded with unused substances']}
  (ROOT/'data/reactions/binary-merged-validation.json').write_text(json.dumps(manifest,indent=2)+'\n');print(json.dumps(manifest))

@@ -127,7 +127,7 @@ test('evaluation is repeatable and leaves a frozen snapshot unchanged', () => {
 test('ambiguous reviewed scenarios fail closed, condition-specific scenarios win', () => {
   const library = fixture();
   library.reactions.push({ ...structuredClone(library.reactions[0]), id: 'duplicate-match' });
-  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition).kind, 'invalid');
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition).kind, 'choose-scenario');
   library.reactions[1].condition = 'ambient';
   library.reactions[1].requiredActivation = ['none'];
   library.reactions[1].outcome = 'no-reaction';
@@ -260,8 +260,8 @@ test('explicit sourced scenario chooses context without guessing products', () =
   library.reactions.push(alternative);
   const selection = ['hydrogen', 'oxygen'];
   const ambiguous = evaluateReaction(library, selection, ignition);
-  assert.equal(ambiguous.kind, 'invalid');
-  assert.match(ambiguous.message, /Choose a sourced scenario/);
+  assert.equal(ambiguous.kind, 'choose-scenario');
+  assert.deepEqual(new Set(ambiguous.scenarios.map(r=>r.id)),new Set([original.id,alternative.id]));
   assert.equal(evaluateReaction(library, selection, ignition, original.id).scenario, original);
   assert.equal(evaluateReaction(library, selection, ignition, alternative.id).kind, 'no-reaction');
   alternative.requiredActivation = ['heat'];
@@ -313,4 +313,21 @@ test('equation-only evidence never becomes a playable condition claim', () => {
   assert.equal(evaluateReaction(library, ['hydrogen'], ignition, equation.id).kind, 'invalid');
   modeled.execution = 'invalid';
   assert.match(validateLibrary(library).join(' '), /invalid execution mode/);
+});
+
+test('Fe plus explicit O2 and heat works in ordinary air with selectable sourced oxides',()=>{
+ const heat={activation:'heat',atmosphere:'air'};
+ const iron=published.reactions.filter(r=>r.id.startsWith('binary-iron-o2-'));
+ assert.equal(iron.length,2);
+ const inputs=iron[0].reactants.map(t=>t.id);
+ const choice=evaluateReaction(published,inputs,heat);
+ assert.equal(choice.kind,'choose-scenario');
+ assert.deepEqual(new Set(choice.scenarios.map(r=>r.id)),new Set(iron.map(r=>r.id)));
+ for(const r of iron){
+  assert.equal(evaluateReaction(published,inputs,heat,r.id).kind,'reaction');
+  assert.equal(evaluateReaction(published,inputs,{activation:'none',atmosphere:'air'},r.id).kind,'missing-condition');
+  assert.equal(evaluateReaction(published,[inputs[0]],heat,r.id).kind,'invalid');
+ }
+ const reversed={...published,reactions:[...published.reactions].reverse()};
+ assert.deepEqual(evaluateReaction(reversed,inputs,heat),choice);
 });

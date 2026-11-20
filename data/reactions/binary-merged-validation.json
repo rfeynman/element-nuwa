@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.20-source-checked.3",
+  "version": "2026.11.20-source-checked.4",
   "entries": 223,
   "modeled": 187,
   "equationOnly": 36,
@@ -11,7 +11,7 @@
   },
   "substances": 288,
   "sources": 54,
-  "sha256": "9a6c7db10d3f23a6e83937419c370193cce2148bc583ef87011c9740d15f9acd",
+  "sha256": "c1377519e8eecef073b6e24d3fbea2181cf5a54ba3552dbd90dc3aa8b74d879c",
   "checks": [
     "atom and charge conservation",
     "unique reaction IDs",

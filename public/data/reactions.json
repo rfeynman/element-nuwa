@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.20-source-checked.3",
-  "updatedAt": "2026-11-20T02:45:07.188926+00:00",
+  "version": "2026.11.20-source-checked.4",
+  "updatedAt": "2026-11-20T02:56:48.904983+00:00",
   "substances": [
     {
       "id": "H2",
@@ -9497,7 +9497,7 @@
         }
       ],
       "condition": "activation",
-      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "conditionLabel": "Heat iron with the O₂ already added to the vessel. Fe₂O₃ and Fe₃O₄ are reported oxide endpoints; choose one to explore. Conceptual model only.",
       "requiredActivation": [
         "heat"
       ],
@@ -9515,8 +9515,7 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Fe(s) + 3O2(g) → 2Fe2O3(s)",
-      "sourceLocator": "Reaction of iron with air",
-      "requiredAtmosphere": "oxygen"
+      "sourceLocator": "Reaction of iron with air"
     },
     {
       "id": "binary-iron-o2-fe3o4",
@@ -9538,7 +9537,7 @@
         }
       ],
       "condition": "activation",
-      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "conditionLabel": "Heat iron with the O₂ already added to the vessel. Fe₂O₃ and Fe₃O₄ are reported oxide endpoints; choose one to explore. Conceptual model only.",
       "requiredActivation": [
         "heat"
       ],
@@ -9556,8 +9555,7 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "3Fe(s) + 2O2(g) → Fe3O4(s)",
-      "sourceLocator": "Reaction of iron with air",
-      "requiredAtmosphere": "oxygen"
+      "sourceLocator": "Reaction of iron with air"
     },
     {
       "id": "binary-iron-f2-fef3",
