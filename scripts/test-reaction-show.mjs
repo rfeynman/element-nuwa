@@ -47,3 +47,40 @@ test('unchanged mixtures do not imply reactions; motion preference selects stati
  assert.match(render({}, {motion:false}),/rs-calm/);
  assert.match(html,/Skip animation/);
 });
+
+test('the effect surface is transparent and contains no curtain or opaque panel',async()=>{
+ const css=await readFile(new URL('../src/features/reaction-vessel/reaction-show.css',import.meta.url),'utf8');
+ const rootRule=css.match(/\.reaction-show\{([^}]+)\}/)?.[1]??'';
+ assert.match(rootRule,/background:transparent/);
+ assert.match(rootRule,/pointer-events:none/);
+ assert.doesNotMatch(css,/box-shadow|backdrop-filter|50vw|50dvh|100dvh|#10191a|#091414/);
+ assert.doesNotMatch(render(),/rs-atmosphere|rs-header|rs-orbit|rs-horizon/);
+ assert.match(render(),/width:620px;height:550px/);
+});
+
+test('viewport clamping keeps mobile effects around the actual vessel',()=>{
+ const previousWindow=globalThis.window;
+ try{
+  globalThis.window={innerWidth:390,innerHeight:844,matchMedia:()=>({matches:false})};
+  const html=render({}, {anchor:{left:100,top:320,width:190,height:160}});
+  assert.match(html,/left:8px;top:130px;width:374px;height:450px/);
+  assert.match(html,/--rs-origin-x:187px;--rs-origin-y:270px/);
+  // A vessel near an edge still determines the origin after the surface is clamped.
+  const edge=render({}, {anchor:{left:20,top:15,width:100,height:100}});
+  assert.match(edge,/left:8px;top:8px;width:374px;height:450px/);
+  assert.match(edge,/--rs-origin-x:62px;--rs-origin-y:57px/);
+ }finally{
+  if(previousWindow===undefined)delete globalThis.window;
+  else globalThis.window=previousWindow;
+ }
+});
+
+test('toxic markings require an explicit toxic gas effect without inventing its color',()=>{
+ const toxic=render({effects:['gas','toxic']});
+ assert.match(toxic,/rs-toxic/);
+ assert.match(toxic,/Toxic gas/);
+ assert.match(toxic,/rs-gas-invisible/);
+ assert.doesNotMatch(toxic,/rs-gas-colored/);
+ assert.doesNotMatch(render({effects:['gas']}),/rs-toxic/);
+ assert.doesNotMatch(render({effects:['toxic']}),/rs-toxic/);
+});

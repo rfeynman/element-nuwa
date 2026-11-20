@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.20-source-checked.2",
-  "updatedAt": "2026-11-20T02:26:53Z",
+  "version": "2026.11.20-source-checked.3",
+  "updatedAt": "2026-11-20T02:45:07.188926+00:00",
   "substances": [
     {
       "id": "H2",
@@ -1561,7 +1561,7 @@
     },
     {
       "id": "MgCl2-l",
-      "name": "MgCl2",
+      "name": "Magnesium chloride",
       "formula": "MgCl₂",
       "state": "l",
       "composition": {
@@ -1592,7 +1592,7 @@
     },
     {
       "id": "SiO2-s",
-      "name": "SiO2",
+      "name": "Silicon dioxide",
       "formula": "SiO₂",
       "state": "s",
       "composition": {
@@ -1636,7 +1636,7 @@
     },
     {
       "id": "SnO2-s",
-      "name": "SnO2",
+      "name": "Tin(IV) oxide",
       "formula": "SnO₂",
       "state": "s",
       "composition": {
@@ -1657,7 +1657,7 @@
     },
     {
       "id": "MnO2-s",
-      "name": "MnO2",
+      "name": "Manganese(IV) oxide",
       "formula": "MnO₂",
       "state": "s",
       "composition": {
@@ -1793,7 +1793,7 @@
     },
     {
       "id": "Al2O3-s",
-      "name": "Al2O3",
+      "name": "Aluminum oxide",
       "formula": "Al₂O₃",
       "state": "s",
       "composition": {
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "Na2O2-s",
-      "name": "Na2O2",
+      "name": "Sodium peroxide",
       "formula": "Na₂O₂",
       "state": "s",
       "composition": {
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "SrO2-s",
-      "name": "SrO2",
+      "name": "Strontium peroxide",
       "formula": "SrO₂",
       "state": "s",
       "composition": {
@@ -1843,6 +1843,1368 @@
       "composition": {
         "S": 1,
         "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "As-s",
+      "name": "Arsenic (As)",
+      "formula": "As",
+      "state": "s",
+      "composition": {
+        "As": 1
+      },
+      "charge": 0,
+      "elementZ": 33
+    },
+    {
+      "id": "As4O6-s",
+      "name": "Arsenic(III) oxide",
+      "formula": "As₄O₆",
+      "state": "s",
+      "composition": {
+        "As": 4,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "F2-g",
+      "name": "Fluorine (F2)",
+      "formula": "F₂",
+      "state": "g",
+      "composition": {
+        "F": 2
+      },
+      "charge": 0,
+      "elementZ": 9
+    },
+    {
+      "id": "AsF5-g",
+      "name": "Arsenic(V) fluoride",
+      "formula": "AsF₅",
+      "state": "g",
+      "composition": {
+        "As": 1,
+        "F": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "AsF3-l",
+      "name": "Arsenic(III) fluoride",
+      "formula": "AsF₃",
+      "state": "l",
+      "composition": {
+        "As": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "AsCl3-l",
+      "name": "Arsenic(III) chloride",
+      "formula": "AsCl₃",
+      "state": "l",
+      "composition": {
+        "As": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Br2-g",
+      "name": "Bromine (Br2)",
+      "formula": "Br₂",
+      "state": "g",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "AsBr3-s",
+      "name": "Arsenic(III) bromide",
+      "formula": "AsBr₃",
+      "state": "s",
+      "composition": {
+        "As": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "I2-g",
+      "name": "Iodine (I2)",
+      "formula": "I₂",
+      "state": "g",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "AsI3-s",
+      "name": "Arsenic(III) iodide",
+      "formula": "AsI₃",
+      "state": "s",
+      "composition": {
+        "As": 1,
+        "I": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba-s",
+      "name": "Barium (Ba)",
+      "formula": "Ba",
+      "state": "s",
+      "composition": {
+        "Ba": 1
+      },
+      "charge": 0,
+      "elementZ": 56
+    },
+    {
+      "id": "BaO-s",
+      "name": "Barium oxide",
+      "formula": "BaO",
+      "state": "s",
+      "composition": {
+        "Ba": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "BaO2-s",
+      "name": "Barium peroxide",
+      "formula": "BaO₂",
+      "state": "s",
+      "composition": {
+        "Ba": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba3N2-s",
+      "name": "Barium nitride",
+      "formula": "Ba₃N₂",
+      "state": "s",
+      "composition": {
+        "Ba": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Be-s",
+      "name": "Beryllium (Be)",
+      "formula": "Be",
+      "state": "s",
+      "composition": {
+        "Be": 1
+      },
+      "charge": 0,
+      "elementZ": 4
+    },
+    {
+      "id": "BeO-s",
+      "name": "Beryllium oxide",
+      "formula": "BeO",
+      "state": "s",
+      "composition": {
+        "Be": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Be3N2-s",
+      "name": "Beryllium nitride",
+      "formula": "Be₃N₂",
+      "state": "s",
+      "composition": {
+        "Be": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "BeCl2-s",
+      "name": "Beryllium chloride",
+      "formula": "BeCl₂",
+      "state": "s",
+      "composition": {
+        "Be": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "BeBr2-s",
+      "name": "Beryllium bromide",
+      "formula": "BeBr₂",
+      "state": "s",
+      "composition": {
+        "Be": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Bi-s",
+      "name": "Bismuth (Bi)",
+      "formula": "Bi",
+      "state": "s",
+      "composition": {
+        "Bi": 1
+      },
+      "charge": 0,
+      "elementZ": 83
+    },
+    {
+      "id": "Bi2O3-s",
+      "name": "Bismuth(III) oxide",
+      "formula": "Bi₂O₃",
+      "state": "s",
+      "composition": {
+        "Bi": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "BiF5-s",
+      "name": "Bismuth(V) fluoride",
+      "formula": "BiF₅",
+      "state": "s",
+      "composition": {
+        "Bi": 1,
+        "F": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "BiF3-s",
+      "name": "Bismuth(III) fluoride",
+      "formula": "BiF₃",
+      "state": "s",
+      "composition": {
+        "Bi": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "BiCl3-s",
+      "name": "Bismuth(III) chloride",
+      "formula": "BiCl₃",
+      "state": "s",
+      "composition": {
+        "Bi": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "BiBr3-s",
+      "name": "Bismuth(III) bromide",
+      "formula": "BiBr₃",
+      "state": "s",
+      "composition": {
+        "Bi": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "BiI3-s",
+      "name": "Bismuth(III) iodide",
+      "formula": "BiI₃",
+      "state": "s",
+      "composition": {
+        "Bi": 1,
+        "I": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cs-s",
+      "name": "Cesium (Cs)",
+      "formula": "Cs",
+      "state": "s",
+      "composition": {
+        "Cs": 1
+      },
+      "charge": 0,
+      "elementZ": 55
+    },
+    {
+      "id": "CsO2-s",
+      "name": "Cesium superoxide",
+      "formula": "CsO₂",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CsF-s",
+      "name": "Cesium fluoride",
+      "formula": "CsF",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CsCl-s",
+      "name": "Cesium chloride",
+      "formula": "CsCl",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CsBr-s",
+      "name": "Cesium bromide",
+      "formula": "CsBr",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CsI-s",
+      "name": "Cesium iodide",
+      "formula": "CsI",
+      "state": "s",
+      "composition": {
+        "Cs": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca3N2-s",
+      "name": "Calcium nitride",
+      "formula": "Ca₃N₂",
+      "state": "s",
+      "composition": {
+        "Ca": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaF2-s",
+      "name": "Calcium fluoride",
+      "formula": "CaF₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "F": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaCl2-s",
+      "name": "Calcium chloride",
+      "formula": "CaCl₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaBr2-s",
+      "name": "Calcium bromide",
+      "formula": "CaBr₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaI2-s",
+      "name": "Calcium iodide",
+      "formula": "CaI₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cr-s",
+      "name": "Chromium (Cr)",
+      "formula": "Cr",
+      "state": "s",
+      "composition": {
+        "Cr": 1
+      },
+      "charge": 0,
+      "elementZ": 24
+    },
+    {
+      "id": "CrF3-s",
+      "name": "Chromium(III) fluoride",
+      "formula": "CrF₃",
+      "state": "s",
+      "composition": {
+        "Cr": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CrCl3-s",
+      "name": "Chromium(III) chloride",
+      "formula": "CrCl₃",
+      "state": "s",
+      "composition": {
+        "Cr": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CrBr3-s",
+      "name": "Chromium(III) bromide",
+      "formula": "CrBr₃",
+      "state": "s",
+      "composition": {
+        "Cr": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CrI3-s",
+      "name": "Chromium(III) iodide",
+      "formula": "CrI₃",
+      "state": "s",
+      "composition": {
+        "Cr": 1,
+        "I": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Co-s",
+      "name": "Cobalt (Co)",
+      "formula": "Co",
+      "state": "s",
+      "composition": {
+        "Co": 1
+      },
+      "charge": 0,
+      "elementZ": 27
+    },
+    {
+      "id": "Co3O4-s",
+      "name": "Cobalt(II,III) oxide",
+      "formula": "Co₃O₄",
+      "state": "s",
+      "composition": {
+        "Co": 3,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "CoO-s",
+      "name": "Cobalt(II) oxide",
+      "formula": "CoO",
+      "state": "s",
+      "composition": {
+        "Co": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CoBr2-s",
+      "name": "Cobalt(II) bromide",
+      "formula": "CoBr₂",
+      "state": "s",
+      "composition": {
+        "Co": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CoCl2-s",
+      "name": "Cobalt(II) chloride",
+      "formula": "CoCl₂",
+      "state": "s",
+      "composition": {
+        "Co": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CoI2-s",
+      "name": "Cobalt(II) iodide",
+      "formula": "CoI₂",
+      "state": "s",
+      "composition": {
+        "Co": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cu2O-s",
+      "name": "Copper(I) oxide",
+      "formula": "Cu₂O",
+      "state": "s",
+      "composition": {
+        "Cu": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuF2-s",
+      "name": "Copper(II) fluoride",
+      "formula": "CuF₂",
+      "state": "s",
+      "composition": {
+        "Cu": 1,
+        "F": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuCl2-s",
+      "name": "Copper(II) chloride",
+      "formula": "CuCl₂",
+      "state": "s",
+      "composition": {
+        "Cu": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CuBr2-s",
+      "name": "Copper(II) bromide",
+      "formula": "CuBr₂",
+      "state": "s",
+      "composition": {
+        "Cu": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ge-s",
+      "name": "Germanium (Ge)",
+      "formula": "Ge",
+      "state": "s",
+      "composition": {
+        "Ge": 1
+      },
+      "charge": 0,
+      "elementZ": 32
+    },
+    {
+      "id": "GeO2-s",
+      "name": "Germanium(IV) oxide",
+      "formula": "GeO₂",
+      "state": "s",
+      "composition": {
+        "Ge": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Fe2O3-s",
+      "name": "Iron(III) oxide",
+      "formula": "Fe₂O₃",
+      "state": "s",
+      "composition": {
+        "Fe": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Fe3O4-s",
+      "name": "Iron(II,III) oxide",
+      "formula": "Fe₃O₄",
+      "state": "s",
+      "composition": {
+        "Fe": 3,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "FeF3-s",
+      "name": "Iron(III) fluoride",
+      "formula": "FeF₃",
+      "state": "s",
+      "composition": {
+        "Fe": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "FeCl3-s",
+      "name": "Iron(III) chloride",
+      "formula": "FeCl₃",
+      "state": "s",
+      "composition": {
+        "Fe": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "FeBr3-s",
+      "name": "Iron(III) bromide",
+      "formula": "FeBr₃",
+      "state": "s",
+      "composition": {
+        "Fe": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "FeI2-s",
+      "name": "Iron(II) iodide",
+      "formula": "FeI₂",
+      "state": "s",
+      "composition": {
+        "Fe": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Pb-s",
+      "name": "Lead (Pb)",
+      "formula": "Pb",
+      "state": "s",
+      "composition": {
+        "Pb": 1
+      },
+      "charge": 0,
+      "elementZ": 82
+    },
+    {
+      "id": "PbO-s",
+      "name": "Lead(II) oxide",
+      "formula": "PbO",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "PbF2-s",
+      "name": "Lead(II) fluoride",
+      "formula": "PbF₂",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "F": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "PbCl2-s",
+      "name": "Lead(II) chloride",
+      "formula": "PbCl₂",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Li2O2-s",
+      "name": "Lithium peroxide",
+      "formula": "Li₂O₂",
+      "state": "s",
+      "composition": {
+        "Li": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiF-s",
+      "name": "Lithium fluoride",
+      "formula": "LiF",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiCl-s",
+      "name": "Lithium chloride",
+      "formula": "LiCl",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiBr-s",
+      "name": "Lithium bromide",
+      "formula": "LiBr",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiI-s",
+      "name": "Lithium iodide",
+      "formula": "LiI",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgCl2-s",
+      "name": "Magnesium chloride",
+      "formula": "MgCl₂",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgBr2-s",
+      "name": "Magnesium bromide",
+      "formula": "MgBr₂",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mn-s",
+      "name": "Manganese (Mn)",
+      "formula": "Mn",
+      "state": "s",
+      "composition": {
+        "Mn": 1
+      },
+      "charge": 0,
+      "elementZ": 25
+    },
+    {
+      "id": "Mn3O4-s",
+      "name": "Manganese(II,III) oxide",
+      "formula": "Mn₃O₄",
+      "state": "s",
+      "composition": {
+        "Mn": 3,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mn3N2-s",
+      "name": "Manganese(II) nitride",
+      "formula": "Mn₃N₂",
+      "state": "s",
+      "composition": {
+        "Mn": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnCl2-s",
+      "name": "Manganese(II) chloride",
+      "formula": "MnCl₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnBr2-s",
+      "name": "Manganese(II) bromide",
+      "formula": "MnBr₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnI2-s",
+      "name": "Manganese(II) iodide",
+      "formula": "MnI₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnF2-s",
+      "name": "Manganese(II) fluoride",
+      "formula": "MnF₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "F": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnF3-s",
+      "name": "Manganese(III) fluoride",
+      "formula": "MnF₃",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "NiO-s",
+      "name": "Nickel(II) oxide",
+      "formula": "NiO",
+      "state": "s",
+      "composition": {
+        "Ni": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NiCl2-s",
+      "name": "Nickel(II) chloride",
+      "formula": "NiCl₂",
+      "state": "s",
+      "composition": {
+        "Ni": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "NiBr2-s",
+      "name": "Nickel(II) bromide",
+      "formula": "NiBr₂",
+      "state": "s",
+      "composition": {
+        "Ni": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "NiI2-s",
+      "name": "Nickel(II) iodide",
+      "formula": "NiI₂",
+      "state": "s",
+      "composition": {
+        "Ni": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "K-s",
+      "name": "Potassium (K)",
+      "formula": "K",
+      "state": "s",
+      "composition": {
+        "K": 1
+      },
+      "charge": 0,
+      "elementZ": 19
+    },
+    {
+      "id": "KO2-s",
+      "name": "Potassium superoxide",
+      "formula": "KO₂",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "KF-s",
+      "name": "Potassium fluoride",
+      "formula": "KF",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "KBr-s",
+      "name": "Potassium bromide",
+      "formula": "KBr",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "KI-s",
+      "name": "Potassium iodide",
+      "formula": "KI",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Rb-s",
+      "name": "Rubidium (Rb)",
+      "formula": "Rb",
+      "state": "s",
+      "composition": {
+        "Rb": 1
+      },
+      "charge": 0,
+      "elementZ": 37
+    },
+    {
+      "id": "RbO2-s",
+      "name": "Rubidium superoxide",
+      "formula": "RbO₂",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "RbF-s",
+      "name": "Rubidium fluoride",
+      "formula": "RbF",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "RbCl-s",
+      "name": "Rubidium chloride",
+      "formula": "RbCl",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "RbBr-s",
+      "name": "Rubidium bromide",
+      "formula": "RbBr",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "RbI-s",
+      "name": "Rubidium iodide",
+      "formula": "RbI",
+      "state": "s",
+      "composition": {
+        "Rb": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Sc-s",
+      "name": "Scandium (Sc)",
+      "formula": "Sc",
+      "state": "s",
+      "composition": {
+        "Sc": 1
+      },
+      "charge": 0,
+      "elementZ": 21
+    },
+    {
+      "id": "ScF3-s",
+      "name": "Scandium fluoride",
+      "formula": "ScF₃",
+      "state": "s",
+      "composition": {
+        "Sc": 1,
+        "F": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "ScCl3-s",
+      "name": "Scandium chloride",
+      "formula": "ScCl₃",
+      "state": "s",
+      "composition": {
+        "Sc": 1,
+        "Cl": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "ScBr3-s",
+      "name": "Scandium bromide",
+      "formula": "ScBr₃",
+      "state": "s",
+      "composition": {
+        "Sc": 1,
+        "Br": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "ScI3-s",
+      "name": "Scandium iodide",
+      "formula": "ScI₃",
+      "state": "s",
+      "composition": {
+        "Sc": 1,
+        "I": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Se8-s",
+      "name": "Selenium (Se8)",
+      "formula": "Se₈",
+      "state": "s",
+      "composition": {
+        "Se": 8
+      },
+      "charge": 0,
+      "elementZ": 34
+    },
+    {
+      "id": "SeO2-s",
+      "name": "Selenium(IV) oxide",
+      "formula": "SeO₂",
+      "state": "s",
+      "composition": {
+        "Se": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SeCl4-s",
+      "name": "Selenium(IV) chloride",
+      "formula": "SeCl₄",
+      "state": "s",
+      "composition": {
+        "Se": 1,
+        "Cl": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "SeBr4-s",
+      "name": "Selenium(IV) bromide",
+      "formula": "SeBr₄",
+      "state": "s",
+      "composition": {
+        "Se": 1,
+        "Br": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "AgF2-s",
+      "name": "Silver(II) fluoride",
+      "formula": "AgF₂",
+      "state": "s",
+      "composition": {
+        "Ag": 1,
+        "F": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaF-s",
+      "name": "Sodium fluoride",
+      "formula": "NaF",
+      "state": "s",
+      "composition": {
+        "Na": 1,
+        "F": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaBr-s",
+      "name": "Sodium bromide",
+      "formula": "NaBr",
+      "state": "s",
+      "composition": {
+        "Na": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaI-s",
+      "name": "Sodium iodide",
+      "formula": "NaI",
+      "state": "s",
+      "composition": {
+        "Na": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Sr-s",
+      "name": "Strontium (Sr)",
+      "formula": "Sr",
+      "state": "s",
+      "composition": {
+        "Sr": 1
+      },
+      "charge": 0,
+      "elementZ": 38
+    },
+    {
+      "id": "Sr3N2-s",
+      "name": "Strontium nitride",
+      "formula": "Sr₃N₂",
+      "state": "s",
+      "composition": {
+        "Sr": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrCl2-s",
+      "name": "Strontium chloride",
+      "formula": "SrCl₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrBr2-s",
+      "name": "Strontium bromide",
+      "formula": "SrBr₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrI2-s",
+      "name": "Strontium iodide",
+      "formula": "SrI₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ti-s",
+      "name": "Titanium (Ti)",
+      "formula": "Ti",
+      "state": "s",
+      "composition": {
+        "Ti": 1
+      },
+      "charge": 0,
+      "elementZ": 22
+    },
+    {
+      "id": "TiO2-s",
+      "name": "Titanium(IV) oxide",
+      "formula": "TiO₂",
+      "state": "s",
+      "composition": {
+        "Ti": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "TiN-s",
+      "name": "Titanium nitride",
+      "formula": "TiN",
+      "state": "s",
+      "composition": {
+        "Ti": 1,
+        "N": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "TiF4-s",
+      "name": "Titanium(IV) fluoride",
+      "formula": "TiF₄",
+      "state": "s",
+      "composition": {
+        "Ti": 1,
+        "F": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "TiCl4-l",
+      "name": "Titanium(IV) chloride",
+      "formula": "TiCl₄",
+      "state": "l",
+      "composition": {
+        "Ti": 1,
+        "Cl": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "TiBr4-s",
+      "name": "Titanium(IV) bromide",
+      "formula": "TiBr₄",
+      "state": "s",
+      "composition": {
+        "Ti": 1,
+        "Br": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "TiI4-s",
+      "name": "Titanium(IV) iodide",
+      "formula": "TiI₄",
+      "state": "s",
+      "composition": {
+        "Ti": 1,
+        "I": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "V-s",
+      "name": "Vanadium (V)",
+      "formula": "V",
+      "state": "s",
+      "composition": {
+        "V": 1
+      },
+      "charge": 0,
+      "elementZ": 23
+    },
+    {
+      "id": "V2O5-s",
+      "name": "Vanadium(V) oxide",
+      "formula": "V₂O₅",
+      "state": "s",
+      "composition": {
+        "V": 2,
+        "O": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "VF5-l",
+      "name": "Vanadium(V) fluoride",
+      "formula": "VF₅",
+      "state": "l",
+      "composition": {
+        "V": 1,
+        "F": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnBr2-s",
+      "name": "Zinc bromide",
+      "formula": "ZnBr₂",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnI2-s",
+      "name": "Zinc iodide",
+      "formula": "ZnI₂",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "I": 2
       },
       "charge": 0
     }
@@ -6331,6 +7693,4541 @@
         "openstax-18-9"
       ],
       "reviewStatus": "source-checked"
+    },
+    {
+      "id": "binary-arsenic-o2-as4o6",
+      "title": "Arsenic + Oxygen → As₄O₆",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "As4O6-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4As(s) + 3O2(g) → As4O6(s)",
+      "sourceLocator": "Reaction of arsenic with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-arsenic-f2-asf5",
+      "title": "Arsenic + Fluorine → AsF₅",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "AsF5-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2As(s) + 5F2(g) → 2 AsF5(g)  [colourless]",
+      "sourceLocator": "Reaction of arsenic with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-arsenic-f2-asf3",
+      "title": "Arsenic + Fluorine → AsF₃",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "AsF3-l",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2As(s) + 3F2(g) → 2AsF3(l)  [colourless]",
+      "sourceLocator": "Reaction of arsenic with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-arsenic-cl2-ascl3",
+      "title": "Arsenic + Chlorine → AsCl₃",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "AsCl3-l",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2As(s) + 3Cl2(g) → 2AsCl3(l)  [colourless]",
+      "sourceLocator": "Reaction of arsenic with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-arsenic-br2-asbr3",
+      "title": "Arsenic + Bromine → AsBr₃",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "AsBr3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2As(s) + 3Br2(g) → 2AsBr3(s)  [pale yellow]",
+      "sourceLocator": "Reaction of arsenic with the halogens"
+    },
+    {
+      "id": "binary-arsenic-i2-asi3",
+      "title": "Arsenic + Iodine → AsI₃",
+      "reactants": [
+        {
+          "id": "As-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "AsI3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-arsenic"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2As(s) + 3I2(g) → 2AsI3(s)  [red]",
+      "sourceLocator": "Reaction of arsenic with the halogens"
+    },
+    {
+      "id": "binary-barium-o2-bao",
+      "title": "Barium + Oxygen → BaO",
+      "reactants": [
+        {
+          "id": "Ba-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BaO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-barium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Ba(s) + O2(g) → 2BaO(s)",
+      "sourceLocator": "Reaction of barium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-barium-o2-bao2",
+      "title": "Barium + Oxygen → BaO₂",
+      "reactants": [
+        {
+          "id": "Ba-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BaO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited barium; the source reports BaO2 as an additional possible product alongside the oxide and nitride. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-barium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ba(s) + O2(g) → BaO2(s)",
+      "sourceLocator": "Reaction of barium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-barium-n2-ba3n2",
+      "title": "Barium + Nitrogen → Ba₃N₂",
+      "reactants": [
+        {
+          "id": "Ba-s",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Ba3N2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-barium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Ba(s) + N2(g) → Ba3N2(s)",
+      "sourceLocator": "Reaction of barium with air"
+    },
+    {
+      "id": "binary-beryllium-o2-beo",
+      "title": "Beryllium + Oxygen → BeO",
+      "reactants": [
+        {
+          "id": "Be-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BeO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-beryllium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Be(s) + O2(g) → 2BeO(s)",
+      "sourceLocator": "Reaction of beryllium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-beryllium-n2-be3n2",
+      "title": "Beryllium + Nitrogen → Be₃N₂",
+      "reactants": [
+        {
+          "id": "Be-s",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Be3N2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-beryllium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Be(s) + N2(g) → Be3N2(s)",
+      "sourceLocator": "Reaction of beryllium with air"
+    },
+    {
+      "id": "binary-beryllium-cl2-becl2",
+      "title": "Beryllium + Chlorine → BeCl₂",
+      "reactants": [
+        {
+          "id": "Be-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BeCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-beryllium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Be(s) + Cl2(g) → BeCl2(s)",
+      "sourceLocator": "Reaction of beryllium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-beryllium-br2-bebr2",
+      "title": "Beryllium + Bromine → BeBr₂",
+      "reactants": [
+        {
+          "id": "Be-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BeBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-beryllium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Be(s) + Br2(g) → BeBr2(s)",
+      "sourceLocator": "Reaction of beryllium with the halogens"
+    },
+    {
+      "id": "binary-bismuth-o2-bi2o3",
+      "title": "Bismuth + Oxygen → Bi₂O₃",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "Bi2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Bi(s) + 3O2(g) → 2Bi2O3(s)",
+      "sourceLocator": "Reaction of bismuth with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-bismuth-f2-bif5",
+      "title": "Bismuth + Fluorine → BiF₅",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "BiF5-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Bi(s) + 5F2(g) → 2 BiF5(s)  [white]",
+      "sourceLocator": "Reaction of bismuth with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-bismuth-f2-bif3",
+      "title": "Bismuth + Fluorine → BiF₃",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "BiF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Bi(s) + 3F2(g) → 2BiF3(s)  []",
+      "sourceLocator": "Reaction of bismuth with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-bismuth-cl2-bicl3",
+      "title": "Bismuth + Chlorine → BiCl₃",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "BiCl3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Bi(s) + 3Cl2(g) → 2BiCl3(s)  []",
+      "sourceLocator": "Reaction of bismuth with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-bismuth-br2-bibr3",
+      "title": "Bismuth + Bromine → BiBr₃",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "BiBr3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Bi(s) + 3Br2(g) → 2BiBr3(s)  []",
+      "sourceLocator": "Reaction of bismuth with the halogens"
+    },
+    {
+      "id": "binary-bismuth-i2-bii3",
+      "title": "Bismuth + Iodine → BiI₃",
+      "reactants": [
+        {
+          "id": "Bi-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "BiI3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Controlled conditions select the trihalide; this is not a unique result for every condition. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-bismuth"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Bi(s) + 3I2(g) → 2BiI3(s)  []",
+      "sourceLocator": "Reaction of bismuth with the halogens"
+    },
+    {
+      "id": "binary-caesium-o2-cso2",
+      "title": "Cesium + Oxygen → CsO₂",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CsO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-caesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Cs(s) + O2(g) → CsO2(s)",
+      "sourceLocator": "Reaction of caesium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-caesium-f2-csf",
+      "title": "Cesium + Fluorine → CsF",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CsF-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-caesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s) + F2(g) → CsF(s)",
+      "sourceLocator": "Reaction of caesium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-caesium-cl2-cscl",
+      "title": "Cesium + Chlorine → CsCl",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CsCl-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-caesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s) + Cl2(g) → CsCl(s)",
+      "sourceLocator": "Reaction of caesium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-caesium-br2-csbr",
+      "title": "Cesium + Bromine → CsBr",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CsBr-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-caesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s) + Br2(g) → CsBr(s)",
+      "sourceLocator": "Reaction of caesium with the halogens"
+    },
+    {
+      "id": "binary-caesium-i2-csi",
+      "title": "Cesium + Iodine → CsI",
+      "reactants": [
+        {
+          "id": "Cs-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CsI-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-caesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cs(s) + I2(g) → CsI(s)",
+      "sourceLocator": "Reaction of caesium with the halogens"
+    },
+    {
+      "id": "binary-calcium-o2-cao",
+      "title": "Calcium + Oxygen → CaO",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Ca(s) + O2(g) → 2CaO(s)",
+      "sourceLocator": "Reaction of calcium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-calcium-n2-ca3n2",
+      "title": "Calcium + Nitrogen → Ca₃N₂",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca3N2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Ca(s) + N2(g) → Ca3N2(s)",
+      "sourceLocator": "Reaction of calcium with air"
+    },
+    {
+      "id": "binary-calcium-f2-caf2",
+      "title": "Calcium + Fluorine → CaF₂",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaF2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ca(s) + F2(g) → CaF2(s)",
+      "sourceLocator": "Reaction of calcium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-calcium-cl2-cacl2",
+      "title": "Calcium + Chlorine → CaCl₂",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ca(s) + Cl2(g) → CaCl2(s)",
+      "sourceLocator": "Reaction of calcium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-calcium-br2-cabr2",
+      "title": "Calcium + Bromine → CaBr₂",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ca(s) + Br2(g) → CaBr2(s)",
+      "sourceLocator": "Reaction of calcium with the halogens"
+    },
+    {
+      "id": "binary-calcium-i2-cai2",
+      "title": "Calcium + Iodine → CaI₂",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-calcium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ca(s) + I2(g) → CaI2(s)",
+      "sourceLocator": "Reaction of calcium with the halogens"
+    },
+    {
+      "id": "binary-chromium-f2-crf3",
+      "title": "Chromium + Fluorine → CrF₃",
+      "reactants": [
+        {
+          "id": "Cr-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CrF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-chromium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cr(s) + 3F2(g) → 2CrF3(s)  [green]",
+      "sourceLocator": "Reaction of chromium with the halogens"
+    },
+    {
+      "id": "binary-chromium-cl2-crcl3",
+      "title": "Chromium + Chlorine → CrCl₃",
+      "reactants": [
+        {
+          "id": "Cr-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CrCl3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-chromium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cr(s) + 3Cl2(g) → 2CrCl3(s)  [red-violet]",
+      "sourceLocator": "Reaction of chromium with the halogens"
+    },
+    {
+      "id": "binary-chromium-br2-crbr3",
+      "title": "Chromium + Bromine → CrBr₃",
+      "reactants": [
+        {
+          "id": "Cr-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CrBr3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-chromium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cr(s) + 3Br2(g) → 2CrBr3(s)  [very dark green]",
+      "sourceLocator": "Reaction of chromium with the halogens"
+    },
+    {
+      "id": "binary-chromium-i2-cri3",
+      "title": "Chromium + Iodine → CrI₃",
+      "reactants": [
+        {
+          "id": "Cr-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CrI3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-chromium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Cr(s) + 3I2(g) → 2CrI3(s)  [very dark green]",
+      "sourceLocator": "Reaction of chromium with the halogens"
+    },
+    {
+      "id": "binary-cobalt-o2-co3o4",
+      "title": "Cobalt + Oxygen → Co₃O₄",
+      "reactants": [
+        {
+          "id": "Co-s",
+          "coefficient": 3
+        },
+        {
+          "id": "O2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Co3O4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in oxygen; the Co3O4 endpoint below the higher-temperature CoO regime. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-cobalt"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Co(s) + 4O2(g) → 2Co3O4(s)",
+      "sourceLocator": "Reaction of cobalt with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-cobalt-o2-coo",
+      "title": "Cobalt + Oxygen → CoO",
+      "reactants": [
+        {
+          "id": "Co-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CoO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in oxygen; the higher-temperature CoO endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-cobalt"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Co(s) + O2(g) → 2CoO(s)",
+      "sourceLocator": "Reaction of cobalt with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-cobalt-br2-cobr2",
+      "title": "Cobalt + Bromine → CoBr₂",
+      "reactants": [
+        {
+          "id": "Co-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CoBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-cobalt"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Co(s) + Br2(l) → CoBr2(s) [green]",
+      "sourceLocator": "Reaction of cobalt with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-cobalt-cl2-cocl2",
+      "title": "Cobalt + Chlorine → CoCl₂",
+      "reactants": [
+        {
+          "id": "Co-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CoCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-cobalt"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Co(s) + Cl2(g) → CoCl2(s) [blue]",
+      "sourceLocator": "Reaction of cobalt with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-cobalt-i2-coi2",
+      "title": "Cobalt + Iodine → CoI₂",
+      "reactants": [
+        {
+          "id": "Co-s",
+          "coefficient": 1
+        },
+        {
+          "id": "I2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CoI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-cobalt"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Co(s) + I2(s) → CoI2(s) [blue-black]",
+      "sourceLocator": "Reaction of cobalt with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-copper-o2-cu2o",
+      "title": "Copper + Oxygen → Cu₂O",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Cu2O-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-copper"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Cu(s) + O2(g) → 2Cu2O(s)",
+      "sourceLocator": "Reaction of copper with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-copper-f2-cuf2",
+      "title": "Copper + Fluorine → CuF₂",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CuF2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-copper"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Cu(s) + F2(g) → CuF2(s)  [white]",
+      "sourceLocator": "Reaction of copper with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-copper-cl2-cucl2",
+      "title": "Copper + Chlorine → CuCl₂",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CuCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-copper"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Cu(s) + Cl2(g) → CuCl2(s)  [yellow-brown]",
+      "sourceLocator": "Reaction of copper with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-copper-br2-cubr2",
+      "title": "Copper + Bromine → CuBr₂",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CuBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-copper"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Cu(s) + Br2(g) → CuBr2(s)  [black]",
+      "sourceLocator": "Reaction of copper with the halogens"
+    },
+    {
+      "id": "binary-germanium-o2-geo2",
+      "title": "Germanium + Oxygen → GeO₂",
+      "reactants": [
+        {
+          "id": "Ge-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "GeO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-germanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ge(s) + O2(g) → GeO2(s)",
+      "sourceLocator": "Reaction of germanium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-iron-o2-fe2o3",
+      "title": "Iron + Oxygen → Fe₂O₃",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Fe(s) + 3O2(g) → 2Fe2O3(s)",
+      "sourceLocator": "Reaction of iron with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-iron-o2-fe3o4",
+      "title": "Iron + Oxygen → Fe₃O₄",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 3
+        },
+        {
+          "id": "O2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe3O4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Fe(s) + 2O2(g) → Fe3O4(s)",
+      "sourceLocator": "Reaction of iron with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-iron-f2-fef3",
+      "title": "Iron + Fluorine → FeF₃",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "FeF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Source specifies excess halogen for the Fe(III) endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Fe(s) + 3F2(g) → 2FeF3(s) (white)",
+      "sourceLocator": "Reaction of iron with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-iron-cl2-fecl3",
+      "title": "Iron + Chlorine → FeCl₃",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "FeCl3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Source specifies excess halogen for the Fe(III) endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Fe(s) + 3Cl2(g) → 2FeCl3(s) (dark brown)",
+      "sourceLocator": "Reaction of iron with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-iron-br2-febr3",
+      "title": "Iron + Bromine → FeBr₃",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "FeBr3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Source specifies excess halogen for the Fe(III) endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Fe(s) + 3Br2(l) → 2FeBr3(s) (reddish brown)",
+      "sourceLocator": "Reaction of iron with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-iron-i2-fei2",
+      "title": "Iron + Iodine → FeI₂",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 1
+        },
+        {
+          "id": "I2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "FeI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-iron"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Fe(s) + I2(s) → FeI2(s) (grey)",
+      "sourceLocator": "Reaction of iron with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-lead-o2-pbo",
+      "title": "Lead + Oxygen → PbO",
+      "reactants": [
+        {
+          "id": "Pb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lead"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Pb(s) + O2(g) → 2PbO(s)",
+      "sourceLocator": "Reaction of lead with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-lead-f2-pbf2",
+      "title": "Lead + Fluorine → PbF₂",
+      "reactants": [
+        {
+          "id": "Pb-s",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbF2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-lead"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Pb(s) + F2(g) → PbF2(s)  []",
+      "sourceLocator": "Reaction of lead with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-lead-cl2-pbcl2",
+      "title": "Lead + Chlorine → PbCl₂",
+      "reactants": [
+        {
+          "id": "Pb-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lead"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Pb(s) + Cl2(g) → PbCl2(s)  []",
+      "sourceLocator": "Reaction of lead with the halogens"
+    },
+    {
+      "id": "binary-lithium-o2-li2o",
+      "title": "Lithium + Oxygen → Li₂O",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Li2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited lithium; Li2O is the principal reported air-combustion product. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Li(s) + O2(g) → 2Li2O(s)",
+      "sourceLocator": "Reaction of lithium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-lithium-o2-li2o2",
+      "title": "Lithium + Oxygen → Li₂O₂",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Li2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited lithium; Li2O2 is a minor co-product, not an exclusive endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s) + O2(g) → 2Li2O2(s)",
+      "sourceLocator": "Reaction of lithium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-lithium-f2-lif",
+      "title": "Lithium + Fluorine → LiF",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "LiF-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s) + F2(g) → LiF(s)",
+      "sourceLocator": "Reaction of lithium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-lithium-cl2-licl",
+      "title": "Lithium + Chlorine → LiCl",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "LiCl-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s) + Cl2(g) → LiCl(s)",
+      "sourceLocator": "Reaction of lithium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-lithium-br2-libr",
+      "title": "Lithium + Bromine → LiBr",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "LiBr-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s) + Br2(g) → LiBr(s)",
+      "sourceLocator": "Reaction of lithium with the halogens"
+    },
+    {
+      "id": "binary-lithium-i2-lii",
+      "title": "Lithium + Iodine → LiI",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "LiI-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-lithium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Li(s) + I2(g) → LiI(s)",
+      "sourceLocator": "Reaction of lithium with the halogens"
+    },
+    {
+      "id": "binary-magnesium-n2-mg3n2",
+      "title": "Magnesium + Nitrogen → Mg₃N₂",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg3N2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-magnesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Mg(s) + N2(g) → Mg3N2(s)",
+      "sourceLocator": "Reaction of magnesium with air"
+    },
+    {
+      "id": "binary-magnesium-cl2-mgcl2",
+      "title": "Magnesium + Chlorine → MgCl₂",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MgCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-magnesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mg(s) + Cl2(g) → MgCl2(s)",
+      "sourceLocator": "Reaction of magnesium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-magnesium-br2-mgbr2",
+      "title": "Magnesium + Bromine → MgBr₂",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MgBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-magnesium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mg(s) + Br2(g) → MgBr2(s)",
+      "sourceLocator": "Reaction of magnesium with the halogens"
+    },
+    {
+      "id": "binary-manganese-o2-mn3o4",
+      "title": "Manganese + Oxygen → Mn₃O₄",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 3
+        },
+        {
+          "id": "O2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Mn3O4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Mn(s) + 2O2(g) → Mn3O4(s)",
+      "sourceLocator": "Reaction of manganese with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-manganese-n2-mn3n2",
+      "title": "Manganese + Nitrogen → Mn₃N₂",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Mn3N2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Mn(s) + N2(g) → Mn3N2(s)",
+      "sourceLocator": "Reaction of manganese with air"
+    },
+    {
+      "id": "binary-manganese-cl2-mncl2",
+      "title": "Manganese + Chlorine → MnCl₂",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mn(s) + Cl2(g) → MnCl2(s)",
+      "sourceLocator": "Reaction of manganese with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-manganese-br2-mnbr2",
+      "title": "Manganese + Bromine → MnBr₂",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mn(s) + Br2(g) → MnBr2(s)",
+      "sourceLocator": "Reaction of manganese with the halogens"
+    },
+    {
+      "id": "binary-manganese-i2-mni2",
+      "title": "Manganese + Iodine → MnI₂",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mn(s) + I2(g) → MnI2(s)",
+      "sourceLocator": "Reaction of manganese with the halogens"
+    },
+    {
+      "id": "binary-manganese-f2-mnf2",
+      "title": "Manganese + Fluorine → MnF₂",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnF2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct fluorination; the source reports both MnF2 and MnF3 without complete conditions selecting their proportions. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Mn(s) + F2(g) → MnF2(s)",
+      "sourceLocator": "Reaction of manganese with the halogens"
+    },
+    {
+      "id": "binary-manganese-f2-mnf3",
+      "title": "Manganese + Fluorine → MnF₃",
+      "reactants": [
+        {
+          "id": "Mn-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "MnF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct fluorination; the source reports both MnF2 and MnF3 without complete conditions selecting their proportions. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-manganese"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Mn(s) + 3F2(g) → 2MnF3(s)",
+      "sourceLocator": "Reaction of manganese with the halogens"
+    },
+    {
+      "id": "binary-nickel-o2-nio",
+      "title": "Nickel + Oxygen → NiO",
+      "reactants": [
+        {
+          "id": "Ni",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NiO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating nickel in oxygen; the source notes incomplete conversion to NiO. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-nickel"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Ni(s) + O2(g) → 2NiO(s)",
+      "sourceLocator": "Reaction of nickel with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-nickel-cl2-nicl2",
+      "title": "Nickel + Chlorine → NiCl₂",
+      "reactants": [
+        {
+          "id": "Ni",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NiCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-nickel"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ni(s) + Cl2(g) → NiCl2(s)  [yellow]",
+      "sourceLocator": "Reaction of nickel with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-nickel-br2-nibr2",
+      "title": "Nickel + Bromine → NiBr₂",
+      "reactants": [
+        {
+          "id": "Ni",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NiBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-nickel"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ni(s) + Br2(g) → NiBr2(s)  [yellow]",
+      "sourceLocator": "Reaction of nickel with the halogens"
+    },
+    {
+      "id": "binary-nickel-i2-nii2",
+      "title": "Nickel + Iodine → NiI₂",
+      "reactants": [
+        {
+          "id": "Ni",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NiI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-nickel"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ni(s) + I2(g) → NiI2(s)  [black]",
+      "sourceLocator": "Reaction of nickel with the halogens"
+    },
+    {
+      "id": "binary-potassium-o2-ko2",
+      "title": "Potassium + Oxygen → KO₂",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-potassium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "K(s) + O2(g) → KO2(s)",
+      "sourceLocator": "Reaction of potassium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-potassium-f2-kf",
+      "title": "Potassium + Fluorine → KF",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KF-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-potassium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s) + F2(g) → KF(s)",
+      "sourceLocator": "Reaction of potassium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-potassium-cl2-kcl",
+      "title": "Potassium + Chlorine → KCl",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KCl",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-potassium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s) + Cl2(g) → KCl(s)",
+      "sourceLocator": "Reaction of potassium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-potassium-br2-kbr",
+      "title": "Potassium + Bromine → KBr",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KBr-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-potassium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s) + Br2(g) → KBr(s)",
+      "sourceLocator": "Reaction of potassium with the halogens"
+    },
+    {
+      "id": "binary-potassium-i2-ki",
+      "title": "Potassium + Iodine → KI",
+      "reactants": [
+        {
+          "id": "K-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KI-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-potassium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2K(s) + I2(g) → KI(s)",
+      "sourceLocator": "Reaction of potassium with the halogens"
+    },
+    {
+      "id": "binary-rubidium-o2-rbo2",
+      "title": "Rubidium + Oxygen → RbO₂",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "RbO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-rubidium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Rb(s) + O2(g) → RbO2(s)",
+      "sourceLocator": "Reaction of rubidium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-rubidium-f2-rbf",
+      "title": "Rubidium + Fluorine → RbF",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "RbF-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-rubidium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s) + F2(g) → RbF(s)",
+      "sourceLocator": "Reaction of rubidium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-rubidium-cl2-rbcl",
+      "title": "Rubidium + Chlorine → RbCl",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "RbCl-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-rubidium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s) + Cl2(g) → RbCl(s)",
+      "sourceLocator": "Reaction of rubidium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-rubidium-br2-rbbr",
+      "title": "Rubidium + Bromine → RbBr",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "RbBr-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-rubidium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s) + Br2(g) → RbBr(s)",
+      "sourceLocator": "Reaction of rubidium with the halogens"
+    },
+    {
+      "id": "binary-rubidium-i2-rbi",
+      "title": "Rubidium + Iodine → RbI",
+      "reactants": [
+        {
+          "id": "Rb-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "RbI-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-rubidium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Rb(s) + I2(g) → RbI(s)",
+      "sourceLocator": "Reaction of rubidium with the halogens"
+    },
+    {
+      "id": "binary-scandium-f2-scf3",
+      "title": "Scandium + Fluorine → ScF₃",
+      "reactants": [
+        {
+          "id": "Sc-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ScF3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-scandium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Sc(s) + 3F2(g) → 2ScF3(s)",
+      "sourceLocator": "Reaction of scandium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-scandium-cl2-sccl3",
+      "title": "Scandium + Chlorine → ScCl₃",
+      "reactants": [
+        {
+          "id": "Sc-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ScCl3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-scandium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Sc(s) + 3Cl2(g) → 2ScCl3(s)",
+      "sourceLocator": "Reaction of scandium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-scandium-br2-scbr3",
+      "title": "Scandium + Bromine → ScBr₃",
+      "reactants": [
+        {
+          "id": "Sc-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ScBr3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-scandium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Sc(s) + 3Br2(g) → 2ScBr3(s)",
+      "sourceLocator": "Reaction of scandium with the halogens"
+    },
+    {
+      "id": "binary-scandium-i2-sci3",
+      "title": "Scandium + Iodine → ScI₃",
+      "reactants": [
+        {
+          "id": "Sc-s",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ScI3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-scandium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Sc(s) + 3I2(g) → 2ScI3(s)",
+      "sourceLocator": "Reaction of scandium with the halogens"
+    },
+    {
+      "id": "binary-selenium-o2-seo2",
+      "title": "Selenium + Oxygen → SeO₂",
+      "reactants": [
+        {
+          "id": "Se8-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 8
+        }
+      ],
+      "products": [
+        {
+          "id": "SeO2-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-selenium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Se8(s) + 8O2(g) → 8SeO2(s)",
+      "sourceLocator": "Reaction of selenium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-selenium-cl2-secl4",
+      "title": "Selenium + Chlorine → SeCl₄",
+      "reactants": [
+        {
+          "id": "Se8-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 16
+        }
+      ],
+      "products": [
+        {
+          "id": "SeCl4-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Source specifies controlled conditions for the tetrahalide endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-selenium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Se8(s) + 16Cl2(g) → 8SeCl4(s)",
+      "sourceLocator": "Reaction of selenium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-selenium-br2-sebr4",
+      "title": "Selenium + Bromine → SeBr₄",
+      "reactants": [
+        {
+          "id": "Se8-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 16
+        }
+      ],
+      "products": [
+        {
+          "id": "SeBr4-s",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Source specifies controlled conditions for the tetrahalide endpoint. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-selenium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Se8(s) + 16Br2(g) → 8SeBr4(s)",
+      "sourceLocator": "Reaction of selenium with the halogens"
+    },
+    {
+      "id": "binary-silver-f2-agf2",
+      "title": "Silver + Fluorine → AgF₂",
+      "reactants": [
+        {
+          "id": "Ag",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "AgF2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-silver"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ag(s) + F2(g) → AgF2(s)  [brown]",
+      "sourceLocator": "Reaction of silver with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-sodium-o2-na2o",
+      "title": "Sodium + Oxygen → Na₂O",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited sodium; Na2O is a co-product alongside the peroxide. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-sodium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Na(s) + O2(g) → 2Na2O(s)",
+      "sourceLocator": "Reaction of sodium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-sodium-f2-naf",
+      "title": "Sodium + Fluorine → NaF",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaF-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-sodium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Na(s) + F2(g) → NaF(s)",
+      "sourceLocator": "Reaction of sodium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-sodium-br2-nabr",
+      "title": "Sodium + Bromine → NaBr",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaBr-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-sodium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Na(s) + Br2(g) → NaBr(s)",
+      "sourceLocator": "Reaction of sodium with the halogens"
+    },
+    {
+      "id": "binary-sodium-i2-nai",
+      "title": "Sodium + Iodine → NaI",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaI-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-sodium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Na(s) + I2(g) → NaI(s)",
+      "sourceLocator": "Reaction of sodium with the halogens"
+    },
+    {
+      "id": "binary-strontium-o2-sro",
+      "title": "Strontium + Oxygen → SrO",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrO-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-strontium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Sr(s) + O2(g) → 2SrO(s)",
+      "sourceLocator": "Reaction of strontium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-strontium-n2-sr3n2",
+      "title": "Strontium + Nitrogen → Sr₃N₂",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 3
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Sr3N2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-strontium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Sr(s) + N2(g) → Sr3N2(s)",
+      "sourceLocator": "Reaction of strontium with air"
+    },
+    {
+      "id": "binary-strontium-cl2-srcl2",
+      "title": "Strontium + Chlorine → SrCl₂",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrCl2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Direct combination reported by the source; full experimental conditions are not specified. Conceptual model only.",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior. This is a sourced equation, but complete activation conditions are not supplied; the application does not assume a room-temperature reaction.",
+      "sourceIds": [
+        "webelements-binary-strontium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Sr(s) + Cl2(g) → SrCl2(s)",
+      "sourceLocator": "Reaction of strontium with the halogens",
+      "execution": "equation-only"
+    },
+    {
+      "id": "binary-strontium-br2-srbr2",
+      "title": "Strontium + Bromine → SrBr₂",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-strontium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Sr(s) + Br2(g) → SrBr2(s)",
+      "sourceLocator": "Reaction of strontium with the halogens"
+    },
+    {
+      "id": "binary-strontium-i2-sri2",
+      "title": "Strontium + Iodine → SrI₂",
+      "reactants": [
+        {
+          "id": "Sr-s",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-strontium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Sr(s) + I2(g) → SrI2(s)",
+      "sourceLocator": "Reaction of strontium with the halogens"
+    },
+    {
+      "id": "binary-tin-o2-sno2",
+      "title": "Tin + Oxygen → SnO₂",
+      "reactants": [
+        {
+          "id": "Sn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SnO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-tin"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Sn(s) + O2(g) → SnO2(s)",
+      "sourceLocator": "Reaction of tin with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-titanium-o2-tio2",
+      "title": "Titanium + Oxygen → TiO₂",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "TiO2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ti(s) + O2(g) → TiO2(s)",
+      "sourceLocator": "Reaction of titanium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-titanium-n2-tin",
+      "title": "Titanium + Nitrogen → TiN",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 2
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "TiN-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Ti(s) + N2(g) → TiN(s)",
+      "sourceLocator": "Reaction of titanium with air"
+    },
+    {
+      "id": "binary-titanium-f2-tif4",
+      "title": "Titanium + Fluorine → TiF₄",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 1
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "TiF4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ti(s) + 2F2(g) → TiF4(s)  [white]",
+      "sourceLocator": "Reaction of titanium with the halogens"
+    },
+    {
+      "id": "binary-titanium-cl2-ticl4",
+      "title": "Titanium + Chlorine → TiCl₄",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "TiCl4-l",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ti(s) + 2Cl2(g) → TiCl4(l)  [colourless]",
+      "sourceLocator": "Reaction of titanium with the halogens"
+    },
+    {
+      "id": "binary-titanium-br2-tibr4",
+      "title": "Titanium + Bromine → TiBr₄",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "TiBr4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ti(s) + 2Br2(g) → TiBr4(s)  [orange]",
+      "sourceLocator": "Reaction of titanium with the halogens"
+    },
+    {
+      "id": "binary-titanium-i2-tii4",
+      "title": "Titanium + Iodine → TiI₄",
+      "reactants": [
+        {
+          "id": "Ti-s",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "TiI4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-titanium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Ti(s) + 2I2(g) → TiI4(s)  [dark brown]",
+      "sourceLocator": "Reaction of titanium with the halogens"
+    },
+    {
+      "id": "binary-vanadium-o2-v2o5",
+      "title": "Vanadium + Oxygen → V₂O₅",
+      "reactants": [
+        {
+          "id": "V-s",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "V2O5-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating in the stated elemental gas; the selected oxide is a reported endpoint and other oxides may coexist. Source specifies excess oxygen and notes possible contamination by other oxides. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-vanadium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4V(s) + 5O2(g) → 2V2O5(s)  [yellow-orange]",
+      "sourceLocator": "Reaction of vanadium with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-vanadium-f2-vf5",
+      "title": "Vanadium + Fluorine → VF₅",
+      "reactants": [
+        {
+          "id": "V-s",
+          "coefficient": 2
+        },
+        {
+          "id": "F2-g",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "VF5-l",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Warming/heating is specified for this direct elemental combination. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-vanadium"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2V(s) + 5F2(g) → 2VF5(l)  [colourless]",
+      "sourceLocator": "Reaction of vanadium with the halogens"
+    },
+    {
+      "id": "binary-zinc-o2-zno",
+      "title": "Zinc + Oxygen → ZnO",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion after ignition; the displayed equation isolates one reported product, not the entire air-reaction mixture. Conceptual model only.",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-zinc"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "2Zn(s) + O2(g) → 2ZnO(s)  [white]",
+      "sourceLocator": "Reaction of zinc with air",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "binary-zinc-br2-znbr2",
+      "title": "Zinc + Bromine → ZnBr₂",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 1
+        },
+        {
+          "id": "Br2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnBr2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-zinc"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Zn(s) + Br2(g) → ZnBr2(s)  [white]",
+      "sourceLocator": "Reaction of zinc with the halogens"
+    },
+    {
+      "id": "binary-zinc-i2-zni2",
+      "title": "Zinc + Iodine → ZnI₂",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 1
+        },
+        {
+          "id": "I2-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnI2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated elemental combination using halogen vapor, as shown in the source equation. Conceptual model only.",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed product and phase follow the cited elemental-combination equation."
+      ],
+      "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
+      "sourceIds": [
+        "webelements-binary-zinc"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "Zn(s) + I2(g) → ZnI2(s)  [white]",
+      "sourceLocator": "Reaction of zinc with the halogens"
     }
   ],
   "sources": [
@@ -6548,6 +12445,222 @@
       "upstreamDate": "2019-02-14",
       "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
       "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "webelements-binary-arsenic",
+      "name": "WebElements: Arsenic — reactions of elements",
+      "url": "https://www.webelements.com/arsenic/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-barium",
+      "name": "WebElements: Barium — reactions of elements",
+      "url": "https://www.webelements.com/barium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-beryllium",
+      "name": "WebElements: Beryllium — reactions of elements",
+      "url": "https://www.webelements.com/beryllium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-bismuth",
+      "name": "WebElements: Bismuth — reactions of elements",
+      "url": "https://www.webelements.com/bismuth/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-caesium",
+      "name": "WebElements: Caesium — reactions of elements",
+      "url": "https://www.webelements.com/caesium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-calcium",
+      "name": "WebElements: Calcium — reactions of elements",
+      "url": "https://www.webelements.com/calcium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-chromium",
+      "name": "WebElements: Chromium — reactions of elements",
+      "url": "https://www.webelements.com/chromium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-cobalt",
+      "name": "WebElements: Cobalt — reactions of elements",
+      "url": "https://www.webelements.com/cobalt/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-copper",
+      "name": "WebElements: Copper — reactions of elements",
+      "url": "https://www.webelements.com/copper/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-germanium",
+      "name": "WebElements: Germanium — reactions of elements",
+      "url": "https://www.webelements.com/germanium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-iron",
+      "name": "WebElements: Iron — reactions of elements",
+      "url": "https://www.webelements.com/iron/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-lead",
+      "name": "WebElements: Lead — reactions of elements",
+      "url": "https://www.webelements.com/lead/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-lithium",
+      "name": "WebElements: Lithium — reactions of elements",
+      "url": "https://www.webelements.com/lithium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-magnesium",
+      "name": "WebElements: Magnesium — reactions of elements",
+      "url": "https://www.webelements.com/magnesium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-manganese",
+      "name": "WebElements: Manganese — reactions of elements",
+      "url": "https://www.webelements.com/manganese/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-nickel",
+      "name": "WebElements: Nickel — reactions of elements",
+      "url": "https://www.webelements.com/nickel/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-potassium",
+      "name": "WebElements: Potassium — reactions of elements",
+      "url": "https://www.webelements.com/potassium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-rubidium",
+      "name": "WebElements: Rubidium — reactions of elements",
+      "url": "https://www.webelements.com/rubidium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-scandium",
+      "name": "WebElements: Scandium — reactions of elements",
+      "url": "https://www.webelements.com/scandium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-selenium",
+      "name": "WebElements: Selenium — reactions of elements",
+      "url": "https://www.webelements.com/selenium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-silver",
+      "name": "WebElements: Silver — reactions of elements",
+      "url": "https://www.webelements.com/silver/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-sodium",
+      "name": "WebElements: Sodium — reactions of elements",
+      "url": "https://www.webelements.com/sodium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-strontium",
+      "name": "WebElements: Strontium — reactions of elements",
+      "url": "https://www.webelements.com/strontium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-tin",
+      "name": "WebElements: Tin — reactions of elements",
+      "url": "https://www.webelements.com/tin/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-titanium",
+      "name": "WebElements: Titanium — reactions of elements",
+      "url": "https://www.webelements.com/titanium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-vanadium",
+      "name": "WebElements: Vanadium — reactions of elements",
+      "url": "https://www.webelements.com/vanadium/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "webelements-binary-zinc",
+      "name": "WebElements: Zinc — reactions of elements",
+      "url": "https://www.webelements.com/zinc/chemistry.html",
+      "retrievedAt": "2026-11-20T02:38:35Z",
+      "upstreamDate": null,
+      "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
     }
   ]
 }

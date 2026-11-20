@@ -1,0 +1,24 @@
+# Independent targeted review of binary elemental expansion
+
+Reviewed 2026-11-19 (local date). Candidate: `data/reactions/binary-elements-extra.json`, version `2026.11.20-binary-elements-extra.1`, 114 added reactions; accompanying `binary-elements-audit.md`. Existing 111-scenario baseline is outside this review. Review is an AI-assisted targeted scientific audit, not teacher approval or exhaustive chemical validation.
+
+**Disposition: pending two product/phase corrections or exclusions.** Marking a reaction equation-only resolves unsupported room-temperature kinetics claims, but does not resolve a wrong product phase or an uncorroborated bulk solid product.
+
+## Actionable findings
+
+1. **Exclude `binary-selenium-i2-sei4` pending independent corroboration of solid SeI₄.** The row asserts `Se8(s) + 16I2(g) → 8SeI4(s)` and a solid-product effect. Gopal and Milne, *Inorganic Chemistry* **31** (1992), 4530–4533, DOI [10.1021/ic00048a017](https://pubs.acs.org/doi/full/10.1021/ic00048a017), report selenium–iodine species in solution, including tentative spectrophotometric evidence for SeI₄, but solid material obtained from the studied Se/I₂ melt showed only crystalline selenium and iodine. Their discussion also records prior failure to establish solid binary selenium iodides. The paper does not support an isolated SeI₄ solid endpoint. This is not a claim that no Se–I species can exist; the unsupported claim is this specific bulk-solid synthesis. Preserve the original source assertion in quarantine, rather than replacing it with another inferred iodide. [Primary article copy inspected](https://electronicsandbooks.com/edt/manual/Magazine/I/Inorganic%20Chemistry/31/ic00048a017.pdf).
+
+2. **Quarantine or independently correct `binary-selenium-f2-sef4` / `SeF4-s`.** The row presents solid SeF₄ without a low-temperature product-state qualification. The experimental synthesis chapter “Selenium Tetrafluoride, Selenium Difluoride Oxide (Seleninyl Fluoride),” *Inorganic Syntheses*, vol. 24, §9, p. 29, describes SeF₄ as a liquid with melting point −13.8 °C and boiling point 106 °C. Thus the copied `(s)` is not a normal room-temperature product phase. A correct replacement requires source-backed phase and conditions, synchronized substance/effect/provenance changes, and retained evidence of the source typo; atom balance alone cannot clear this. [Primary synthesis volume](https://sites.lsa.umich.edu/jbuss/wp-content/uploads/sites/811/2020/08/inorganic-synthesis24.pdf).
+
+## Targeted identities corroborated, with limits
+
+- **SeCl₄ and SeBr₄:** the compounds are real, not simple valence-generated inventions. Couch et al., “Chemistry of selenium and tellurium tetrahalides: ionisation of the chlorides and bromides in solution and the constitution of their adducts,” *J. Chem. Soc. A* (1967), 1813–1817, [DOI 10.1039/J19670001813](https://pubs.rsc.org/en/content/articlelanding/1967/j1/j19670001813), experimentally studies these halides. This identity check does not certify the catalogue’s entire vapor-phase preparation or product-selection conditions. Keep source-controlled endpoint limitations visible.
+- **AgF₂:** silver(II) fluoride is a well-established solid; it must not be changed to AgF merely because +1 is silver’s common oxidation state. The primary neutron diffraction study “Crystal and magnetic structure of silver difluoride: I. Determination of the AgF₂ structure” confirms the compound ([publisher record](https://www.sciencedirect.com/science/article/pii/0022369771900035)). This identity result does not establish spontaneous bulk ambient synthesis; retain equation-only/unspecified-condition treatment unless separately sourcing activation.
+
+## Scope and residual limitations
+
+All 114 source equation strings were scanned for obvious product/formula anomalies. Detailed external checks focused on selenium tetrahalides and silver difluoride. Other entries were not individually independently literature-validated. Existing coefficient corrections, baseline completeness, browser behavior, and provenance file checksums were not rerun by this reviewer. The distinction between a reported selected product and a unique universal outcome remains necessary for oxide mixtures and multiple fluorination endpoints. The two findings above were reported to the integration owner; this reviewer changed no datasets. Final removal/correction must be rechecked in the production candidate before these findings are cleared.
+
+## Integration disposition
+
+Both blocking rows are excluded by `data/reactions/merge_binary.py`, including the unused SeI4-s and SeF4-s substances. The rebuilt production snapshot contains neither. A regression check enforces these exclusions. The source candidate remains archived, not served by the app. The two actionable findings are resolved by exclusion; the nonexhaustive review limitations above remain.

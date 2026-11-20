@@ -3,8 +3,8 @@
 An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
-- Hover/focus preview, pinned selection, local scientific data, isotope half-lives, and optional shell animations.
-- Element drag basket, compound shelf, 111 sourced reactions and physical processes, products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
+- Hover/focus preview, pinned selection, local scientific data, isotope half-lives, balanced nuclear decay equations, and optional shell animations.
+- Element drag basket, compound shelf, 223 sourced reactions and physical processes (187 modeled scenarios, 36 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
 - Ten practice questions with hints, explanations, source links, and progress stored in this browser.
 - Responsive layout, keyboard controls, and reduced-motion support.
 
@@ -33,8 +33,14 @@ Reaction examples are condition-specific and model ingredient presence, not quan
 
 ## Reaction library and visual update
 
-The large introductory banner has been removed. The library contains 104 chemical reactions, six physical processes, and one reviewed no-reaction case, using 164 substances and 27 source URLs. Search by formula, material or product. Explicit activation choices are none, heat, light, ignition, electricity and cooling; atmosphere choices are air, oxygen and inert.
+The large introductory banner has been removed. The library contains 216 chemical reactions, six physical processes, and one reviewed no-reaction case, using 288 substances and 54 source URLs. Search by formula, material or product. Explicit activation choices are none, heat, light, ignition, electricity and cooling; atmosphere choices are air, oxygen and inert.
 
-Each supported run plays a 3.2-second half-screen conceptual animation, then clears it before revealing products. Replay restarts the scene; Skip/Escape completes it; Reset and condition/ingredient edits cancel it. Reduced-motion presentation lasts 250ms. Brown NO2 and chlorine colors require source metadata; colorless gases remain schematic. Freezing is explicitly distinguished from ordinary cooling.
+Each supported run plays a 3.2-second transparent conceptual animation around the vessel, then clears it before revealing products. Replay restarts the scene; Skip/Escape completes it; Reset and condition/ingredient edits cancel it. Reduced-motion presentation lasts 250ms. Brown NO2 and chlorine colors require source metadata; colorless gases remain schematic. Freezing is explicitly distinguished from ordinary cooling.
 
-See references/expanded-reaction-audit.md and references/expanded-independent-review.md for scope and exclusions. Build the curated formulas using data/reactions/build.py with its pinned Python requirements. Raw source archives are retained locally and excluded from this repository.
+See references/expanded-reaction-audit.md and references/expanded-independent-review.md for scope and exclusions. Build the curated formulas using data/reactions/build.py followed by data/reactions/merge_binary.py with the pinned Python requirements. Raw source archives are retained locally and excluded from this repository.
+
+## All distinct elemental pairs
+
+Look up all 6,903 distinct pairs of the 118 elements. This snapshot provides 123 source-backed binary entries across 115 pairs. Unknown pairs report missing evidence; products are never inferred from element valences. Multiple endpoints require choosing a scenario. Thirty-six catalogue equations lack complete activation conditions and cannot simulate products.
+
+The 112 accepted additions are explicitly transcribed WebElements equations. Two selenium product/phase conflicts are excluded, including their unused product substances. See references/binary-independent-review.md and data/reactions/binary-merged-validation.json. All decay equations use nuclear charge/nucleon bookkeeping, with source branch percentages retained; unspecified levels or daughters remain unavailable or schematic.

@@ -148,27 +148,35 @@ for (const scenario of published.reactions) {
     const before = JSON.stringify(published);
     assert.ok(scenario.requiredActivation?.length, 'Published scenarios require explicit activation methods');
     const conditions = { activation: scenario.requiredActivation[0], atmosphere: scenario.requiredAtmosphere ?? 'air' };
-    const result = evaluateReaction(published, [...selected].reverse(), conditions);
+    if (scenario.execution === 'equation-only') {
+      const result = evaluateReaction(published, selected, conditions, scenario.id);
+      assert.equal(result.kind, 'unsupported');
+      assert.match(result.message, /complete reaction conditions are not modeled/);
+      assert.equal(JSON.stringify(published), before);
+      return;
+    }
+    const result = evaluateReaction(published, [...selected].reverse(), conditions, scenario.id);
     assert.equal(result.kind, scenario.outcome);
     assert.equal(result.scenario, scenario);
     assert.deepEqual(result.scenario.sourceIds, scenario.sourceIds);
-    assert.equal(evaluateReaction(published, [...selected, selected[0]], conditions).kind, scenario.outcome);
+    assert.equal(evaluateReaction(published, [...selected, selected[0]], conditions, scenario.id).kind, scenario.outcome);
     for (const activation of ['none', 'heat', 'light', 'ignition', 'electricity', 'cooling']) {
       const attempt = { ...conditions, activation };
-      const matching = published.reactions.filter(other => other.reviewStatus === 'source-checked' && other.reactants.length === selected.length && other.reactants.every(term => selected.includes(term.id)) && other.requiredActivation.includes(activation) && (!other.requiredAtmosphere || other.requiredAtmosphere === attempt.atmosphere));
-      const actual = evaluateReaction(published, selected, attempt);
-      assert.equal(actual.kind, matching.length ? matching[0].outcome : 'missing-condition');
-      if (matching.length) assert.equal(actual.scenario, matching[0]);
+      const actual = evaluateReaction(published, selected, attempt, scenario.id);
+      assert.equal(actual.kind, scenario.requiredActivation.includes(activation) ? scenario.outcome : 'missing-condition');
+      assert.equal(actual.scenario, scenario);
     }
     if (scenario.requiredAtmosphere) {
       for (const atmosphere of ['air', 'oxygen', 'inert'].filter(value => value !== scenario.requiredAtmosphere)) {
         const attempt = { ...conditions, atmosphere };
-        const matching = published.reactions.filter(other => other.reviewStatus === 'source-checked' && other.reactants.length === selected.length && other.reactants.every(term => selected.includes(term.id)) && other.requiredActivation.includes(attempt.activation) && (!other.requiredAtmosphere || other.requiredAtmosphere === atmosphere));
-        assert.equal(evaluateReaction(published, selected, attempt).kind, matching.length ? matching[0].outcome : 'missing-condition');
+        const actual = evaluateReaction(published, selected, attempt, scenario.id);
+        assert.equal(actual.kind, 'missing-condition');
+        assert.equal(actual.scenario, scenario);
       }
     }
     const extra = published.substances.find(substance => !selected.includes(substance.id)).id;
     const enlarged = [...selected, extra];
+    assert.equal(evaluateReaction(published, enlarged, conditions, scenario.id).kind, 'invalid');
     const largerScenarioExists = published.reactions.some(other => other.reviewStatus === 'source-checked' && other.reactants.length === enlarged.length && other.reactants.every(term => enlarged.includes(term.id)));
     if (!largerScenarioExists) assert.equal(evaluateReaction(published, enlarged, conditions).kind, 'unsupported');
     assert.equal(JSON.stringify(published), before);
@@ -217,6 +225,7 @@ test('condition metadata and visual colors reject malformed or unsafe values', (
     r => { r.requiredActivation = 'heat'; },
     r => { r.requiredAtmosphere = 'vacuum'; },
     r => { r.process = 'mystery'; },
+    r => { r.execution = 'mystery'; },
     r => { r.visual = null; },
     r => { r.visual = { gasColor: 'red; background:url(https://example.org)' }; },
     r => { r.visual = { solidColor: 'url(x)' }; },
@@ -241,4 +250,67 @@ test('cooling is an explicit activation method for physical phase changes', () =
   assert.deepEqual(validateLibrary(library), []);
   assert.equal(evaluateReaction(library, ['water'], { activation: 'cooling', atmosphere: 'air' }).kind, 'reaction');
   for (const activation of ['none', 'heat', 'light', 'ignition', 'electricity']) assert.equal(evaluateReaction(library, ['water'], { activation, atmosphere: 'air' }).kind, 'missing-condition');
+});
+
+
+test('explicit sourced scenario chooses context without guessing products', () => {
+  const library = fixture();
+  const original = library.reactions[0];
+  const alternative = { ...structuredClone(original), id: 'unchanged-context', outcome: 'no-reaction', products: [] };
+  library.reactions.push(alternative);
+  const selection = ['hydrogen', 'oxygen'];
+  const ambiguous = evaluateReaction(library, selection, ignition);
+  assert.equal(ambiguous.kind, 'invalid');
+  assert.match(ambiguous.message, /Choose a sourced scenario/);
+  assert.equal(evaluateReaction(library, selection, ignition, original.id).scenario, original);
+  assert.equal(evaluateReaction(library, selection, ignition, alternative.id).kind, 'no-reaction');
+  alternative.requiredActivation = ['heat'];
+  alternative.requiredAtmosphere = 'oxygen';
+  const pending = evaluateReaction(library, selection, ignition, alternative.id);
+  assert.equal(pending.kind, 'missing-condition');
+  assert.equal(pending.scenario, alternative, 'Do not silently fall back to the other eligible scenario');
+  assert.equal(evaluateReaction(library, selection, { activation: 'heat', atmosphere: 'oxygen' }, alternative.id).kind, 'no-reaction');
+  assert.equal(evaluateReaction(library, selection, { activation: 'heat', atmosphere: 'air' }, alternative.id).kind, 'missing-condition');
+});
+
+test('explicit scenario IDs must be valid reviewed scenarios for the exact input set', () => {
+  const library = fixture();
+  for (const id of [null, true, 3, {}, [], '', ' ', 'missing']) {
+    assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition, id).kind, 'invalid');
+  }
+  const id = library.reactions[0].id;
+  for (const selection of [['hydrogen'], ['hydrogen', 'oxygen', 'helium'], ['helium']]) {
+    const result = evaluateReaction(library, selection, ignition, id);
+    assert.equal(result.kind, 'invalid');
+    assert.match(result.message, /exact ingredients/);
+  }
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition, undefined).kind, 'reaction');
+  library.reactions[0].reviewStatus = 'draft';
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition, id).kind, 'invalid');
+});
+
+
+test('equation-only evidence never becomes a playable condition claim', () => {
+  const library = fixture();
+  const equation = library.reactions[0];
+  equation.execution = 'equation-only';
+  assert.deepEqual(validateLibrary(library), []);
+  for (const conditions of [ignition, ambient, { activation: 'heat', atmosphere: 'oxygen' }]) {
+    for (const scenarioId of [undefined, equation.id]) {
+      const result = evaluateReaction(library, ['hydrogen', 'oxygen'], conditions, scenarioId);
+      assert.equal(result.kind, 'unsupported');
+      assert.match(result.message, /Sourced equation available; complete reaction conditions are not modeled/);
+    }
+  }
+  const modeled = { ...structuredClone(equation), id: 'modeled-fixture', execution: 'modeled' };
+  library.reactions.push(modeled);
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition).scenario, modeled);
+  const pending = evaluateReaction(library, ['hydrogen', 'oxygen'], ambient);
+  assert.equal(pending.kind, 'missing-condition');
+  assert.equal(pending.scenario, modeled);
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition, equation.id).kind, 'unsupported');
+  assert.equal(evaluateReaction(library, ['hydrogen', 'oxygen'], ignition, modeled.id).kind, 'reaction');
+  assert.equal(evaluateReaction(library, ['hydrogen'], ignition, equation.id).kind, 'invalid');
+  modeled.execution = 'invalid';
+  assert.match(validateLibrary(library).join(' '), /invalid execution mode/);
 });

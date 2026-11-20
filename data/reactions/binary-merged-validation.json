@@ -1,0 +1,23 @@
+{
+  "version": "2026.11.20-source-checked.3",
+  "entries": 223,
+  "modeled": 187,
+  "equationOnly": 36,
+  "addedBinaryEquations": 112,
+  "duplicateEquationsMerged": 0,
+  "excludedBinaryEquations": {
+    "binary-selenium-i2-sei4": "Solid SeI4 endpoint is not corroborated by the primary selenium\u2013iodine study (DOI 10.1021/ic00048a017).",
+    "binary-selenium-f2-sef4": "Copied solid SeF4 phase conflicts with Inorganic Syntheses vol. 24, section 9; correction requires separately sourced conditions."
+  },
+  "substances": 288,
+  "sources": 54,
+  "sha256": "9a6c7db10d3f23a6e83937419c370193cce2148bc583ef87011c9740d15f9acd",
+  "checks": [
+    "atom and charge conservation",
+    "unique reaction IDs",
+    "source URLs deduplicated",
+    "one elemental selection mapping per Z",
+    "unspecified activation withheld from simulation",
+    "independent selenium product/phase findings excluded with unused substances"
+  ]
+}

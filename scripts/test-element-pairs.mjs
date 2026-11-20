@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+import {readFile,mkdtemp,writeFile,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {pathToFileURL} from 'node:url';
+import ts from 'typescript';
+const temp=await mkdtemp(join(tmpdir(),'element-pairs-'));
+const input=await readFile(new URL('../src/features/element-pairs/pairs.ts',import.meta.url),'utf8');
+await writeFile(join(temp,'pairs.mjs'),ts.transpileModule(input,{compilerOptions:{module:ts.ModuleKind.ES2022,target:ts.ScriptTarget.ES2022}}).outputText);
+const {buildElementPairs,pairKey,searchPairs}=await import(pathToFileURL(join(temp,'pairs.mjs')).href);await rm(temp,{recursive:true,force:true});
+const data=JSON.parse(await readFile(new URL('../public/data/explorer.json',import.meta.url),'utf8'));
+const library=JSON.parse(await readFile(new URL('../public/data/reactions.json',import.meta.url),'utf8'));
+const pairs=buildElementPairs(data.elements,library);
+test('all 118 choose 2 distinct pairs exist exactly once, including superheavy elements',()=>{assert.equal(pairs.length,6903);assert.equal(new Set(pairs.map(p=>p.key)).size,6903);assert.ok(pairs.every(p=>p.first.z<p.second.z));assert.ok(pairs.some(p=>p.key==='117-118'));assert.equal(pairKey(8,1),pairKey(1,8))});
+test('only actual neutral elemental reactants map to a binary pair',()=>{const water=pairs.find(p=>p.key==='1-8');assert.ok(water.reactions.some(r=>r.id==='hydrogen-oxygen'));assert.ok(!water.reactions.some(r=>r.id==='water-electrolysis'));for(const pair of pairs)for(const r of pair.reactions){assert.equal(r.reactants.length,2);assert.notEqual(r.process,'physical');for(const t of r.reactants){const s=library.substances.find(s=>s.id===t.id);assert.equal(s.charge,0);assert.equal(Object.keys(s.composition).length,1)}}});
+test('unknown pairs are empty evidence sets, never invented no-reaction assertions',()=>{assert.deepEqual(pairs.find(p=>p.key==='117-118').reactions,[]);assert.ok(pairs.find(p=>p.key==='2-10').reactions.some(r=>r.outcome==='no-reaction'));const sourced=pairs.filter(p=>p.reactions.length).length;assert.ok(sourced>100)});
+test('pair searches support atomic number, names and symbols without guessing products',()=>{assert.deepEqual(searchPairs(pairs,'Na Cl').map(p=>p.key),['11-17']);assert.deepEqual(searchPairs(pairs,'iron sulfur').map(p=>p.key),['16-26']);assert.equal(searchPairs(pairs,'118').length,117);assert.equal(searchPairs(pairs,'notanelement').length,0)});
+
+test('independently rejected selenium endpoints and orphaned products stay out of production',()=>{for(const id of ['binary-selenium-i2-sei4','binary-selenium-f2-sef4'])assert.ok(!library.reactions.some(r=>r.id===id));for(const id of ['SeI4-s','SeF4-s'])assert.ok(!library.substances.some(s=>s.id===id))});

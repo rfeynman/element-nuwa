@@ -80,6 +80,7 @@ export function validateLibrary(library: ReactionLibrary): string[] {
         if (reaction.visual.freezing !== undefined && typeof reaction.visual.freezing !== 'boolean') errors.push(`${label}: freezing must be boolean.`);
       }
     }
+    if (reaction.execution !== undefined && !['modeled', 'equation-only'].includes(reaction.execution)) errors.push(`${label}: invalid execution mode.`);
     if (reaction.process !== undefined && !['chemical', 'physical'].includes(reaction.process)) errors.push(`${label}: invalid process.`);
     if (!['reaction', 'no-reaction'].includes(reaction.outcome)) errors.push(`${label}: invalid outcome.`);
     if (!['source-checked', 'draft'].includes(reaction.reviewStatus)) errors.push(`${label}: invalid review status.`);
@@ -126,22 +127,33 @@ export function validateLibrary(library: ReactionLibrary): string[] {
 }
 
 /** Ingredient presence only: repeats do not represent amounts, and every ingredient must match. */
-export function evaluateReaction(library: ReactionLibrary, selectedIds: string[], conditions: ReactionConditions): ReactionResult {
+export function evaluateReaction(library: ReactionLibrary, selectedIds: string[], conditions: ReactionConditions, scenarioId?: string): ReactionResult {
   if (!Array.isArray(selectedIds) || selectedIds.some(id => !nonempty(id)) || !record(conditions) || !activationMethods.has(conditions.activation) || !atmospheres.has(conditions.atmosphere)) {
     return { kind: 'invalid', message: 'Select valid substance IDs, an activation method, and an atmosphere.' };
   }
+  if (scenarioId !== undefined && !nonempty(scenarioId)) return { kind: 'invalid', message: 'Choose a valid sourced scenario ID.' };
   const errors = validateLibrary(library);
   if (errors.length) return { kind: 'invalid', message: `Reaction library is invalid: ${errors.join(' ')}` };
   const selected = new Set(selectedIds);
   const known = new Set(library.substances.map(substance => substance.id));
   if ([...selected].some(id => !known.has(id))) return { kind: 'invalid', message: 'A selected substance is unknown.' };
   if (!selected.size) return { kind: 'invalid', message: 'Add at least one substance.' };
+  const equationOnlyMessage = 'Sourced equation available; complete reaction conditions are not modeled. See the two-element pair explorer.';
   const matches = library.reactions.filter(reaction => reaction.reviewStatus === 'source-checked' && reaction.reactants.length === selected.size && reaction.reactants.every(term => selected.has(term.id)));
-  const eligible = matches.filter(reaction => conditionDistance(reaction, conditions) === 0);
-  if (eligible.length > 1) return { kind: 'invalid', message: 'Multiple reviewed scenarios match these ingredients and conditions.' };
+  if (scenarioId !== undefined) {
+    const chosen = library.reactions.find(reaction => reaction.id === scenarioId);
+    if (!chosen || chosen.reviewStatus !== 'source-checked') return { kind: 'invalid', message: 'The selected scenario ID does not identify a reviewed sourced scenario.' };
+    if (!matches.includes(chosen)) return { kind: 'invalid', message: 'The selected scenario does not match the exact ingredients in the vessel.' };
+    if (chosen.execution === 'equation-only') return { kind: 'unsupported', message: equationOnlyMessage };
+    return { kind: conditionDistance(chosen, conditions) === 0 ? chosen.outcome : 'missing-condition', scenario: chosen };
+  }
+  const modeled = matches.filter(reaction => reaction.execution !== 'equation-only');
+  if (matches.length && !modeled.length) return { kind: 'unsupported', message: equationOnlyMessage };
+  const eligible = modeled.filter(reaction => conditionDistance(reaction, conditions) === 0);
+  if (eligible.length > 1) return { kind: 'invalid', message: 'Multiple reviewed scenarios match these ingredients and conditions. Choose a sourced scenario from the catalogue.' };
   if (eligible.length === 1) return { kind: eligible[0].outcome, scenario: eligible[0] };
   if (!matches.length) return { kind: 'unsupported', message: 'This combination is not modeled yet.' };
   // Stable across snapshot ordering: prefer fewer unmet requirements, then the scenario ID.
-  const scenario = [...matches].sort((a, b) => conditionDistance(a, conditions) - conditionDistance(b, conditions) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))[0];
+  const scenario = [...modeled].sort((a, b) => conditionDistance(a, conditions) - conditionDistance(b, conditions) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))[0];
   return { kind: 'missing-condition', scenario };
 }
