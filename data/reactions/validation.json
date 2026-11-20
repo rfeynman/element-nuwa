@@ -1,0 +1,23 @@
+{
+  "datasetVersion": "2026.11.20-source-checked.2",
+  "checkedAt": "2026-11-20T02:26:53Z",
+  "scenarios": 111,
+  "checks": [
+    "positive integer coefficients",
+    "atom and charge conservation",
+    "source references resolve",
+    "one elemental form per Z"
+  ],
+  "sha256": "abf7e40cf97b19e2b44aa9cf6734574dc5dbe8ffdf439d653282db46e3b4ef03",
+  "aiSourceAudit": "completed",
+  "teacherReview": "pending",
+  "coverage": {
+    "chemicalReactions": 104,
+    "physicalProcesses": 6,
+    "reviewedNoReaction": 1,
+    "substances": 164,
+    "sourceUrls": 27,
+    "usedExpansionEvidenceFiles": 21,
+    "addedSourceUrls": 13
+  }
+}

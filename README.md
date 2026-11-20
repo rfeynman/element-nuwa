@@ -4,7 +4,7 @@ An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
 - Hover/focus preview, pinned selection, local scientific data, isotope half-lives, and optional shell animations.
-- Element drag basket, compound shelf, 14 sourced reaction scenarios, products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
+- Element drag basket, compound shelf, 111 sourced reactions and physical processes, products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
 - Ten practice questions with hints, explanations, source links, and progress stored in this browser.
 - Responsive layout, keyboard controls, and reduced-motion support.
 
@@ -30,3 +30,11 @@ Abridged standard atomic weights © CIAAW 2024, [Abridged Standard Atomic Weight
 ## Educational limits
 
 Reaction examples are condition-specific and model ingredient presence, not quantities. Unsupported combinations stay unmodeled rather than receiving invented results. Metastable nuclear states are excluded. Electron rings are a simplified model, not trajectories. Effects are symbolic. Teacher/scientist review remains pending; source checks and automated tests are documented separately. No student accounts or remote progress collection.
+
+## Reaction library and visual update
+
+The large introductory banner has been removed. The library contains 104 chemical reactions, six physical processes, and one reviewed no-reaction case, using 164 substances and 27 source URLs. Search by formula, material or product. Explicit activation choices are none, heat, light, ignition, electricity and cooling; atmosphere choices are air, oxygen and inert.
+
+Each supported run plays a 3.2-second half-screen conceptual animation, then clears it before revealing products. Replay restarts the scene; Skip/Escape completes it; Reset and condition/ingredient edits cancel it. Reduced-motion presentation lasts 250ms. Brown NO2 and chlorine colors require source metadata; colorless gases remain schematic. Freezing is explicitly distinguished from ordinary cooling.
+
+See references/expanded-reaction-audit.md and references/expanded-independent-review.md for scope and exclusions. Build the curated formulas using data/reactions/build.py with its pinned Python requirements. Raw source archives are retained locally and excluded from this repository.

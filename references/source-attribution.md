@@ -15,3 +15,10 @@ PubChem does not apply a universal downstream license to every contributor's con
 [NIST's policy](https://www.nist.gov/open/license) distinguishes Standard Reference Data compilations from other employee-produced data. This release extracts one ground-state configuration fact and derives shell counts; it does not distribute an ASD database or NIST artwork. It acknowledges NIST and describes the transformation. No blanket claim that every NIST database is public domain is made.
 
 Educational scope: 118 elements, 3,383 ground-state isotope records, 118 configurations and a small reviewed reaction library. Metastable states, complete reaction prediction, quantitative reaction dynamics and orbital probability images are outside this release. Electron rings are a schematic, not trajectories. An absent half-life never means stable. External teacher/scientist review has not occurred; automated checks and AI source review are recorded separately.
+
+
+## Expanded reactions and physical changes
+
+The reaction library now contains 111 sourced entries (104 chemical reactions, six physical processes, and one no-reaction example), with 164 substances and 27 source URLs. OpenStax Chemistry 2e, Rice University/OpenStax, is the principal added source. Current retrieved source pages identify CC BY-NC-SA 4.0 terms: https://openstax.org/details/books/chemistry-2e and https://creativecommons.org/licenses/by-nc-sa/4.0/. Source-specific links, retrieval dates, and license information appear in the reaction source disclosures. Chemical equations are factual transcriptions; teaching explanations are original paraphrases. Source pages, photographs and publisher artwork are not bundled in the public website.
+
+The expansion was checked for atom/charge conservation, condition ambiguity, source reference resolution, actual freezing versus cooling, and brown NO2 / greenish-yellow chlorine distinctions. Detailed source locations, exclusions and archival checksums are retained in the working project. Teacher review remains pending.

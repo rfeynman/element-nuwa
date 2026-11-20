@@ -1,0 +1,452 @@
+[
+  {
+    "id": "methane-combustion",
+    "source": "openstax-4-1",
+    "locator": "opening example",
+    "sourceEquation": "CH4(g)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "ethane-combustion",
+    "source": "openstax-4-1",
+    "locator": "balancing by inspection",
+    "sourceEquation": "C2H6(g)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "calcium-carbonate-decomposition",
+    "source": "openstax-4-1",
+    "locator": "special conditions equation",
+    "sourceEquation": "CaCO3(s)>CaO(s)+CO2(g)"
+  },
+  {
+    "id": "calcium-silver-chloride",
+    "source": "openstax-4-1",
+    "locator": "equations for ionic reactions",
+    "sourceEquation": "CaCl2(aq)+AgNO3(aq)>Ca(NO3)2(aq)+AgCl(s)"
+  },
+  {
+    "id": "carbon-dioxide-base",
+    "source": "openstax-4-1",
+    "locator": "example 4.2",
+    "sourceEquation": "CO2-aq(aq)+NaOH(aq)>Na2CO3(aq)+H2O(l)"
+  },
+  {
+    "id": "brine-electrolysis",
+    "source": "openstax-4-1",
+    "locator": "check your learning after example 4.2",
+    "sourceEquation": "NaCl(aq)+H2O(l)>NaOH(aq)+H2(g)+Cl2(g)"
+  },
+  {
+    "id": "lead-iodide",
+    "source": "openstax-4-2",
+    "locator": "precipitation opening example",
+    "sourceEquation": "KI(aq)+Pb(NO3)2(aq)>PbI2(s)+KNO3(aq)"
+  },
+  {
+    "id": "barium-sulfate",
+    "source": "openstax-4-2",
+    "locator": "example 4.3",
+    "sourceEquation": "Ba^2+(aq)+SO4^2-(aq)>BaSO4(s)"
+  },
+  {
+    "id": "lead-carbonate",
+    "source": "openstax-4-2",
+    "locator": "example 4.3",
+    "sourceEquation": "Pb^2+(aq)+CO3^2-(aq)>PbCO3(s)"
+  },
+  {
+    "id": "magnesium-hydroxide-acid",
+    "source": "openstax-4-2",
+    "locator": "acid base reaction example",
+    "sourceEquation": "Mg(OH)2(s)+HCl(aq)>MgCl2(aq)+H2O(l)"
+  },
+  {
+    "id": "barium-neutralization",
+    "source": "openstax-4-2",
+    "locator": "example 4.4",
+    "sourceEquation": "Ba(OH)2(aq)+HNO3(aq)>Ba(NO3)2(aq)+H2O(l)"
+  },
+  {
+    "id": "ethanol-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "C2H5OH(l)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "acetylene-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "C2H2(g)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "methanol-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "CH3OH(l)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "isooctane-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "C8H18(l)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "carbon-monoxide-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "CO(g)+O2(g)>CO2(g)"
+  },
+  {
+    "id": "sulfur-combustion",
+    "source": "openstax-5-3",
+    "locator": "table 5.2",
+    "sourceEquation": "S8(s)+O2(g)>SO2(g)"
+  },
+  {
+    "id": "ammonium-nitrate-dissolving",
+    "source": "openstax-11-1",
+    "locator": "cold pack paragraph and figure 11.5",
+    "sourceEquation": "NH4NO3(s)>NH4^+(aq)+NO3^-(aq)"
+  },
+  {
+    "id": "sucrose-dissolving",
+    "source": "openstax-11-1",
+    "locator": "first dissolution equation",
+    "sourceEquation": "C12H22O11(s)>C12H22O11-aq(aq)"
+  },
+  {
+    "id": "water-electrolysis",
+    "source": "openstax-18-5",
+    "locator": "electrolysis equation",
+    "sourceEquation": "H2O(l)>H2(g)+O2(g)"
+  },
+  {
+    "id": "iron-acid",
+    "source": "openstax-18-5",
+    "locator": "iron hydrochloric acid equation, spectators canceled",
+    "sourceEquation": "Fe(s)+H3O^+(aq)>Fe^2+(aq)+H2(g)+H2O(l)"
+  },
+  {
+    "id": "calcium-hydride-water",
+    "source": "openstax-18-5",
+    "locator": "ionic hydride equation",
+    "sourceEquation": "CaH2(s)+H2O(l)>Ca^2+(aq)+OH^-(aq)+H2(g)"
+  },
+  {
+    "id": "magnesium-nitride-water",
+    "source": "openstax-18-5",
+    "locator": "nitride hydrolysis equation",
+    "sourceEquation": "Mg3N2(s)+H2O(l)>Mg(OH)2(s)+NH3(g)"
+  },
+  {
+    "id": "iron-sulfide-acid",
+    "source": "openstax-18-5",
+    "locator": "hydrogen sulfide equation",
+    "sourceEquation": "FeS(s)+H3O^+(aq)>Fe^2+(aq)+H2S(g)+H2O(l)"
+  },
+  {
+    "id": "bromine-iodide",
+    "source": "openstax-18-5",
+    "locator": "halide oxidation equation",
+    "sourceEquation": "Br2-aq(aq)+HI(aq)>HBr(aq)+I2-aq(aq)"
+  },
+  {
+    "id": "sodium-oxide-carbonate",
+    "source": "openstax-18-6",
+    "locator": "carbonate formation equation",
+    "sourceEquation": "Na2O(s)+CO2(g)>Na2CO3-s(s)"
+  },
+  {
+    "id": "calcium-hydroxide-carbonate",
+    "source": "openstax-18-6",
+    "locator": "carbonate formation equation",
+    "sourceEquation": "Ca(OH)2-s(s)+CO2(g)>CaCO3(s)+H2O(l)"
+  },
+  {
+    "id": "calcium-carbonate-precipitate",
+    "source": "openstax-18-6",
+    "locator": "precipitation equation",
+    "sourceEquation": "Ca^2+(aq)+CO3^2-(aq)>CaCO3(s)"
+  },
+  {
+    "id": "limestone-acid",
+    "source": "openstax-18-6",
+    "locator": "carbonate acid equation",
+    "sourceEquation": "CaCO3(s)+HCl(aq)>CaCl2(aq)+CO2(g)+H2O(l)"
+  },
+  {
+    "id": "potassium-bicarbonate-base",
+    "source": "openstax-18-6",
+    "locator": "bicarbonate equation",
+    "sourceEquation": "KHCO3(aq)+KOH(aq)>K2CO3(aq)+H2O(l)"
+  },
+  {
+    "id": "limestone-carbonated-water",
+    "source": "openstax-18-6",
+    "locator": "bicarbonate cave formation equation",
+    "sourceEquation": "CaCO3(s)+CO2-aq(aq)+H2O(l)>Ca^2+(aq)+HCO3^-(aq)"
+  },
+  {
+    "id": "copper-dilute-nitric",
+    "source": "openstax-18-7",
+    "locator": "nitric oxide preparation equation",
+    "sourceEquation": "Cu(s)+HNO3(aq)>CuNO3(aq)+NO(g)+H2O(l)"
+  },
+  {
+    "id": "nitric-oxide-oxidation",
+    "source": "openstax-18-7",
+    "locator": "nitrogen dioxide commercial oxidation paragraph",
+    "sourceEquation": "NO(g)+O2(g)>NO2(g)"
+  },
+  {
+    "id": "nitrogen-pentoxide-water",
+    "source": "openstax-18-7",
+    "locator": "nitrogen oxide acid anhydride equation",
+    "sourceEquation": "N2O5(s)+H2O(l)>HNO3(aq)"
+  },
+  {
+    "id": "nitrous-oxide-decomposition",
+    "source": "openstax-18-7",
+    "locator": "nitrous oxide oxidizing behavior paragraph",
+    "sourceEquation": "N2O(g)>N2(g)+O2(g)"
+  },
+  {
+    "id": "lithium-nitride",
+    "source": "openstax-18-7",
+    "locator": "opening nitrogen reactivity paragraph",
+    "sourceEquation": "Li(s)+N2(g)>Li3N(s)"
+  },
+  {
+    "id": "phosphorus-oxide-water",
+    "source": "openstax-18-8",
+    "locator": "phosphoric acid equation",
+    "sourceEquation": "P4O10(s)+H2O(l)>H3PO4(aq)"
+  },
+  {
+    "id": "calcium-oxide-acid",
+    "source": "openstax-18-9",
+    "locator": "basic oxides acid equation",
+    "sourceEquation": "CaO(s)+HCl(aq)>CaCl2(aq)+H2O(l)"
+  },
+  {
+    "id": "sodium-oxide-acid",
+    "source": "openstax-18-9",
+    "locator": "basic oxides acid equation",
+    "sourceEquation": "Na2O(s)+HNO3(aq)>NaNO3(aq)+H2O(l)"
+  },
+  {
+    "id": "sodium-oxide-water",
+    "source": "openstax-18-9",
+    "locator": "basic oxides water equation",
+    "sourceEquation": "Na2O(s)+H2O(l)>NaOH(aq)"
+  },
+  {
+    "id": "calcium-oxide-water",
+    "source": "openstax-18-9",
+    "locator": "calcium oxide hydration paragraph",
+    "sourceEquation": "CaO(s)+H2O(l)>Ca(OH)2-s(s)"
+  },
+  {
+    "id": "lithium-water",
+    "source": "openstax-18-9",
+    "locator": "hydroxides preparation equation",
+    "sourceEquation": "Li(s)+H2O(l)>LiOH(aq)+H2(g)"
+  },
+  {
+    "id": "calcium-water",
+    "source": "openstax-18-9",
+    "locator": "hydroxides preparation equation",
+    "sourceEquation": "Ca(s)+H2O(l)>Ca(OH)2(aq)+H2(g)"
+  },
+  {
+    "id": "lithium-oxide-water",
+    "source": "openstax-18-9",
+    "locator": "basic oxide hydroxide equation",
+    "sourceEquation": "Li2O(s)+H2O(l)>LiOH(aq)"
+  },
+  {
+    "id": "aluminum-hydroxide-precipitate",
+    "source": "openstax-18-9",
+    "locator": "hydroxide precipitation equations",
+    "sourceEquation": "Al^3+(aq)+OH^-(aq)>Al(OH)3(s)"
+  },
+  {
+    "id": "zinc-hydroxide-precipitate",
+    "source": "openstax-18-9",
+    "locator": "hydroxide precipitation equations",
+    "sourceEquation": "Zn^2+(aq)+OH^-(aq)>Zn(OH)2(s)"
+  },
+  {
+    "id": "magnesium-hydroxide-lime",
+    "source": "openstax-18-2",
+    "locator": "magnesium preparation equation",
+    "sourceEquation": "MgCl2(aq)+Ca(OH)2(aq)>Mg(OH)2(s)+CaCl2(aq)"
+  },
+  {
+    "id": "zinc-oxide-carbon",
+    "source": "openstax-18-2",
+    "locator": "zinc production equation",
+    "sourceEquation": "ZnO(s)+C(s)>Zn-g(g)+CO(g)"
+  },
+  {
+    "id": "chlorine-bromide",
+    "source": "openstax-18-11",
+    "locator": "bromine preparation equation",
+    "sourceEquation": "Br^-(aq)+Cl2(g)>Br2(l)+Cl^-(aq)"
+  },
+  {
+    "id": "iodine-triiodide",
+    "source": "openstax-18-11",
+    "locator": "iodine solubility equation",
+    "sourceEquation": "I2(s)+I^-(aq)>I3^-(aq)"
+  },
+  {
+    "id": "chlorine-water",
+    "source": "openstax-18-11",
+    "locator": "halogen water equation",
+    "sourceEquation": "Cl2-aq(aq)+H2O(l)>HOCl(aq)+H3O^+(aq)+Cl^-(aq)"
+  },
+  {
+    "id": "water-freezing",
+    "source": "openstax-10-3",
+    "locator": "freezing equation",
+    "sourceEquation": "H2O(l)>H2O-ice(s)"
+  },
+  {
+    "id": "water-boiling",
+    "source": "openstax-10-3",
+    "locator": "vaporization equation",
+    "sourceEquation": "H2O(l)>H2O-g(g)"
+  },
+  {
+    "id": "ice-melting",
+    "source": "openstax-10-3",
+    "locator": "fusion equation",
+    "sourceEquation": "H2O-ice(s)>H2O(l)"
+  },
+  {
+    "id": "dry-ice-sublimation",
+    "source": "openstax-10-3",
+    "locator": "sublimation equation",
+    "sourceEquation": "CO2-s(s)>CO2(g)"
+  },
+  {
+    "id": "butane-combustion",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 5b",
+    "sourceEquation": "C4H10(g)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "magnesium-hydroxide-sodium",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 5c",
+    "sourceEquation": "MgCl2(aq)+NaOH(aq)>Mg(OH)2(s)+NaCl(aq)"
+  },
+  {
+    "id": "potassium-chlorate-decomposition",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 6a and 7b",
+    "sourceEquation": "KClO3(s)>KCl(s)+O2(g)"
+  },
+  {
+    "id": "barium-oxalate",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 9a",
+    "sourceEquation": "K2C2O4(aq)+Ba(OH)2(aq)>KOH(aq)+BaC2O4(s)"
+  },
+  {
+    "id": "lead-sulfate",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 9b",
+    "sourceEquation": "Pb(NO3)2(aq)+H2SO4(aq)>PbSO4(s)+HNO3(aq)"
+  },
+  {
+    "id": "limestone-sulfuric-acid",
+    "source": "openstax-4-exercises",
+    "locator": "exercise 9c",
+    "sourceEquation": "CaCO3(s)+H2SO4(aq)>CaSO4(s)+CO2(g)+H2O(l)"
+  },
+  {
+    "id": "calcium-hydroxide-hbr",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation calcium hydroxide and HBr",
+    "sourceEquation": "Ca(OH)2(aq)+HBr(aq)>CaBr2(aq)+H2O(l)"
+  },
+  {
+    "id": "cyclohexane-combustion",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation C6H12",
+    "sourceEquation": "C6H12(l)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "carbon-steam",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation steam and carbon",
+    "sourceEquation": "C(s)+H2O-g(g)>CO(g)+H2(g)"
+  },
+  {
+    "id": "sodium-sulfide-acid",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation sodium sulfide and HCl",
+    "sourceEquation": "Na2S(aq)+HCl(aq)>NaCl(aq)+H2S(g)"
+  },
+  {
+    "id": "magnesium-oxide-acid",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation magnesium oxide and HCl",
+    "sourceEquation": "MgO(s)+HCl(aq)>MgCl2(aq)+H2O(l)"
+  },
+  {
+    "id": "phosphoric-acid-complete",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation phosphoric acid and KOH",
+    "sourceEquation": "KOH(aq)+H3PO4(aq)>K3PO4(aq)+H2O(l)"
+  },
+  {
+    "id": "magnesium-nickel",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation magnesium and nickel chloride",
+    "sourceEquation": "Mg(s)+NiCl2(aq)>MgCl2(aq)+Ni(s)"
+  },
+  {
+    "id": "ethylene-combustion",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation ethylene",
+    "sourceEquation": "C2H4(g)+O2(g)>CO2(g)+H2O-g(g)"
+  },
+  {
+    "id": "zinc-sulfuric-acid",
+    "source": "openstax-4-exercises",
+    "locator": "classification equation zinc and sulfuric acid",
+    "sourceEquation": "Zn(s)+H2SO4(aq)>ZnSO4(aq)+H2(g)"
+  },
+  {
+    "id": "calcium-acetic-acid",
+    "source": "openstax-4-exercises",
+    "locator": "titration equation acetic acid and calcium hydroxide",
+    "sourceEquation": "CH3COOH(aq)+Ca(OH)2(aq)>Ca(CH3COO)2(aq)+H2O(l)"
+  },
+  {
+    "id": "nitric-phosphate",
+    "source": "openstax-4-exercises",
+    "locator": "titration equation nitric acid and K2HPO4",
+    "sourceEquation": "HNO3(aq)+K2HPO4(aq)>H3PO4(aq)+KNO3(aq)"
+  },
+  {
+    "id": "oxalic-neutralization",
+    "source": "openstax-4-exercises",
+    "locator": "titration equation oxalic acid and NaOH",
+    "sourceEquation": "H2C2O4(aq)+NaOH(aq)>Na2C2O4(aq)+H2O(l)"
+  },
+  {
+    "id": "sulfuric-potassium-neutralization",
+    "source": "openstax-4-exercises",
+    "locator": "titration equation sulfuric acid and KOH",
+    "sourceEquation": "H2SO4(aq)+KOH(aq)>K2SO4(aq)+H2O(l)"
+  },
+  {
+    "id": "calcium-hydrochloric-neutralization",
+    "source": "openstax-4-exercises",
+    "locator": "titration equation calcium hydroxide and HCl",
+    "sourceEquation": "Ca(OH)2(aq)+HCl(aq)>CaCl2(aq)+H2O(l)"
+  }
+]

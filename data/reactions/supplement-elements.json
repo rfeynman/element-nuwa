@@ -1,0 +1,1758 @@
+{
+  "version": "supplement-elements-2026.11.20",
+  "updatedAt": "2026-11-20T02:26:28Z",
+  "substances": [
+    {
+      "id": "NaCl-l",
+      "name": "NaCl",
+      "formula": "NaCl",
+      "state": "l",
+      "composition": {
+        "Na": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na-l",
+      "name": "Na",
+      "formula": "Na",
+      "state": "l",
+      "composition": {
+        "Na": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Cl2",
+      "name": "Chlorine",
+      "formula": "Cl₂",
+      "state": "g",
+      "composition": {
+        "Cl": 2
+      },
+      "charge": 0,
+      "elementZ": 17
+    },
+    {
+      "id": "MgCl2-l",
+      "name": "MgCl2",
+      "formula": "MgCl₂",
+      "state": "l",
+      "composition": {
+        "Mg": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg-l",
+      "name": "Mg",
+      "formula": "Mg",
+      "state": "l",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Si-s",
+      "name": "Si",
+      "formula": "Si",
+      "state": "s",
+      "composition": {
+        "Si": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgO",
+      "name": "Magnesium oxide",
+      "formula": "MgO",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SiO2-s",
+      "name": "SiO2",
+      "formula": "SiO₂",
+      "state": "s",
+      "composition": {
+        "Si": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg-g",
+      "name": "Mg",
+      "formula": "Mg",
+      "state": "g",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnS-s",
+      "name": "ZnS",
+      "formula": "ZnS",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "O2",
+      "name": "Oxygen",
+      "formula": "O₂",
+      "state": "g",
+      "composition": {
+        "O": 2
+      },
+      "charge": 0,
+      "elementZ": 8
+    },
+    {
+      "id": "ZnO-s",
+      "name": "ZnO",
+      "formula": "ZnO",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SO2-g",
+      "name": "SO2",
+      "formula": "SO₂",
+      "state": "g",
+      "composition": {
+        "S": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnCO3-s",
+      "name": "ZnCO3",
+      "formula": "ZnCO₃",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CO2",
+      "name": "Carbon dioxide",
+      "formula": "CO₂",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "C",
+      "name": "Carbon (graphitic solid)",
+      "formula": "C",
+      "state": "s",
+      "composition": {
+        "C": 1
+      },
+      "charge": 0,
+      "elementZ": 6
+    },
+    {
+      "id": "CO-g",
+      "name": "CO",
+      "formula": "CO",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SnO2-s",
+      "name": "SnO2",
+      "formula": "SnO₂",
+      "state": "s",
+      "composition": {
+        "Sn": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Sn-s",
+      "name": "Sn",
+      "formula": "Sn",
+      "state": "s",
+      "composition": {
+        "Sn": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2O-g",
+      "name": "Water vapor",
+      "formula": "H₂O",
+      "state": "g",
+      "composition": {
+        "H": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2",
+      "name": "Hydrogen",
+      "formula": "H₂",
+      "state": "g",
+      "composition": {
+        "H": 2
+      },
+      "charge": 0,
+      "elementZ": 1
+    },
+    {
+      "id": "MnO2-s",
+      "name": "MnO2",
+      "formula": "MnO₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnO-s",
+      "name": "MnO",
+      "formula": "MnO",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2O",
+      "name": "Water",
+      "formula": "H₂O",
+      "state": "l",
+      "composition": {
+        "H": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "S8",
+      "name": "Sulfur (S₈)",
+      "formula": "S₈",
+      "state": "s",
+      "composition": {
+        "S": 8
+      },
+      "charge": 0,
+      "elementZ": 16
+    },
+    {
+      "id": "H2S-g",
+      "name": "H2S",
+      "formula": "H₂S",
+      "state": "g",
+      "composition": {
+        "H": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2O-s",
+      "name": "Na2O",
+      "formula": "Na₂O",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2CO3-s",
+      "name": "Na2CO3",
+      "formula": "Na₂CO₃",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na3(CO3)(HCO3)(H2O)2-s",
+      "name": "Na3(CO3)(HCO3)(H2O)2",
+      "formula": "Na₃(CO₃)(HCO₃)(H₂O)₂",
+      "state": "s",
+      "composition": {
+        "Na": 3,
+        "C": 2,
+        "O": 8,
+        "H": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "NO2-g",
+      "name": "NO2",
+      "formula": "NO₂",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2O4-g",
+      "name": "N2O4",
+      "formula": "N₂O₄",
+      "state": "g",
+      "composition": {
+        "N": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4O10-s",
+      "name": "P4O10",
+      "formula": "P₄O₁₀",
+      "state": "s",
+      "composition": {
+        "P": 4,
+        "O": 10
+      },
+      "charge": 0
+    },
+    {
+      "id": "HNO3-l",
+      "name": "HNO3",
+      "formula": "HNO₃",
+      "state": "l",
+      "composition": {
+        "H": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "HPO3-s",
+      "name": "HPO3",
+      "formula": "HPO₃",
+      "state": "s",
+      "composition": {
+        "H": 1,
+        "P": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2O5-s",
+      "name": "N2O5",
+      "formula": "N₂O₅",
+      "state": "s",
+      "composition": {
+        "N": 2,
+        "O": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4-s",
+      "name": "P4",
+      "formula": "P₄",
+      "state": "s",
+      "composition": {
+        "P": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "NO-g",
+      "name": "NO",
+      "formula": "NO",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4O6-s",
+      "name": "P4O6",
+      "formula": "P₄O₆",
+      "state": "s",
+      "composition": {
+        "P": 4,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2-g",
+      "name": "N2",
+      "formula": "N₂",
+      "state": "g",
+      "composition": {
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "ClNO-g",
+      "name": "ClNO",
+      "formula": "ClNO",
+      "state": "g",
+      "composition": {
+        "Cl": 1,
+        "N": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "HCl",
+      "name": "Hydrochloric acid",
+      "formula": "HCl",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca3(PO4)2-s",
+      "name": "Ca3(PO4)2",
+      "formula": "Ca₃(PO₄)₂",
+      "state": "s",
+      "composition": {
+        "Ca": 3,
+        "P": 2,
+        "O": 8
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaSiO3-l",
+      "name": "CaSiO3",
+      "formula": "CaSiO₃",
+      "state": "l",
+      "composition": {
+        "Ca": 1,
+        "Si": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4-g",
+      "name": "P4",
+      "formula": "P₄",
+      "state": "g",
+      "composition": {
+        "P": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "O3-g",
+      "name": "O3",
+      "formula": "O₃",
+      "state": "g",
+      "composition": {
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "O-g",
+      "name": "O",
+      "formula": "O",
+      "state": "g",
+      "composition": {
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Al(OH)3-s",
+      "name": "Al(OH)3",
+      "formula": "Al(OH)₃",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "O": 3,
+        "H": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Al2O3-s",
+      "name": "Al2O3",
+      "formula": "Al₂O₃",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "KNO3-s",
+      "name": "KNO3",
+      "formula": "KNO₃",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "K-s",
+      "name": "K",
+      "formula": "K",
+      "state": "s",
+      "composition": {
+        "K": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "K2O-s",
+      "name": "K2O",
+      "formula": "K₂O",
+      "state": "s",
+      "composition": {
+        "K": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiOH-s",
+      "name": "LiOH",
+      "formula": "LiOH",
+      "state": "s",
+      "composition": {
+        "Li": 1,
+        "O": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Li-s",
+      "name": "Li",
+      "formula": "Li",
+      "state": "s",
+      "composition": {
+        "Li": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Li2O-s",
+      "name": "Li2O",
+      "formula": "Li₂O",
+      "state": "s",
+      "composition": {
+        "Li": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na",
+      "name": "Sodium",
+      "formula": "Na",
+      "state": "s",
+      "composition": {
+        "Na": 1
+      },
+      "charge": 0,
+      "elementZ": 11
+    },
+    {
+      "id": "Na2O2-s",
+      "name": "Na2O2",
+      "formula": "Na₂O₂",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrO-s",
+      "name": "SrO",
+      "formula": "SrO",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrO2-s",
+      "name": "SrO2",
+      "formula": "SrO₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SO3-g",
+      "name": "SO3",
+      "formula": "SO₃",
+      "state": "g",
+      "composition": {
+        "S": 1,
+        "O": 3
+      },
+      "charge": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "openstax-elements-18-2",
+      "name": "OpenStax Chemistry 2e §18.2",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    },
+    {
+      "id": "openstax-elements-18-5",
+      "name": "OpenStax Chemistry 2e §18.5",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    },
+    {
+      "id": "openstax-elements-18-6",
+      "name": "OpenStax Chemistry 2e §18.6",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-6-occurrence-preparation-and-properties-of-carbonates",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    },
+    {
+      "id": "openstax-elements-18-7",
+      "name": "OpenStax Chemistry 2e §18.7",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-7-occurrence-preparation-and-properties-of-nitrogen",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    },
+    {
+      "id": "openstax-elements-18-8",
+      "name": "OpenStax Chemistry 2e §18.8",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-8-occurrence-preparation-and-properties-of-phosphorus",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    },
+    {
+      "id": "openstax-elements-18-9",
+      "name": "OpenStax Chemistry 2e §18.9",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-9-occurrence-preparation-and-compounds-of-oxygen",
+      "retrievedAt": "2026-11-20T02:26:28Z",
+      "upstreamDate": "2019-02-14"
+    }
+  ],
+  "reactions": [
+    {
+      "id": "elements-nacl-electrolysis",
+      "title": "Electrolysis of molten sodium chloride",
+      "reactants": [
+        {
+          "id": "NaCl-l",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na-l",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Molten salt; external electricity and a heated melt; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-mgcl2-electrolysis",
+      "title": "Electrolysis of molten magnesium chloride",
+      "reactants": [
+        {
+          "id": "MgCl2-l",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg-l",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Molten salt; external electricity and a heated melt; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-magnesium-silicon",
+      "title": "Silicon reduces magnesium oxide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "MgO",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "SiO2-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Mg-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Hot reduction; magnesium vapor removal is essential; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-zinc-sulfide-roasting",
+      "title": "Oxidation of zinc sulfide",
+      "reactants": [
+        {
+          "id": "ZnS-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnO-s",
+          "coefficient": 2
+        },
+        {
+          "id": "SO2-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxidation in air; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-zinc-carbonate-decomposition",
+      "title": "Zinc carbonate decomposes",
+      "reactants": [
+        {
+          "id": "ZnCO3-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnO-s",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-tin-oxide-carbon",
+      "title": "Carbon reduces tin oxide",
+      "reactants": [
+        {
+          "id": "SnO2-s",
+          "coefficient": 1
+        },
+        {
+          "id": "C",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Sn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "CO-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated reduction; solid tin is the source equation endpoint; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-manganese-reduction",
+      "title": "Hydrogen reduces manganese dioxide",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "MnO2-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnO-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-hydrogen-sulfur",
+      "title": "Hydrogen combines with sulfur",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2S-g",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated, low-yield combination; sulfur normalized to S8; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-trona-decomposition",
+      "title": "Heating trona forms sodium carbonate",
+      "reactants": [
+        {
+          "id": "Na3(CO3)(HCO3)(H2O)2-s",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2CO3-s",
+          "coefficient": 3
+        },
+        {
+          "id": "H2O",
+          "coefficient": 5
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating trona; condensed water endpoint follows source; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-no2-dimerization",
+      "title": "Cooling favors dinitrogen tetroxide",
+      "reactants": [
+        {
+          "id": "NO2-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "N2O4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Cooling favors dimer; equilibrium is not complete conversion; conceptual model only",
+      "requiredActivation": [
+        "cooling"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-nitric-dehydration",
+      "title": "Phosphorus oxide dehydrates nitric acid",
+      "reactants": [
+        {
+          "id": "P4O10-s",
+          "coefficient": 1
+        },
+        {
+          "id": "HNO3-l",
+          "coefficient": 4
+        }
+      ],
+      "products": [
+        {
+          "id": "HPO3-s",
+          "coefficient": 4
+        },
+        {
+          "id": "N2O5-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "solidColor": "#f5f5f0"
+      }
+    },
+    {
+      "id": "elements-phosphorus-no",
+      "title": "Phosphorus is oxidized by nitric oxide",
+      "reactants": [
+        {
+          "id": "P4-s",
+          "coefficient": 1
+        },
+        {
+          "id": "NO-g",
+          "coefficient": 6
+        }
+      ],
+      "products": [
+        {
+          "id": "P4O6-s",
+          "coefficient": 1
+        },
+        {
+          "id": "N2-g",
+          "coefficient": 3
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "solid"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-nitrosyl-chloride",
+      "title": "Chlorine oxidizes nitric oxide",
+      "reactants": [
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        },
+        {
+          "id": "NO-g",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "ClNO-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-no2-carbon-monoxide",
+      "title": "Nitrogen dioxide oxidizes carbon monoxide",
+      "reactants": [
+        {
+          "id": "NO2-g",
+          "coefficient": 1
+        },
+        {
+          "id": "CO-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NO-g",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-no2-hydrochloric",
+      "title": "Nitrogen dioxide oxidizes chloride",
+      "reactants": [
+        {
+          "id": "NO2-g",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NO-g",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-phosphorus-extraction",
+      "title": "Phosphate reduction releases phosphorus",
+      "reactants": [
+        {
+          "id": "Ca3(PO4)2-s",
+          "coefficient": 2
+        },
+        {
+          "id": "SiO2-s",
+          "coefficient": 6
+        },
+        {
+          "id": "C",
+          "coefficient": 10
+        }
+      ],
+      "products": [
+        {
+          "id": "CaSiO3-l",
+          "coefficient": 6
+        },
+        {
+          "id": "CO-g",
+          "coefficient": 10
+        },
+        {
+          "id": "P4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated industrial reduction; vapor and molten phases; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-8"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-ozone-formation",
+      "title": "Electrical discharge forms ozone",
+      "reactants": [
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "O3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Electrical discharge in dry oxygen; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-ozone-photolysis",
+      "title": "Ultraviolet light splits ozone",
+      "reactants": [
+        {
+          "id": "O3-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "O-g",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ultraviolet light; atomic oxygen intermediate; conceptual model only",
+      "requiredActivation": [
+        "light"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-aluminium-hydroxide-decomposition",
+      "title": "Aluminum hydroxide releases water vapor",
+      "reactants": [
+        {
+          "id": "Al(OH)3-s",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Al2O3-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 3
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-potassium-nitrate-reduction",
+      "title": "Potassium reduces potassium nitrate",
+      "reactants": [
+        {
+          "id": "KNO3-s",
+          "coefficient": 2
+        },
+        {
+          "id": "K-s",
+          "coefficient": 10
+        }
+      ],
+      "products": [
+        {
+          "id": "K2O-s",
+          "coefficient": 6
+        },
+        {
+          "id": "N2-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-lithium-hydroxide-reduction",
+      "title": "Lithium reduces lithium hydroxide",
+      "reactants": [
+        {
+          "id": "LiOH-s",
+          "coefficient": 2
+        },
+        {
+          "id": "Li-s",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Li2O-s",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-sodium-peroxide",
+      "title": "Sodium forms peroxide in oxygen",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated sodium in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-sodium-oxide-peroxide",
+      "title": "Sodium oxide is oxidized to peroxide",
+      "reactants": [
+        {
+          "id": "Na2O-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2O2-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxide in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-strontium-peroxide",
+      "title": "Strontium oxide forms peroxide",
+      "reactants": [
+        {
+          "id": "SrO-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrO2-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxide in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-sulfur-dioxide-oxidation",
+      "title": "Sulfur dioxide is further oxidized",
+      "reactants": [
+        {
+          "id": "SO2-g",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SO3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated gas-phase oxidation; slow without catalyst; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-hydrogen-sulfide-oxidation",
+      "title": "Oxygen oxidizes hydrogen sulfide",
+      "reactants": [
+        {
+          "id": "H2S-g",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O",
+          "coefficient": 2
+        },
+        {
+          "id": "SO2-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion model; condensed water endpoint follows source; conceptual model only",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Products follow the displayed source equation."
+      ],
+      "explanation": "Selected source equation; phases and qualitative scope are stated in the condition label.",
+      "sourceIds": [
+        "openstax-elements-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    }
+  ]
+}

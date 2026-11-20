@@ -1,4 +1,11 @@
-import type { ReactionLibrary, ReactionResult, Substance } from './types';
+import type { Reaction, ReactionConditions, ReactionLibrary, ReactionResult, Substance } from './types';
+
+const activationMethods = new Set(['none', 'heat', 'light', 'ignition', 'electricity', 'cooling']);
+const atmospheres = new Set(['air', 'oxygen', 'inert']);
+const requiredActivation = (reaction: Reaction) => reaction.requiredActivation ?? [reaction.condition === 'ambient' ? 'none' : 'ignition'];
+const conditionDistance = (reaction: Reaction, conditions: ReactionConditions) =>
+  Number(!requiredActivation(reaction).includes(conditions.activation)) +
+  Number(reaction.requiredAtmosphere !== undefined && reaction.requiredAtmosphere !== conditions.atmosphere);
 
 const effects = new Set(['heat', 'flame', 'gas', 'steam', 'solid', 'toxic', 'blast', 'cooling']);
 const record = (value: unknown): value is Record<string, unknown> =>
@@ -60,6 +67,20 @@ export function validateLibrary(library: ReactionLibrary): string[] {
       if (!nonempty(reaction[key])) errors.push(`${label}: ${key} is required.`);
     }
     if (!['ambient', 'activation'].includes(reaction.condition)) errors.push(`${label}: invalid condition.`);
+    if (reaction.requiredActivation !== undefined && (!Array.isArray(reaction.requiredActivation) || !reaction.requiredActivation.length || reaction.requiredActivation.some(method => !activationMethods.has(method)) || new Set(reaction.requiredActivation).size !== reaction.requiredActivation.length)) {
+      errors.push(`${label}: requiredActivation must contain unique allowed activation methods.`);
+    }
+    if (reaction.requiredAtmosphere !== undefined && !atmospheres.has(reaction.requiredAtmosphere)) errors.push(`${label}: invalid requiredAtmosphere.`);
+    if (reaction.visual !== undefined) {
+      if (!record(reaction.visual)) errors.push(`${label}: visual must be an object.`);
+      else {
+        for (const key of ['gasColor', 'solidColor', 'solutionColor'] as const) {
+          if (reaction.visual[key] !== undefined && (typeof reaction.visual[key] !== 'string' || !/^#(?:[0-9a-f]{3}|[0-9a-f]{4}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(reaction.visual[key]))) errors.push(`${label}: ${key} must be a hexadecimal CSS color.`);
+        }
+        if (reaction.visual.freezing !== undefined && typeof reaction.visual.freezing !== 'boolean') errors.push(`${label}: freezing must be boolean.`);
+      }
+    }
+    if (reaction.process !== undefined && !['chemical', 'physical'].includes(reaction.process)) errors.push(`${label}: invalid process.`);
     if (!['reaction', 'no-reaction'].includes(reaction.outcome)) errors.push(`${label}: invalid outcome.`);
     if (!['source-checked', 'draft'].includes(reaction.reviewStatus)) errors.push(`${label}: invalid review status.`);
     if (!Array.isArray(reaction.effects) || reaction.effects.some(effect => !effects.has(effect))) errors.push(`${label}: invalid effects.`);
@@ -105,9 +126,9 @@ export function validateLibrary(library: ReactionLibrary): string[] {
 }
 
 /** Ingredient presence only: repeats do not represent amounts, and every ingredient must match. */
-export function evaluateReaction(library: ReactionLibrary, selectedIds: string[], activated: boolean): ReactionResult {
-  if (!Array.isArray(selectedIds) || selectedIds.some(id => !nonempty(id)) || typeof activated !== 'boolean') {
-    return { kind: 'invalid', message: 'Select valid substance IDs and an activation state.' };
+export function evaluateReaction(library: ReactionLibrary, selectedIds: string[], conditions: ReactionConditions): ReactionResult {
+  if (!Array.isArray(selectedIds) || selectedIds.some(id => !nonempty(id)) || !record(conditions) || !activationMethods.has(conditions.activation) || !atmospheres.has(conditions.atmosphere)) {
+    return { kind: 'invalid', message: 'Select valid substance IDs, an activation method, and an atmosphere.' };
   }
   const errors = validateLibrary(library);
   if (errors.length) return { kind: 'invalid', message: `Reaction library is invalid: ${errors.join(' ')}` };
@@ -116,13 +137,11 @@ export function evaluateReaction(library: ReactionLibrary, selectedIds: string[]
   if ([...selected].some(id => !known.has(id))) return { kind: 'invalid', message: 'A selected substance is unknown.' };
   if (!selected.size) return { kind: 'invalid', message: 'Add at least one substance.' };
   const matches = library.reactions.filter(reaction => reaction.reviewStatus === 'source-checked' && reaction.reactants.length === selected.size && reaction.reactants.every(term => selected.has(term.id)));
-  // Prefer the scenario for the current condition, then report a missing activation if needed.
-  const eligible = matches.filter(reaction => reaction.condition === (activated ? 'activation' : 'ambient'));
-  const fallback = matches.filter(reaction => reaction.condition === (activated ? 'ambient' : 'activation'));
-  const candidates = eligible.length ? eligible : fallback;
-  if (candidates.length > 1) return { kind: 'invalid', message: 'Multiple reviewed scenarios match these ingredients and conditions.' };
-  const scenario = candidates[0];
-  if (!scenario) return { kind: 'unsupported', message: 'This combination is not modeled yet.' };
-  if (scenario.condition === 'activation' && !activated) return { kind: 'missing-condition', scenario };
-  return { kind: scenario.outcome, scenario };
+  const eligible = matches.filter(reaction => conditionDistance(reaction, conditions) === 0);
+  if (eligible.length > 1) return { kind: 'invalid', message: 'Multiple reviewed scenarios match these ingredients and conditions.' };
+  if (eligible.length === 1) return { kind: eligible[0].outcome, scenario: eligible[0] };
+  if (!matches.length) return { kind: 'unsupported', message: 'This combination is not modeled yet.' };
+  // Stable across snapshot ordering: prefer fewer unmet requirements, then the scenario ID.
+  const scenario = [...matches].sort((a, b) => conditionDistance(a, conditions) - conditionDistance(b, conditions) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))[0];
+  return { kind: 'missing-condition', scenario };
 }

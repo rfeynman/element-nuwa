@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.20-source-checked.1",
-  "updatedAt": "2026-11-20T01:49:49Z",
+  "version": "2026.11.20-source-checked.2",
+  "updatedAt": "2026-11-20T02:26:53Z",
   "substances": [
     {
       "id": "H2",
@@ -350,6 +350,1501 @@
         "O": 4
       },
       "charge": 0
+    },
+    {
+      "id": "CH4",
+      "name": "Methane",
+      "formula": "CH₄",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "H": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "C2H6",
+      "name": "Ethane",
+      "formula": "C₂H₆",
+      "state": "g",
+      "composition": {
+        "C": 2,
+        "H": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaCO3",
+      "name": "Calcium carbonate",
+      "formula": "CaCO₃",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaO",
+      "name": "Calcium oxide",
+      "formula": "CaO",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaCl2",
+      "name": "Calcium chloride",
+      "formula": "CaCl₂",
+      "state": "aq",
+      "composition": {
+        "Ca": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca(NO3)2",
+      "name": "Calcium nitrate",
+      "formula": "Ca(NO₃)₂",
+      "state": "aq",
+      "composition": {
+        "Ca": 1,
+        "N": 2,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "AgCl",
+      "name": "Silver chloride",
+      "formula": "AgCl",
+      "state": "s",
+      "composition": {
+        "Ag": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CO2-aq",
+      "name": "Dissolved carbon dioxide",
+      "formula": "CO₂",
+      "state": "aq",
+      "composition": {
+        "C": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2CO3",
+      "name": "Sodium carbonate",
+      "formula": "Na₂CO₃",
+      "state": "aq",
+      "composition": {
+        "Na": 2,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "KI",
+      "name": "Potassium iodide",
+      "formula": "KI",
+      "state": "aq",
+      "composition": {
+        "K": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Pb(NO3)2",
+      "name": "Lead(II) nitrate",
+      "formula": "Pb(NO₃)₂",
+      "state": "aq",
+      "composition": {
+        "Pb": 1,
+        "N": 2,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "PbI2",
+      "name": "Lead(II) iodide",
+      "formula": "PbI₂",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "KNO3",
+      "name": "Potassium nitrate",
+      "formula": "KNO₃",
+      "state": "aq",
+      "composition": {
+        "K": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba^2+",
+      "name": "Barium ion",
+      "formula": "Ba²⁺",
+      "state": "aq",
+      "composition": {
+        "Ba": 1
+      },
+      "charge": 2
+    },
+    {
+      "id": "SO4^2-",
+      "name": "Sulfate ion",
+      "formula": "SO₄²⁻",
+      "state": "aq",
+      "composition": {
+        "S": 1,
+        "O": 4
+      },
+      "charge": -2
+    },
+    {
+      "id": "BaSO4",
+      "name": "Barium sulfate",
+      "formula": "BaSO₄",
+      "state": "s",
+      "composition": {
+        "Ba": 1,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "Pb^2+",
+      "name": "Lead(II) ion",
+      "formula": "Pb²⁺",
+      "state": "aq",
+      "composition": {
+        "Pb": 1
+      },
+      "charge": 2
+    },
+    {
+      "id": "CO3^2-",
+      "name": "Carbonate ion",
+      "formula": "CO₃²⁻",
+      "state": "aq",
+      "composition": {
+        "C": 1,
+        "O": 3
+      },
+      "charge": -2
+    },
+    {
+      "id": "PbCO3",
+      "name": "Lead(II) carbonate",
+      "formula": "PbCO₃",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg(OH)2",
+      "name": "Magnesium hydroxide",
+      "formula": "Mg(OH)₂",
+      "state": "s",
+      "composition": {
+        "Mg": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba(OH)2",
+      "name": "Barium hydroxide",
+      "formula": "Ba(OH)₂",
+      "state": "aq",
+      "composition": {
+        "Ba": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "HNO3",
+      "name": "Nitric acid (dilute)",
+      "formula": "HNO₃",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ba(NO3)2",
+      "name": "Barium nitrate",
+      "formula": "Ba(NO₃)₂",
+      "state": "aq",
+      "composition": {
+        "Ba": 1,
+        "N": 2,
+        "O": 6
+      },
+      "charge": 0
+    },
+    {
+      "id": "C2H5OH",
+      "name": "Ethanol",
+      "formula": "C₂H₅OH",
+      "state": "l",
+      "composition": {
+        "C": 2,
+        "H": 6,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "C2H2",
+      "name": "Acetylene",
+      "formula": "C₂H₂",
+      "state": "g",
+      "composition": {
+        "C": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "CH3OH",
+      "name": "Methanol",
+      "formula": "CH₃OH",
+      "state": "l",
+      "composition": {
+        "C": 1,
+        "H": 4,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "C8H18",
+      "name": "Isooctane",
+      "formula": "C₈H₁₈",
+      "state": "l",
+      "composition": {
+        "C": 8,
+        "H": 18
+      },
+      "charge": 0
+    },
+    {
+      "id": "CO",
+      "name": "Carbon monoxide",
+      "formula": "CO",
+      "state": "g",
+      "composition": {
+        "C": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SO2",
+      "name": "Sulfur dioxide",
+      "formula": "SO₂",
+      "state": "g",
+      "composition": {
+        "S": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "NH4NO3",
+      "name": "Ammonium nitrate",
+      "formula": "NH₄NO₃",
+      "state": "s",
+      "composition": {
+        "N": 2,
+        "H": 4,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "NH4^+",
+      "name": "Ammonium ion",
+      "formula": "NH₄⁺",
+      "state": "aq",
+      "composition": {
+        "N": 1,
+        "H": 4
+      },
+      "charge": 1
+    },
+    {
+      "id": "NO3^-",
+      "name": "Nitrate ion",
+      "formula": "NO₃⁻",
+      "state": "aq",
+      "composition": {
+        "N": 1,
+        "O": 3
+      },
+      "charge": -1
+    },
+    {
+      "id": "C12H22O11",
+      "name": "Sucrose",
+      "formula": "C₁₂H₂₂O₁₁",
+      "state": "s",
+      "composition": {
+        "C": 12,
+        "H": 22,
+        "O": 11
+      },
+      "charge": 0
+    },
+    {
+      "id": "C12H22O11-aq",
+      "name": "Dissolved sucrose",
+      "formula": "C₁₂H₂₂O₁₁",
+      "state": "aq",
+      "composition": {
+        "C": 12,
+        "H": 22,
+        "O": 11
+      },
+      "charge": 0
+    },
+    {
+      "id": "H3O^+",
+      "name": "Hydronium ion",
+      "formula": "H₃O⁺",
+      "state": "aq",
+      "composition": {
+        "H": 3,
+        "O": 1
+      },
+      "charge": 1
+    },
+    {
+      "id": "Fe^2+",
+      "name": "Iron(II) ion",
+      "formula": "Fe²⁺",
+      "state": "aq",
+      "composition": {
+        "Fe": 1
+      },
+      "charge": 2
+    },
+    {
+      "id": "CaH2",
+      "name": "Calcium hydride",
+      "formula": "CaH₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca^2+",
+      "name": "Calcium ion",
+      "formula": "Ca²⁺",
+      "state": "aq",
+      "composition": {
+        "Ca": 1
+      },
+      "charge": 2
+    },
+    {
+      "id": "OH^-",
+      "name": "Hydroxide ion",
+      "formula": "OH⁻",
+      "state": "aq",
+      "composition": {
+        "O": 1,
+        "H": 1
+      },
+      "charge": -1
+    },
+    {
+      "id": "Mg3N2",
+      "name": "Magnesium nitride",
+      "formula": "Mg₃N₂",
+      "state": "s",
+      "composition": {
+        "Mg": 3,
+        "N": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "NH3",
+      "name": "Ammonia",
+      "formula": "NH₃",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "H": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2S",
+      "name": "Hydrogen sulfide",
+      "formula": "H₂S",
+      "state": "g",
+      "composition": {
+        "H": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Br2-aq",
+      "name": "Dissolved bromine",
+      "formula": "Br₂",
+      "state": "aq",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "HI",
+      "name": "Hydroiodic acid",
+      "formula": "HI",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "I": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "HBr",
+      "name": "Hydrobromic acid",
+      "formula": "HBr",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "Br": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "I2-aq",
+      "name": "Dissolved iodine",
+      "formula": "I₂",
+      "state": "aq",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2O",
+      "name": "Sodium oxide",
+      "formula": "Na₂O",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2CO3-s",
+      "name": "Sodium carbonate (solid)",
+      "formula": "Na₂CO₃",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca(OH)2-s",
+      "name": "Calcium hydroxide (solid)",
+      "formula": "Ca(OH)₂",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "KHCO3",
+      "name": "Potassium bicarbonate",
+      "formula": "KHCO₃",
+      "state": "aq",
+      "composition": {
+        "K": 1,
+        "H": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "KOH",
+      "name": "Potassium hydroxide",
+      "formula": "KOH",
+      "state": "aq",
+      "composition": {
+        "K": 1,
+        "O": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "K2CO3",
+      "name": "Potassium carbonate",
+      "formula": "K₂CO₃",
+      "state": "aq",
+      "composition": {
+        "K": 2,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "HCO3^-",
+      "name": "Bicarbonate ion",
+      "formula": "HCO₃⁻",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": -1
+    },
+    {
+      "id": "NO",
+      "name": "Nitric oxide",
+      "formula": "NO",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "NO2",
+      "name": "Nitrogen dioxide",
+      "formula": "NO₂",
+      "state": "g",
+      "composition": {
+        "N": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2O5",
+      "name": "Dinitrogen pentoxide",
+      "formula": "N₂O₅",
+      "state": "s",
+      "composition": {
+        "N": 2,
+        "O": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2O",
+      "name": "Nitrous oxide",
+      "formula": "N₂O",
+      "state": "g",
+      "composition": {
+        "N": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2",
+      "name": "Nitrogen",
+      "formula": "N₂",
+      "state": "g",
+      "composition": {
+        "N": 2
+      },
+      "charge": 0,
+      "elementZ": 7
+    },
+    {
+      "id": "Li",
+      "name": "Lithium",
+      "formula": "Li",
+      "state": "s",
+      "composition": {
+        "Li": 1
+      },
+      "charge": 0,
+      "elementZ": 3
+    },
+    {
+      "id": "Li3N",
+      "name": "Lithium nitride",
+      "formula": "Li₃N",
+      "state": "s",
+      "composition": {
+        "Li": 3,
+        "N": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4O10",
+      "name": "Phosphorus(V) oxide",
+      "formula": "P₄O₁₀",
+      "state": "s",
+      "composition": {
+        "P": 4,
+        "O": 10
+      },
+      "charge": 0
+    },
+    {
+      "id": "H3PO4",
+      "name": "Phosphoric acid",
+      "formula": "H₃PO₄",
+      "state": "aq",
+      "composition": {
+        "H": 3,
+        "P": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaNO3",
+      "name": "Sodium nitrate",
+      "formula": "NaNO₃",
+      "state": "aq",
+      "composition": {
+        "Na": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "LiOH",
+      "name": "Lithium hydroxide",
+      "formula": "LiOH",
+      "state": "aq",
+      "composition": {
+        "Li": 1,
+        "O": 1,
+        "H": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca",
+      "name": "Calcium",
+      "formula": "Ca",
+      "state": "s",
+      "composition": {
+        "Ca": 1
+      },
+      "charge": 0,
+      "elementZ": 20
+    },
+    {
+      "id": "Ca(OH)2",
+      "name": "Calcium hydroxide solution",
+      "formula": "Ca(OH)₂",
+      "state": "aq",
+      "composition": {
+        "Ca": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Li2O",
+      "name": "Lithium oxide",
+      "formula": "Li₂O",
+      "state": "s",
+      "composition": {
+        "Li": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Al^3+",
+      "name": "Aluminum ion",
+      "formula": "Al³⁺",
+      "state": "aq",
+      "composition": {
+        "Al": 1
+      },
+      "charge": 3
+    },
+    {
+      "id": "Al(OH)3",
+      "name": "Aluminum hydroxide",
+      "formula": "Al(OH)₃",
+      "state": "s",
+      "composition": {
+        "Al": 1,
+        "O": 3,
+        "H": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Zn^2+",
+      "name": "Zinc ion",
+      "formula": "Zn²⁺",
+      "state": "aq",
+      "composition": {
+        "Zn": 1
+      },
+      "charge": 2
+    },
+    {
+      "id": "Zn(OH)2",
+      "name": "Zinc hydroxide",
+      "formula": "Zn(OH)₂",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "O": 2,
+        "H": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnO",
+      "name": "Zinc oxide",
+      "formula": "ZnO",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Zn-g",
+      "name": "Zinc vapor",
+      "formula": "Zn",
+      "state": "g",
+      "composition": {
+        "Zn": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Br^-",
+      "name": "Bromide ion",
+      "formula": "Br⁻",
+      "state": "aq",
+      "composition": {
+        "Br": 1
+      },
+      "charge": -1
+    },
+    {
+      "id": "Br2",
+      "name": "Bromine",
+      "formula": "Br₂",
+      "state": "l",
+      "composition": {
+        "Br": 2
+      },
+      "charge": 0,
+      "elementZ": 35
+    },
+    {
+      "id": "Cl^-",
+      "name": "Chloride ion",
+      "formula": "Cl⁻",
+      "state": "aq",
+      "composition": {
+        "Cl": 1
+      },
+      "charge": -1
+    },
+    {
+      "id": "I2",
+      "name": "Iodine",
+      "formula": "I₂",
+      "state": "s",
+      "composition": {
+        "I": 2
+      },
+      "charge": 0,
+      "elementZ": 53
+    },
+    {
+      "id": "I^-",
+      "name": "Iodide ion",
+      "formula": "I⁻",
+      "state": "aq",
+      "composition": {
+        "I": 1
+      },
+      "charge": -1
+    },
+    {
+      "id": "I3^-",
+      "name": "Triiodide ion",
+      "formula": "I₃⁻",
+      "state": "aq",
+      "composition": {
+        "I": 3
+      },
+      "charge": -1
+    },
+    {
+      "id": "Cl2-aq",
+      "name": "Dissolved chlorine",
+      "formula": "Cl₂",
+      "state": "aq",
+      "composition": {
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "HOCl",
+      "name": "Hypochlorous acid",
+      "formula": "HOCl",
+      "state": "aq",
+      "composition": {
+        "H": 1,
+        "O": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2O-ice",
+      "name": "Ice",
+      "formula": "H₂O",
+      "state": "s",
+      "composition": {
+        "H": 2,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "CO2-s",
+      "name": "Dry ice",
+      "formula": "CO₂",
+      "state": "s",
+      "composition": {
+        "C": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "C4H10",
+      "name": "Butane",
+      "formula": "C₄H₁₀",
+      "state": "g",
+      "composition": {
+        "C": 4,
+        "H": 10
+      },
+      "charge": 0
+    },
+    {
+      "id": "KClO3",
+      "name": "Potassium chlorate",
+      "formula": "KClO₃",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "Cl": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "KCl",
+      "name": "Potassium chloride",
+      "formula": "KCl",
+      "state": "s",
+      "composition": {
+        "K": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "K2C2O4",
+      "name": "Potassium oxalate",
+      "formula": "K₂C₂O₄",
+      "state": "aq",
+      "composition": {
+        "K": 2,
+        "C": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "BaC2O4",
+      "name": "Barium oxalate",
+      "formula": "BaC₂O₄",
+      "state": "s",
+      "composition": {
+        "Ba": 1,
+        "C": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2SO4",
+      "name": "Sulfuric acid (dilute)",
+      "formula": "H₂SO₄",
+      "state": "aq",
+      "composition": {
+        "H": 2,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "PbSO4",
+      "name": "Lead(II) sulfate",
+      "formula": "PbSO₄",
+      "state": "s",
+      "composition": {
+        "Pb": 1,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaSO4",
+      "name": "Calcium sulfate",
+      "formula": "CaSO₄",
+      "state": "s",
+      "composition": {
+        "Ca": 1,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaBr2",
+      "name": "Calcium bromide",
+      "formula": "CaBr₂",
+      "state": "aq",
+      "composition": {
+        "Ca": 1,
+        "Br": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "C6H12",
+      "name": "Cyclohexane",
+      "formula": "C₆H₁₂",
+      "state": "l",
+      "composition": {
+        "C": 6,
+        "H": 12
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2S",
+      "name": "Sodium sulfide",
+      "formula": "Na₂S",
+      "state": "aq",
+      "composition": {
+        "Na": 2,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "K3PO4",
+      "name": "Potassium phosphate",
+      "formula": "K₃PO₄",
+      "state": "aq",
+      "composition": {
+        "K": 3,
+        "P": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "NiCl2",
+      "name": "Nickel(II) chloride",
+      "formula": "NiCl₂",
+      "state": "aq",
+      "composition": {
+        "Ni": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ni",
+      "name": "Nickel",
+      "formula": "Ni",
+      "state": "s",
+      "composition": {
+        "Ni": 1
+      },
+      "charge": 0,
+      "elementZ": 28
+    },
+    {
+      "id": "C2H4",
+      "name": "Ethylene",
+      "formula": "C₂H₄",
+      "state": "g",
+      "composition": {
+        "C": 2,
+        "H": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnSO4",
+      "name": "Zinc sulfate",
+      "formula": "ZnSO₄",
+      "state": "aq",
+      "composition": {
+        "Zn": 1,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "CH3COOH",
+      "name": "Acetic acid",
+      "formula": "CH₃COOH",
+      "state": "aq",
+      "composition": {
+        "C": 2,
+        "H": 4,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca(CH3COO)2",
+      "name": "Calcium acetate",
+      "formula": "Ca(CH₃COO)₂",
+      "state": "aq",
+      "composition": {
+        "Ca": 1,
+        "C": 4,
+        "H": 6,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "K2HPO4",
+      "name": "Potassium hydrogen phosphate",
+      "formula": "K₂HPO₄",
+      "state": "aq",
+      "composition": {
+        "K": 2,
+        "H": 1,
+        "P": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "H2C2O4",
+      "name": "Oxalic acid",
+      "formula": "H₂C₂O₄",
+      "state": "aq",
+      "composition": {
+        "H": 2,
+        "C": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2C2O4",
+      "name": "Sodium oxalate",
+      "formula": "Na₂C₂O₄",
+      "state": "aq",
+      "composition": {
+        "Na": 2,
+        "C": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "K2SO4",
+      "name": "Potassium sulfate",
+      "formula": "K₂SO₄",
+      "state": "aq",
+      "composition": {
+        "K": 2,
+        "S": 1,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "NaCl-l",
+      "name": "Molten sodium chloride",
+      "formula": "NaCl",
+      "state": "l",
+      "composition": {
+        "Na": 1,
+        "Cl": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na-l",
+      "name": "Liquid sodium",
+      "formula": "Na",
+      "state": "l",
+      "composition": {
+        "Na": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "MgCl2-l",
+      "name": "MgCl2",
+      "formula": "MgCl₂",
+      "state": "l",
+      "composition": {
+        "Mg": 1,
+        "Cl": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg-l",
+      "name": "Liquid magnesium",
+      "formula": "Mg",
+      "state": "l",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Si-s",
+      "name": "Silicon",
+      "formula": "Si",
+      "state": "s",
+      "composition": {
+        "Si": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SiO2-s",
+      "name": "SiO2",
+      "formula": "SiO₂",
+      "state": "s",
+      "composition": {
+        "Si": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Mg-g",
+      "name": "Magnesium vapor",
+      "formula": "Mg",
+      "state": "g",
+      "composition": {
+        "Mg": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnS-s",
+      "name": "Zinc sulfide",
+      "formula": "ZnS",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "S": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "ZnCO3-s",
+      "name": "ZnCO3",
+      "formula": "ZnCO₃",
+      "state": "s",
+      "composition": {
+        "Zn": 1,
+        "C": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "SnO2-s",
+      "name": "SnO2",
+      "formula": "SnO₂",
+      "state": "s",
+      "composition": {
+        "Sn": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "Sn-s",
+      "name": "Tin",
+      "formula": "Sn",
+      "state": "s",
+      "composition": {
+        "Sn": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnO2-s",
+      "name": "MnO2",
+      "formula": "MnO₂",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "MnO-s",
+      "name": "Manganese(II) oxide",
+      "formula": "MnO",
+      "state": "s",
+      "composition": {
+        "Mn": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na3(CO3)(HCO3)(H2O)2-s",
+      "name": "Na3(CO3)(HCO3)(H2O)2",
+      "formula": "Na₃(CO₃)(HCO₃)(H₂O)₂",
+      "state": "s",
+      "composition": {
+        "Na": 3,
+        "C": 2,
+        "O": 8,
+        "H": 5
+      },
+      "charge": 0
+    },
+    {
+      "id": "N2O4-g",
+      "name": "Dinitrogen tetroxide",
+      "formula": "N₂O₄",
+      "state": "g",
+      "composition": {
+        "N": 2,
+        "O": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "HNO3-l",
+      "name": "Liquid nitric acid",
+      "formula": "HNO₃",
+      "state": "l",
+      "composition": {
+        "H": 1,
+        "N": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "HPO3-s",
+      "name": "Metaphosphoric acid",
+      "formula": "HPO₃",
+      "state": "s",
+      "composition": {
+        "H": 1,
+        "P": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "ClNO-g",
+      "name": "Nitrosyl chloride",
+      "formula": "ClNO",
+      "state": "g",
+      "composition": {
+        "Cl": 1,
+        "N": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Ca3(PO4)2-s",
+      "name": "Ca3(PO4)2",
+      "formula": "Ca₃(PO₄)₂",
+      "state": "s",
+      "composition": {
+        "Ca": 3,
+        "P": 2,
+        "O": 8
+      },
+      "charge": 0
+    },
+    {
+      "id": "CaSiO3-l",
+      "name": "CaSiO3",
+      "formula": "CaSiO₃",
+      "state": "l",
+      "composition": {
+        "Ca": 1,
+        "Si": 1,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "P4-g",
+      "name": "Tetraphosphorus vapor",
+      "formula": "P₄",
+      "state": "g",
+      "composition": {
+        "P": 4
+      },
+      "charge": 0
+    },
+    {
+      "id": "O3-g",
+      "name": "Ozone",
+      "formula": "O₃",
+      "state": "g",
+      "composition": {
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "O-g",
+      "name": "Atomic oxygen",
+      "formula": "O",
+      "state": "g",
+      "composition": {
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "Al2O3-s",
+      "name": "Al2O3",
+      "formula": "Al₂O₃",
+      "state": "s",
+      "composition": {
+        "Al": 2,
+        "O": 3
+      },
+      "charge": 0
+    },
+    {
+      "id": "Na2O2-s",
+      "name": "Na2O2",
+      "formula": "Na₂O₂",
+      "state": "s",
+      "composition": {
+        "Na": 2,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrO-s",
+      "name": "Strontium oxide",
+      "formula": "SrO",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "O": 1
+      },
+      "charge": 0
+    },
+    {
+      "id": "SrO2-s",
+      "name": "SrO2",
+      "formula": "SrO₂",
+      "state": "s",
+      "composition": {
+        "Sr": 1,
+        "O": 2
+      },
+      "charge": 0
+    },
+    {
+      "id": "SO3-g",
+      "name": "Sulfur trioxide",
+      "formula": "SO₃",
+      "state": "g",
+      "composition": {
+        "S": 1,
+        "O": 3
+      },
+      "charge": 0
     }
   ],
   "reactions": [
@@ -389,7 +1884,10 @@
       "sourceIds": [
         "wisc-h2"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "ignition"
+      ]
     },
     {
       "id": "magnesium-oxygen",
@@ -425,7 +1923,11 @@
       "sourceIds": [
         "okstate"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "requiredAtmosphere": "oxygen"
     },
     {
       "id": "iron-sulfur",
@@ -461,7 +1963,10 @@
       "sourceIds": [
         "sydney-fes"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "heat"
+      ]
     },
     {
       "id": "carbon-oxygen",
@@ -495,7 +2000,10 @@
       "sourceIds": [
         "rsc-carbon"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "ignition"
+      ]
     },
     {
       "id": "hydrogen-chlorine",
@@ -533,7 +2041,10 @@
         "wisc-hcl",
         "rsc-nacl"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "light"
+      ]
     },
     {
       "id": "sodium-chlorine",
@@ -571,7 +2082,13 @@
       "sourceIds": [
         "rsc-nacl"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "visual": {
+        "solidColor": "#f1f5f9"
+      }
     },
     {
       "id": "sodium-water",
@@ -611,7 +2128,10 @@
       "sourceIds": [
         "okstate"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "magnesium-acid",
@@ -649,7 +2169,10 @@
       "sourceIds": [
         "rsc-mg"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "zinc-acid",
@@ -687,7 +2210,10 @@
       "sourceIds": [
         "okstate"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "neutralization",
@@ -727,7 +2253,10 @@
         "wisc-neutral",
         "rsc-neutral"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "bicarbonate-acid",
@@ -769,7 +2298,10 @@
       "sourceIds": [
         "uw-fizz"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "copper-hydroxide",
@@ -808,7 +2340,13 @@
         "wisc-precip",
         "pearson-precip"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ],
+      "visual": {
+        "solidColor": "#52aadd"
+      }
     },
     {
       "id": "copper-silver",
@@ -846,7 +2384,10 @@
       "sourceIds": [
         "okstate"
       ],
-      "reviewStatus": "source-checked"
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
     },
     {
       "id": "helium-neon",
@@ -882,6 +2423,3912 @@
       "explanation": "Helium and neon are exceptionally unreactive noble gases. This claim is restricted to ordinary conditions, not exotic high-energy or high-pressure chemistry.",
       "sourceIds": [
         "ou-noble"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredActivation": [
+        "none"
+      ]
+    },
+    {
+      "id": "methane-combustion",
+      "title": "Methane burns",
+      "reactants": [
+        {
+          "id": "CH4",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "A hydrocarbon fuel forms carbon dioxide and water; the water is initially vapor.",
+      "sourceIds": [
+        "openstax-4-1"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "ethane-combustion",
+      "title": "Ethane burns",
+      "reactants": [
+        {
+          "id": "C2H6",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 7
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 4
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 6
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "Balancing carbon and hydrogen first fixes the oxygen needed for complete combustion.",
+      "sourceIds": [
+        "openstax-4-1"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-carbonate-decomposition",
+      "title": "Limestone decomposes",
+      "reactants": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaO",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Thermal decomposition; carbon dioxide can escape",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "solid"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide.",
+        "Solid products: Calcium oxide."
+      ],
+      "explanation": "Heating breaks down calcium carbonate into calcium oxide and carbon dioxide.",
+      "sourceIds": [
+        "openstax-4-1"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-silver-chloride",
+      "title": "Silver chloride precipitates",
+      "reactants": [
+        {
+          "id": "CaCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "AgNO3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca(NO3)2",
+          "coefficient": 1
+        },
+        {
+          "id": "AgCl",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Silver chloride."
+      ],
+      "explanation": "Silver and chloride ions form an insoluble solid while calcium and nitrate remain dissolved.",
+      "sourceIds": [
+        "openstax-4-1"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "carbon-dioxide-base",
+      "title": "Carbon dioxide consumes hydroxide",
+      "reactants": [
+        {
+          "id": "CO2-aq",
+          "coefficient": 1
+        },
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2CO3",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous carbon dioxide with excess hydroxide; carbonate endpoint",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "An acidic oxide reacts with base. Excess carbon dioxide can instead favor bicarbonate.",
+      "sourceIds": [
+        "openstax-4-1"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "brine-electrolysis",
+      "title": "Electricity changes brine",
+      "reactants": [
+        {
+          "id": "NaCl",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Conceptual separated-cell brine electrolysis; products kept apart",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen, Chlorine.",
+        "The chlorine electrode product is greenish-yellow; hydrogen is colorless.",
+        "The gas product presents an inhalation hazard. This is a conceptual example, not an experimental procedure."
+      ],
+      "explanation": "Electrical energy drives a nonspontaneous change. Hydrogen and chlorine are separate electrode products, not a safe mixed gas.",
+      "sourceIds": [
+        "openstax-4-1",
+        "openstax-18-11"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "gasColor": "#bdca45"
+      }
+    },
+    {
+      "id": "lead-iodide",
+      "title": "Yellow lead iodide precipitates",
+      "reactants": [
+        {
+          "id": "KI",
+          "coefficient": 2
+        },
+        {
+          "id": "Pb(NO3)2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbI2",
+          "coefficient": 1
+        },
+        {
+          "id": "KNO3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold; conceptual lead chemistry",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Lead(II) iodide.",
+        "The precipitate is yellow."
+      ],
+      "explanation": "Lead iodide forms a yellow solid; dissolved potassium and nitrate remain spectators.",
+      "sourceIds": [
+        "openstax-4-2"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "solidColor": "#f4cc29"
+      }
+    },
+    {
+      "id": "barium-sulfate",
+      "title": "Barium sulfate precipitates",
+      "reactants": [
+        {
+          "id": "Ba^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "SO4^2-",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "BaSO4",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic equation; aqueous ions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Barium sulfate."
+      ],
+      "explanation": "Oppositely charged ions form insoluble barium sulfate.",
+      "sourceIds": [
+        "openstax-4-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "lead-carbonate",
+      "title": "Lead carbonate precipitates",
+      "reactants": [
+        {
+          "id": "Pb^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "CO3^2-",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbCO3",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic equation; aqueous ions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Lead(II) carbonate."
+      ],
+      "explanation": "This equation omits spectator ions and keeps only the particles making the solid.",
+      "sourceIds": [
+        "openstax-4-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-hydroxide-acid",
+      "title": "Antacid neutralizes acid",
+      "reactants": [
+        {
+          "id": "Mg(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous acid contacting magnesium hydroxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A sparingly soluble hydroxide consumes acid and forms dissolved salt plus water.",
+      "sourceIds": [
+        "openstax-4-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "barium-neutralization",
+      "title": "Barium hydroxide neutralizes nitric acid",
+      "reactants": [
+        {
+          "id": "Ba(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "HNO3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Ba(NO3)2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous solutions at the neutralization endpoint",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Two acidic protons are needed for each formula unit containing two hydroxide groups.",
+      "sourceIds": [
+        "openstax-4-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "ethanol-combustion",
+      "title": "Ethanol burns",
+      "reactants": [
+        {
+          "id": "C2H5OH",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 3
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion; products shown before water condenses",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "The alcohol already contains oxygen but still requires molecular oxygen for complete combustion.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "acetylene-combustion",
+      "title": "Acetylene burns",
+      "reactants": [
+        {
+          "id": "C2H2",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 5
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 4
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion; sufficient oxygen; conceptual fuel chemistry",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "The products contain the same carbon and hydrogen atoms as the fuel.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "methanol-combustion",
+      "title": "Methanol burns",
+      "reactants": [
+        {
+          "id": "CH3OH",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 4
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion; products shown before water condenses",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "Combustion releases energy; water is initially vapor rather than visible white smoke.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "isooctane-combustion",
+      "title": "Isooctane burns",
+      "reactants": [
+        {
+          "id": "C8H18",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 25
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 16
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 18
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion of isooctane with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "This simplified fuel reaction omits the incomplete-combustion products made in oxygen-poor conditions.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "carbon-monoxide-combustion",
+      "title": "Carbon monoxide oxidizes",
+      "reactants": [
+        {
+          "id": "CO",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ignited carbon monoxide with sufficient oxygen; conceptual toxic gas",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "Carbon monoxide gains oxygen to become carbon dioxide.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sulfur-combustion",
+      "title": "Sulfur burns",
+      "reactants": [
+        {
+          "id": "S8",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 8
+        }
+      ],
+      "products": [
+        {
+          "id": "SO2",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion producing sulfur dioxide; elemental sulfur represented as S8",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Sulfur dioxide.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "The sulfur dioxide product is a gas; gas production does not make it steam.",
+      "sourceIds": [
+        "openstax-5-3"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "ammonium-nitrate-dissolving",
+      "title": "Dissolving ammonium nitrate cools water",
+      "reactants": [
+        {
+          "id": "NH4NO3",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NH4^+",
+          "coefficient": 1
+        },
+        {
+          "id": "NO3^-",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dissolution in sufficient liquid water; solvent implicit in aqueous states",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "cooling"
+      ],
+      "observations": [
+        "The process absorbs heat from its surroundings; cooling is not automatic freezing."
+      ],
+      "explanation": "Separating and hydrating the ions absorbs heat overall. Cooling does not imply that the solution freezes.",
+      "sourceIds": [
+        "openstax-11-1"
+      ],
+      "reviewStatus": "source-checked",
+      "process": "physical"
+    },
+    {
+      "id": "sucrose-dissolving",
+      "title": "Sugar dissolves without changing molecules",
+      "reactants": [
+        {
+          "id": "C12H22O11",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "C12H22O11-aq",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dissolution in sufficient liquid water; solvent implicit",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Sucrose molecules disperse through water; dissolution does not turn them into ions.",
+      "sourceIds": [
+        "openstax-11-1"
+      ],
+      "reviewStatus": "source-checked",
+      "process": "physical"
+    },
+    {
+      "id": "water-electrolysis",
+      "title": "Electricity splits water",
+      "reactants": [
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "H2",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Conceptual water electrolysis with conducting electrolyte and separated electrodes",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen, Oxygen."
+      ],
+      "explanation": "Electrical energy produces hydrogen and oxygen in a two-to-one molecule ratio.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "iron-acid",
+      "title": "Iron displaces hydrogen from acid",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 1
+        },
+        {
+          "id": "H3O^+",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic equation in dilute nonoxidizing aqueous acid",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen."
+      ],
+      "explanation": "Iron loses electrons and acidic hydrogen gains them; chloride spectators are omitted.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-hydride-water",
+      "title": "Calcium hydride reacts with water",
+      "reactants": [
+        {
+          "id": "CaH2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "OH^-",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Conceptual hydride hydrolysis in sufficient water",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen."
+      ],
+      "explanation": "Hydride hydrogen and hydrogen from water combine to form hydrogen gas.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-nitride-water",
+      "title": "Magnesium nitride releases ammonia",
+      "reactants": [
+        {
+          "id": "Mg3N2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 6
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg(OH)2",
+          "coefficient": 3
+        },
+        {
+          "id": "NH3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydrolysis with liquid water; gas-releasing model",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "solid"
+      ],
+      "observations": [
+        "Gaseous products: Ammonia.",
+        "Solid products: Magnesium hydroxide."
+      ],
+      "explanation": "Nitride ions take hydrogen from water; magnesium hydroxide and ammonia form.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "iron-sulfide-acid",
+      "title": "Acid attacks iron sulfide",
+      "reactants": [
+        {
+          "id": "FeS",
+          "coefficient": 1
+        },
+        {
+          "id": "H3O^+",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "H2S",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Conceptual acid reaction; toxic gas product",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen sulfide.",
+        "The gas product presents an inhalation hazard. This is a conceptual example, not an experimental procedure."
+      ],
+      "explanation": "Sulfide accepts hydrogen from acid, releasing hydrogen sulfide gas.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "bromine-iodide",
+      "title": "Bromine oxidizes iodide",
+      "reactants": [
+        {
+          "id": "Br2-aq",
+          "coefficient": 1
+        },
+        {
+          "id": "HI",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "HBr",
+          "coefficient": 2
+        },
+        {
+          "id": "I2-aq",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous bromine and iodide-containing acid",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Bromine gains electrons while iodide loses electrons to form iodine.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-oxide-carbonate",
+      "title": "Sodium oxide captures carbon dioxide",
+      "reactants": [
+        {
+          "id": "Na2O",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2CO3-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Contact between basic oxide and carbon dioxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Sodium carbonate (solid)."
+      ],
+      "explanation": "A basic metal oxide combines with an acidic nonmetal oxide to form a carbonate.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-hydroxide-carbonate",
+      "title": "Carbon dioxide carbonates lime",
+      "reactants": [
+        {
+          "id": "Ca(OH)2-s",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Carbonation of moist calcium hydroxide; no excess carbon dioxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Calcium carbonate."
+      ],
+      "explanation": "A basic hydroxide reacts with carbon dioxide to form carbonate and water.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-carbonate-precipitate",
+      "title": "Calcium carbonate precipitates",
+      "reactants": [
+        {
+          "id": "Ca^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "CO3^2-",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic equation; concentrations exceed the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Calcium carbonate."
+      ],
+      "explanation": "Dissolved calcium and carbonate ions assemble into an insoluble solid.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "limestone-acid",
+      "title": "Acid dissolves limestone",
+      "reactants": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous acid contacting calcium carbonate",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide."
+      ],
+      "explanation": "Carbonate consumes acid and releases carbon dioxide bubbles.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "potassium-bicarbonate-base",
+      "title": "Bicarbonate becomes carbonate",
+      "reactants": [
+        {
+          "id": "KHCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "KOH",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "K2CO3",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous bicarbonate with hydroxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Hydroxide removes the remaining acidic hydrogen from bicarbonate.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "limestone-carbonated-water",
+      "title": "Carbonated water dissolves limestone",
+      "reactants": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2-aq",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "HCO3^-",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Carbon-dioxide-containing water in contact with limestone; equilibrium dissolution",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Carbon dioxide in water promotes conversion of carbonate into dissolved bicarbonate.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "copper-dilute-nitric",
+      "title": "Copper reacts with dilute nitric acid",
+      "reactants": [
+        {
+          "id": "Cu",
+          "coefficient": 3
+        },
+        {
+          "id": "HNO3",
+          "coefficient": 8
+        }
+      ],
+      "products": [
+        {
+          "id": "CuNO3",
+          "coefficient": 3
+        },
+        {
+          "id": "NO",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O",
+          "coefficient": 4
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute nitric acid; NO is the principal initial nitrogen oxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Nitric oxide."
+      ],
+      "explanation": "Nitric acid acts as an oxidizing acid. The primary gas is colorless NO, not hydrogen.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "nitric-oxide-oxidation",
+      "title": "Nitric oxide turns brown in oxygen",
+      "reactants": [
+        {
+          "id": "NO",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NO2",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Nitric oxide exposed to oxygen; conceptual gas chemistry",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Gaseous products: Nitrogen dioxide.",
+        "Nitrogen dioxide gives the gas a brown color; equilibrium with its dimer affects the intensity.",
+        "The gas product presents an inhalation hazard. This is a conceptual example, not an experimental procedure."
+      ],
+      "explanation": "Oxidation turns colorless nitric oxide into brown nitrogen dioxide; the gas also participates in dimerization equilibrium.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "gasColor": "#9b4f2e"
+      }
+    },
+    {
+      "id": "nitrogen-pentoxide-water",
+      "title": "Nitrogen pentoxide forms nitric acid",
+      "reactants": [
+        {
+          "id": "N2O5",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "HNO3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydration in liquid water",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "An acid anhydride reacts with water to form its corresponding acid.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "nitrous-oxide-decomposition",
+      "title": "Nitrous oxide decomposes",
+      "reactants": [
+        {
+          "id": "N2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "N2",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Thermally activated decomposition; conceptual gas chemistry",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Nitrogen, Oxygen."
+      ],
+      "explanation": "The nitrogen and oxygen atoms regroup into the elemental gases.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "lithium-nitride",
+      "title": "Lithium combines with nitrogen",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 6
+        },
+        {
+          "id": "N2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Li3N",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Fresh lithium surface contacting nitrogen at ordinary conditions",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Lithium nitride."
+      ],
+      "explanation": "Lithium is an unusual metal that can react directly with nitrogen at room conditions.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "phosphorus-oxide-water",
+      "title": "Phosphorus oxide forms phosphoric acid",
+      "reactants": [
+        {
+          "id": "P4O10",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 6
+        }
+      ],
+      "products": [
+        {
+          "id": "H3PO4",
+          "coefficient": 4
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydration with sufficient water; conceptual oxide chemistry",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Water converts phosphorus oxide into phosphoric acid.",
+      "sourceIds": [
+        "openstax-18-8"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-oxide-acid",
+      "title": "Calcium oxide neutralizes acid",
+      "reactants": [
+        {
+          "id": "CaO",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous hydrochloric acid",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A basic oxide consumes acid to make salt and water.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-oxide-acid",
+      "title": "Sodium oxide neutralizes nitric acid",
+      "reactants": [
+        {
+          "id": "Na2O",
+          "coefficient": 1
+        },
+        {
+          "id": "HNO3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NaNO3",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous nitric acid",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Oxide ions consume acidic hydrogen while nitrate remains in solution.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-oxide-water",
+      "title": "Sodium oxide forms hydroxide",
+      "reactants": [
+        {
+          "id": "Na2O",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydration with sufficient liquid water",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A soluble basic oxide produces an alkaline solution; the equation is independently balanced.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-oxide-water",
+      "title": "Quicklime becomes slaked lime",
+      "reactants": [
+        {
+          "id": "CaO",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca(OH)2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydration of calcium oxide to slaked lime",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Calcium hydroxide (solid)."
+      ],
+      "explanation": "The oxide becomes a hydroxide; this is a chemical change rather than simple wetting.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "lithium-water",
+      "title": "Lithium reacts with water",
+      "reactants": [
+        {
+          "id": "Li",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "LiOH",
+          "coefficient": 2
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Contact with liquid water; conceptual alkali-metal chemistry",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen."
+      ],
+      "explanation": "Lithium replaces hydrogen from water and leaves an alkaline solution.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-water",
+      "title": "Calcium reacts with water",
+      "reactants": [
+        {
+          "id": "Ca",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Contact with sufficient liquid water; dissolved hydroxide model",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen."
+      ],
+      "explanation": "Hydrogen gas forms and calcium enters the solution as hydroxide.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "lithium-oxide-water",
+      "title": "Lithium oxide forms hydroxide",
+      "reactants": [
+        {
+          "id": "Li2O",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "LiOH",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Hydration in sufficient liquid water",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Water converts oxide into hydroxide without producing hydrogen gas.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "aluminum-hydroxide-precipitate",
+      "title": "Aluminum hydroxide precipitates",
+      "reactants": [
+        {
+          "id": "Al^3+",
+          "coefficient": 1
+        },
+        {
+          "id": "OH^-",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "Al(OH)3",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic precipitation with limited hydroxide; no excess strong base",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Aluminum hydroxide."
+      ],
+      "explanation": "Aluminum hydroxide precipitates but can dissolve again in excess strong base, which is outside this scenario.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "zinc-hydroxide-precipitate",
+      "title": "Zinc hydroxide precipitates",
+      "reactants": [
+        {
+          "id": "Zn^2+",
+          "coefficient": 1
+        },
+        {
+          "id": "OH^-",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Zn(OH)2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Net ionic precipitation with limited hydroxide; no excess strong base",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Zinc hydroxide."
+      ],
+      "explanation": "Zinc hydroxide is insoluble here; excess strong base can change the outcome.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-hydroxide-lime",
+      "title": "Lime precipitates magnesium hydroxide",
+      "reactants": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "Ca(OH)2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "CaCl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Magnesium hydroxide."
+      ],
+      "explanation": "Hydroxide removes magnesium ions from solution as a solid.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "zinc-oxide-carbon",
+      "title": "Carbon reduces zinc oxide",
+      "reactants": [
+        {
+          "id": "ZnO",
+          "coefficient": 1
+        },
+        {
+          "id": "C",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Zn-g",
+          "coefficient": 1
+        },
+        {
+          "id": "CO",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "High-temperature reduction; zinc shown as vapor; conceptual metallurgy",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Zinc vapor, Carbon monoxide."
+      ],
+      "explanation": "Carbon removes oxygen from zinc oxide, producing carbon monoxide and zinc vapor.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "chlorine-bromide",
+      "title": "Chlorine displaces bromine",
+      "reactants": [
+        {
+          "id": "Br^-",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Br2",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl^-",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Conceptual oxidation of bromide solution; bromine product separated",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Chlorine is reduced to chloride while bromide is oxidized to bromine.",
+      "sourceIds": [
+        "openstax-18-11"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "iodine-triiodide",
+      "title": "Iodine forms triiodide in iodide solution",
+      "reactants": [
+        {
+          "id": "I2",
+          "coefficient": 1
+        },
+        {
+          "id": "I^-",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "I3^-",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Iodine in an aqueous iodide solution; equilibrium association",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A dissolved triiodide complex accounts for iodine dissolving more readily in iodide-containing water.",
+      "sourceIds": [
+        "openstax-18-11"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "chlorine-water",
+      "title": "Chlorine reacts with water",
+      "reactants": [
+        {
+          "id": "Cl2-aq",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "HOCl",
+          "coefficient": 1
+        },
+        {
+          "id": "H3O^+",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl^-",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous chlorine hydrolysis; equilibrium represented in the forward direction",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Some chlorine forms hypochlorous acid and chloride. This is an equilibrium, not complete conversion.",
+      "sourceIds": [
+        "openstax-18-11"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "water-freezing",
+      "title": "Water freezes into ice",
+      "reactants": [
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O-ice",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "External cooling below the freezing point at ordinary pressure",
+      "requiredActivation": [
+        "cooling"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "cooling",
+        "solid"
+      ],
+      "observations": [
+        "External cooling produces ice. The phase change releases latent heat to the surroundings."
+      ],
+      "explanation": "This is a physical state change. Water molecules remain water; freezing releases latent heat while the surroundings remove energy.",
+      "sourceIds": [
+        "openstax-10-3"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "freezing": true
+      },
+      "process": "physical"
+    },
+    {
+      "id": "water-boiling",
+      "title": "Water changes into vapor",
+      "reactants": [
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating to the boiling condition at the current pressure",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "steam"
+      ],
+      "observations": [
+        "Water becomes invisible vapor. The pale plume represents condensed water droplets above the heated water."
+      ],
+      "explanation": "This physical change needs heat. Water vapor itself is invisible; a white mist consists of condensed liquid droplets.",
+      "sourceIds": [
+        "openstax-10-3"
+      ],
+      "reviewStatus": "source-checked",
+      "process": "physical"
+    },
+    {
+      "id": "ice-melting",
+      "title": "Ice melts",
+      "reactants": [
+        {
+          "id": "H2O-ice",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heat supplied to ice at its melting condition",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A physical change rearranges water molecules without changing their chemical identity.",
+      "sourceIds": [
+        "openstax-10-3"
+      ],
+      "reviewStatus": "source-checked",
+      "process": "physical"
+    },
+    {
+      "id": "dry-ice-sublimation",
+      "title": "Dry ice becomes carbon dioxide gas",
+      "reactants": [
+        {
+          "id": "CO2-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Solid carbon dioxide in ordinary room surroundings",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "cooling"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide.",
+        "The process absorbs heat from its surroundings; cooling is not automatic freezing."
+      ],
+      "explanation": "Sublimation absorbs heat. Carbon dioxide gas is invisible; nearby white fog would be condensed water droplets.",
+      "sourceIds": [
+        "openstax-10-3"
+      ],
+      "reviewStatus": "source-checked",
+      "process": "physical"
+    },
+    {
+      "id": "butane-combustion",
+      "title": "Butane burns",
+      "reactants": [
+        {
+          "id": "C4H10",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 13
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 8
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 10
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "Carbon and hydrogen atoms in the fuel become carbon dioxide and water vapor.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-hydroxide-sodium",
+      "title": "Sodium hydroxide precipitates magnesium",
+      "reactants": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "NaCl",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Magnesium hydroxide."
+      ],
+      "explanation": "Magnesium ions combine with hydroxide to form a solid.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "potassium-chlorate-decomposition",
+      "title": "Potassium chlorate decomposes",
+      "reactants": [
+        {
+          "id": "KClO3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "KCl",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Thermal decomposition; conceptual oxygen-producing chemistry",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "solid"
+      ],
+      "observations": [
+        "Gaseous products: Oxygen.",
+        "Solid products: Potassium chloride."
+      ],
+      "explanation": "A compound breaks down into potassium chloride and oxygen; no fuel mixture is modeled.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "barium-oxalate",
+      "title": "Barium oxalate precipitates",
+      "reactants": [
+        {
+          "id": "K2C2O4",
+          "coefficient": 1
+        },
+        {
+          "id": "Ba(OH)2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "KOH",
+          "coefficient": 2
+        },
+        {
+          "id": "BaC2O4",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Barium oxalate."
+      ],
+      "explanation": "Barium and oxalate form a sparingly soluble solid.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "lead-sulfate",
+      "title": "Lead sulfate precipitates",
+      "reactants": [
+        {
+          "id": "Pb(NO3)2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2SO4",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "PbSO4",
+          "coefficient": 1
+        },
+        {
+          "id": "HNO3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous solutions above the precipitation threshold",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Lead(II) sulfate."
+      ],
+      "explanation": "Lead sulfate separates from solution; the nitrate ions remain dissolved.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "limestone-sulfuric-acid",
+      "title": "Sulfuric acid attacks limestone",
+      "reactants": [
+        {
+          "id": "CaCO3",
+          "coefficient": 1
+        },
+        {
+          "id": "H2SO4",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CaSO4",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute acid contacts carbonate; surface sulfate may slow further reaction",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "solid"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide.",
+        "Solid products: Calcium sulfate."
+      ],
+      "explanation": "Gas is released while a sparingly soluble sulfate layer can limit continued reaction.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-hydroxide-hbr",
+      "title": "Calcium hydroxide neutralizes hydrobromic acid",
+      "reactants": [
+        {
+          "id": "Ca(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "HBr",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CaBr2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous neutralization",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Two acidic hydrogens neutralize the two hydroxide groups per calcium formula unit.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "cyclohexane-combustion",
+      "title": "Cyclohexane burns",
+      "reactants": [
+        {
+          "id": "C6H12",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 9
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 6
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 6
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion of cyclohexane with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "Carbon dioxide and water are the complete-combustion products.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "carbon-steam",
+      "title": "Steam reacts with hot carbon",
+      "reactants": [
+        {
+          "id": "C",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "CO",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "High-temperature steam-carbon reaction; conceptual gas chemistry",
+      "requiredActivation": [
+        "heat"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Carbon monoxide, Hydrogen."
+      ],
+      "explanation": "Water transfers oxygen to carbon and releases hydrogen; this is not ordinary room-temperature mixing.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sodium-sulfide-acid",
+      "title": "Sulfide solution reacts with acid",
+      "reactants": [
+        {
+          "id": "Na2S",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NaCl",
+          "coefficient": 2
+        },
+        {
+          "id": "H2S",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Conceptual acidification of sulfide; toxic gas product",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen sulfide.",
+        "The gas product presents an inhalation hazard. This is a conceptual example, not an experimental procedure."
+      ],
+      "explanation": "Acid converts dissolved sulfide into hydrogen sulfide gas.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-oxide-acid",
+      "title": "Magnesium oxide neutralizes acid",
+      "reactants": [
+        {
+          "id": "MgO",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous acid contacting magnesium oxide",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A basic oxide consumes acidic hydrogen and forms water.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "phosphoric-acid-complete",
+      "title": "Phosphoric acid forms phosphate",
+      "reactants": [
+        {
+          "id": "KOH",
+          "coefficient": 3
+        },
+        {
+          "id": "H3PO4",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "K3PO4",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 3
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Complete stoichiometric neutralization: three hydroxides per acid molecule",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "All three acidic hydrogens are replaced at this endpoint; the salt solution can still be alkaline.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "magnesium-nickel",
+      "title": "Magnesium displaces nickel",
+      "reactants": [
+        {
+          "id": "Mg",
+          "coefficient": 1
+        },
+        {
+          "id": "NiCl2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MgCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "Ni",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Magnesium surface in aqueous nickel chloride",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "Solid products: Nickel."
+      ],
+      "explanation": "The more reactive magnesium loses electrons and nickel ions become metal.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "ethylene-combustion",
+      "title": "Ethylene burns",
+      "reactants": [
+        {
+          "id": "C2H4",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "CO2",
+          "coefficient": 2
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Complete combustion with sufficient oxygen",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "heat",
+        "flame"
+      ],
+      "observations": [
+        "Gaseous products: Carbon dioxide, Water vapor.",
+        "Combustion releases heat and light after ignition."
+      ],
+      "explanation": "The carbon-carbon bond does not prevent the fuel from forming carbon dioxide and water.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "zinc-sulfuric-acid",
+      "title": "Zinc displaces hydrogen from sulfuric acid",
+      "reactants": [
+        {
+          "id": "Zn",
+          "coefficient": 1
+        },
+        {
+          "id": "H2SO4",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnSO4",
+          "coefficient": 1
+        },
+        {
+          "id": "H2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous sulfuric acid; not hot concentrated oxidizing acid",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "Gaseous products: Hydrogen."
+      ],
+      "explanation": "Zinc displaces acidic hydrogen, while sulfate remains in solution.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-acetic-acid",
+      "title": "Lime neutralizes acetic acid",
+      "reactants": [
+        {
+          "id": "CH3COOH",
+          "coefficient": 2
+        },
+        {
+          "id": "Ca(OH)2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Ca(CH3COO)2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Aqueous neutralization at the stoichiometric endpoint",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "A weak acid still reacts with hydroxide to make acetate and water.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "nitric-phosphate",
+      "title": "Nitric acid protonates hydrogen phosphate",
+      "reactants": [
+        {
+          "id": "HNO3",
+          "coefficient": 2
+        },
+        {
+          "id": "K2HPO4",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H3PO4",
+          "coefficient": 1
+        },
+        {
+          "id": "KNO3",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Stoichiometric protonation endpoint in aqueous solution",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Hydrogen phosphate accepts two additional protons to form phosphoric acid.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "oxalic-neutralization",
+      "title": "Oxalic acid neutralizes hydroxide",
+      "reactants": [
+        {
+          "id": "H2C2O4",
+          "coefficient": 1
+        },
+        {
+          "id": "NaOH",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2C2O4",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Complete aqueous neutralization",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Oxalic acid has two acidic hydrogens, requiring two hydroxide ions.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "sulfuric-potassium-neutralization",
+      "title": "Sulfuric acid neutralizes potassium hydroxide",
+      "reactants": [
+        {
+          "id": "H2SO4",
+          "coefficient": 1
+        },
+        {
+          "id": "KOH",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "K2SO4",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Complete aqueous neutralization",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "The sulfate salt remains dissolved at this modeled concentration.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "calcium-hydrochloric-neutralization",
+      "title": "Lime neutralizes hydrochloric acid",
+      "reactants": [
+        {
+          "id": "Ca(OH)2",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "CaCl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Dilute aqueous neutralization",
+      "requiredActivation": [
+        "none"
+      ],
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The equation describes the stated change; no visible flame or gas release is implied."
+      ],
+      "explanation": "Water forms from acidic hydrogen and hydroxide; calcium and chloride stay dissolved.",
+      "sourceIds": [
+        "openstax-4-exercises"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-nacl-electrolysis",
+      "title": "Electrolysis of molten sodium chloride",
+      "reactants": [
+        {
+          "id": "NaCl-l",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na-l",
+          "coefficient": 2
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Molten salt; external electricity and a heated melt; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Molten sodium chloride conducts through mobile ions. Electricity converts sodium ions to sodium and chloride ions to chlorine.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-mgcl2-electrolysis",
+      "title": "Electrolysis of molten magnesium chloride",
+      "reactants": [
+        {
+          "id": "MgCl2-l",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Mg-l",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Molten salt; external electricity and a heated melt; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Electricity converts molten magnesium chloride into magnesium and chlorine; this differs from electrolysis of an aqueous solution.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-magnesium-silicon",
+      "title": "Silicon reduces magnesium oxide",
+      "reactants": [
+        {
+          "id": "Si-s",
+          "coefficient": 1
+        },
+        {
+          "id": "MgO",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "SiO2-s",
+          "coefficient": 1
+        },
+        {
+          "id": "Mg-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Hot reduction; magnesium vapor removal is essential; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Silicon takes oxygen from magnesium oxide. Removing magnesium vapor helps drive the industrial reduction.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-zinc-sulfide-roasting",
+      "title": "Oxidation of zinc sulfide",
+      "reactants": [
+        {
+          "id": "ZnS-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnO",
+          "coefficient": 2
+        },
+        {
+          "id": "SO2",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxidation in air; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Oxygen converts a metal sulfide into a metal oxide and sulfur dioxide.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-zinc-carbonate-decomposition",
+      "title": "Zinc carbonate decomposes",
+      "reactants": [
+        {
+          "id": "ZnCO3-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "ZnO",
+          "coefficient": 1
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Heat breaks zinc carbonate into zinc oxide and carbon dioxide.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-tin-oxide-carbon",
+      "title": "Carbon reduces tin oxide",
+      "reactants": [
+        {
+          "id": "SnO2-s",
+          "coefficient": 1
+        },
+        {
+          "id": "C",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Sn-s",
+          "coefficient": 1
+        },
+        {
+          "id": "CO",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated reduction; solid tin is the source equation endpoint; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Carbon removes oxygen from tin oxide. The displayed tin phase is the cooled textbook endpoint.",
+      "sourceIds": [
+        "openstax-18-2"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-manganese-reduction",
+      "title": "Hydrogen reduces manganese dioxide",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 1
+        },
+        {
+          "id": "MnO2-s",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "MnO-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Hydrogen takes oxygen from the metal oxide and forms water.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-hydrogen-sulfur",
+      "title": "Hydrogen combines with sulfur",
+      "reactants": [
+        {
+          "id": "H2",
+          "coefficient": 8
+        },
+        {
+          "id": "S8",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "H2S",
+          "coefficient": 8
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated, low-yield combination; sulfur normalized to S8; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Heating permits hydrogen and elemental sulfur to combine; the textbook describes a low-yield process.",
+      "sourceIds": [
+        "openstax-18-5"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-trona-decomposition",
+      "title": "Heating trona forms sodium carbonate",
+      "reactants": [
+        {
+          "id": "Na3(CO3)(HCO3)(H2O)2-s",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2CO3-s",
+          "coefficient": 3
+        },
+        {
+          "id": "H2O",
+          "coefficient": 5
+        },
+        {
+          "id": "CO2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heating trona; condensed water endpoint follows source; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Heating the hydrated carbonate mineral releases water and carbon dioxide, leaving sodium carbonate.",
+      "sourceIds": [
+        "openstax-18-6"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-no2-dimerization",
+      "title": "Cooling favors dinitrogen tetroxide",
+      "reactants": [
+        {
+          "id": "NO2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "N2O4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Cooling favors dimer; equilibrium is not complete conversion; conceptual model only",
+      "requiredActivation": [
+        "cooling"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Cooling favors association of two nitrogen dioxide molecules into one dinitrogen tetroxide molecule. Both remain present at equilibrium.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-nitric-dehydration",
+      "title": "Phosphorus oxide dehydrates nitric acid",
+      "reactants": [
+        {
+          "id": "P4O10",
+          "coefficient": 1
+        },
+        {
+          "id": "HNO3-l",
+          "coefficient": 4
+        }
+      ],
+      "products": [
+        {
+          "id": "HPO3-s",
+          "coefficient": 4
+        },
+        {
+          "id": "N2O5",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "solid"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Phosphorus(V) oxide removes water chemically from nitric acid, yielding its acid anhydride.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "solidColor": "#f5f5f0"
+      }
+    },
+    {
+      "id": "elements-nitrosyl-chloride",
+      "title": "Chlorine oxidizes nitric oxide",
+      "reactants": [
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        },
+        {
+          "id": "NO",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "ClNO-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Nitric oxide is oxidized as it combines with chlorine to form nitrosyl chloride.",
+      "sourceIds": [
+        "openstax-18-7"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-no2-hydrochloric",
+      "title": "Nitrogen dioxide oxidizes chloride",
+      "reactants": [
+        {
+          "id": "NO2",
+          "coefficient": 1
+        },
+        {
+          "id": "HCl",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "NO",
+          "coefficient": 1
+        },
+        {
+          "id": "Cl2",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "condition": "ambient",
+      "conditionLabel": "Source-described contact reaction; conceptual model only",
+      "requiredActivation": [
+        "none"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "Chlorine is greenish-yellow; the nitric oxide product is colorless. Toxic gases present an inhalation hazard."
+      ],
+      "explanation": "Nitrogen dioxide oxidizes chloride to chlorine while being reduced to nitric oxide.",
+      "sourceIds": [
+        "openstax-18-7",
+        "openstax-18-11"
+      ],
+      "reviewStatus": "source-checked",
+      "visual": {
+        "gasColor": "#bdca45"
+      }
+    },
+    {
+      "id": "elements-phosphorus-extraction",
+      "title": "Phosphate reduction releases phosphorus",
+      "reactants": [
+        {
+          "id": "Ca3(PO4)2-s",
+          "coefficient": 2
+        },
+        {
+          "id": "SiO2-s",
+          "coefficient": 6
+        },
+        {
+          "id": "C",
+          "coefficient": 10
+        }
+      ],
+      "products": [
+        {
+          "id": "CaSiO3-l",
+          "coefficient": 6
+        },
+        {
+          "id": "CO",
+          "coefficient": 10
+        },
+        {
+          "id": "P4-g",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated industrial reduction; vapor and molten phases; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Carbon reduces phosphate in the presence of silica; the equation is an overall industrial process, not room-temperature mixing.",
+      "sourceIds": [
+        "openstax-18-8"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-ozone-formation",
+      "title": "Electrical discharge forms ozone",
+      "reactants": [
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "O3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Electrical discharge in dry oxygen; conceptual model only",
+      "requiredActivation": [
+        "electricity"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Electrical energy allows molecular oxygen to form ozone, a different molecular form of the same element.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-ozone-photolysis",
+      "title": "Ultraviolet light splits ozone",
+      "reactants": [
+        {
+          "id": "O3-g",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "O-g",
+          "coefficient": 1
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Ultraviolet light; atomic oxygen intermediate; conceptual model only",
+      "requiredActivation": [
+        "light"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Ultraviolet light breaks an ozone molecule into molecular oxygen and a short-lived oxygen atom; this is one step in atmospheric ozone chemistry.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-aluminium-hydroxide-decomposition",
+      "title": "Aluminum hydroxide releases water vapor",
+      "reactants": [
+        {
+          "id": "Al(OH)3",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Al2O3-s",
+          "coefficient": 1
+        },
+        {
+          "id": "H2O-g",
+          "coefficient": 3
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Source-described heated reaction; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Heating drives water out of aluminum hydroxide and leaves aluminum oxide.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-sodium-peroxide",
+      "title": "Sodium forms peroxide in oxygen",
+      "reactants": [
+        {
+          "id": "Na",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2O2-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated sodium in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Under the stated oxygen-rich conditions, sodium forms a peroxide containing an oxygen-oxygen unit.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-sodium-oxide-peroxide",
+      "title": "Sodium oxide is oxidized to peroxide",
+      "reactants": [
+        {
+          "id": "Na2O",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "Na2O2-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxide in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Further oxidation adds oxygen to sodium oxide, making sodium peroxide.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-strontium-peroxide",
+      "title": "Strontium oxide forms peroxide",
+      "reactants": [
+        {
+          "id": "SrO-s",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SrO2-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated oxide in pure oxygen; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Oxygen converts strontium oxide into the corresponding peroxide under the stated heated conditions.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked",
+      "requiredAtmosphere": "oxygen"
+    },
+    {
+      "id": "elements-sulfur-dioxide-oxidation",
+      "title": "Sulfur dioxide is further oxidized",
+      "reactants": [
+        {
+          "id": "SO2",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 1
+        }
+      ],
+      "products": [
+        {
+          "id": "SO3-g",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated gas-phase oxidation; slow without catalyst; conceptual model only",
+      "requiredActivation": [
+        "heat"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Sulfur dioxide takes up more oxygen to form sulfur trioxide. The uncatalyzed process is slow; the equation does not promise a rapid classroom effect.",
+      "sourceIds": [
+        "openstax-18-9"
+      ],
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "elements-hydrogen-sulfide-oxidation",
+      "title": "Oxygen oxidizes hydrogen sulfide",
+      "reactants": [
+        {
+          "id": "H2S",
+          "coefficient": 2
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "H2O",
+          "coefficient": 2
+        },
+        {
+          "id": "SO2",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Combustion model; condensed water endpoint follows source; conceptual model only",
+      "requiredActivation": [
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "gas",
+        "toxic"
+      ],
+      "observations": [
+        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+      ],
+      "explanation": "Complete oxidation produces sulfur dioxide and water. The source equation shows water after condensation.",
+      "sourceIds": [
+        "openstax-18-9"
       ],
       "reviewStatus": "source-checked"
     }
@@ -984,6 +6431,123 @@
       "url": "https://www.open.edu/openlearn/science-maths-technology/chemistry/noble-gases",
       "retrievedAt": "2026-11-20T01:49:49Z",
       "upstreamDate": "2019-08-30"
+    },
+    {
+      "id": "openstax-4-1",
+      "name": "OpenStax Chemistry 2e — 4-1",
+      "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-4-2",
+      "name": "OpenStax Chemistry 2e — 4-2",
+      "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-4-exercises",
+      "name": "OpenStax Chemistry 2e — 4-exercises",
+      "url": "https://openstax.org/books/chemistry-2e/pages/4-exercises",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-5-3",
+      "name": "OpenStax Chemistry 2e — 5-3",
+      "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-11-1",
+      "name": "OpenStax Chemistry 2e — 11-1",
+      "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-10-3",
+      "name": "OpenStax Chemistry 2e — 10-3",
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-2",
+      "name": "OpenStax Chemistry 2e — 18-2",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-5",
+      "name": "OpenStax Chemistry 2e — 18-5",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-6",
+      "name": "OpenStax Chemistry 2e — 18-6",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-6-occurrence-preparation-and-properties-of-carbonates",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-7",
+      "name": "OpenStax Chemistry 2e — 18-7",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-7-occurrence-preparation-and-properties-of-nitrogen",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-8",
+      "name": "OpenStax Chemistry 2e — 18-8",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-8-occurrence-preparation-and-properties-of-phosphorus",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-9",
+      "name": "OpenStax Chemistry 2e — 18-9",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-9-occurrence-preparation-and-compounds-of-oxygen",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "id": "openstax-18-11",
+      "name": "OpenStax Chemistry 2e — 18-11",
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens",
+      "retrievedAt": "2026-11-20T02:26:53Z",
+      "upstreamDate": "2019-02-14",
+      "attribution": "Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley, William R. Robinson; OpenStax, Rice University. Current source license: CC BY-NC-SA 4.0. Factual equations with independently written explanations.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     }
   ]
 }
