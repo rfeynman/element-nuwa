@@ -116,3 +116,7 @@ Diagonal arrows extend further beyond the s circles, with arrowheads 25% smaller
 ## Website address — 1.5.7
 
 The repository and project site are now named element-nuwa. Use https://rfeynman.github.io/element-nuwa/. All built asset links remain relative and work under the renamed project path. The internal browser-progress key is retained for compatibility. Four diagram tests and the production build pass; scientific data and application behavior are unchanged.
+
+## Google Search Console verification
+
+Keep the original Google verification HTML in `public/googlea3b2da7159d02bfb.html` and the deployed `docs/` root. Its bytes and name must remain unchanged, and future builds must retain it so Google can periodically confirm site ownership.
