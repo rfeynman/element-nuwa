@@ -1,4 +1,4 @@
-# Element Atlas
+# Element Nuwa
 
 An educational periodic table and virtual chemistry lab for high school.
 
@@ -78,3 +78,7 @@ The periodic table has an embedded drag-and-drop reaction can and a restored til
 The table is more compact, the original full-height left panel has no internal vertical scrollbar, and tile names and weights are slightly larger. Single orbital is the first/default electron-cloud view; Combine clouds offers independent occupied s/p/d/f overlays. The separate element-pair browser and selected explanatory/metadata blocks are removed.
 
 500 automated tests and the production build pass. Browser visual verification was unavailable for this update. Scientific datasets are unchanged. Private raw-source archives and cleanup tools are excluded from the repository and deployed website.
+
+## Naming update — 1.5.1
+
+The website is now named Element Nuwa. Header, footer, loading screen, accessible page heading, and browser title use the new name. The existing repository/website URLs and browser progress-storage key are retained so shared links and saved learning progress continue to work. All 500 tests and the production build pass.
