@@ -17,10 +17,10 @@ export default function ElectronConfiguration({element,dataset}:{element:Element
   <p className="configuration-current">{element.configuration??'Configuration unavailable'}<small>{element.configurationStatus}</small></p>
   <div className="configuration-color-key" aria-label="Subshell color and maximum electron count">{orbitalTypes.map((type,l)=><span key={type}><i style={{background:orbitalColors[type]}} aria-hidden="true"/>{type} · {2*(2*l+1)} e⁻</span>)}</div>
   <svg className="configuration-diagonal-svg" viewBox="0 0 480 465" role="img" aria-label={`Diagonal electron-filling guide for ${element.name}. ${occupied.length?occupied.map(s=>`${s.n}${s.type}: ${s.count} electrons`).join('; '):'Occupations unavailable'}. Arrows show the usual filling order; actual occupations include configuration exceptions.`}>
-   <defs><marker id={marker} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#cf3974"/></marker></defs>
+   <defs><marker id={marker} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#cf3974"/></marker></defs>
    {orbitalTypes.map((type,l)=><text key={type} x={145+l*85} y={20} textAnchor="middle" fill={orbitalColors[type]} fontSize="18" fontWeight="700">{type}</text>)}
    {rows.map((_,index)=><text key={index} x="18" y={68+index*52} fill="#375d50" fontSize="20">n = {index+1}</text>)}
-   {diagonals.map((line,index)=>{const start=line[0],end=line.at(-1)!;return <line key={index} x1={start.x+26} y1={start.y-16} x2={end.x-32} y2={end.y+20} stroke="#cf3974" strokeWidth="3" strokeLinecap="round" markerEnd={`url(#${marker})`}/>})}
+   {diagonals.map((line,index)=>{const start=line[0],end=line.at(-1)!;return <line key={index} x1={start.x+26} y1={start.y-16} x2={end.x-45} y2={end.y+28} stroke="#cf3974" strokeWidth="3" strokeLinecap="round" markerEnd={`url(#${marker})`}/>})}
    {nodes.map(node=>{const label=`${node.n}${node.type}`,count=counts.get(label)??0;return <g key={label} data-subshell={label} data-electrons={occupied.length?count:'unknown'}>
     <title>{`${label}: ${occupied.length?`${count} electrons${count?'':' · unoccupied guide'}`:'occupation unavailable'}`}</title>
     <circle cx={node.x} cy={node.y} r="22" fill={count?orbitalColors[node.type]:'#fffdf6'} stroke={orbitalColors[node.type]} strokeWidth={count?2:1.4} strokeDasharray={count?undefined:'3 2'}/>

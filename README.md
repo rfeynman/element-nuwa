@@ -104,3 +104,7 @@ Shell-preview electrons use the same gold s, teal p, blue d and violet f palette
 The bottom of Element Spotlight now links to a diagonal filling-order diagram beside the spotlight, with n=1–8 rows, directional arrows, matching subshell colors, occupied-node electron counts and an unoccupied 8s guide. Actual counts retain known configuration exceptions. This side diagram contains no cloud canvas; the separate Electron clouds tab remains available. Close with the button or Escape. On smaller screens, the panel becomes a dismissible overlay.
 
 All 516 application tests and the production build pass. Scientific datasets are unchanged. Browser visual inspection remains unavailable; deployed assets are compared directly against the checked build.
+
+## Diagram arrow adjustment — 1.5.6
+
+Diagonal arrows extend further beyond the s circles, with arrowheads 25% smaller and line endpoints inset into the arrowheads. This avoids clipping by circles or a line protruding through the arrow tip. Production build and all four configuration-diagram tests pass. Other behavior and scientific data are unchanged; the previous full-suite baseline is 516 passing tests.
