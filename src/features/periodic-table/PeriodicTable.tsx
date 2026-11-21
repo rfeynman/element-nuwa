@@ -74,7 +74,8 @@ export default function PeriodicTable({ elements, selectedZ, onPreview, onSelect
         <div className="pt-scroll" role="region" aria-label="Periodic table. Scroll horizontally on a narrow screen." tabIndex={0}>
           <div className="pt-grid">
             {Array.from({ length: 18 }, (_, index) => <span key={`group-${index + 1}`} className="pt-group" style={{ gridColumn: index + 1, gridRow: 1 }} aria-label={`Group ${index + 1}`}>{index + 1}</span>)}
-            <div className="pt-map-key"><span className="pt-key-number">01 <span>Atomic number</span></span><strong>H <span>Symbol</span></strong><span>Hydrogen <span>Name</span></span><span>1.008 <span>Atomic weight</span></span></div>
+            <div className="pt-map-key" aria-label="How to read an element tile"><span className="pt-key-number">01 <span>Atomic number</span></span><strong>H <span>Symbol</span></strong><span>Hydrogen <span>Name</span></span><span>1.008 <span>Atomic weight</span></span></div>
+            <div id="tabletop-lab" className="pt-tabletop-slot"/>
             <span className="pt-series-marker" style={{ gridColumn: 3, gridRow: 7 }} aria-hidden="true">57–71<span>↓</span></span>
             <span className="pt-series-marker" style={{ gridColumn: 3, gridRow: 8 }} aria-hidden="true">89–103<span>↓</span></span>
             {elements.map((element) => {
@@ -90,7 +91,7 @@ export default function PeriodicTable({ elements, selectedZ, onPreview, onSelect
         </div>
       </>}
       <div className="pt-legend" aria-label="Element families">{categories.map((value) => <span key={value}><i style={{ background: categoryColor(value) }} aria-hidden="true"/>{categoryLabel(value)}</span>)}</div>
-      <div className="pt-notes"><p>Lanthanides (57–71) and actinides (89–103) continue below the main table to keep it compact.</p><p>Full atomic-weight uncertainties appear in the spotlight and tile tooltip. A single bracketed integer is an isotope mass number; ranges denote atomic-weight intervals. Use arrow keys to move between tiles; Enter or Space keeps your selection. Drag a tile into the vessel below, or select an element and use Add selected element.</p></div>
+      <div className="pt-notes"><p>Lanthanides (57–71) and actinides (89–103) continue below the main table to keep it compact.</p><p>Full atomic-weight uncertainties appear in the spotlight and tile tooltip. A single bracketed integer is an isotope mass number; ranges denote atomic-weight intervals. Use arrow keys to move between tiles; Enter or Space keeps your selection. Drag a tile into the tabletop vessel, or select an element and use Add selected element.</p></div>
     </section>
   );
 }

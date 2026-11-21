@@ -7,3 +7,5 @@
 .lab-outcome-choices article{padding:16px 0;border-top:1px solid #ceddc9}.lab-outcome-choices article p{overflow-wrap:anywhere}.lab-outcome-choices article a{font-size:11px}.lab-outcome-choices article strong{font-size:15px}
 
 .lab-outcome-choices{margin-top:24px}.lab-outcome-products{padding-left:18px;font-size:12px;line-height:1.8}.lab-outcome-readiness,.lab-current-outcome{font-size:11px;color:#41674e}.lab-outcome-choices article a{display:inline-block;margin-right:8px}.lab-outcome-choices h4{font:24px Georgia,serif;margin:0 0 12px}
+
+.lab-center{position:relative}.lab-center>.tabletop-popover{text-align:left}

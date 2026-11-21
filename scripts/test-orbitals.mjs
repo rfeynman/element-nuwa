@@ -8,7 +8,7 @@ import ts from 'typescript';
 const directory=await mkdtemp(join(tmpdir(),'orbital-model-'));
 const source=await readFile(new URL('../src/features/electrons/orbitals.ts',import.meta.url),'utf8');
 await writeFile(join(directory,'model.mjs'),ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ES2022,target:ts.ScriptTarget.ES2022}}).outputText);
-const {occupiedSubshells,orbitalTypes,orbitalColors,orbitalOrientations,realHarmonic,radialProbability,sampleOrbital}=await import(pathToFileURL(join(directory,'model.mjs')).href);
+const {occupiedSubshells,orbitalTypes,orbitalColors,orbitalOrientations,realHarmonic,radialProbability,sampleOrbital,sampleCombinedCloud}=await import(pathToFileURL(join(directory,'model.mjs')).href);
 await rm(directory,{recursive:true,force:true});
 const data=JSON.parse(await readFile(new URL('../public/data/explorer.json',import.meta.url),'utf8'));
 const get=z=>data.elements.find(e=>e.z===z);
@@ -50,4 +50,20 @@ test('each orbital type has a unique color, correct orientation count, and no in
  assert.equal(new Set(Object.values(orbitalColors)).size,4);
  for(let l=0;l<4;l++)assert.equal(orbitalOrientations[orbitalTypes[l]].length,2*l+1);
  for(const q of [[1,1,0],[0,0,0],[3,2,3],[8,0,0]])assert.throws(()=>sampleOrbital(...q));
+});
+
+test('combined clouds include only selected occupied types with occupancy-weighted samples',()=>{
+ const shells=occupiedSubshells(get(92),data.elements),sample=sampleCombinedCloud(shells,['s','d','f'],7200);
+ assert.equal(sample.points.length,7200);
+ assert.deepEqual(new Set(sample.points.map(p=>p.type)),new Set(['s','d','f']));
+ const total=shells.filter(s=>s.type!=='p').reduce((sum,s)=>sum+s.count,0);
+ for(const type of ['s','d','f']){const expected=shells.filter(s=>s.type===type).reduce((sum,s)=>sum+s.count,0)/total;assert.ok(Math.abs(sample.points.filter(p=>p.type===type).length/7200-expected)<.002)}
+ assert.deepEqual(sampleCombinedCloud(shells,['f'],60),sampleCombinedCloud(shells,['f'],60));
+ assert.deepEqual(sampleCombinedCloud(shells,[]).points,[]);
+ assert.ok(sample.points.every(p=>[p.x,p.y,p.z].every(Number.isFinite)));
+});
+test('equal orientation averaging gives a spherical filled p-cloud angular moment',()=>{
+ const combined=sampleCombinedCloud([{n:2,type:'p',count:6}],['p'],12000);
+ const moment=combined.points.reduce((sum,p)=>sum+p.z*p.z/(p.x*p.x+p.y*p.y+p.z*p.z),0)/combined.points.length;
+ assert.ok(Math.abs(moment-1/3)<.015,`combined p mean cos² theta = ${moment}`);
 });

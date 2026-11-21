@@ -84,3 +84,20 @@ test('toxic markings require an explicit toxic gas effect without inventing its 
  assert.doesNotMatch(render({effects:['gas']}),/rs-toxic/);
  assert.doesNotMatch(render({effects:['toxic']}),/rs-toxic/);
 });
+
+test('tabletop effects remain event-specific with explicit symbolic meanings',()=>{
+ const fire=render({effects:['flame'],observations:['Burns with a white flame.']});
+ assert.match(fire,/rs-scorch/);assert.match(fire,/--rs-fire-color:#f4f8ff/);
+ assert.doesNotMatch(fire,/Illustrative flame color/);
+ assert.match(render({effects:['flame']}),/Illustrative flame color/);
+ const heat=render({effects:['heat']});assert.match(heat,/rs-overflow/);assert.match(heat,/Bubbles represent heat, not boiling/);
+ assert.doesNotMatch(render({effects:['gas']}),/rs-overflow|rs-scorch/);
+ const cooling=render({effects:['cooling']});assert.match(cooling,/rs-icefall/);assert.match(cooling,/Ice represents cooling, not freezing/);
+ const poison=render({effects:['gas','toxic']});assert.match(poison,/rs-poison-mist/);assert.match(poison,/White mist marks toxicity, not actual gas color/);
+ assert.doesNotMatch(render({effects:['gas','heat','flame','cooling','toxic'],outcome:'no-reaction'}),/rs-icefall|rs-overflow|rs-poison-mist|rs-scorch/);
+});
+
+test('magnesium combustion has its referenced white emission rather than an ionic flame-test guess',()=>{
+ const html=render({id:'magnesium-oxygen',effects:['flame'],observations:['Bright light accompanies burning.']});
+ assert.match(html,/--rs-fire-color:#f4f8ff/);assert.doesNotMatch(html,/Illustrative flame color/);
+});

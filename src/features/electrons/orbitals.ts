@@ -40,6 +40,24 @@ export function laguerre(k:number,alpha:number,x:number):number{
 export function radialProbability(n:number,l:number,rho:number){return Math.exp(-rho)*rho**(2*l+2)*laguerre(n-l-1,2*l+1,rho)**2}
 export interface CloudPoint{x:number;y:number;z:number}
 export interface CloudSample{points:CloudPoint[];scale:number}
+export interface ColoredCloudPoint extends CloudPoint {type:OrbitalType}
+/** Occupancy-weighted orientation average. Each subshell uses its own display scale;
+ * this is a teaching overlay, not a self-consistent many-electron density. */
+export function sampleCombinedCloud(subshells:Subshell[],types:OrbitalType[],count=7200):{points:ColoredCloudPoint[];scale:number}{
+ const included=subshells.filter(s=>types.includes(s.type)),total=included.reduce((sum,s)=>sum+s.count,0),points:ColoredCloudPoint[]=[];
+ let weight=0;
+ for(const shell of included){
+  const l=orbitalTypes.indexOf(shell.type),before=Math.round(count*weight/total);weight+=shell.count;
+  const budget=Math.round(count*weight/total)-before;
+  for(let m=-l;m<=l;m++){
+   const index=m+l,size=Math.round(budget*(index+1)/(2*l+1))-Math.round(budget*index/(2*l+1));
+   if(!size)continue;
+   const sample=sampleOrbital(shell.n,l,m,size);
+   for(const p of sample.points)points.push({x:p.x/sample.scale,y:p.y/sample.scale,z:p.z/sample.scale,type:shell.type});
+  }
+ }
+ return {points,scale:1};
+}
 export function sampleOrbital(n:number,l:number,m:number,count=4200):CloudSample{
  if(!Number.isInteger(n)||n<1||n>7||!Number.isInteger(l)||l<0||l>=n||l>3||!Number.isInteger(m)||Math.abs(m)>l)throw Error('Unsupported orbital quantum numbers');
  let seed=(n*7919+l*101+m*31+4096)>>>0;

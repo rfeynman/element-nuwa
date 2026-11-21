@@ -1,0 +1,15 @@
+{
+  "appVersion": "1.5.0",
+  "builtAt": "2026-11-21T03:35:19.903023+00:00",
+  "reactionDataset": "2026.11.20-source-checked.5",
+  "reactionSha256": "a698d540b9ef18dd5bbd4928b90e6407bf7142752b4770dd3a6a92fb5f8f30ee",
+  "features": [
+    "tabletop reaction can",
+    "activation choices for matching scenarios",
+    "vessel-local lab animation",
+    "single orbital default and combined clouds",
+    "compact table and full-height detail panel"
+  ],
+  "testsPassed": 500,
+  "browserVisualVerification": "unavailable: browser access host disconnected"
+}

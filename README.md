@@ -4,7 +4,7 @@ An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
 - Hover/focus preview, pinned selection, local scientific data, isotope half-lives, balanced nuclear decay equations, and interactive colored s/p/d/f orbital clouds.
-- Element drag basket, compound shelf, 433 sourced reactions and physical processes (240 modeled scenarios, 193 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
+- Tabletop drag-and-drop reaction beaker, compound shelf, 433 sourced reactions and physical processes (240 modeled scenarios, 193 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
 - Ten practice questions with hints, explanations, source links, and progress stored in this browser.
 - Responsive layout, keyboard controls, and reduced-motion support.
 
@@ -23,7 +23,7 @@ The `docs/` directory contains the checked static build served by GitHub Pages. 
 
 ## Scientific data
 
-See [source attribution](references/source-attribution.md) and [reaction evidence](references/reaction-source-audit.md). Each scientific information panel includes source links, dataset version, and dates. Data is packaged locally; hovering or reacting does not call third-party scientific services. Raw downloaded pages and staging records are excluded from this repository.
+See [source attribution](references/source-attribution.md) and [reaction evidence](references/reaction-source-audit.md). Source links, dataset versions, and dates remain in the packaged records and detailed source disclosures; selected interface metadata is hidden for a simpler classroom view. Data is packaged locally; hovering or reacting does not call third-party scientific services. Raw downloaded pages and staging records are excluded from this repository.
 
 Abridged standard atomic weights © CIAAW 2024, [Abridged Standard Atomic Weights 2024](https://ciaaw.org/abridged-atomic-weights.htm). Other sources include PubChem/NCBI, IAEA LiveChart/ENSDF, and NIST. Provider acknowledgement does not imply endorsement.
 
@@ -70,3 +70,11 @@ The reviewed snapshot .5 adds 210 entries and covers 311 distinct binary pairs w
 33 earlier condition records were corrected. Source-specific pure-oxygen peroxide cases retain their requirement. Different phase/allotrope examples appear beside the vessel with Load sourced forms & conditions, preserving exact substance matching. All source-used neutral elemental forms now have a unique table mapping where missing, including Si/Sn. Missing conditions do not produce guessed animations, and unsupported/disputed source products stay excluded.
 
 492 application tests pass, including a standard-reaction checklist, Al/O2 ambient/combustion, explicit-phase suggestions, canonical mappings and disputed-product exclusions. Browser checks verify table-added Al/O2 with heat/air and explicit Ca/Br vapor-form loading. See references/binary-coverage-review.md and the three new source ledgers. External teacher review remains pending; neither the coverage audit nor the pair index claims exhaustive chemistry.
+
+## Latest classroom interface — 1.5.0
+
+The periodic table has an embedded drag-and-drop reaction can and a restored tile key. Only supported activation choices are shown; a single choice starts automatically. Reactions started in the extended lab animate beside its own vessel without jumping to the table. Finite flame/scorch, toxic mist/skull, cooling snow/ice, and heat overflow effects clear before products appear. Animation footer text is visually hidden. Effects are symbolic, not quantitative predictions. Source-observed flame colors are used where available.
+
+The table is more compact, the original full-height left panel has no internal vertical scrollbar, and tile names and weights are slightly larger. Single orbital is the first/default electron-cloud view; Combine clouds offers independent occupied s/p/d/f overlays. The separate element-pair browser and selected explanatory/metadata blocks are removed.
+
+500 automated tests and the production build pass. Browser visual verification was unavailable for this update. Scientific datasets are unchanged. Private raw-source archives and cleanup tools are excluded from the repository and deployed website.
