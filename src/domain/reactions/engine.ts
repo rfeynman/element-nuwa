@@ -94,6 +94,8 @@ export function validateLibrary(library: ReactionLibrary): string[] {
         for (const key of ['gasColor', 'solidColor', 'solutionColor'] as const) {
           if (reaction.visual[key] !== undefined && (typeof reaction.visual[key] !== 'string' || !/^#(?:[0-9a-f]{3}|[0-9a-f]{4}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(reaction.visual[key]))) errors.push(`${label}: ${key} must be a hexadecimal CSS color.`);
         }
+        if (reaction.visual.glowingSolid !== undefined && typeof reaction.visual.glowingSolid !== 'boolean') errors.push(`${label}: glowingSolid must be boolean.`);
+        if (reaction.visual.sparkShower !== undefined && typeof reaction.visual.sparkShower !== 'boolean') errors.push(`${label}: sparkShower must be boolean.`);
         if (reaction.visual.freezing !== undefined && typeof reaction.visual.freezing !== 'boolean') errors.push(`${label}: freezing must be boolean.`);
       }
     }

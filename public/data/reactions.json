@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.20-source-checked.5",
-  "updatedAt": "2026-11-20T03:25:35.478815+00:00",
+  "version": "2026.11.20-source-checked.8",
+  "updatedAt": "2026-11-21T04:13:26.763677+00:00",
   "substances": [
     {
       "id": "H2",
@@ -5958,11 +5958,13 @@
       "outcome": "reaction",
       "effects": [
         "flame",
-        "solid"
+        "solid",
+        "heat"
       ],
       "observations": [
         "Bright light accompanies burning.",
-        "Solid magnesium oxide forms."
+        "Solid magnesium oxide forms.",
+        "The source reports a bright white flame during combustion."
       ],
       "explanation": "The metal combines with molecular oxygen. This oxygen-only model omits side reactions possible when magnesium burns in air.",
       "sourceIds": [
@@ -10210,16 +10212,25 @@
       ],
       "process": "chemical",
       "outcome": "reaction",
-      "effects": [],
+      "effects": [
+        "solid",
+        "heat",
+        "flame"
+      ],
       "observations": [
-        "The displayed products describe the specified conditions. The equation alone does not predict reaction speed or a visible flame."
+        "The sodium reaction reference describes burning sodium producing peroxide and some oxide.",
+        "This existing pure-oxygen scenario isolates peroxide formation; heat and a combustion glow are represented, not freezing."
       ],
       "explanation": "Under the stated oxygen-rich conditions, sodium forms a peroxide containing an oxygen-oxygen unit.",
       "sourceIds": [
-        "openstax-18-9"
+        "openstax-18-9",
+        "webelements-binary-sodium"
       ],
       "reviewStatus": "source-checked",
-      "requiredAtmosphere": "oxygen"
+      "requiredAtmosphere": "oxygen",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "elements-sodium-oxide-peroxide",
@@ -10645,10 +10656,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -10656,7 +10670,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Ba(s) + O2(g) → 2BaO(s)",
-      "sourceLocator": "Reaction of barium with air"
+      "sourceLocator": "Reaction of barium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-barium-o2-bao2",
@@ -10685,10 +10702,14 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture.",
+        "BaO2 is a peroxide, despite the source page calling it a superoxide."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -10696,7 +10717,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Ba(s) + O2(g) → BaO2(s)",
-      "sourceLocator": "Reaction of barium with air"
+      "sourceLocator": "Reaction of barium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-barium-n2-ba3n2",
@@ -10765,10 +10789,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "The combustion observation applies to powdered beryllium; bulk protected metal is not assumed to burn in the same way."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -10776,7 +10803,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Be(s) + O2(g) → 2BeO(s)",
-      "sourceLocator": "Reaction of beryllium with air"
+      "sourceLocator": "Reaction of beryllium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-beryllium-n2-be3n2",
@@ -10927,10 +10957,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "The source reports a bluish-white flame."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -10938,7 +10971,8 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Bi(s) + 3O2(g) → 2Bi2O3(s)",
-      "sourceLocator": "Reaction of bismuth with air"
+      "sourceLocator": "Reaction of bismuth with air",
+      "visual": {}
     },
     {
       "id": "binary-bismuth-f2-bif5",
@@ -11172,10 +11206,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -11183,7 +11219,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Cs(s) + O2(g) → CsO2(s)",
-      "sourceLocator": "Reaction of caesium with air"
+      "sourceLocator": "Reaction of caesium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-caesium-f2-csf",
@@ -11376,10 +11415,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -11387,7 +11429,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Ca(s) + O2(g) → 2CaO(s)",
-      "sourceLocator": "Reaction of calcium with air"
+      "sourceLocator": "Reaction of calcium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-calcium-n2-ca3n2",
@@ -12553,18 +12598,25 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
+        "heat",
+        "flame",
         "solid"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "Lithium combustion produces a red flame and releases heat.",
+        "The white oxide is the principal product; lithium peroxide can occur as a minor co-product. The animation represents combustion, not freezing."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
-        "webelements-binary-lithium"
+        "webelements-binary-lithium",
+        "rsc-lithium-combustion"
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Li(s) + O2(g) → 2Li2O(s)",
-      "sourceLocator": "Reaction of lithium with air"
+      "sourceLocator": "Reaction of lithium with air",
+      "visual": {
+        "solidColor": "#eee9de"
+      }
     },
     {
       "id": "binary-lithium-o2-li2o2",
@@ -12593,18 +12645,25 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
+        "heat",
+        "flame",
         "solid"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "Lithium combustion produces a red flame and releases heat.",
+        "The white oxide is the principal product; lithium peroxide can occur as a minor co-product. The animation represents combustion, not freezing."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
-        "webelements-binary-lithium"
+        "webelements-binary-lithium",
+        "rsc-lithium-combustion"
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Li(s) + O2(g) → 2Li2O2(s)",
-      "sourceLocator": "Reaction of lithium with air"
+      "sourceLocator": "Reaction of lithium with air",
+      "visual": {
+        "solidColor": "#eee9de"
+      }
     },
     {
       "id": "binary-lithium-f2-lif",
@@ -12919,10 +12978,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "The source specifies finely divided manganese; this is not the behavior of an unheated lump."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -12930,7 +12992,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "3Mn(s) + 2O2(g) → Mn3O4(s)",
-      "sourceLocator": "Reaction of manganese with air"
+      "sourceLocator": "Reaction of manganese with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-manganese-n2-mn3n2",
@@ -13367,10 +13432,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -13378,7 +13445,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "K(s) + O2(g) → KO2(s)",
-      "sourceLocator": "Reaction of potassium with air"
+      "sourceLocator": "Reaction of potassium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-potassium-f2-kf",
@@ -13571,10 +13641,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -13582,7 +13654,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Rb(s) + O2(g) → RbO2(s)",
-      "sourceLocator": "Reaction of rubidium with air"
+      "sourceLocator": "Reaction of rubidium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-rubidium-f2-rbf",
@@ -14102,10 +14177,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Oxide and peroxide may coexist; the displayed equation isolates the named endpoint."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -14113,7 +14191,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Na(s) + O2(g) → 2Na2O(s)",
-      "sourceLocator": "Reaction of sodium with air"
+      "sourceLocator": "Reaction of sodium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-sodium-f2-naf",
@@ -14265,10 +14346,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -14276,7 +14360,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Sr(s) + O2(g) → 2SrO(s)",
-      "sourceLocator": "Reaction of strontium with air"
+      "sourceLocator": "Reaction of strontium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-strontium-n2-sr3n2",
@@ -14506,10 +14593,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "Once burning starts, the source reports a white flame; the protective oxide film can hinder ignition."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -14517,7 +14607,8 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Ti(s) + O2(g) → TiO2(s)",
-      "sourceLocator": "Reaction of titanium with air"
+      "sourceLocator": "Reaction of titanium with air",
+      "visual": {}
     },
     {
       "id": "binary-titanium-n2-tin",
@@ -14822,10 +14913,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The displayed product and phase follow the cited elemental-combination equation."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "Source-backed selected product, not a prediction of the only possible outcome. Element form, phase, surface condition and activation can change behavior.",
       "sourceIds": [
@@ -14833,7 +14926,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Zn(s) + O2(g) → 2ZnO(s)  [white]",
-      "sourceLocator": "Reaction of zinc with air"
+      "sourceLocator": "Reaction of zinc with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "binary-zinc-br2-znbr2",
@@ -14916,6 +15012,108 @@
       "sourceEquation": "Zn(s) + I2(g) → ZnI2(s)  [white]",
       "sourceLocator": "Reaction of zinc with the halogens",
       "execution": "equation-only"
+    },
+    {
+      "id": "iron-pure-oxygen-combustion-fe2o3",
+      "title": "Iron wool burns in pure oxygen → Fe₂O₃",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 4
+        },
+        {
+          "id": "O2",
+          "coefficient": 3
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe2O3-s",
+          "coefficient": 2
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated or ignited fine iron / steel wool in pure oxygen. This surface-form example does not imply that any bulk iron piece ignites immediately. The selected oxide is one reported endpoint; oxide mixtures may form. Conceptual model only.",
+      "requiredActivation": [
+        "heat",
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "flame",
+        "solid"
+      ],
+      "observations": [
+        "Heated iron wool burns brightly in oxygen with a shower of sparks.",
+        "The sparks are incandescent particles; the illustration represents burning iron, not a gas flame or an explosion.",
+        "A solid iron oxide remains; the selected equation is not a claim of a single exclusive oxide."
+      ],
+      "explanation": "The fine strands expose a large surface to oxygen. Pure oxygen supports much more vigorous combustion than ordinary air. The bright glow and sparks represent heat and light released by oxidation. Oxide composition depends on the conditions.",
+      "sourceIds": [
+        "webelements-binary-iron",
+        "uw-iron-combustion",
+        "wisc-iron-sparks"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "4Fe(s) + 3O2(g) → 2Fe2O3(s)",
+      "sourceLocator": "Reaction of iron with air",
+      "requiredAtmosphere": "oxygen",
+      "visual": {
+        "sparkShower": true
+      }
+    },
+    {
+      "id": "iron-pure-oxygen-combustion-fe3o4",
+      "title": "Iron wool burns in pure oxygen → Fe₃O₄",
+      "reactants": [
+        {
+          "id": "Fe",
+          "coefficient": 3
+        },
+        {
+          "id": "O2",
+          "coefficient": 2
+        }
+      ],
+      "products": [
+        {
+          "id": "Fe3O4-s",
+          "coefficient": 1
+        }
+      ],
+      "condition": "activation",
+      "conditionLabel": "Heated or ignited fine iron / steel wool in pure oxygen. This surface-form example does not imply that any bulk iron piece ignites immediately. The selected oxide is one reported endpoint; oxide mixtures may form. Conceptual model only.",
+      "requiredActivation": [
+        "heat",
+        "ignition"
+      ],
+      "process": "chemical",
+      "outcome": "reaction",
+      "effects": [
+        "heat",
+        "flame",
+        "solid"
+      ],
+      "observations": [
+        "Heated iron wool burns brightly in oxygen with a shower of sparks.",
+        "The sparks are incandescent particles; the illustration represents burning iron, not a gas flame or an explosion.",
+        "A solid iron oxide remains; the selected equation is not a claim of a single exclusive oxide."
+      ],
+      "explanation": "The fine strands expose a large surface to oxygen. Pure oxygen supports much more vigorous combustion than ordinary air. The bright glow and sparks represent heat and light released by oxidation. Oxide composition depends on the conditions.",
+      "sourceIds": [
+        "webelements-binary-iron",
+        "uw-iron-combustion",
+        "wisc-iron-sparks"
+      ],
+      "reviewStatus": "source-checked",
+      "sourceEquation": "3Fe(s) + 2O2(g) → Fe3O4(s)",
+      "sourceLocator": "Reaction of iron with air",
+      "requiredAtmosphere": "oxygen",
+      "visual": {
+        "sparkShower": true
+      }
     },
     {
       "id": "aluminium-oxygen-combustion",
@@ -17583,10 +17781,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made.",
       "sourceIds": [
@@ -17594,7 +17794,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "2Cd(s) + O2(g) → 2CdO(s)",
-      "sourceLocator": "Reaction of cadmium with air"
+      "sourceLocator": "Reaction of cadmium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-cadmium-f2-cdf2",
@@ -17747,10 +17950,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -17759,7 +17964,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Ce + O2→ CeO2",
-      "sourceLocator": "Reaction of cerium with air"
+      "sourceLocator": "Reaction of cerium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-cerium-f2-cef3",
@@ -17953,10 +18161,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -17965,7 +18175,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Dy + 3O2→ 2Dy2O3",
-      "sourceLocator": "Reaction of dysprosium with air"
+      "sourceLocator": "Reaction of dysprosium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-dysprosium-f2-dyf3",
@@ -18159,10 +18372,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -18171,7 +18386,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Er + 3O2→ 2Er2O3",
-      "sourceLocator": "Reaction of erbium with air"
+      "sourceLocator": "Reaction of erbium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-erbium-f2-erf3",
@@ -18365,10 +18583,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -18377,7 +18597,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Eu + 3O2→ 2Eu2O3",
-      "sourceLocator": "Reaction of europium with air"
+      "sourceLocator": "Reaction of europium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-europium-f2-euf3",
@@ -18530,10 +18753,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -18542,7 +18767,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Gd + 3O2→ 2Gd2O3",
-      "sourceLocator": "Reaction of gadolinium with air"
+      "sourceLocator": "Reaction of gadolinium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-gadolinium-f2-gdf3",
@@ -18859,10 +19087,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "A protective surface oxide can inhibit reaction; the scene assumes an already initiated combustion example."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made.",
       "sourceIds": [
@@ -18870,7 +19101,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Hf(s) + O2(g) → HfO2(s)",
-      "sourceLocator": "Reaction of hafnium with air"
+      "sourceLocator": "Reaction of hafnium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-hafnium-f2-hff4",
@@ -19065,10 +19299,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -19077,7 +19313,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Ho + 3O2→ 2Ho2O3",
-      "sourceLocator": "Reaction of holmium with air"
+      "sourceLocator": "Reaction of holmium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-holmium-f2-hof3",
@@ -19517,10 +19756,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -19529,7 +19770,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4La + 3O2→ 2La2O3",
-      "sourceLocator": "Reaction of lanthanum with air"
+      "sourceLocator": "Reaction of lanthanum with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-lanthanum-f2-laf3",
@@ -19723,10 +19967,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -19735,7 +19981,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Lu + 3O2→ 2Lu2O3",
-      "sourceLocator": "Reaction of lutetium with air"
+      "sourceLocator": "Reaction of lutetium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-lutetium-f2-luf3",
@@ -20214,10 +20463,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -20226,7 +20477,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Nd + 3O2→ 2Nd2O3",
-      "sourceLocator": "Reaction of neodymium with air"
+      "sourceLocator": "Reaction of neodymium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-neodymium-f2-ndf3",
@@ -21038,10 +21292,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -21050,7 +21306,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "12Pr + 11O2→ 2Pr6O11",
-      "sourceLocator": "Reaction of praseodymium with air"
+      "sourceLocator": "Reaction of praseodymium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-praseodymium-f2-prf3",
@@ -21613,10 +21872,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -21625,7 +21886,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Sm + 3O2→ 2Sm2O3",
-      "sourceLocator": "Reaction of samarium with air"
+      "sourceLocator": "Reaction of samarium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-samarium-f2-smf3",
@@ -22107,10 +22371,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -22119,7 +22385,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "8Tb + 7O2→ 2Tb4O7",
-      "sourceLocator": "Reaction of terbium with air"
+      "sourceLocator": "Reaction of terbium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-terbium-f2-tbf3",
@@ -22395,10 +22664,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -22407,7 +22678,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Tm + 3O2→ 2Tm2O3",
-      "sourceLocator": "Reaction of thulium with air"
+      "sourceLocator": "Reaction of thulium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-thulium-f2-tmf3",
@@ -22765,10 +23039,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -22777,7 +23053,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Yb + 3O2→ 2Yb2O3",
-      "sourceLocator": "Reaction of ytterbium with air"
+      "sourceLocator": "Reaction of ytterbium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-ytterbium-f2-ybf3",
@@ -22971,10 +23250,12 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made. The source equation omits phases; bulk metal/oxygen-gas/solid-oxide phases are supplied from the corroborating solid-oxide reference.",
       "sourceIds": [
@@ -22983,7 +23264,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "4Y + 3O2→ 2Y2O3",
-      "sourceLocator": "Reaction of yttrium with air"
+      "sourceLocator": "Reaction of yttrium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-yttrium-f2-yf3",
@@ -23177,10 +23461,13 @@
       "process": "chemical",
       "outcome": "reaction",
       "effects": [
-        "solid"
+        "solid",
+        "heat",
+        "flame"
       ],
       "observations": [
-        "The equation identifies the displayed product and phase; no quantitative yield or reaction rate is modeled."
+        "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+        "A protective surface oxide can inhibit reaction; the scene assumes an already initiated combustion example."
       ],
       "explanation": "The cited source explicitly reports this combination and product. Different forms, ratios or conditions may select other products; no universal single-product prediction is made.",
       "sourceIds": [
@@ -23188,7 +23475,10 @@
       ],
       "reviewStatus": "source-checked",
       "sourceEquation": "Zr(s) + O2(g) → ZrO2(s)",
-      "sourceLocator": "Reaction of zirconium with air"
+      "sourceLocator": "Reaction of zirconium with air",
+      "visual": {
+        "glowingSolid": true
+      }
     },
     {
       "id": "metal-audit-zirconium-f2-zrf4",
@@ -23949,6 +24239,30 @@
       "retrievedAt": "2026-11-20T02:38:35Z",
       "upstreamDate": null,
       "attribution": "Mark Winter, University of Sheffield and WebElements Ltd. Copyright 1993–2026; source equations attributed; all rights reserved."
+    },
+    {
+      "id": "rsc-lithium-combustion",
+      "name": "RSC Education — Heating group 1 metals in air and in chlorine",
+      "url": "https://edu.rsc.org/experiments/heating-group-1-metals-in-air-and-in-chlorine/732.article",
+      "retrievedAt": "2026-11-21T04:00:53.978488+00:00",
+      "upstreamDate": null,
+      "attribution": "Royal Society of Chemistry / Nuffield Foundation; combustion-color observation attributed, original source material not redistributed."
+    },
+    {
+      "id": "uw-iron-combustion",
+      "name": "University of Washington — Combustion of Steel Wool",
+      "url": "https://chem.washington.edu/lecture-demos/combustion-steel-wool",
+      "retrievedAt": "2026-11-21T04:10:27.905941+00:00",
+      "upstreamDate": null,
+      "attribution": "University chemistry demonstration reference; factual observations attributed, original material not redistributed."
+    },
+    {
+      "id": "wisc-iron-sparks",
+      "name": "UW–Madison — Reaction of Iron and Oxygen",
+      "url": "https://demolab.chem.wisc.edu/general-chemistry-demonstrations-topic-page/atoms-and-molecules-reaction-of-iron-and-oxygen/",
+      "retrievedAt": "2026-11-21T04:10:27.905941+00:00",
+      "upstreamDate": null,
+      "attribution": "University chemistry demonstration reference; factual observations attributed, original material not redistributed."
     },
     {
       "id": "audit1-al-we",

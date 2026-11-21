@@ -31,3 +31,7 @@ The merger namespaces candidate references, deduplicates by substance compositio
 The old SeI4(s)/SeF4(s) conflicts remain excluded, and disputed OsF7/PF3/TcF7 endpoints were withheld during the new audits. Thirty-three older condition records were reviewed and corrected. Full experimental conditions or controls are unavailable for 193 equations; these remain visible but non-playable. Source-specific pure-oxygen peroxide cases remain distinct from generic O2-reactant examples. The 13-entry Al/group-13 library distinguishes ambient surface passivation from bulk combustion and logs phase corrections.
 
 Audits: `aluminium-binary-audit.md`, `common-binary-audit.md`, `metal-binary-audit.md`, and `references/binary-coverage-review.md`. All 6,903 pairs can be looked up, but coverage is not exhaustive and teacher review remains pending.
+
+## Reviewed combustion effects
+
+The merger applies the curated [metal–oxygen effect review](metal-oxygen-effects-review.json). Its 33 overrides preserve products, phases, activation/atmosphere requirements and execution states. Private source archives are not distributed; the scientific effect review is documented in [the audit](../../references/metal-oxygen-effects-audit.md).

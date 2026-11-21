@@ -49,3 +49,22 @@ test('reviewed unsupported activation and disputed products cannot become playab
  assert.ok(!library.reactions.some(r=>r.id==='common-phosphorus-fluorine-pf3'));
  const iodide=library.reactions.find(r=>r.id==='aluminium-iodine-catalysed');assert.equal(iodide.execution,'equation-only');
 });
+
+test('reviewed metal combustion records animate in oxygen without changing their equations or activation',async()=>{
+ const review=JSON.parse(await readFile(new URL('../data/reactions/metal-oxygen-effects-review.json',import.meta.url),'utf8'));
+ assert.equal(Object.keys(review.corrections).length,33);
+ for(const [id,note] of Object.entries(review.corrections)){
+  const r=library.reactions.find(r=>r.id===id);assert.ok(r,id);
+  assert.ok(r.effects.includes('heat'),id);assert.ok(r.effects.includes('flame'),id);assert.ok(!r.effects.includes('cooling'),id);
+  const inputs=r.reactants.map(t=>t.id),activation=r.requiredActivation?.[0]??(r.condition==='ambient'?'none':'ignition');
+  assert.equal(evaluateReaction(library,inputs,{activation,atmosphere:'oxygen'},id).kind,'reaction',id);
+  assert.match(note.sourceUrl,/^https:\/\//);
+ }
+});
+test('oxygen presence alone never creates a universal fire effect',()=>{
+ for(const id of ['binary-copper-o2-cu2o','binary-cobalt-o2-co3o4','metal-audit-palladium-o2-pdo','aluminium-oxygen-passivation']){
+  const r=library.reactions.find(r=>r.id===id);assert.ok(r,id);assert.ok(!r.effects.includes('flame'),id);
+ }
+ const passivation=library.reactions.find(r=>r.id==='aluminium-oxygen-passivation');assert.deepEqual(passivation.requiredActivation,['none']);
+ assert.ok(library.reactions.filter(r=>r.execution==='equation-only').length===193);
+});

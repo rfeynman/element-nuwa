@@ -1,17 +1,20 @@
 {
-  "appVersion": "1.5.3",
-  "builtAt": "2026-11-21T03:58:24.328659+00:00",
-  "reactionDataset": "2026.11.20-source-checked.5",
-  "reactionSha256": "a698d540b9ef18dd5bbd4928b90e6407bf7142752b4770dd3a6a92fb5f8f30ee",
+  "appVersion": "1.5.4",
+  "builtAt": "2026-11-21T04:17:16.693073+00:00",
+  "reactionDataset": "2026.11.20-source-checked.8",
+  "reactionSha256": "e4d16b24693ac853d6f46313bd721173741313025d70fec12543b89b5071300d",
   "features": [
     "tabletop reaction can",
     "activation choices for matching scenarios",
     "vessel-local lab animation",
     "single orbital default and combined clouds",
     "compact table and full-height detail panel",
-    "five-colored stone branding"
+    "five-colored stone branding",
+    "lithium red combustion and iron spark shower",
+    "33 reviewed metal combustion effect corrections",
+    "brighter effects without table burn-hole"
   ],
-  "testsPassed": 500,
+  "testsPassed": 509,
   "browserVisualVerification": "unavailable: browser access host disconnected",
   "appName": "Element Nuwa"
 }

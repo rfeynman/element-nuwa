@@ -1,0 +1,1366 @@
+{
+  "reviewedAt": "2026-11-21T04:13:03.235152+00:00",
+  "scope": "Explicit combustion observations for existing element/oxygen records. No products, activation methods, phases, execution states, or required atmospheres are inferred or changed. No generic pure-oxygen fire rule.",
+  "corrections": {
+    "binary-barium-o2-bao": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/barium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/barium.html",
+      "evidenceSha256": "ac2c38098466ee18e520de9b9648a8a1bc89163bd202728f64cbb15e1f8ba54e",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-barium-o2-bao2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture.",
+          "BaO2 is a peroxide, despite the source page calling it a superoxide."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/barium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/barium.html",
+      "evidenceSha256": "ac2c38098466ee18e520de9b9648a8a1bc89163bd202728f64cbb15e1f8ba54e",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-beryllium-o2-beo": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "The combustion observation applies to powdered beryllium; bulk protected metal is not assumed to burn in the same way."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/beryllium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/beryllium.html",
+      "evidenceSha256": "0bb28887e58901e1d176a3fc9d9604d45ec8228af162ecf49a03881d5995e3b0",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-bismuth-o2-bi2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "The source reports a bluish-white flame."
+        ],
+        "visual": {}
+      },
+      "sourceUrl": "https://www.webelements.com/bismuth/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/bismuth.html",
+      "evidenceSha256": "5e82eaa6e04d906957953fb3f308af53dc13e1d672bf9d8c7997f8c0dc8262c8",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-caesium-o2-cso2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/caesium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/caesium.html",
+      "evidenceSha256": "d38cea45b2b8d28021508f6e5d1cfb9c9731eb55c097fbf96f55df98ba60db14",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-calcium-o2-cao": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/calcium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/calcium.html",
+      "evidenceSha256": "8c573ff90c7742304d05017d6f23fa2f30a3f1e3b4d47929f3c8152524abb91a",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-manganese-o2-mn3o4": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "The source specifies finely divided manganese; this is not the behavior of an unheated lump."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/manganese/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/manganese.html",
+      "evidenceSha256": "f6e3eae090018f36a277f9f4423c138f213fe6b253dc6183fb92747085fcd7dc",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-potassium-o2-ko2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/potassium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/potassium.html",
+      "evidenceSha256": "958414854aeec89d5e026b5b89af83157a2045d9a9d1a609ea9351c9028be456",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-rubidium-o2-rbo2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/rubidium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/rubidium.html",
+      "evidenceSha256": "f345b77071f034f1ffa6b067c751c8c6b2a9b9ea2e163186b58735f519496611",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-sodium-o2-na2o": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Oxide and peroxide may coexist; the displayed equation isolates the named endpoint."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/sodium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/sodium.html",
+      "evidenceSha256": "7ee5579ba122f69684c9e28fe136e4cb60d45d0d153dd372bb4b2151c4d61cc4",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-strontium-o2-sro": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Burning in air can also produce nitride; the equation isolates the oxygen reaction rather than predicting the whole mixture."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/strontium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/strontium.html",
+      "evidenceSha256": "01fb30bc25354a3c8a3d248a0de617f4554bb628a55fe575f4b211a533f2ecbb",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-titanium-o2-tio2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "Once burning starts, the source reports a white flame; the protective oxide film can hinder ignition."
+        ],
+        "visual": {}
+      },
+      "sourceUrl": "https://www.webelements.com/titanium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/titanium.html",
+      "evidenceSha256": "75ef78c93647efba5c8683a39d6044739bb864fb683e5f93d8cd716f864cc9c2",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "binary-zinc-o2-zno": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/zinc/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/binary-elements/zinc.html",
+      "evidenceSha256": "649b57388e794769870133a671ca0109f209d69625641b21e23ef7c461fcd34d",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-cadmium-o2-cdo": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/cadmium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/cadmium.html",
+      "evidenceSha256": "b8412da63f02c78b0784b3be91fa7d3148a765009faeb43fda31664790ed169d",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-cerium-o2-ceo2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/cerium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/cerium.html",
+      "evidenceSha256": "e3b3d89f4154c2ec9bfe82d9472c377935c168d4f113c951aa7dc7cbce586e6f",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-dysprosium-o2-dy2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/dysprosium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/dysprosium.html",
+      "evidenceSha256": "59b76da616c6de3690577b85641a21354b13cf042e79289285383b89bf6971ad",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-erbium-o2-er2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/erbium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/erbium.html",
+      "evidenceSha256": "8440409d4ac5ea7bdccc5afb5e8b38a1d50dd50f55d2e1cc5e551a528ee5e165",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-europium-o2-eu2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/europium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/europium.html",
+      "evidenceSha256": "1f154033fe913de2b3069d8eb56ef713c9888dd70fc4d83225e3d2dfa4045502",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-gadolinium-o2-gd2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/gadolinium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/gadolinium.html",
+      "evidenceSha256": "156336a13b8ad3469cf2dba8d1ee239bc363e8ddf0414906c179403b5537a16f",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-hafnium-o2-hfo2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "A protective surface oxide can inhibit reaction; the scene assumes an already initiated combustion example."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/hafnium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/hafnium.html",
+      "evidenceSha256": "f91295a7e3987b0f0081d35a6633bb0fa4c8b03ec2733b32b04ce0fe601f8e0f",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-holmium-o2-ho2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/holmium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/holmium.html",
+      "evidenceSha256": "75061680fbd744dd6ef4b75583c812ee98df980a0ca7fdbb5021e9ce237a6eb7",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-lanthanum-o2-la2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/lanthanum/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/lanthanum.html",
+      "evidenceSha256": "ea85c6798ef819c553a087c3036bdf290d2636d76b1c5088a133f94797fa2159",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-lutetium-o2-lu2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/lutetium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/lutetium.html",
+      "evidenceSha256": "7ffe5a688b5113e164139dff7c8135a9f3dabe93a1931cc2781af85b3d995353",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-neodymium-o2-nd2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/neodymium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/neodymium.html",
+      "evidenceSha256": "1d58b1e4effb8bc1b634fcdb9dcbab9395403ff5168e4f5d4360b2cefe73326e",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-praseodymium-o2-pr6o11": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/praseodymium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/praseodymium.html",
+      "evidenceSha256": "ad8c4fdb84143ec81bf2b436462582f137eb6ec00819f9795a2b4993569c48d9",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-samarium-o2-sm2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/samarium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/samarium.html",
+      "evidenceSha256": "b2b7a8503200290a972cd8c4c5fb666f6a2ae05be96c92345cec256b9945ff85",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-terbium-o2-tb4o7": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/terbium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/terbium.html",
+      "evidenceSha256": "91016e916edb4e2509f894169a2ab859940c11d1b22aaeb8699ee3db523b255f",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-thulium-o2-tm2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/thulium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/thulium.html",
+      "evidenceSha256": "bbaaee6c3eff97b031c9db7ec800f50ce878768acc786372a1880b2681462923",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-ytterbium-o2-yb2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/ytterbium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/ytterbium.html",
+      "evidenceSha256": "2d9de4713ce155d088f4aa430bf2c4942eb8c66500049e88def2a50c81d93e2b",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-yttrium-o2-y2o3": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/yttrium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/yttrium.html",
+      "evidenceSha256": "117d3ab6ab265106c09759fcc5c9246742b619491f796c04655f959608f95bf9",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "metal-audit-zirconium-o2-zro2": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "observations": [
+          "The cited element-reaction reference explicitly describes combustion forming the selected oxide; heat and light are represented in this scene.",
+          "A protective surface oxide can inhibit reaction; the scene assumes an already initiated combustion example."
+        ],
+        "visual": {
+          "glowingSolid": true
+        }
+      },
+      "sourceUrl": "https://www.webelements.com/zirconium/chemistry.html",
+      "sourceLocator": "Reaction with air / oxygen",
+      "evidenceArchivePath": "data/reactions/raw/metal-binary/zirconium.html",
+      "evidenceSha256": "bea2efb5f5330fab8a21f79dab09dfe4c14b71bf9bd8f0baf2fc0faf06a40c95",
+      "reason": "Explicit combustion observation omitted from effect flags. Solid-burning glow is used unless an actual flame is reported."
+    },
+    "magnesium-oxygen": {
+      "set": {
+        "effects": [
+          "flame",
+          "solid",
+          "heat"
+        ],
+        "observations": [
+          "Bright light accompanies burning.",
+          "Solid magnesium oxide forms.",
+          "The source reports a bright white flame during combustion."
+        ]
+      },
+      "sourceUrl": "https://www.webelements.com/magnesium/chemistry.html",
+      "reason": "Combustion releases heat; preserve the existing sourced white-flame scene and conditions."
+    },
+    "elements-sodium-peroxide": {
+      "set": {
+        "effects": [
+          "solid",
+          "heat",
+          "flame"
+        ],
+        "visual": {
+          "glowingSolid": true
+        },
+        "observations": [
+          "The sodium reaction reference describes burning sodium producing peroxide and some oxide.",
+          "This existing pure-oxygen scenario isolates peroxide formation; heat and a combustion glow are represented, not freezing."
+        ]
+      },
+      "addSourceUrls": [
+        "https://www.webelements.com/sodium/chemistry.html"
+      ],
+      "sourceUrl": "https://www.webelements.com/sodium/chemistry.html",
+      "reason": "Pure-oxygen peroxide example had no observable effects; source corroborates burning sodium and peroxide formation."
+    }
+  },
+  "oxygenScenarioAudit": [
+    {
+      "id": "hydrogen-oxygen",
+      "elements": [
+        "H",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "magnesium-oxygen",
+      "elements": [
+        "Mg",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "carbon-oxygen",
+      "elements": [
+        "C",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "sulfur-combustion",
+      "elements": [
+        "O",
+        "S"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "elements-sodium-peroxide",
+      "elements": [
+        "Na",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-arsenic-o2-as4o6",
+      "elements": [
+        "As",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-barium-o2-bao",
+      "elements": [
+        "Ba",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-barium-o2-bao2",
+      "elements": [
+        "Ba",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-beryllium-o2-beo",
+      "elements": [
+        "Be",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-bismuth-o2-bi2o3",
+      "elements": [
+        "Bi",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-caesium-o2-cso2",
+      "elements": [
+        "Cs",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-calcium-o2-cao",
+      "elements": [
+        "Ca",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-cobalt-o2-co3o4",
+      "elements": [
+        "Co",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-cobalt-o2-coo",
+      "elements": [
+        "Co",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-copper-o2-cu2o",
+      "elements": [
+        "Cu",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-germanium-o2-geo2",
+      "elements": [
+        "Ge",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-iron-o2-fe2o3",
+      "elements": [
+        "Fe",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-iron-o2-fe3o4",
+      "elements": [
+        "Fe",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-lead-o2-pbo",
+      "elements": [
+        "O",
+        "Pb"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-lithium-o2-li2o",
+      "elements": [
+        "Li",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-lithium-o2-li2o2",
+      "elements": [
+        "Li",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-manganese-o2-mn3o4",
+      "elements": [
+        "Mn",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-nickel-o2-nio",
+      "elements": [
+        "Ni",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-potassium-o2-ko2",
+      "elements": [
+        "K",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-rubidium-o2-rbo2",
+      "elements": [
+        "O",
+        "Rb"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-selenium-o2-seo2",
+      "elements": [
+        "O",
+        "Se"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-sodium-o2-na2o",
+      "elements": [
+        "Na",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-strontium-o2-sro",
+      "elements": [
+        "O",
+        "Sr"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-tin-o2-sno2",
+      "elements": [
+        "O",
+        "Sn"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-titanium-o2-tio2",
+      "elements": [
+        "O",
+        "Ti"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-vanadium-o2-v2o5",
+      "elements": [
+        "O",
+        "V"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "binary-zinc-o2-zno",
+      "elements": [
+        "O",
+        "Zn"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "iron-pure-oxygen-combustion-fe2o3",
+      "elements": [
+        "Fe",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "iron-pure-oxygen-combustion-fe3o4",
+      "elements": [
+        "Fe",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "aluminium-oxygen-combustion",
+      "elements": [
+        "Al",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "aluminium-oxygen-passivation",
+      "elements": [
+        "Al",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "indium-oxygen-audited",
+      "elements": [
+        "In",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "gallium-oxygen-reported",
+      "elements": [
+        "Ga",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-nitrogen-oxygen",
+      "elements": [
+        "N",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-boron-oxygen",
+      "elements": [
+        "B",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-carbon-monoxide",
+      "elements": [
+        "C",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-silicon-oxygen",
+      "elements": [
+        "O",
+        "Si"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-phosphorus-oxygen-p4o10",
+      "elements": [
+        "O",
+        "P"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-phosphorus-oxygen-p4o6",
+      "elements": [
+        "O",
+        "P"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "equation-only"
+    },
+    {
+      "id": "common-k-oxygen-peroxide",
+      "elements": [
+        "K",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-rb-oxygen-peroxide",
+      "elements": [
+        "O",
+        "Rb"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "common-cs-oxygen-peroxide",
+      "elements": [
+        "Cs",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-antimony-o2-sb2o3",
+      "elements": [
+        "O",
+        "Sb"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-cadmium-o2-cdo",
+      "elements": [
+        "Cd",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-cerium-o2-ceo2",
+      "elements": [
+        "Ce",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-dysprosium-o2-dy2o3",
+      "elements": [
+        "Dy",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-erbium-o2-er2o3",
+      "elements": [
+        "Er",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-europium-o2-eu2o3",
+      "elements": [
+        "Eu",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-gadolinium-o2-gd2o3",
+      "elements": [
+        "Gd",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-hafnium-o2-hfo2",
+      "elements": [
+        "Hf",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-holmium-o2-ho2o3",
+      "elements": [
+        "Ho",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-iridium-o2-iro2",
+      "elements": [
+        "Ir",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-lanthanum-o2-la2o3",
+      "elements": [
+        "La",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-lutetium-o2-lu2o3",
+      "elements": [
+        "Lu",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-molybdenum-o2-moo3",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-neodymium-o2-nd2o3",
+      "elements": [
+        "Nd",
+        "O"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-osmium-o2-oso4",
+      "elements": [
+        "O",
+        "Os"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-palladium-o2-pdo",
+      "elements": [
+        "O",
+        "Pd"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-praseodymium-o2-pr6o11",
+      "elements": [
+        "O",
+        "Pr"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-rhenium-o2-re2o7",
+      "elements": [
+        "O",
+        "Re"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-rhodium-o2-rh2o3",
+      "elements": [
+        "O",
+        "Rh"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-ruthenium-o2-ruo2",
+      "elements": [
+        "O",
+        "Ru"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-samarium-o2-sm2o3",
+      "elements": [
+        "O",
+        "Sm"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-technetium-o2-tc2o7",
+      "elements": [
+        "O",
+        "Tc"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-tellurium-o2-teo2",
+      "elements": [
+        "O",
+        "Te"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-terbium-o2-tb4o7",
+      "elements": [
+        "O",
+        "Tb"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-thallium-o2-tl2o",
+      "elements": [
+        "O",
+        "Tl"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-thulium-o2-tm2o3",
+      "elements": [
+        "O",
+        "Tm"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-tungsten-o2-wo3",
+      "elements": [
+        "O",
+        "W"
+      ],
+      "disposition": "unchanged; no new combustion inference",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-ytterbium-o2-yb2o3",
+      "elements": [
+        "O",
+        "Yb"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-yttrium-o2-y2o3",
+      "elements": [
+        "O",
+        "Y"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    },
+    {
+      "id": "metal-audit-zirconium-o2-zro2",
+      "elements": [
+        "O",
+        "Zr"
+      ],
+      "disposition": "effects corrected",
+      "execution": "modeled"
+    }
+  ]
+}

@@ -1,24 +1,25 @@
 {
-  "version": "2026.11.20-source-checked.5",
-  "entries": 433,
-  "modeled": 240,
+  "version": "2026.11.20-source-checked.8",
+  "entries": 435,
+  "modeled": 242,
   "equationOnly": 193,
-  "addedBinaryEquations": 322,
+  "addedBinaryEquations": 324,
   "inputBundles": {
-    "binary-elements-extra.json": 114,
+    "binary-elements-extra.json": 116,
     "aluminium-binary-additions.json": 13,
     "common-binary-additions.json": 47,
     "metal-binary-additions.json": 150
   },
   "reviewedConditionCorrections": 33,
+  "reviewedEffectCorrections": 33,
   "duplicateEquationsMerged": 0,
   "excludedBinaryEquations": {
     "binary-selenium-i2-sei4": "Solid SeI4 endpoint is not corroborated by the primary selenium\u2013iodine study (DOI 10.1021/ic00048a017).",
     "binary-selenium-f2-sef4": "Copied solid SeF4 phase conflicts with Inorganic Syntheses vol. 24, section 9; correction requires separately sourced conditions."
   },
   "substances": 532,
-  "sources": 128,
-  "sha256": "a698d540b9ef18dd5bbd4928b90e6407bf7142752b4770dd3a6a92fb5f8f30ee",
+  "sources": 131,
+  "sha256": "e4d16b24693ac853d6f46313bd721173741313025d70fec12543b89b5071300d",
   "checks": [
     "atom and charge conservation",
     "unique reaction IDs",

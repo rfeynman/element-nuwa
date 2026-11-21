@@ -4,7 +4,7 @@ An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
 - Hover/focus preview, pinned selection, local scientific data, isotope half-lives, balanced nuclear decay equations, and interactive colored s/p/d/f orbital clouds.
-- Tabletop drag-and-drop reaction beaker, compound shelf, 433 sourced reactions and physical processes (240 modeled scenarios, 193 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
+- Tabletop drag-and-drop reaction beaker, compound shelf, 435 sourced reactions and physical processes (242 modeled scenarios, 193 equation-only records), products, balanced equations, heat/fire/gas/solid/toxicity/blast indicators, and optional water condensation.
 - Ten practice questions with hints, explanations, source links, and progress stored in this browser.
 - Responsive layout, keyboard controls, and reduced-motion support.
 
@@ -90,3 +90,9 @@ A five-colored faceted stone now replaces the concentric-circle brand mark in th
 ## Icon cache correction — 1.5.3
 
 The header/loading/footer mark and browser favicon now share a Vite-managed SVG with a content-hashed filename. This avoids reusing the previously cached favicon.svg URL. Existing website and progress links remain unchanged. Production build and emitted SVG/reference validation pass; scientific data and reaction logic are unchanged.
+
+## Combustion update — 1.5.4
+
+Lithium/oxygen now displays sourced red combustion with heat. Fine iron in pure oxygen has separate heat/ignition cases with an incandescent spark shower and the documented oxide alternatives. A systematic review corrects 33 additional combustion-effect mappings; where a gas flame is not documented, burning metals use a solid glow. Reported white/bluish-white flames retain their observed colors. Generic oxidation and protective surface passivation remain distinct.
+
+Solid products appear as deposits rather than ice. Cooling remains separately flagged. Reaction effects are brighter and more opaque; the burn-hole effect is removed. All 509 tests and the production build pass. Browser visual inspection is unavailable; live deployment files are verified directly. The snapshot contains 435 entries, 242 modeled and 193 equation-only, and 131 sources.

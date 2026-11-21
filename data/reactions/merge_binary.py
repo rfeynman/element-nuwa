@@ -94,6 +94,16 @@ def main():
   if key in known:
    old=known[key];old['sourceIds']=list(dict.fromkeys(old['sourceIds']+r['sourceIds']));duplicates+=1;continue
   data['reactions'].append(r);known[key]=r;added+=1
+ # Curated combustion-observation corrections; never infer fire from metal identity.
+ effect_review=json.loads((ROOT/'data/reactions/metal-oxygen-effects-review.json').read_text())['corrections']
+ reaction_by_id={r['id']:r for r in data['reactions']}
+ for rid,review in effect_review.items():
+  assert rid in reaction_by_id,rid
+  assert set(review['set']) <= {'effects','observations','visual'},rid
+  r=reaction_by_id[rid];r.update(deepcopy(review['set']))
+  for url in review.get('addSourceUrls',[]):
+   sid=next(s['id'] for s in data['sources'] if s['url']==url)
+   if sid not in r['sourceIds']:r['sourceIds'].append(sid)
  # Repair missing canonical mappings in pre-existing neutral elemental forms (e.g. Si and Sn).
  for symbol,z in symbol_z.items():
   if z in element_z:continue
@@ -116,8 +126,8 @@ def main():
  assert len({r['id'] for r in data['reactions']})==len(data['reactions'])
  assert len({s['elementZ'] for s in substances if 'elementZ'in s})==sum('elementZ'in s for s in substances)
  for substance in substances:learner_name(substance,elements)
- data['version']='2026.11.20-source-checked.5';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ data['version']='2026.11.20-source-checked.8';data['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
  candidate=target.with_suffix('.candidate');candidate.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');candidate.replace(target)
- manifest={'version':data['version'],'entries':len(data['reactions']),'modeled':sum(r.get('execution')!='equation-only' for r in data['reactions']),'equationOnly':sum(r.get('execution')=='equation-only' for r in data['reactions']),'addedBinaryEquations':added,'inputBundles':bundle_counts,'reviewedConditionCorrections':len(corrections),'duplicateEquationsMerged':duplicates,'excludedBinaryEquations':EXCLUDED,'substances':len(substances),'sources':len(data['sources']),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'checks':['atom and charge conservation','unique reaction IDs','source URLs deduplicated','one elemental selection mapping per Z','unspecified activation withheld from simulation','independent selenium product/phase findings excluded with unused substances','source condition corrections applied','canonical elemental form mappings repaired','condition-specific duplicate equations retained']}
+ manifest={'version':data['version'],'entries':len(data['reactions']),'modeled':sum(r.get('execution')!='equation-only' for r in data['reactions']),'equationOnly':sum(r.get('execution')=='equation-only' for r in data['reactions']),'addedBinaryEquations':added,'inputBundles':bundle_counts,'reviewedConditionCorrections':len(corrections),'reviewedEffectCorrections':len(effect_review),'duplicateEquationsMerged':duplicates,'excludedBinaryEquations':EXCLUDED,'substances':len(substances),'sources':len(data['sources']),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'checks':['atom and charge conservation','unique reaction IDs','source URLs deduplicated','one elemental selection mapping per Z','unspecified activation withheld from simulation','independent selenium product/phase findings excluded with unused substances','source condition corrections applied','canonical elemental form mappings repaired','condition-specific duplicate equations retained']}
  (ROOT/'data/reactions/binary-merged-validation.json').write_text(json.dumps(manifest,indent=2)+'\n');print(json.dumps(manifest))
 if __name__=='__main__':main()

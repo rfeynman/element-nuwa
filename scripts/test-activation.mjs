@@ -46,3 +46,16 @@ test('one supported method is a single auto-start choice and multiple products r
  const multi=activationChoices({...library,reactions:[one,{...one,id:'another-outcome'}]},ids);
  assert.equal(multi.length,1);assert.equal(multi[0].scenarios.length,2);
 });
+
+test('iron combustion in pure oxygen is distinct from generic heated oxidation',()=>{
+ const ids=pair(26,8),choices=activationChoices(library,ids);
+ const pure=choices.filter(c=>c.conditions.atmosphere==='oxygen');
+ assert.deepEqual(pure.map(c=>c.conditions.activation).sort(),['heat','ignition']);
+ for(const c of pure)for(const r of c.scenarios){
+  assert.ok(r.visual.sparkShower);assert.ok(r.effects.includes('heat'));assert.ok(r.effects.includes('flame'));
+  assert.ok(!r.effects.includes('cooling'));assert.ok(!r.effects.includes('blast'));
+  assert.equal(evaluateReaction(library,ids,c.conditions,r.id).kind,'reaction');
+  assert.equal(evaluateReaction(library,ids,{...c.conditions,atmosphere:'air'},r.id).kind,'missing-condition');
+ }
+ assert.deepEqual(activationChoices(library,[ids[0]]),[],'oxygen atmosphere never substitutes for an explicit O2 reactant');
+});

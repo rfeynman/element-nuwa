@@ -23,9 +23,10 @@ const render=(scenarios,conditions={activation:'heat',atmosphere:'air'},activeId
 test('iron lists both oxide products and equations even after one outcome is selected',()=>{
  const first=library.reactions.find(r=>r.id==='binary-iron-o2-fe2o3'),scenarios=findReactionScenarios(library,first.reactants.map(t=>t.id));
  const html=render(scenarios,undefined,first.id);
- assert.equal(scenarios.length,2);
+ assert.equal(scenarios.length,4);
+ assert.equal(scenarios.filter(r=>r.requiredAtmosphere==='oxygen').length,2);
  for(const formula of ['Fe₂O₃','Fe₃O₄'])assert.ok(html.includes(formula));
- assert.match(html,/All sourced outcomes \(2\)/);assert.match(html,/Shown in vessel/);
+ assert.match(html,/All sourced outcomes \(4\)/);assert.match(html,/Shown in vessel/);
  assert.equal((html.match(/Matches selected conditions/g)||[]).length,2);
  for(const r of scenarios)assert.ok(html.includes(r.title));
  assert.ok(html.includes(library.version));assert.match(html,/webelements.com/);

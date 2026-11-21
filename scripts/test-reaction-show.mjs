@@ -87,7 +87,7 @@ test('toxic markings require an explicit toxic gas effect without inventing its 
 
 test('tabletop effects remain event-specific with explicit symbolic meanings',()=>{
  const fire=render({effects:['flame'],observations:['Burns with a white flame.']});
- assert.match(fire,/rs-scorch/);assert.match(fire,/--rs-fire-color:#f4f8ff/);
+ assert.doesNotMatch(fire,/rs-scorch/);assert.match(fire,/class="rs-fire"/);assert.match(fire,/--rs-fire-color:#f4f8ff/);
  assert.doesNotMatch(fire,/Illustrative flame color/);
  assert.match(render({effects:['flame']}),/Illustrative flame color/);
  const heat=render({effects:['heat']});assert.match(heat,/rs-overflow/);assert.match(heat,/Bubbles represent heat, not boiling/);
@@ -100,4 +100,42 @@ test('tabletop effects remain event-specific with explicit symbolic meanings',()
 test('magnesium combustion has its referenced white emission rather than an ionic flame-test guess',()=>{
  const html=render({id:'magnesium-oxygen',effects:['flame'],observations:['Bright light accompanies burning.']});
  assert.match(html,/--rs-fire-color:#f4f8ff/);assert.doesNotMatch(html,/Illustrative flame color/);
+});
+
+test('both lithium oxygen outcomes show sourced red combustion, never freezing',async()=>{
+ const library=JSON.parse(await readFile(new URL('../public/data/reactions.json',import.meta.url),'utf8'));
+ for(const id of ['binary-lithium-o2-li2o','binary-lithium-o2-li2o2']){
+  const record=library.reactions.find(r=>r.id===id);assert.ok(record,id);
+  assert.ok(record.effects.includes('flame'));assert.ok(record.effects.includes('heat'));assert.ok(!record.effects.includes('cooling'));
+  const html=render(record);
+  assert.match(html,/class="rs-fire"/);assert.match(html,/--rs-fire-color:#e84562/);assert.match(html,/rs-deposit/);
+  assert.doesNotMatch(html,/rs-icefall|rs-frost|rs-snow|rs-crystals|rs-cold/);
+  assert.ok(record.sourceIds.some(id=>library.sources.find(s=>s.id===id)?.url.includes('heating-group-1-metals')));
+ }
+});
+test('a solid product alone is a powder deposit rather than an ice crystal',()=>{
+ const html=render({effects:['solid']});assert.match(html,/rs-deposit/);
+ assert.doesNotMatch(html,/rs-crystals|rs-frost|rs-icefall|rs-snow|class="rs-fire"|rs-cold/);
+ assert.match(render({effects:['cooling'],visual:{freezing:true}}),/rs-crystals rs-frost/);
+});
+
+test('burning iron wool uses an incandescent spark shower without snow or explosion',async()=>{
+ const library=JSON.parse(await readFile(new URL('../public/data/reactions.json',import.meta.url),'utf8'));
+ for(const id of ['iron-pure-oxygen-combustion-fe2o3','iron-pure-oxygen-combustion-fe3o4']){
+  const r=library.reactions.find(r=>r.id===id);assert.ok(r,id);const html=render(r);
+  assert.match(html,/rs-spark-burning/);assert.match(html,/rs-spark-shower/);assert.match(html,/class="rs-fire"/);assert.match(html,/rs-deposit/);
+  assert.doesNotMatch(html,/class="rs-shock|rs-icefall|rs-snow|rs-frost|rs-scorch/);
+ }
+ assert.doesNotMatch(render({effects:['heat']}),/rs-spark-shower/);
+});
+
+test('source-reviewed burning metals use either solid glow or an explicitly reported flame',async()=>{
+ const library=JSON.parse(await readFile(new URL('../public/data/reactions.json',import.meta.url),'utf8'));
+ for(const [id,kind] of [['binary-calcium-o2-cao','glow'],['metal-audit-cerium-o2-ceo2','glow'],['metal-audit-zirconium-o2-zro2','glow'],['binary-titanium-o2-tio2','white'],['binary-bismuth-o2-bi2o3','bluish-white']]){
+  const r=library.reactions.find(r=>r.id===id),html=render(r);
+  assert.doesNotMatch(html,/rs-icefall|rs-snow|rs-frost|rs-scorch/);
+  if(kind==='glow'){assert.match(html,/rs-metal-glow/);assert.doesNotMatch(html,/class="rs-fire"/)}
+  else{assert.match(html,/class="rs-fire"/);assert.match(html,kind==='white'?/--rs-fire-color:#f4f8ff/:/--rs-fire-color:#c6ecff/)}
+ }
+ assert.doesNotMatch(render({effects:['solid'],visual:{glowingSolid:true}}),/rs-metal-glow/);
 });
