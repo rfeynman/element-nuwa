@@ -1,6 +1,6 @@
 {
-  "appVersion": "1.5.4",
-  "builtAt": "2026-11-21T04:17:16.693073+00:00",
+  "appVersion": "1.5.5",
+  "builtAt": "2026-11-21T04:51:46.863897+00:00",
   "reactionDataset": "2026.11.20-source-checked.8",
   "reactionSha256": "e4d16b24693ac853d6f46313bd721173741313025d70fec12543b89b5071300d",
   "features": [
@@ -12,9 +12,11 @@
     "five-colored stone branding",
     "lithium red combustion and iron spark shower",
     "33 reviewed metal combustion effect corrections",
-    "brighter effects without table burn-hole"
+    "brighter effects without table burn-hole",
+    "subshell-colored shell electrons",
+    "diagonal electron-configuration guide beside spotlight"
   ],
-  "testsPassed": 509,
+  "testsPassed": 516,
   "browserVisualVerification": "unavailable: browser access host disconnected",
   "appName": "Element Nuwa"
 }

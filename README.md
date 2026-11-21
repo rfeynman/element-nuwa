@@ -96,3 +96,11 @@ The header/loading/footer mark and browser favicon now share a Vite-managed SVG 
 Lithium/oxygen now displays sourced red combustion with heat. Fine iron in pure oxygen has separate heat/ignition cases with an incandescent spark shower and the documented oxide alternatives. A systematic review corrects 33 additional combustion-effect mappings; where a gas flame is not documented, burning metals use a solid glow. Reported white/bluish-white flames retain their observed colors. Generic oxidation and protective surface passivation remain distinct.
 
 Solid products appear as deposits rather than ice. Cooling remains separately flagged. Reaction effects are brighter and more opaque; the burn-hole effect is removed. All 509 tests and the production build pass. Browser visual inspection is unavailable; live deployment files are verified directly. The snapshot contains 435 entries, 242 modeled and 193 equation-only, and 131 sources.
+
+## Electron configuration guide — 1.5.5
+
+Shell-preview electrons use the same gold s, teal p, blue d and violet f palette as the cloud model. Colors are assigned from sourced subshell populations, preserving configuration exceptions and all 118 shell totals. Unknown configurations are not guessed.
+
+The bottom of Element Spotlight now links to a diagonal filling-order diagram beside the spotlight, with n=1–8 rows, directional arrows, matching subshell colors, occupied-node electron counts and an unoccupied 8s guide. Actual counts retain known configuration exceptions. This side diagram contains no cloud canvas; the separate Electron clouds tab remains available. Close with the button or Escape. On smaller screens, the panel becomes a dismissible overlay.
+
+All 516 application tests and the production build pass. Scientific datasets are unchanged. Browser visual inspection remains unavailable; deployed assets are compared directly against the checked build.

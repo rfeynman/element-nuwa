@@ -23,6 +23,14 @@ export function occupiedSubshells(element:ElementRecord,elements:ElementRecord[]
  }
  return (expand(element,new Set())??[]).sort((a,b)=>a.n-b.n||orbitalTypes.indexOf(a.type)-orbitalTypes.indexOf(b.type));
 }
+/** Per-electron subshell labels grouped by principal shell, using sourced configurations. */
+export function shellElectronTypes(element:ElementRecord,elements:ElementRecord[]):OrbitalType[][]|null{
+ const occupied=occupiedSubshells(element,elements);
+ if(!occupied.length||!element.shells)return null;
+ const shells=element.shells.map((_,index)=>occupied.filter(s=>s.n===index+1).flatMap(s=>Array<OrbitalType>(s.count).fill(s.type)));
+ if(shells.some((shell,index)=>shell.length!==element.shells![index])||shells.reduce((sum,shell)=>sum+shell.length,0)!==element.z)return null;
+ return shells;
+}
 function factorial(n:number){let v=1;for(let k=2;k<=n;k++)v*=k;return v}
 /** Normalized real spherical harmonics; phase convention does not change |Y|². */
 export function realHarmonic(l:number,m:number,cosTheta:number,phi:number):number{

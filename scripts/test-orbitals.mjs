@@ -8,7 +8,7 @@ import ts from 'typescript';
 const directory=await mkdtemp(join(tmpdir(),'orbital-model-'));
 const source=await readFile(new URL('../src/features/electrons/orbitals.ts',import.meta.url),'utf8');
 await writeFile(join(directory,'model.mjs'),ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ES2022,target:ts.ScriptTarget.ES2022}}).outputText);
-const {occupiedSubshells,orbitalTypes,orbitalColors,orbitalOrientations,realHarmonic,radialProbability,sampleOrbital,sampleCombinedCloud}=await import(pathToFileURL(join(directory,'model.mjs')).href);
+const {occupiedSubshells,shellElectronTypes,orbitalTypes,orbitalColors,orbitalOrientations,realHarmonic,radialProbability,sampleOrbital,sampleCombinedCloud}=await import(pathToFileURL(join(directory,'model.mjs')).href);
 await rm(directory,{recursive:true,force:true});
 const data=JSON.parse(await readFile(new URL('../public/data/explorer.json',import.meta.url),'utf8'));
 const get=z=>data.elements.find(e=>e.z===z);
@@ -66,4 +66,25 @@ test('equal orientation averaging gives a spherical filled p-cloud angular momen
  const combined=sampleCombinedCloud([{n:2,type:'p',count:6}],['p'],12000);
  const moment=combined.points.reduce((sum,p)=>sum+p.z*p.z/(p.x*p.x+p.y*p.y+p.z*p.z),0)/combined.points.length;
  assert.ok(Math.abs(moment-1/3)<.015,`combined p mean cos² theta = ${moment}`);
+});
+
+test('shell preview assigns carbon electrons to the same s/p colors as the clouds',()=>{
+ assert.deepEqual(shellElectronTypes(get(6),data.elements),[['s','s'],['s','s','p','p']]);
+});
+test('shell colors preserve sourced transition-metal exceptions and all 118 electron counts',()=>{
+ const copper=shellElectronTypes(get(29),data.elements);
+ assert.deepEqual(copper[3],['s']);
+ assert.equal(copper[2].filter(t=>t==='d').length,10);
+ for(const e of data.elements){
+  const shells=shellElectronTypes(e,data.elements);assert.ok(shells,e.name);
+  assert.deepEqual(shells.map(s=>s.length),e.shells,e.name);
+  assert.equal(shells.flat().length,e.z,e.name);
+  for(const t of shells.flat())assert.ok(orbitalColors[t]);
+ }
+});
+test('missing or inconsistent configurations do not receive guessed shell colors',()=>{
+ assert.equal(shellElectronTypes({...get(6),configuration:null},data.elements),null);
+ assert.equal(shellElectronTypes({...get(6),shells:[2,3]},data.elements),null);
+ assert.equal(shellElectronTypes({...get(6),shells:null},data.elements),null);
+ assert.equal(shellElectronTypes({...get(6),configuration:'[He] 2s2 2p8'},data.elements),null);
 });
