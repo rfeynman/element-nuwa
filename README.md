@@ -86,3 +86,7 @@ The website is now named Element Nuwa. Header, footer, loading screen, accessibl
 ## Five-colored stone — 1.5.2
 
 A five-colored faceted stone now replaces the concentric-circle brand mark in the header, loading screen, footer, and browser icon. Production build and SVG validation pass. No scientific data or reaction logic changed.
+
+## Icon cache correction — 1.5.3
+
+The header/loading/footer mark and browser favicon now share a Vite-managed SVG with a content-hashed filename. This avoids reusing the previously cached favicon.svg URL. Existing website and progress links remain unchanged. Production build and emitted SVG/reference validation pass; scientific data and reaction logic are unchanged.
