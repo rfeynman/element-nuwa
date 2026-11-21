@@ -1,5 +1,9 @@
 # Element Nuwa
 
+Website: https://rfeynman.github.io/element-nuwa/
+
+Repository: https://github.com/rfeynman/element-nuwa
+
 An educational periodic table and virtual chemistry lab for high school.
 
 - 118 elements, 3,383 ground-state isotope records, and 118 sourced electron configurations.
@@ -108,3 +112,7 @@ All 516 application tests and the production build pass. Scientific datasets are
 ## Diagram arrow adjustment — 1.5.6
 
 Diagonal arrows extend further beyond the s circles, with arrowheads 25% smaller and line endpoints inset into the arrowheads. This avoids clipping by circles or a line protruding through the arrow tip. Production build and all four configuration-diagram tests pass. Other behavior and scientific data are unchanged; the previous full-suite baseline is 516 passing tests.
+
+## Website address — 1.5.7
+
+The repository and project site are now named element-nuwa. Use https://rfeynman.github.io/element-nuwa/. All built asset links remain relative and work under the renamed project path. The internal browser-progress key is retained for compatibility. Four diagram tests and the production build pass; scientific data and application behavior are unchanged.

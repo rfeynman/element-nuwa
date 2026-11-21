@@ -1,6 +1,6 @@
 {
-  "appVersion": "1.5.6",
-  "builtAt": "2026-11-21T05:07:02.181950+00:00",
+  "appVersion": "1.5.7",
+  "builtAt": "2026-11-21T15:21:02.121444+00:00",
   "reactionDataset": "2026.11.20-source-checked.8",
   "reactionSha256": "e4d16b24693ac853d6f46313bd721173741313025d70fec12543b89b5071300d",
   "features": [
@@ -18,5 +18,7 @@
   ],
   "testsPassed": 516,
   "browserVisualVerification": "unavailable: browser access host disconnected",
-  "appName": "Element Nuwa"
+  "appName": "Element Nuwa",
+  "site": "https://rfeynman.github.io/element-nuwa/",
+  "repository": "https://github.com/rfeynman/element-nuwa"
 }
