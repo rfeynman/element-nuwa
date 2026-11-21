@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#e9efe2"/><circle cx="32" cy="32" r="24" fill="none" stroke="#386c51" stroke-width="2"/><circle cx="32" cy="32" r="17" fill="none" stroke="#386c51" stroke-width="2"/><circle cx="32" cy="32" r="6" fill="#386c51"/><circle cx="32" cy="8" r="4" fill="#386c51"/><circle cx="47" cy="40" r="4" fill="#386c51"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs><clipPath id="stone"><path d="M22 5 43 7 58 24 55 44 37 59 16 54 5 36 9 17Z"/></clipPath></defs>
+  <g clip-path="url(#stone)" stroke="#fffef9" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M22 5 43 7 32 30 9 17Z" fill="#4fa998"/>
+    <path d="M43 7 58 24 55 44 32 30Z" fill="#e9b64f"/>
+    <path d="M55 44 37 59 32 30Z" fill="#dc7468"/>
+    <path d="M37 59 16 54 5 36 32 30Z" fill="#575e86"/>
+    <path d="M5 36 9 17 32 30Z" fill="#efe9d5"/>
+  </g>
+  <path d="M22 5 43 7 58 24 55 44 37 59 16 54 5 36 9 17Z" fill="none" stroke="#375d50" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>

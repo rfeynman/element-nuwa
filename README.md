@@ -82,3 +82,7 @@ The table is more compact, the original full-height left panel has no internal v
 ## Naming update — 1.5.1
 
 The website is now named Element Nuwa. Header, footer, loading screen, accessible page heading, and browser title use the new name. The existing repository/website URLs and browser progress-storage key are retained so shared links and saved learning progress continue to work. All 500 tests and the production build pass.
+
+## Five-colored stone — 1.5.2
+
+A five-colored faceted stone now replaces the concentric-circle brand mark in the header, loading screen, footer, and browser icon. Production build and SVG validation pass. No scientific data or reaction logic changed.
