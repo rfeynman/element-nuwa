@@ -1,0 +1,820 @@
+{
+  "version": "2026.11.22-nist-handbook.1",
+  "builtAt": "2026-11-22T17:09:38+00:00",
+  "datasetSha256": "d07f45bd57f9470ba66d36f6b526cc842d37222c13d49f8f9568b919f955b075",
+  "elementsWithLines": 99,
+  "lineCount": 1298,
+  "unassignedTransitionCount": 10,
+  "visibleLineCount": 528,
+  "sources": [
+    {
+      "z": 1,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable3.htm",
+      "path": "data/staging/spectra/hydrogentable3.htm",
+      "retrievedAt": "2026-11-22T17:05:46+00:00",
+      "sha256": "bf711f4475d63856c58a9a59ba3d5b0d9c1ec6f0edc9407611335cbed7c87e96",
+      "lines": 14
+    },
+    {
+      "z": 2,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable3.htm",
+      "path": "data/staging/spectra/heliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:05:46+00:00",
+      "sha256": "3b7226d2aa785a81229ffee238c219f11b3638e31bab947fbec9782b4f018bf5",
+      "lines": 18
+    },
+    {
+      "z": 3,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/lithiumtable3.htm",
+      "path": "data/staging/spectra/lithiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:05:46+00:00",
+      "sha256": "4c89049a4325bfc6b9977bd81c2f6c96aeb240d42a31c89fe33103e065c0ecf3",
+      "lines": 10
+    },
+    {
+      "z": 4,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/berylliumtable3.htm",
+      "path": "data/staging/spectra/berylliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:05:47+00:00",
+      "sha256": "892e98fe4b6436b9fb3542227e7195284e315f2b13b3a623f2743e65ef417d27",
+      "lines": 12
+    },
+    {
+      "z": 5,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/borontable3.htm",
+      "path": "data/staging/spectra/borontable3.htm",
+      "retrievedAt": "2026-11-22T17:05:47+00:00",
+      "sha256": "ae575ab287863e815d6d6d34bf76c7ba2ea45c61e93eb320a0fce8c638e10e17",
+      "lines": 8
+    },
+    {
+      "z": 6,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/carbontable3.htm",
+      "path": "data/staging/spectra/carbontable3.htm",
+      "retrievedAt": "2026-11-22T17:05:48+00:00",
+      "sha256": "5ef05ec4cbcd86e19bb9825373fa6d4d94aa7b00343c02f2cff6b29ed6f6c1fb",
+      "lines": 21
+    },
+    {
+      "z": 7,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/nitrogentable3.htm",
+      "path": "data/staging/spectra/nitrogentable3.htm",
+      "retrievedAt": "2026-11-22T17:05:48+00:00",
+      "sha256": "70e3706b321445af60ef430d4e1481f1f2eda1d9d366e677fc5d3077230dd442",
+      "lines": 12
+    },
+    {
+      "z": 8,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/oxygentable3.htm",
+      "path": "data/staging/spectra/oxygentable3.htm",
+      "retrievedAt": "2026-11-22T17:05:49+00:00",
+      "sha256": "25bd9b4241c9066d63369dd5b3848dcb4f6423c3fbb1545e790465153a1c2049",
+      "lines": 12
+    },
+    {
+      "z": 9,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/fluorinetable3.htm",
+      "path": "data/staging/spectra/fluorinetable3.htm",
+      "retrievedAt": "2026-11-22T17:05:49+00:00",
+      "sha256": "2f999ec51c9ede775e36bd48ca353b39748a0e0e7e9917ca8cb6e8456a9fde56",
+      "lines": 15
+    },
+    {
+      "z": 10,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/neontable3.htm",
+      "path": "data/staging/spectra/neontable3.htm",
+      "retrievedAt": "2026-11-22T17:05:49+00:00",
+      "sha256": "e09186a6e5cccd3fe3e66fcce9cb0dd6f5efb5bcf5261f7c6f22978dd3f1d85b",
+      "lines": 31
+    },
+    {
+      "z": 11,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable3.htm",
+      "path": "data/staging/spectra/sodiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:05:50+00:00",
+      "sha256": "d83179d7787d6b9607394841204747b6a57bddb3e64208ae7398071d8f3c40cc",
+      "lines": 12
+    },
+    {
+      "z": 12,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/magnesiumtable3.htm",
+      "path": "data/staging/spectra/magnesiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:14+00:00",
+      "sha256": "eb34f6d72bc19db1f81c28ea35996bed0d959fe50f1106cf0404016b91da7ed2",
+      "lines": 12
+    },
+    {
+      "z": 13,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/aluminumtable3.htm",
+      "path": "data/staging/spectra/aluminumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:14+00:00",
+      "sha256": "196fbcbce9460b01f05cd1e2e1554a7dc077d71e6a82eb21e71e903c19b603cd",
+      "lines": 9
+    },
+    {
+      "z": 14,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/silicontable3.htm",
+      "path": "data/staging/spectra/silicontable3.htm",
+      "retrievedAt": "2026-11-22T17:07:14+00:00",
+      "sha256": "8db562d013a112e88ab52310db3aac64c81cb5baf70e2238025c0bd87d5942de",
+      "lines": 27
+    },
+    {
+      "z": 15,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/phosphorustable3.htm",
+      "path": "data/staging/spectra/phosphorustable3.htm",
+      "retrievedAt": "2026-11-22T17:07:15+00:00",
+      "sha256": "96d901dc36f7dec042d3c7a5f6cc070f76d3bb858a08c133fe51e6a4898e8175",
+      "lines": 19
+    },
+    {
+      "z": 16,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/sulfurtable3.htm",
+      "path": "data/staging/spectra/sulfurtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:15+00:00",
+      "sha256": "08a52f940982fa1750bedaa29476b5f374237e4d733336c4efd0c89841ae858e",
+      "lines": 15
+    },
+    {
+      "z": 17,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/chlorinetable3.htm",
+      "path": "data/staging/spectra/chlorinetable3.htm",
+      "retrievedAt": "2026-11-22T17:07:16+00:00",
+      "sha256": "092bf5ff811cdfe1b39d65b927c2a28e802556f5e963c35d14d255cd23e8317b",
+      "lines": 17
+    },
+    {
+      "z": 18,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/argontable3.htm",
+      "path": "data/staging/spectra/argontable3.htm",
+      "retrievedAt": "2026-11-22T17:07:16+00:00",
+      "sha256": "dff696f4423cd1c4619c2af5b1d74a36a1efedb90f6114f80a614afa52e89593",
+      "lines": 18
+    },
+    {
+      "z": 19,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/potassiumtable3.htm",
+      "path": "data/staging/spectra/potassiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:17+00:00",
+      "sha256": "0281d6376ca2ba0f700326d1885e86433749518936ef927cba4a02142d48179f",
+      "lines": 7
+    },
+    {
+      "z": 20,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/calciumtable3.htm",
+      "path": "data/staging/spectra/calciumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:17+00:00",
+      "sha256": "9bede91893e88fbda39a278d219ffcab92a8b294264a95f12659b4cbbd3d105e",
+      "lines": 16
+    },
+    {
+      "z": 21,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/scandiumtable3.htm",
+      "path": "data/staging/spectra/scandiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:17+00:00",
+      "sha256": "4ee74b539a84dcb3a8cda7690c9c2f1603270cfc281e04dc0c7d06dff01e7f0e",
+      "lines": 10
+    },
+    {
+      "z": 22,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/titaniumtable3.htm",
+      "path": "data/staging/spectra/titaniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:18+00:00",
+      "sha256": "2c3b8545894a036db3ed67d6d4a777e1c1197a2d890780ab846062b60de20a7d",
+      "lines": 17
+    },
+    {
+      "z": 23,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/vanadiumtable3.htm",
+      "path": "data/staging/spectra/vanadiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:18+00:00",
+      "sha256": "c1483082aac9e405fe11f833fc1d6892533ffe3de73f601282ff8605387ec0b4",
+      "lines": 17
+    },
+    {
+      "z": 24,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/chromiumtable3.htm",
+      "path": "data/staging/spectra/chromiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:19+00:00",
+      "sha256": "3a9720c2fb857acf654849b6d1627180c9009a5ff25b982ff9dc3b6aeee4b950",
+      "lines": 9
+    },
+    {
+      "z": 25,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/manganesetable3.htm",
+      "path": "data/staging/spectra/manganesetable3.htm",
+      "retrievedAt": "2026-11-22T17:07:19+00:00",
+      "sha256": "f9ac96bc44e0cf1bb0f49e2b4e8ec770c589fd13a73d9be54ab4134feab0fbf8",
+      "lines": 11
+    },
+    {
+      "z": 26,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/irontable3.htm",
+      "path": "data/staging/spectra/irontable3.htm",
+      "retrievedAt": "2026-11-22T17:07:19+00:00",
+      "sha256": "829f4a3b918fb285f64c6983c8fa541f4e0dbff4148288b2657682f8faea9829",
+      "lines": 20
+    },
+    {
+      "z": 27,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/cobalttable3.htm",
+      "path": "data/staging/spectra/cobalttable3.htm",
+      "retrievedAt": "2026-11-22T17:07:20+00:00",
+      "sha256": "ec9fab28f1c33f315bf7b6909e9be9631c01d9e8d48df21cdaec2cde1c8a0917",
+      "lines": 13
+    },
+    {
+      "z": 28,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/nickeltable3.htm",
+      "path": "data/staging/spectra/nickeltable3.htm",
+      "retrievedAt": "2026-11-22T17:07:20+00:00",
+      "sha256": "3732660af94e0c2cd3b255452a0b1333671e356b8dfc32323860580f98084b0e",
+      "lines": 17
+    },
+    {
+      "z": 29,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/coppertable3.htm",
+      "path": "data/staging/spectra/coppertable3.htm",
+      "retrievedAt": "2026-11-22T17:07:21+00:00",
+      "sha256": "d4e17386c22616462d7d47caab63223a574088953471a0727861301de108ad2c",
+      "lines": 13
+    },
+    {
+      "z": 30,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/zinctable3.htm",
+      "path": "data/staging/spectra/zinctable3.htm",
+      "retrievedAt": "2026-11-22T17:07:21+00:00",
+      "sha256": "205c990b99401f3cee69afa34561f9abb390d053bd556a447af517852105ba11",
+      "lines": 14
+    },
+    {
+      "z": 31,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/galliumtable3.htm",
+      "path": "data/staging/spectra/galliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:21+00:00",
+      "sha256": "c56796b9c138e95130b77a081d24e0b292ae5050556e6b3489ea6c21a384656a",
+      "lines": 5
+    },
+    {
+      "z": 32,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/germaniumtable3.htm",
+      "path": "data/staging/spectra/germaniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:22+00:00",
+      "sha256": "3d8dc44ee7ad8a797c6d1cdc5e038fb2eb16a5ea76eddae62aa3124b3b38f962",
+      "lines": 18
+    },
+    {
+      "z": 33,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/arsenictable3.htm",
+      "path": "data/staging/spectra/arsenictable3.htm",
+      "retrievedAt": "2026-11-22T17:07:22+00:00",
+      "sha256": "4d7af357367959e27ebe2a79523b2568312c63377c11d01dbe76d827ba6025c3",
+      "lines": 10
+    },
+    {
+      "z": 34,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/seleniumtable3.htm",
+      "path": "data/staging/spectra/seleniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:23+00:00",
+      "sha256": "caf9528a187065da66dd7535068f46b28c182d684d1b1d7fd63517947eaa2487",
+      "lines": 11
+    },
+    {
+      "z": 35,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/brominetable3.htm",
+      "path": "data/staging/spectra/brominetable3.htm",
+      "retrievedAt": "2026-11-22T17:07:23+00:00",
+      "sha256": "dfce50e7a89427e216bc8d70e62c51bf56fc11215f04a05660425f804bc758b3",
+      "lines": 11
+    },
+    {
+      "z": 36,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/kryptontable3.htm",
+      "path": "data/staging/spectra/kryptontable3.htm",
+      "retrievedAt": "2026-11-22T17:07:24+00:00",
+      "sha256": "c8c9c21911442a22534d79107bfadd766049459ba6e71d130047dc225d67905b",
+      "lines": 15
+    },
+    {
+      "z": 37,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/rubidiumtable3.htm",
+      "path": "data/staging/spectra/rubidiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:24+00:00",
+      "sha256": "499911a8812f6ce1fe65f443c688519b1e9de90064e634a0bea4bc4dfd81a1c4",
+      "lines": 6
+    },
+    {
+      "z": 38,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/strontiumtable3.htm",
+      "path": "data/staging/spectra/strontiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:24+00:00",
+      "sha256": "7089ee3bf501454a04d7f0c9c038b227229896e57b75b1b39a93d5784ba05ad8",
+      "lines": 13
+    },
+    {
+      "z": 39,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/yttriumtable3.htm",
+      "path": "data/staging/spectra/yttriumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:25+00:00",
+      "sha256": "d452d6dceff78d0fac19e3db4fbf73b92e6061a4c864341e090a7367718ba938",
+      "lines": 10
+    },
+    {
+      "z": 40,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/zirconiumtable3.htm",
+      "path": "data/staging/spectra/zirconiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:25+00:00",
+      "sha256": "0905986383677b1f5dc0b3ad3555ad79c34ea4f5016b47fef793b90bc69f5096",
+      "lines": 19
+    },
+    {
+      "z": 41,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/niobiumtable3.htm",
+      "path": "data/staging/spectra/niobiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:26+00:00",
+      "sha256": "8460b6131e307a5d1cb926a366c4273edf5f9d2035ae4936cb73f685a217fa6c",
+      "lines": 16
+    },
+    {
+      "z": 42,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/molybdenumtable3.htm",
+      "path": "data/staging/spectra/molybdenumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:26+00:00",
+      "sha256": "a7760da5f18a5a409ca058cb72cd39292c81d127f4a0d52885dfcff81d7b1f46",
+      "lines": 15
+    },
+    {
+      "z": 43,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/technetiumtable3.htm",
+      "path": "data/staging/spectra/technetiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:26+00:00",
+      "sha256": "ea199a3e3b6fd26c86ac4954458371485d09ff1fc24a3cfecba5e902a7d8cbd2",
+      "lines": 13
+    },
+    {
+      "z": 44,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/rutheniumtable3.htm",
+      "path": "data/staging/spectra/rutheniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:27+00:00",
+      "sha256": "a95ec7e60b959e7931a6ba0e3b3c2ea5cc20dd6e24030cca2a46c080ce622d67",
+      "lines": 11
+    },
+    {
+      "z": 45,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/rhodiumtable3.htm",
+      "path": "data/staging/spectra/rhodiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:27+00:00",
+      "sha256": "289c8bede5e38e5068e54d6eefbfb951ca008354f18e9615afa24278a0b8cfeb",
+      "lines": 10
+    },
+    {
+      "z": 46,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/palladiumtable3.htm",
+      "path": "data/staging/spectra/palladiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:28+00:00",
+      "sha256": "e80ee1dceff857e46549699f9d5b7e8dd0f1e5927f39b1a8d0baf54e362723dd",
+      "lines": 12
+    },
+    {
+      "z": 47,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/silvertable3.htm",
+      "path": "data/staging/spectra/silvertable3.htm",
+      "retrievedAt": "2026-11-22T17:07:28+00:00",
+      "sha256": "aad0b09b21efa80fa0fc14baa4993b5b229a9dc3ea4cd34413c48ded251dfd55",
+      "lines": 6
+    },
+    {
+      "z": 48,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/cadmiumtable3.htm",
+      "path": "data/staging/spectra/cadmiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:28+00:00",
+      "sha256": "aff78936f1043951580f828a8d1af9ac5e5d75bf47834b87b92064c3a4d55724",
+      "lines": 10
+    },
+    {
+      "z": 49,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/indiumtable3.htm",
+      "path": "data/staging/spectra/indiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:29+00:00",
+      "sha256": "581c22e044f5999dbf4ecd0658c368136a3db8dc78a20558c7d6495922578a6a",
+      "lines": 13
+    },
+    {
+      "z": 50,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/tintable3.htm",
+      "path": "data/staging/spectra/tintable3.htm",
+      "retrievedAt": "2026-11-22T17:07:29+00:00",
+      "sha256": "c5ab951952fe0656cbc8e54f198b932e09a5d7e73b66990a1d9eb0e79f75f923",
+      "lines": 18
+    },
+    {
+      "z": 51,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/antimonytable3.htm",
+      "path": "data/staging/spectra/antimonytable3.htm",
+      "retrievedAt": "2026-11-22T17:07:30+00:00",
+      "sha256": "4813176b0c08c0c11514b8c57a1a4b377251a42da0feb93de8f6786d6288e293",
+      "lines": 14
+    },
+    {
+      "z": 52,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/telluriumtable3.htm",
+      "path": "data/staging/spectra/telluriumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:30+00:00",
+      "sha256": "b99774e061f0609cc731fd2a758a89afba68cd1d244c42b8a363adec870f8661",
+      "lines": 14
+    },
+    {
+      "z": 53,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/iodinetable3.htm",
+      "path": "data/staging/spectra/iodinetable3.htm",
+      "retrievedAt": "2026-11-22T17:07:30+00:00",
+      "sha256": "8c08bc13e55b9ff270c56c80440fe77955bd7c2fe45419273fa9999cc3e1af9e",
+      "lines": 10
+    },
+    {
+      "z": 54,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/xenontable3.htm",
+      "path": "data/staging/spectra/xenontable3.htm",
+      "retrievedAt": "2026-11-22T17:07:31+00:00",
+      "sha256": "e7a40f12f851d73f35be14bd8ff7ef012a2fc8b43942fb22be884a733eb79fe7",
+      "lines": 12
+    },
+    {
+      "z": 55,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/cesiumtable3.htm",
+      "path": "data/staging/spectra/cesiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:31+00:00",
+      "sha256": "c48059e67fc64b8a91f34aa1841c22b5e676f91e72b0e3f037a346259437cb87",
+      "lines": 10
+    },
+    {
+      "z": 56,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/bariumtable3.htm",
+      "path": "data/staging/spectra/bariumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:32+00:00",
+      "sha256": "43d986e046132917e1ae42ce5ff01e1f1c0e38de524fa72a27f7ef21f54f96ac",
+      "lines": 14
+    },
+    {
+      "z": 57,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/lanthanumtable3.htm",
+      "path": "data/staging/spectra/lanthanumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:32+00:00",
+      "sha256": "3924cf076218695101b1b46e627f3731bd019be438db69411d3c901e31228b4d",
+      "lines": 14
+    },
+    {
+      "z": 58,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/ceriumtable3.htm",
+      "path": "data/staging/spectra/ceriumtable3.htm",
+      "retrievedAt": "2026-11-22T17:07:33+00:00",
+      "sha256": "3c2a32ce98327dff6bcce59dfff818a2a0b49f77940c53a7ec9cacb32de5d818",
+      "lines": 12
+    },
+    {
+      "z": 59,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/praseodymiumtable3.htm",
+      "path": "data/staging/spectra/praseodymiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:21+00:00",
+      "sha256": "8194165ba1e22089f0fcf76eb0c110f05f7a2c1ed7cd0597f0972f12dd8a6664",
+      "lines": 14
+    },
+    {
+      "z": 60,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/neodymiumtable3.htm",
+      "path": "data/staging/spectra/neodymiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:50+00:00",
+      "sha256": "e1cdc29723c5a4d16669faa3acb30f6cc2985c1ce8978e05f980c0788957d31b",
+      "lines": 11
+    },
+    {
+      "z": 61,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/promethiumtable3.htm",
+      "path": "data/staging/spectra/promethiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:51+00:00",
+      "sha256": "72def859f1230eb19605e0a3bff2b1a3ef179b3975b0ec1fdc981968ef0fb3d0",
+      "lines": 19
+    },
+    {
+      "z": 62,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/samariumtable3.htm",
+      "path": "data/staging/spectra/samariumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:51+00:00",
+      "sha256": "ab06ca875fbf5419789f58132189f9c15e2e465bc9efb239536c39e24765bb1b",
+      "lines": 11
+    },
+    {
+      "z": 63,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/europiumtable3.htm",
+      "path": "data/staging/spectra/europiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:52+00:00",
+      "sha256": "e3e402533ea59f23748f4ae7cd94edbddb648754a1be93318ecbb44451619de5",
+      "lines": 9
+    },
+    {
+      "z": 64,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/gadoliniumtable3.htm",
+      "path": "data/staging/spectra/gadoliniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:52+00:00",
+      "sha256": "90528fb0d0e4bf34fa5c7226792b6acfb2ab10aad6346efdb360a93cad685970",
+      "lines": 19
+    },
+    {
+      "z": 65,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/terbiumtable3.htm",
+      "path": "data/staging/spectra/terbiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:52+00:00",
+      "sha256": "f062935c27e4b8d9ffd44960457e8084faef9769c6be54a0eaab48c1b2161756",
+      "lines": 10
+    },
+    {
+      "z": 66,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/dysprosiumtable3.htm",
+      "path": "data/staging/spectra/dysprosiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:53+00:00",
+      "sha256": "86b2ffb1f17acae9d7b888933bb0c392869b37c58ad3c6cf2517cd8186c918a6",
+      "lines": 11
+    },
+    {
+      "z": 67,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/holmiumtable3.htm",
+      "path": "data/staging/spectra/holmiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:53+00:00",
+      "sha256": "a735043551e33e11cc34557ffa7b4425e0c0feb6c523e6581f454b5d218a8a1a",
+      "lines": 13
+    },
+    {
+      "z": 68,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/erbiumtable3.htm",
+      "path": "data/staging/spectra/erbiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:54+00:00",
+      "sha256": "e08ec351acd76d45a9b0dc12d20c115e5f5b3aa76c3c31b5ac45f2cfebfa7146",
+      "lines": 13
+    },
+    {
+      "z": 69,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/thuliumtable3.htm",
+      "path": "data/staging/spectra/thuliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:54+00:00",
+      "sha256": "b919ae147eeb9ff09d62d7d9d748adadc67a9ae9b2f53c4ef8544ae05cf65852",
+      "lines": 14
+    },
+    {
+      "z": 70,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/ytterbiumtable3.htm",
+      "path": "data/staging/spectra/ytterbiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:55+00:00",
+      "sha256": "6adb24e65d865c20b73cb6f590b7848839ac478d055f7ef9eeffda73d4e96185",
+      "lines": 10
+    },
+    {
+      "z": 71,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/lutetiumtable3.htm",
+      "path": "data/staging/spectra/lutetiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:55+00:00",
+      "sha256": "d5bc3733fc7a310aacfc03424bc14b1f2672dc052a26d853c504f235cc264f95",
+      "lines": 14
+    },
+    {
+      "z": 72,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hafniumtable3.htm",
+      "path": "data/staging/spectra/hafniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:55+00:00",
+      "sha256": "bcbd5a32dd0cc8a58de32e87a171aa9a9320ca476f444d1435b302d434eafdfb",
+      "lines": 9
+    },
+    {
+      "z": 73,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/tantalumtable3.htm",
+      "path": "data/staging/spectra/tantalumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:56+00:00",
+      "sha256": "970006888bf57f1dcffaa81e619c0d92d3e5583958534029abbedee846f1529e",
+      "lines": 16
+    },
+    {
+      "z": 74,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/tungstentable3.htm",
+      "path": "data/staging/spectra/tungstentable3.htm",
+      "retrievedAt": "2026-11-22T17:08:56+00:00",
+      "sha256": "7736a423bf15fe5d80365c5bfb71cd1e49ce34f5961e39d086bf5a24f7882ca2",
+      "lines": 13
+    },
+    {
+      "z": 75,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/rheniumtable3.htm",
+      "path": "data/staging/spectra/rheniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:57+00:00",
+      "sha256": "22c508b630f962fac33b5fc933dca41854b509e8356f720e7dcbd558e36d9c79",
+      "lines": 14
+    },
+    {
+      "z": 76,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/osmiumtable3.htm",
+      "path": "data/staging/spectra/osmiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:57+00:00",
+      "sha256": "22bce06ed9225144ddede7e547ff2525b6977244dafc5953767236166ab50725",
+      "lines": 17
+    },
+    {
+      "z": 77,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/iridiumtable3.htm",
+      "path": "data/staging/spectra/iridiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:57+00:00",
+      "sha256": "076121efc9875ce016f89ec1a5a3fb0132dae1c65f8f52ca0173a4eb3a4618ff",
+      "lines": 14
+    },
+    {
+      "z": 78,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/platinumtable3.htm",
+      "path": "data/staging/spectra/platinumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:58+00:00",
+      "sha256": "8586d6bc57e0f8c4ca9c10d68ae288566cbe8237e612ba9e8b02c2fe1f34459a",
+      "lines": 17
+    },
+    {
+      "z": 79,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/goldtable3.htm",
+      "path": "data/staging/spectra/goldtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:58+00:00",
+      "sha256": "ef697ff525ff8a69b9bb62009c1d651acad196681c1d017212836ff0b8ba0988",
+      "lines": 10
+    },
+    {
+      "z": 80,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/mercurytable3.htm",
+      "path": "data/staging/spectra/mercurytable3.htm",
+      "retrievedAt": "2026-11-22T17:08:59+00:00",
+      "sha256": "4e46ea369e12f1f2c7598e022ee80931197f7811b8119b3241a68462271be6ea",
+      "lines": 8
+    },
+    {
+      "z": 81,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/thalliumtable3.htm",
+      "path": "data/staging/spectra/thalliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:59+00:00",
+      "sha256": "52d0882d68b3cb3491a26692f75c17e48e12b21d4d8915a7b3bfede3d213f2fa",
+      "lines": 11
+    },
+    {
+      "z": 82,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/leadtable3.htm",
+      "path": "data/staging/spectra/leadtable3.htm",
+      "retrievedAt": "2026-11-22T17:08:59+00:00",
+      "sha256": "9598e49c2be7b3046affab94c7c0b1e7f5d16906cb2668f73332f155a5cb742e",
+      "lines": 12
+    },
+    {
+      "z": 83,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/bismuthtable3.htm",
+      "path": "data/staging/spectra/bismuthtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:00+00:00",
+      "sha256": "5521f018f9affb9840da158f81cbb85c34ac51d79cdfb372f75882f177d82a06",
+      "lines": 16
+    },
+    {
+      "z": 84,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/poloniumtable3.htm",
+      "path": "data/staging/spectra/poloniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:00+00:00",
+      "sha256": "fdde16c14e1b50bea87552a7ea7a62b947b022796b6640e70824b7a7b45afd9d",
+      "lines": 4
+    },
+    {
+      "z": 85,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/astatinetable3.htm",
+      "path": "data/staging/spectra/astatinetable3.htm",
+      "retrievedAt": "2026-11-22T17:09:01+00:00",
+      "sha256": "cd1c0181b11b28fac4aac0a944cdd2a023061997c0b240308c0c1f3bf62bfafe",
+      "lines": 2
+    },
+    {
+      "z": 86,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/radontable3.htm",
+      "path": "data/staging/spectra/radontable3.htm",
+      "retrievedAt": "2026-11-22T17:09:01+00:00",
+      "sha256": "341ed573f5f0fd174ae44db3187cfecdb5751f55eb9faadb3dcbddc42738c050",
+      "lines": 10
+    },
+    {
+      "z": 87,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/franciumtable3.htm",
+      "path": "data/staging/spectra/franciumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:01+00:00",
+      "sha256": "89c09e00739b44dc986840cd6370b116de9da10a8578d9769a3383dc8fafadfa",
+      "lines": 4
+    },
+    {
+      "z": 88,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/radiumtable3.htm",
+      "path": "data/staging/spectra/radiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:02+00:00",
+      "sha256": "a2e3a683197614bf9d0c49e39ae7e77abc706901268138177e29ff3926a14f38",
+      "lines": 4
+    },
+    {
+      "z": 89,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/actiniumtable3.htm",
+      "path": "data/staging/spectra/actiniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:02+00:00",
+      "sha256": "097ca25462ade782a6f036d01f3b2020ff5dd693f9cde15eafd43e30851a637d",
+      "lines": 13
+    },
+    {
+      "z": 90,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/thoriumtable3.htm",
+      "path": "data/staging/spectra/thoriumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:03+00:00",
+      "sha256": "f6172008fdfd24d2264c85fa3fd62fa06f4eb5ea57a329a876aa76c67dbc92d0",
+      "lines": 19
+    },
+    {
+      "z": 91,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/protactiniumtable3.htm",
+      "path": "data/staging/spectra/protactiniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:03+00:00",
+      "sha256": "ef36a68e72a27d2402f91469943cf509eff97c968b40a1c476dfff1e7335c0f0",
+      "lines": 21
+    },
+    {
+      "z": 92,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/uraniumtable3.htm",
+      "path": "data/staging/spectra/uraniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:03+00:00",
+      "sha256": "1a4cde82850509affa001a98033db1cb59abcde5690e195fed31c3e2670ba507",
+      "lines": 16
+    },
+    {
+      "z": 93,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/neptuniumtable3.htm",
+      "path": "data/staging/spectra/neptuniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:04+00:00",
+      "sha256": "9872e742f72626bf67e51d7e254629e19d9915ca927619d6deb0010b84489ba3",
+      "lines": 20
+    },
+    {
+      "z": 94,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/plutoniumtable3.htm",
+      "path": "data/staging/spectra/plutoniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:04+00:00",
+      "sha256": "6934a11934e552da99d10eb9d7a29eae3e22cf66039d5b6ce71e720c7b349ae7",
+      "lines": 12
+    },
+    {
+      "z": 95,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/americiumtable3.htm",
+      "path": "data/staging/spectra/americiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:05+00:00",
+      "sha256": "907504872e39f09a6021db717feae94450a1e477a926c9f430c1d389d8c81763",
+      "lines": 6
+    },
+    {
+      "z": 96,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/curiumtable3.htm",
+      "path": "data/staging/spectra/curiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:05+00:00",
+      "sha256": "27f7983235ea16ad90e745128a89908556db365ed1ca7170bf623c57889dd927",
+      "lines": 22
+    },
+    {
+      "z": 97,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/berkeliumtable3.htm",
+      "path": "data/staging/spectra/berkeliumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:06+00:00",
+      "sha256": "6962cfab3ffc8b83602db13b22355bfcabad971caf2a6ee6e42e44428f715247",
+      "lines": 14
+    },
+    {
+      "z": 98,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/californiumtable3.htm",
+      "path": "data/staging/spectra/californiumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:06+00:00",
+      "sha256": "590865736ea8820876386d8f42e21cefc3a2f0f3394932da128d417145a6c6e7",
+      "lines": 8
+    },
+    {
+      "z": 99,
+      "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/einsteiniumtable3.htm",
+      "path": "data/staging/spectra/einsteiniumtable3.htm",
+      "retrievedAt": "2026-11-22T17:09:06+00:00",
+      "sha256": "b3141c482cf832584c50a9883cf3f70f39551ca6d165579c85c4579b96abb0d4",
+      "lines": 10
+    }
+  ],
+  "checks": [
+    "118 unique elements",
+    "neutral-table identity",
+    "paired states",
+    "positive energy gaps",
+    "\u00c5 to nm conversion with precision",
+    "energy/wavelength within 0.2% including air correction",
+    "source checksums"
+  ],
+  "limitations": [
+    "Selected persistent lines, not an exhaustive spectrum.",
+    "Paired absorption/emission guide; absorption requires lower-state population.",
+    "No calibrated intensities, linewidths, or line strengths.",
+    "State pairs without a source-assigned wavelength are omitted.",
+    "Source question marks on level energies are preserved; absent configuration/term assignments are not inferred.",
+    "Air/vacuum convention follows Handbook, not modern ASD infrared convention."
+  ]
+}

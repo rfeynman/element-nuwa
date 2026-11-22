@@ -1,6 +1,6 @@
 {
   "name": "element-nuwa",
-  "version": "1.5.7",
+  "version": "1.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,9 @@
     "preview": "vite preview --host 127.0.0.1",
     "test:reactions": "node --test scripts/test-reactions.mjs",
     "test:challenges": "node --test scripts/test-challenges.mjs",
-    "test": "node --test scripts/test-*.mjs"
+    "test": "node --test scripts/test-*.mjs",
+    "data:refresh": "python3 scripts/data/import_explorer.py --download",
+    "data:promote": "python3 scripts/data/import_explorer.py --promote"
   },
   "dependencies": {
     "react": "^19.0.0",

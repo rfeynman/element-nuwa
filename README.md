@@ -1,5 +1,7 @@
 # Element Nuwa
 
+Latest release: **1.6.0** — spectra explorer and main-column layout update.
+
 Website: https://rfeynman.github.io/element-nuwa/
 
 Repository: https://github.com/rfeynman/element-nuwa
@@ -120,3 +122,15 @@ The repository and project site are now named element-nuwa. Use https://rfeynman
 ## Google Search Console verification
 
 Keep the original Google verification HTML in `public/googlea3b2da7159d02bfb.html` and the deployed `docs/` root. Its bytes and name must remain unchanged, and future builds must retain it so Google can periodically confirm site ownership.
+
+## Spectra and layout update — 1.6.0
+
+**Absorption & emission** is the third element-detail tab. Two strips span **330–830 nm**, with black absorption notches, colored emission lines, and illustrative black-to-violet/red-to-black edge fades. Each pair of states is listed once, with rightward absorption and leftward emission arrows and bold term/J values. Select a wavelength for an energy-jump diagram. The default range contains 734 lines; **All reference lines** includes the other downloaded UV/IR transitions.
+
+The local NIST Handbook snapshot includes **1,298 reference wavelengths across 99 neutral elements**. Ten wavelengths have no assigned state pair and remain explicitly unavailable. This is a selected persistent-line reference, not a complete spectrum. Absorption requires atoms in the lower state; colors, widths and brightness are illustrative. Sources, dates, energy labels, air/vacuum convention and unknown assignments are retained. See [spectra review](references/spectra-review.md), [source attribution](references/source-attribution.md) and [manifest](data/manifests/spectra-manifest.json). Raw HTML remains private; only normalized data is deployed.
+
+The reaction lab, Chemistry challenges and field guide now follow the periodic table’s main column independently of sidebar height. The smaller electron filling diagram clears hovered element tiles and glides between sides in **0.3 seconds**, respecting reduced motion.
+
+All **530 tests** and the production build pass. Browser automation was unavailable; the user reviewed the local appearance before authorizing this release. External teacher/scientist review remains pending. See [release evidence](references/release-1.6.0.md).
+
+To refresh spectra, use Python with `beautifulsoup4==4.12.3`, run `python3 scripts/data/import_spectra.py --download`, review the staged snapshot and manifest, then run `python3 scripts/data/import_spectra.py --promote`. Re-run `npm test` and `npm run build`. Failed imports leave the previous production snapshot intact. Public-source tests verify packaged data and provenance; they additionally verify raw-source checksums when the private original evidence folder is present.
