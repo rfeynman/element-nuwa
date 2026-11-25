@@ -1,6 +1,6 @@
 # Element Nuwa
 
-Latest release: **1.6.0** — spectra explorer and main-column layout update.
+Latest release: **1.6.1** — public visitor analytics and updated browser title.
 
 Website: https://rfeynman.github.io/element-nuwa/
 
@@ -134,3 +134,11 @@ The reaction lab, Chemistry challenges and field guide now follow the periodic t
 All **530 tests** and the production build pass. Browser automation was unavailable; the user reviewed the local appearance before authorizing this release. External teacher/scientist review remains pending. See [release evidence](references/release-1.6.0.md).
 
 To refresh spectra, use Python with `beautifulsoup4==4.12.3`, run `python3 scripts/data/import_spectra.py --download`, review the staged snapshot and manifest, then run `python3 scripts/data/import_spectra.py --promote`. Re-run `npm test` and `npm run build`. Failed imports leave the previous production snapshot intact. Public-source tests verify packaged data and provenance; they additionally verify raw-source checksums when the private original evidence folder is present.
+
+## Public visitor analytics — 1.6.1
+
+The browser title is now **Element Nuwa — the best periodic table of elements**. A public **Visitor analytics / Site visits** section appears at the bottom of the page, using the user-provided GoatCounter site `https://rfeynman.goatcounter.com`. The site identifier is public; no password or API key is included.
+
+The official tracker loads once per page load; local previews do not record visits. Scientific interactions use packaged data, and hovering or reacting does not record extra page views. The counter reads the provider's shared `TOTAL` count, which can be cached for up to four hours. It does not count registered accounts or identify students. If statistics cannot be fetched, the footer shows an unavailable message rather than an invented number.
+
+Configuration is in `public/analytics.json`. To change providers/sites, review [GoatCounter's counter documentation](https://www.goatcounter.com/help/visitor-counter). The public counter permission must remain enabled in the site's settings. All 535 tests and the TypeScript/production build pass. Scientific datasets and Google ownership verification are unchanged. See [release evidence](references/release-1.6.1.md).
